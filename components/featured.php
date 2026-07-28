@@ -1,6 +1,7 @@
-<!-- Featured Projects Section -->
+<!-- Featured Case Studies Section -->
 <section id="featured" class="featured-section">
   <div class="container">
+    
     <!-- Section Header -->
     <div class="section-header" data-aos="fade-up">
       <span class="section-badge">Case Studies</span>
@@ -10,78 +11,132 @@
       </p>
     </div>
 
-    <!-- 3 Project Cards Grid -->
-    <div class="featured-grid">
+    <!-- Alternating Projects List -->
+    <div class="featured-list">
       
-      <!-- Card 1 -->
-      <div class="project-card hover-lift" data-aos="fade-up" data-aos-delay="50">
-        <div class="project-image">
-          <img src="assets/images/project_aura_iot.png" alt="Aura IoT Mining Telemetry Project Mockup">
-          <span class="project-industry"><i class="fa-solid fa-helmet-safety"></i> Mining</span>
+      <!-- Project 1: Aura IoT (Image Left) -->
+      <div class="featured-row" data-aos="fade-up">
+        <div class="featured-media">
+          <div class="media-container glass-panel">
+            <img src="assets/images/project_aura_iot.png" alt="Aura IoT Mining Telemetry Project Mockup">
+          </div>
         </div>
-        <div class="project-body">
-          <div class="project-tech">
-            <span class="tech-tag">React</span>
-            <span class="tech-tag">Docker</span>
-            <span class="tech-tag">AWS IoT Core</span>
+        <div class="featured-info">
+          <div class="info-top">
+            <span class="industry-tag"><i class="fa-solid fa-helmet-safety"></i> Mining & Resources</span>
+            <div class="tech-tags">
+              <span>React</span>
+              <span>Docker</span>
+              <span>AWS IoT Core</span>
+            </div>
           </div>
-          <h3 class="project-title">Aura IoT: Automated Telemetry Dashboard</h3>
+          
+          <h3 class="project-title">Aura IoT: Intelligent Telemetry Platform</h3>
           <p class="project-summary">
-            A real-time telemetry processing platform engineered for site machinery monitoring and incident logs tracking in harsh regional hubs.
+            A high-frequency telemetry tracking network built to monitor and analyze heavy quarry drilling systems in remote regional locations. The system processes billions of data points in real time to prevent critical machinery failures.
           </p>
-          <div class="project-outcome">
-            <div class="outcome-label">Key Business Outcome:</div>
-            <div class="outcome-value"><i class="fa-solid fa-arrow-trend-up"></i> 38% Reduction in Machine Downtime</div>
+
+          <!-- Core Metrics Widget -->
+          <div class="project-metrics">
+            <div class="metric-box">
+              <div class="metric-heading">Before</div>
+              <div class="metric-val text-red">18% Faults</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-heading">After</div>
+              <div class="metric-val text-green">1% Faults</div>
+            </div>
+            <div class="metric-box highlighted">
+              <div class="metric-heading">Net ROI</div>
+              <div class="metric-val text-purple">+38% Uptime</div>
+            </div>
           </div>
-          <a href="#" class="btn btn-outline btn-full ripple-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
+
+          <a href="#contact" class="btn btn-outline">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
 
-      <!-- Card 2 -->
-      <div class="project-card hover-lift" data-aos="fade-up" data-aos-delay="100">
-        <div class="project-image">
-          <img src="assets/images/project_medai.png" alt="MedAI Diagnostic Imaging Platform Mockup">
-          <span class="project-industry"><i class="fa-solid fa-heart-pulse"></i> Healthcare</span>
+      <!-- Project 2: MedAI (Image Right) -->
+      <div class="featured-row reverse" data-aos="fade-up">
+        <div class="featured-media">
+          <div class="media-container glass-panel">
+            <img src="assets/images/project_medai.png" alt="MedAI Diagnostic Imaging Platform Mockup">
+          </div>
         </div>
-        <div class="project-body">
-          <div class="project-tech">
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">TensorFlow</span>
-            <span class="tech-tag">Next.js</span>
+        <div class="featured-info">
+          <div class="info-top">
+            <span class="industry-tag"><i class="fa-solid fa-heart-pulse"></i> Healthcare</span>
+            <div class="tech-tags">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>Next.js</span>
+            </div>
           </div>
-          <h3 class="project-title">MedAI: Clinic Diagnostic Processing Portal</h3>
+          
+          <h3 class="project-title">MedAI: Automatic Pathology Scanner</h3>
           <p class="project-summary">
-            An automated imaging engine using deep learning convolutional networks to extract, score, and flag diagnostic irregularities.
+            An automated imaging engine using deep learning convolutional networks to extract, score, and flag diagnostic anomalies. The platform processes high-resolution MRI scans in seconds to assist radiology departments.
           </p>
-          <div class="project-outcome">
-            <div class="outcome-label">Key Business Outcome:</div>
-            <div class="outcome-value"><i class="fa-solid fa-arrow-trend-up"></i> 94% Diagnosis Verification Speedup</div>
+
+          <!-- Core Metrics Widget -->
+          <div class="project-metrics">
+            <div class="metric-box">
+              <div class="metric-heading">Before</div>
+              <div class="metric-val text-red">4-Hour Audits</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-heading">After</div>
+              <div class="metric-val text-green">15-Sec Scan</div>
+            </div>
+            <div class="metric-box highlighted">
+              <div class="metric-heading">Net ROI</div>
+              <div class="metric-val text-purple">94% Speedup</div>
+            </div>
           </div>
-          <a href="#" class="btn btn-outline btn-full ripple-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
+
+          <a href="#contact" class="btn btn-outline">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
 
-      <!-- Card 3 -->
-      <div class="project-card hover-lift" data-aos="fade-up" data-aos-delay="150">
-        <div class="project-image">
-          <img src="assets/images/project_ledgerhub.png" alt="LedgerHub Transaction Tracker Mockup">
-          <span class="project-industry"><i class="fa-solid fa-building-columns"></i> Finance</span>
+      <!-- Project 3: LedgerHub (Image Left) -->
+      <div class="featured-row" data-aos="fade-up">
+        <div class="featured-media">
+          <div class="media-container glass-panel">
+            <img src="assets/images/project_ledgerhub.png" alt="LedgerHub Transaction Tracker Mockup">
+          </div>
         </div>
-        <div class="project-body">
-          <div class="project-tech">
-            <span class="tech-tag">Node.js</span>
-            <span class="tech-tag">PostgreSQL</span>
-            <span class="tech-tag">Kubernetes</span>
+        <div class="featured-info">
+          <div class="info-top">
+            <span class="industry-tag"><i class="fa-solid fa-building-columns"></i> Finance & Banking</span>
+            <div class="tech-tags">
+              <span>Node.js</span>
+              <span>PostgreSQL</span>
+              <span>Kubernetes</span>
+            </div>
           </div>
-          <h3 class="project-title">LedgerHub: Scalable Payment Reconciliation</h3>
+          
+          <h3 class="project-title">LedgerHub: Transaction Reconciliation Gateway</h3>
           <p class="project-summary">
-            A high-throughput secure gateway mapping and checking digital ledger transactions across multiple corporate branches in real-time.
+            A high-throughput secure gateway mapping and checking digital ledger transactions across multiple corporate branches in real-time, preventing billing discrepancies and securing financial APIs with audit triggers.
           </p>
-          <div class="project-outcome">
-            <div class="outcome-label">Key Business Outcome:</div>
-            <div class="outcome-value"><i class="fa-solid fa-arrow-trend-up"></i> AUD $1.2M Saved in Operational Overhead</div>
+
+          <!-- Core Metrics Widget -->
+          <div class="project-metrics">
+            <div class="metric-box">
+              <div class="metric-heading">Before</div>
+              <div class="metric-val text-red">Manual Audit</div>
+            </div>
+            <div class="metric-box">
+              <div class="metric-heading">After</div>
+              <div class="metric-val text-green">Real-time DB</div>
+            </div>
+            <div class="metric-box highlighted">
+              <div class="metric-heading">Net Savings</div>
+              <div class="metric-val text-purple">AUD $1.2M Saved</div>
+            </div>
           </div>
-          <a href="#" class="btn btn-outline btn-full ripple-btn">View Case Study <i class="fa-solid fa-arrow-right"></i></a>
+
+          <a href="#contact" class="btn btn-outline">Read Case Study <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
 
@@ -89,142 +144,215 @@
   </div>
 </section>
 
-<!-- CSS specifically for Featured Work component structure -->
+<!-- CSS specifically for Featured Work -->
 <style>
 .featured-section {
-  padding: 100px 0;
-  background-color: var(--light-bg);
-}
-
-.featured-grid {
-  display: grid;
-  grid-template-cols: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.project-card {
+  padding: 120px 0;
   background-color: var(--white);
-  border: 1px solid var(--border-color);
-  border-radius: 20px;
+  position: relative;
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
+}
+
+.featured-list {
   display: flex;
   flex-direction: column;
+  gap: 100px;
+  margin-top: 64px;
 }
 
-.project-image {
-  position: relative;
+.featured-row {
+  display: grid;
+  grid-template-cols: 1.1fr 0.9fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.featured-row.reverse {
+  grid-template-cols: 0.9fr 1.1fr;
+}
+
+.featured-row.reverse .featured-media {
+  grid-column: 2;
+}
+
+.featured-row.reverse .featured-info {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* Media Mockup Container */
+.featured-media {
   width: 100%;
-  aspect-ratio: 1.6;
-  background-color: var(--dark-navy);
+}
+
+.media-container {
+  padding: 16px;
+  background-color: rgba(248, 250, 252, 0.4);
+  box-shadow: var(--shadow-lg);
+  border-radius: var(--radius-lg);
   overflow: hidden;
-}
-
-.project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   transition: transform var(--transition-slow);
 }
 
-.project-card:hover .project-image img {
-  transform: scale(1.04);
+.media-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-slow);
 }
 
-.project-industry {
-  position: absolute;
-  top: 16px;
-  left: 16px;
-  background-color: rgba(8, 22, 61, 0.7);
-  backdrop-filter: blur(8px);
-  color: var(--white);
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+.featured-row:hover .media-container img {
+  transform: scale(1.02);
 }
 
-.project-body {
-  padding: 28px;
+/* Info styling */
+.featured-info {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  align-items: flex-start;
+  text-align: left;
 }
 
-.project-tech {
+.info-top {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 16px;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
 }
 
-.tech-tag {
-  background-color: rgba(106, 27, 255, 0.05);
+.industry-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
   color: var(--primary-purple);
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  font-weight: 700;
   text-transform: uppercase;
-  border: 1px solid rgba(106, 27, 255, 0.08);
-}
-
-.project-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--dark-navy);
-  margin-bottom: 12px;
-  line-height: 1.35;
-}
-
-.project-summary {
-  font-size: 0.8125rem;
-  line-height: 1.6;
-  color: var(--secondary-text);
-  margin-bottom: 24px;
-  flex-grow: 1;
-}
-
-.project-outcome {
-  background-color: var(--light-bg);
-  border-radius: 10px;
-  padding: 14px 16px;
-  margin-bottom: 24px;
-  border: 1px solid var(--border-color);
-}
-
-.outcome-label {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--secondary-text);
-  margin-bottom: 4px;
-  letter-spacing: 0.02em;
-}
-
-.outcome-value {
-  font-size: 0.8125rem;
-  font-weight: 700;
-  color: var(--success-color);
-  display: flex;
+  letter-spacing: 0.05em;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
 }
 
-.btn-full {
-  width: 100%;
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.project-card:hover .btn-outline {
+.tech-tags span {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--muted-text);
+  background-color: var(--light-bg);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+}
+
+.featured-info h3 {
+  font-size: clamp(22px, 2.2vw, 32px);
+  font-weight: 800;
+  color: var(--dark-navy);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.project-summary {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--secondary-text);
+  margin-bottom: 32px;
+}
+
+/* Metrics Widget Layout */
+.project-metrics {
+  display: grid;
+  grid-template-cols: repeat(3, 1fr);
+  gap: 16px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.metric-box {
+  background-color: var(--light-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.metric-box.highlighted {
+  background-color: rgba(109, 40, 255, 0.04);
+  border-color: rgba(109, 40, 255, 0.1);
+}
+
+.metric-heading {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--muted-text);
+  margin-bottom: 6px;
+  letter-spacing: 0.05em;
+}
+
+.metric-val {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.metric-val.text-red { color: #EF4444; }
+.metric-val.text-green { color: #10B981; }
+.metric-val.text-purple { color: var(--primary-purple); }
+
+.featured-info .btn-outline {
+  border-radius: 100px;
+  padding: 12px 28px;
+  font-weight: 600;
+  color: var(--dark-navy);
+  border-color: var(--border-color);
+  box-shadow: var(--shadow-sm);
+  background-color: var(--white);
+}
+
+.featured-info .btn-outline:hover {
   border-color: var(--primary-purple);
   color: var(--primary-purple);
-  background-color: rgba(106, 27, 255, 0.02);
+  transform: translateY(-2px);
 }
 
+/* Responsive adjustments */
 @media (max-width: 991px) {
-  .featured-grid {
+  .featured-list {
+    gap: 72px;
+  }
+
+  .featured-row,
+  .featured-row.reverse {
     grid-template-cols: 1fr;
+    gap: 40px;
+  }
+
+  .featured-row.reverse .featured-media {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .featured-section {
+    padding: 80px 0;
+  }
+
+  .project-metrics {
+    grid-template-cols: 1fr;
+    gap: 12px;
+  }
+  
+  .featured-info .btn-outline {
+    width: 100%;
+    justify-content: center;
   }
 }
 </style>

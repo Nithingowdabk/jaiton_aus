@@ -114,4 +114,34 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 1500);
     });
   }
+
+  // 5. Statistics Counters Trigger (Intersectional Observer)
+  const statsObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const stats = entry.target.querySelectorAll(".stat-number[data-target]");
+        stats.forEach(stat => {
+          const target = +stat.getAttribute("data-target");
+          let count = 0;
+          const speed = target / 60; // 60 frames approx
+          const updateCount = () => {
+            count += speed;
+            if (count < target) {
+              stat.innerText = Math.floor(count);
+              requestAnimationFrame(updateCount);
+            } else {
+              stat.innerText = target;
+            }
+          };
+          updateCount();
+        });
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  const statsSection = document.querySelector(".hero-stats");
+  if (statsSection) {
+    statsObserver.observe(statsSection);
+  }
 });

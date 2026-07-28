@@ -93,48 +93,48 @@
           
           <!-- Solutions Dropdown -->
           <li class="nav-item dropdown">
-            <a href="#solutions" class="nav-link">Solutions <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+            <a href="#solutions" class="nav-link">Solutions <i class="fa-solid fa-chevron-down"></i></a>
             <div class="mega-menu">
-              <a href="#" class="mega-menu-link">
+              <a href="#solutions" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-brain"></i></div>
                 <div class="mega-menu-info">
-                  <h4>AI & Machine Learning</h4>
-                  <p>NLP, custom bots, predictive models, and decision automations.</p>
+                  <h4>AI Engineering</h4>
+                  <p>NLP, custom models, and decision automation systems.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
+              <a href="#solutions" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-cloud"></i></div>
                 <div class="mega-menu-info">
-                  <h4>Cloud Engineering</h4>
-                  <p>AWS/Azure microservices migrations, serverless frameworks.</p>
+                  <h4>Cloud Modernisation</h4>
+                  <p>AWS/Azure microservices migrations & serverless setups.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-microchip"></i></div>
+              <a href="#solutions" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <div class="mega-menu-info">
-                  <h4>IoT Solutions</h4>
-                  <p>Industrial telemetry, sensor boards, and embedded setups.</p>
+                  <h4>Enterprise Software</h4>
+                  <p>Robust custom systems engineered for scaling businesses.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Enterprise Applications</h4>
-                  <p>Custom secure software dashboards built for high throughput.</p>
-                </div>
-              </a>
-              <a href="#" class="mega-menu-link">
+              <a href="#solutions" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-database"></i></div>
                 <div class="mega-menu-info">
-                  <h4>Data Platforms</h4>
-                  <p>Centralized warehouses, pipelines, and reporting systems.</p>
+                  <h4>Data Intelligence</h4>
+                  <p>Data pipelines, warehouses, and advanced intelligence reporting.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-globe"></i></div>
+              <a href="#solutions" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-shield-halved"></i></div>
                 <div class="mega-menu-info">
-                  <h4>Digital Transformation</h4>
-                  <p>Legacy software rebuilds and strategic technology architectures.</p>
+                  <h4>Cybersecurity</h4>
+                  <p>End-to-end cloud protection, audits, and compliance.</p>
+                </div>
+              </a>
+              <a href="#solutions" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-microchip"></i></div>
+                <div class="mega-menu-info">
+                  <h4>IoT Engineering</h4>
+                  <p>Hardware telemetry, custom boards, and industrial tracking.</p>
                 </div>
               </a>
             </div>
@@ -142,65 +142,111 @@
 
           <!-- Industries Dropdown -->
           <li class="nav-item dropdown">
-            <a href="#industries" class="nav-link">Industries <i class="fa-solid fa-chevron-down" style="font-size: 0.7rem;"></i></a>
+            <a href="#industries" class="nav-link">Industries <i class="fa-solid fa-chevron-down"></i></a>
             <div class="mega-menu">
-              <a href="#" class="mega-menu-link">
+              <a href="#industries" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-heart-pulse"></i></div>
                 <div class="mega-menu-info">
                   <h4>Healthcare</h4>
-                  <p>Telehealth apps, EHR syncs, and medical IoT dashboards.</p>
+                  <p>Medical imaging AI, EHR syncs, and telemetry.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-building-columns"></i></div>
+              <a href="#industries" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-helmet-safety"></i></div>
                 <div class="mega-menu-info">
-                  <h4>Finance</h4>
-                  <p>Safe gateway integrations, compliance checks, ledgers.</p>
+                  <h4>Mining</h4>
+                  <p>Remote site machinery telemetry and tracking logs.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
+              <a href="#industries" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-trowel-bricks"></i></div>
+                <div class="mega-menu-info">
+                  <h4>Construction</h4>
+                  <p>Operational logistics and site status check sheets.</p>
+                </div>
+              </a>
+              <a href="#industries" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-industry"></i></div>
+                <div class="mega-menu-info">
+                  <h4>Manufacturing</h4>
+                  <p>IoT automation and analytics dashboards.</p>
+                </div>
+              </a>
+              <a href="#industries" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
                 <div class="mega-menu-info">
                   <h4>Education</h4>
-                  <p>Virtual LMS structures, class timetables, student hubs.</p>
+                  <p>Student hubs, LMS platforms, and scheduler setups.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-hammer"></i></div>
+              <a href="#industries" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-store"></i></div>
                 <div class="mega-menu-info">
-                  <h4>Mining</h4>
-                  <p>Remote hardware telemetry, safety check sheets, logs.</p>
+                  <h4>Retail</h4>
+                  <p>Automated CRM, supply tracking, and integrations.</p>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-landmark"></i></div>
+            </div>
+          </li>
+
+          <!-- Services Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="#solutions" class="nav-link">Services <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="mega-menu" style="width: 320px; grid-template-cols: 1fr;">
+              <a href="#solutions" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-code"></i></div>
                 <div class="mega-menu-info">
-                  <h4>Government</h4>
-                  <p>Secure databases, citizen portals, compliance sheets.</p>
+                  <h4>Custom Development</h4>
                 </div>
               </a>
-              <a href="#" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+              <a href="#solutions" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-users-gear"></i></div>
                 <div class="mega-menu-info">
-                  <h4>Logistics</h4>
-                  <p>Fleet tracking maps, load boards, route calculators.</p>
+                  <h4>Dedicated Teams</h4>
+                </div>
+              </a>
+              <a href="#solutions" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-angles-right"></i></div>
+                <div class="mega-menu-info">
+                  <h4>Legacy Migration</h4>
+                </div>
+              </a>
+              <a href="#solutions" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                <div class="mega-menu-info">
+                  <h4>Technology Advisory</h4>
                 </div>
               </a>
             </div>
           </li>
 
           <li class="nav-item">
-            <a href="#solutions" class="nav-link">Services</a>
-          </li>
-          
-          <li class="nav-item">
-            <a href="#why-jaiton" class="nav-link">Company</a>
+            <a href="#featured" class="nav-link">Case Studies</a>
           </li>
           
           <li class="nav-item">
             <a href="#featured" class="nav-link">Insights</a>
           </li>
           
+          <!-- Company Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="#why-jaiton" class="nav-link">Company <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="mega-menu" style="width: 320px; grid-template-cols: 1fr;">
+              <a href="#why-jaiton" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-circle-info"></i></div>
+                <div class="mega-menu-info">
+                  <h4>About Jaiton</h4>
+                </div>
+              </a>
+              <a href="#contact" class="mega-menu-link">
+                <div class="mega-menu-icon"><i class="fa-solid fa-briefcase"></i></div>
+                <div class="mega-menu-info">
+                  <h4>Careers</h4>
+                </div>
+              </a>
+            </div>
+          </li>
+
           <li class="nav-item">
             <a href="#contact" class="nav-link">Contact</a>
           </li>
@@ -209,10 +255,11 @@
 
       <!-- Header CTAs (Desktop and Mobile shared via JS repositioning) -->
       <div class="header-ctas" id="header-ctas">
-        <a href="#" class="btn btn-outline">Sign In</a>
+        <button class="search-btn" aria-label="Search site"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <a href="#" class="btn-signin">Sign In</a>
+        <a href="#contact" class="btn btn-secondary">Book Consultation</a>
         <a href="#contact" class="btn btn-primary ripple-btn">Estimate Project <i class="fa-solid fa-arrow-right"></i></a>
       </div>
-
 
       <!-- Hamburger mobile toggle -->
       <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">

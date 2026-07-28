@@ -1,12 +1,13 @@
 <!-- Testimonials Section -->
 <section class="testimonial-section">
   <div class="container">
+    
     <!-- Section Header -->
     <div class="section-header" data-aos="fade-up">
       <span class="section-badge">Success Stories</span>
       <h2 class="section-title">Trusted by Enterprise Leaders</h2>
       <p class="section-desc">
-        Hear from our corporate clients who accelerated growth and secured operational excellence with Jaiton.
+        Hear from the executive officers and engineering directors driving growth with Jaiton Technologies.
       </p>
     </div>
 
@@ -14,276 +15,387 @@
     <div class="swiper-container testimonial-swiper" data-aos="fade-up" data-aos-delay="100">
       <div class="swiper-wrapper">
         
-        <!-- Slide 1 -->
+        <!-- Slide 1: Aura Mining -->
         <div class="swiper-slide">
           <div class="testimonial-card glass-panel">
-            <i class="fa-solid fa-quote-right quote-bg"></i>
-            <div class="testimonial-author-wrapper">
-              <div class="author-avatar bg-navy text-white">
-                <i class="fa-solid fa-user-tie"></i>
-              </div>
-              <div class="author-badge">
-                <img src="assets/icons/australia.png" alt="Australia Flag">
-                <span>Australia</span>
+            <div class="test-visual-side">
+              <div class="video-mock-container">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Lachlan Mitchell CTO Aura Mining" class="ceo-img">
+                <div class="video-play-overlay">
+                  <span class="play-pulse"><i class="fa-solid fa-play"></i></span>
+                  <span>Watch Testimonial</span>
+                </div>
               </div>
             </div>
-            <div class="testimonial-review">
-              <div class="stars">
+            
+            <div class="test-content-side">
+              <div class="test-rating">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <blockquote class="quote-text">
-                &ldquo;Jaiton Technologies delivered our cloud IoT analytics platform ahead of schedule. Their dedication to high-quality code and Australian compliance standards made them an exceptional enterprise partner.&rdquo;
+              <blockquote class="test-quote">
+                &ldquo;Jaiton Technologies delivered our cloud telemetry platform ahead of schedule. Their dedication to high-quality code and compliance standards made them an exceptional enterprise partner.&rdquo;
               </blockquote>
-              <div class="author-info">
-                <h4 class="author-name">Lachlan Mitchell</h4>
-                <p class="author-meta">Chief Technology Officer &bull; <span class="company-name">Aura Mining Solutions</span></p>
+              
+              <div class="test-meta">
+                <div class="test-author-info">
+                  <h4>Lachlan Mitchell</h4>
+                  <p>Chief Technology Officer, Aura Mining Solutions</p>
+                </div>
+                <div class="test-metric-badge">
+                  <div class="metric-badge-label">Outcome</div>
+                  <div class="metric-badge-val">+38% Uptime</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Slide 2 -->
+        <!-- Slide 2: MedTech -->
         <div class="swiper-slide">
           <div class="testimonial-card glass-panel">
-            <i class="fa-solid fa-quote-right quote-bg"></i>
-            <div class="testimonial-author-wrapper">
-              <div class="author-avatar bg-navy text-white">
-                <i class="fa-solid fa-user-doctor"></i>
-              </div>
-              <div class="author-badge">
-                <img src="assets/icons/australia.png" alt="Australia Flag">
-                <span>Australia</span>
+            <div class="test-visual-side">
+              <div class="video-mock-container">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Sarah Jenkins VP MedTech" class="ceo-img">
+                <div class="video-play-overlay">
+                  <span class="play-pulse"><i class="fa-solid fa-play"></i></span>
+                  <span>Watch Testimonial</span>
+                </div>
               </div>
             </div>
-            <div class="testimonial-review">
-              <div class="stars">
+            
+            <div class="test-content-side">
+              <div class="test-rating">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <blockquote class="quote-text">
-                &ldquo;The AI diagnostics platform built by Jaiton has revolutionized our clinical trial processing. Their machine learning expertise paired with strict agile engineering was top-tier.&rdquo;
+              <blockquote class="test-quote">
+                &ldquo;The diagnostic scanner platform built by Jaiton has revolutionized our clinical trial processing. Their machine learning expertise paired with strict agile engineering was top-tier.&rdquo;
               </blockquote>
-              <div class="author-info">
-                <h4 class="author-name">Sarah Jenkins</h4>
-                <p class="author-meta">VP of Product Development &bull; <span class="company-name">MedTech Australasia</span></p>
+              
+              <div class="test-meta">
+                <div class="test-author-info">
+                  <h4>Sarah Jenkins</h4>
+                  <p>VP of Product Development, MedTech Australasia</p>
+                </div>
+                <div class="test-metric-badge">
+                  <div class="metric-badge-label">Outcome</div>
+                  <div class="metric-badge-val">94% Speedup</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Slide 3 -->
+        <!-- Slide 3: Global Fin -->
         <div class="swiper-slide">
           <div class="testimonial-card glass-panel">
-            <i class="fa-solid fa-quote-right quote-bg"></i>
-            <div class="testimonial-author-wrapper">
-              <div class="author-avatar bg-navy text-white">
-                <i class="fa-solid fa-user-tie"></i>
-              </div>
-              <div class="author-badge">
-                <img src="assets/icons/south-africa.png" alt="South Africa Flag">
-                <span>South Africa</span>
+            <div class="test-visual-side">
+              <div class="video-mock-container">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80" alt="Marcus Vance CEO Fin Core" class="ceo-img">
+                <div class="video-play-overlay">
+                  <span class="play-pulse"><i class="fa-solid fa-play"></i></span>
+                  <span>Watch Testimonial</span>
+                </div>
               </div>
             </div>
-            <div class="testimonial-review">
-              <div class="stars">
+            
+            <div class="test-content-side">
+              <div class="test-rating">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
               </div>
-              <blockquote class="quote-text">
-                &ldquo;Jaiton refactored our legacy enterprise core into a microservices cloud model. The transition was seamless, secure, and completed with zero downtime. Highly recommended.&rdquo;
+              <blockquote class="test-quote">
+                &ldquo;Reconciling transactions across our global branches was a major operational bottleneck. Jaiton built a secure DB ledger that eliminated billing leakage entirely.&rdquo;
               </blockquote>
-              <div class="author-info">
-                <h4 class="author-name">Devin Pillay</h4>
-                <p class="author-meta">Head of Infrastructure &bull; <span class="company-name">Vanguard Capital</span></p>
+              
+              <div class="test-meta">
+                <div class="test-author-info">
+                  <h4>Marcus Vance</h4>
+                  <p>Chief Executive Officer, Finance Core Group</p>
+                </div>
+                <div class="test-metric-badge">
+                  <div class="metric-badge-label">Savings</div>
+                  <div class="metric-badge-val">AUD $1.2M Saved</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
       </div>
-      
-      <!-- Swiper Pagination Controls -->
-      <div class="swiper-pagination"></div>
-      
-      <!-- Swiper Navigation Arrows -->
-      <div class="swiper-button-prev slider-arrow"><i class="fa-solid fa-chevron-left"></i></div>
-      <div class="swiper-button-next slider-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+
+      <!-- Slider controllers -->
+      <div class="swiper-pagination testimonial-pagination"></div>
+      <div class="swiper-button-prev testimonial-prev"><i class="fa-solid fa-arrow-left"></i></div>
+      <div class="swiper-button-next testimonial-next"><i class="fa-solid fa-arrow-right"></i></div>
     </div>
+
   </div>
 </section>
 
-<!-- CSS specifically for Testimonials component structure -->
+<!-- CSS specifically for Testimonials Section -->
 <style>
 .testimonial-section {
-  padding: 100px 0;
+  padding: 120px 0;
   background-color: var(--light-bg);
   position: relative;
   overflow: hidden;
 }
 
 .testimonial-swiper {
-  max-width: 900px;
-  padding: 20px 40px 60px 40px !important;
   position: relative;
+  padding: 0 60px 48px 60px !important;
 }
 
+/* Card layout */
 .testimonial-card {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
+  display: grid;
+  grid-template-cols: 0.8fr 1.2fr;
+  gap: 48px;
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  padding: 40px;
   align-items: center;
-  padding: 48px;
+  box-sizing: border-box;
+}
+
+/* Visual Mock side */
+.test-visual-side {
+  width: 100%;
+}
+
+.video-mock-container {
   position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  aspect-ratio: 1.2;
+  box-shadow: var(--shadow-lg);
+  cursor: pointer;
 }
 
-.quote-bg {
+.ceo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.video-play-overlay {
   position: absolute;
-  top: 32px;
-  right: 32px;
-  font-size: 5.5rem;
-  color: rgba(106, 27, 255, 0.04);
-  pointer-events: none;
-}
-
-.testimonial-author-wrapper {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 19, 39, 0.4);
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-shrink: 0;
+  justify-content: center;
+  gap: 12px;
+  color: var(--white);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  opacity: 0.9;
+  transition: opacity var(--transition-fast);
 }
 
-.author-avatar {
-  width: 90px;
-  height: 90px;
-  border-radius: 20px;
-  background-color: var(--dark-navy);
-  color: var(--white);
+.play-pulse {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.25rem;
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-md);
-  margin-bottom: 16px;
-  opacity: 0.85;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--primary-purple);
+  color: var(--white);
+  font-size: 0.9rem;
+  box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.5);
+  animation: playPulse 2s infinite;
 }
 
-.author-badge {
+.video-mock-container:hover .ceo-img {
+  transform: scale(1.05);
+}
+
+.video-mock-container:hover .video-play-overlay {
+  background-color: rgba(8, 19, 39, 0.55);
+}
+
+/* Content side */
+.test-content-side {
   display: flex;
-  align-items: center;
-  gap: 6px;
-  background-color: var(--white);
-  border: 1px solid var(--border-color);
-  padding: 4px 10px;
-  border-radius: 6px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--dark-navy);
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
-.author-badge img {
-  width: 16px;
-  height: auto;
-  border-radius: 2px;
+.test-rating {
+  color: #FBBF24;
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
 }
 
-.testimonial-review {
-  flex-grow: 1;
-}
-
-.stars {
-  color: #FFB020;
-  margin-bottom: 16px;
-  font-size: 1.1rem;
-}
-
-.quote-text {
-  font-size: 1.25rem;
-  font-weight: 500;
+.test-quote {
+  font-family: var(--font-body);
+  font-size: clamp(16px, 1.3vw, 22px);
   line-height: 1.6;
+  font-weight: 500;
   color: var(--dark-navy);
-  margin-bottom: 24px;
+  margin-bottom: 32px;
+  position: relative;
 }
 
-.author-name {
+.test-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid var(--border-color);
+  padding-top: 24px;
+}
+
+.test-author-info h4 {
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--dark-navy);
+  margin-bottom: 4px;
+}
+
+.test-author-info p {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--muted-text);
+}
+
+.test-metric-badge {
+  background-color: rgba(16, 185, 129, 0.06);
+  border: 1px solid rgba(16, 185, 129, 0.1);
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-align: right;
+}
+
+.metric-badge-label {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #10B981;
+  letter-spacing: 0.05em;
   margin-bottom: 2px;
 }
 
-.author-meta {
-  font-size: 0.8125rem;
-  color: var(--secondary-text);
+.metric-badge-val {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #10B981;
 }
 
-.company-name {
-  color: var(--primary-purple);
-  font-weight: 600;
+/* Nav elements */
+.testimonial-swiper .swiper-pagination-bullets {
+  bottom: 0 !important;
 }
 
-/* Swiper navigation custom formatting */
+.testimonial-swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: var(--border-color);
+  opacity: 1;
+  transition: all var(--transition-fast);
+}
+
 .testimonial-swiper .swiper-pagination-bullet-active {
-  background-color: var(--primary-purple) !important;
+  background-color: var(--primary-purple);
   width: 24px;
-  border-radius: 5px;
+  border-radius: 100px;
 }
 
-.slider-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+.testimonial-swiper .swiper-button-prev,
+.testimonial-swiper .swiper-button-next {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: var(--white);
   border: 1px solid var(--border-color);
+  color: var(--secondary-text);
   box-shadow: var(--shadow-sm);
-  color: var(--dark-navy);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10;
   transition: all var(--transition-fast);
 }
 
-.slider-arrow:hover {
-  color: var(--primary-purple);
+.testimonial-swiper .swiper-button-prev::after,
+.testimonial-swiper .swiper-button-next::after {
+  display: none;
+}
+
+.testimonial-swiper .swiper-button-prev:hover,
+.testimonial-swiper .swiper-button-next:hover {
+  background-color: var(--primary-purple);
+  color: var(--white);
   border-color: var(--primary-purple);
-  box-shadow: var(--shadow-md);
 }
 
-.slider-arrow::after {
-  display: none; /* Hide default Swiper icons */
+.testimonial-swiper .swiper-button-prev { left: 0; }
+.testimonial-swiper .swiper-button-next { right: 0; }
+
+@keyframes playPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(109, 40, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(109, 40, 255, 0);
+  }
 }
 
-.slider-arrow.swiper-button-prev { left: -10px; }
-.slider-arrow.swiper-button-next { right: -10px; }
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .testimonial-card {
+    grid-template-cols: 1fr;
+    gap: 32px;
+    padding: 32px;
+  }
+  
+  .video-mock-container {
+    aspect-ratio: 1.6;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
 
 @media (max-width: 767px) {
-  .testimonial-card {
+  .testimonial-swiper {
+    padding: 0 0 48px 0 !important;
+  }
+
+  .testimonial-swiper .swiper-button-prev,
+  .testimonial-swiper .swiper-button-next {
+    display: none;
+  }
+
+  .test-meta {
     flex-direction: column;
-    padding: 32px 24px;
-    text-align: center;
+    align-items: flex-start;
+    gap: 16px;
   }
   
-  .stars {
-    justify-content: center;
-  }
-  
-  .quote-text {
-    font-size: 1.1rem;
+  .test-metric-badge {
+    text-align: left;
+    width: 100%;
   }
 }
 </style>

@@ -1,209 +1,339 @@
-<!-- Industries Section -->
+<!-- Industries Bento Grid Section -->
 <section id="industries" class="industries-section">
   <div class="container">
+    
     <!-- Section Header -->
     <div class="section-header" data-aos="fade-up">
-      <span class="section-badge blue">Industries We Serve</span>
-      <h2 class="section-title">Tailored Industry Expertise</h2>
+      <span class="section-badge">Industries We Serve</span>
+      <h2 class="section-title">Tailored Sector Engineering</h2>
       <p class="section-desc">
-        Providing domain-specific software solutions that solve exact industry problems, build operational efficiency, and satisfy local compliance requirements.
+        Providing specialized custom software, real-time IoT networks, and advanced AI platforms designed to fit your sector's requirements and compliance rules.
       </p>
     </div>
 
-    <!-- Industries Grid -->
-    <div class="industries-grid">
-      <!-- 1. Healthcare -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="50">
-        <div class="industry-card-bg rose"></div>
-        <div class="industry-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-        <h3 class="industry-title">Healthcare</h3>
-        <p class="industry-desc">Telehealth portals, integrated medical records, and compliant health tracking systems.</p>
+    <!-- Bento Grid Container -->
+    <div class="bento-grid" data-aos="fade-up" data-aos-delay="100">
+      
+      <!-- Card 1: Healthcare (Wide) -->
+      <div class="bento-card span-2 bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div class="bento-text">
+            <h3>Healthcare</h3>
+            <p>Medical AI diagnostics, clinical scheduling systems, secure patient logs, and telehealth networks complying with federal rules.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 2. Finance -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="100">
-        <div class="industry-card-bg emerald"></div>
-        <div class="industry-icon"><i class="fa-solid fa-building-columns"></i></div>
-        <h3 class="industry-title">Finance</h3>
-        <p class="industry-desc">Robust secure ledger infrastructures, transaction gateways, and automated report portals.</p>
+      <!-- Card 2: Mining (Tall) -->
+      <div class="bento-card tall bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1518152006812-edab29b069ac?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-helmet-safety"></i></div>
+          <div class="bento-text">
+            <h3>Mining & Resources</h3>
+            <p>Heavy machinery telemetry, geological analytics, and site safety registers built for remote locations.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 3. Education -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="150">
-        <div class="industry-card-bg blue"></div>
-        <div class="industry-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-        <h3 class="industry-title">Education</h3>
-        <p class="industry-desc">Virtual learning management tools, student databases, and educational app platforms.</p>
+      <!-- Card 3: Construction -->
+      <div class="bento-card bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-trowel-bricks"></i></div>
+          <div class="bento-text">
+            <h3>Construction</h3>
+            <p>Operational site logs, asset allocation platforms, and safety compliance checklists.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 4. Mining -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="200">
-        <div class="industry-card-bg amber"></div>
-        <div class="industry-icon"><i class="fa-solid fa-helmet-safety"></i></div>
-        <h3 class="industry-title">Mining</h3>
-        <p class="industry-desc">Industrial remote telemetry integration, safety operations systems, and haulage data logs.</p>
+      <!-- Card 4: Manufacturing (Wide) -->
+      <div class="bento-card span-2 bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-industry"></i></div>
+          <div class="bento-text">
+            <h3>Manufacturing</h3>
+            <p>Factory line automation, automated supply checklists, visual quality control AI systems, and inventory predictive dashboards.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 5. Manufacturing -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="50">
-        <div class="industry-card-bg cyan"></div>
-        <div class="industry-icon"><i class="fa-solid fa-industry"></i></div>
-        <h3 class="industry-title">Manufacturing</h3>
-        <p class="industry-desc">Factory line automation software, production scheduling, and inventory planning systems.</p>
+      <!-- Card 5: Education -->
+      <div class="bento-card bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="bento-text">
+            <h3>Education</h3>
+            <p>Virtual learning management hubs, student scheduling boards, and administration databases.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 6. Construction -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="100">
-        <div class="industry-card-bg yellow"></div>
-        <div class="industry-icon"><i class="fa-solid fa-trowel-bricks"></i></div>
-        <h3 class="industry-title">Construction</h3>
-        <p class="industry-desc">Site worker scheduling, site material trackers, and sub-contractor portal systems.</p>
+      <!-- Card 6: Retail -->
+      <div class="bento-card bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-store"></i></div>
+          <div class="bento-text">
+            <h3>Retail & E-commerce</h3>
+            <p>High-volume POS, loyalty triggers, CRM databases, and automated supply chains.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 7. Retail -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="150">
-        <div class="industry-card-bg fuchsia"></div>
-        <div class="industry-icon"><i class="fa-solid fa-bag-shopping"></i></div>
-        <h3 class="industry-title">Retail & E-commerce</h3>
-        <p class="industry-desc">High-volume checkout flows, omni-channel customer hubs, and digital discount systems.</p>
+      <!-- Card 7: Government (Wide) -->
+      <div class="bento-card span-2 bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-landmark"></i></div>
+          <div class="bento-text">
+            <h3>Government & Public</h3>
+            <p>Highly secure public portals, digital form automation, document archives, audit tracks, and federal security certifications.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 8. Agriculture -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="200">
-        <div class="industry-card-bg green"></div>
-        <div class="industry-icon"><i class="fa-solid fa-seedling"></i></div>
-        <h3 class="industry-title">Agriculture</h3>
-        <p class="industry-desc">Soil telemetry visualizations, water-use analytics, and supply-chain logistics apps.</p>
+      <!-- Card 8: Logistics -->
+      <div class="bento-card bg-image-card" style="background-image: url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80');">
+        <div class="bento-overlay"></div>
+        <div class="bento-content">
+          <div class="bento-icon-container"><i class="fa-solid fa-truck-ramp-box"></i></div>
+          <div class="bento-text">
+            <h3>Logistics & Supply</h3>
+            <p>Fleet tracking coordinates, route optimizations, and terminal warehouse databases.</p>
+            <a href="#contact" class="bento-link">Read More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
       </div>
 
-      <!-- 9. Government -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="50">
-        <div class="industry-card-bg purple"></div>
-        <div class="industry-icon"><i class="fa-solid fa-shield-halved"></i></div>
-        <h3 class="industry-title">Government</h3>
-        <p class="industry-desc">Highly-secure public request forms, compliance records, and public-facing databases.</p>
-      </div>
-
-      <!-- 10. Logistics -->
-      <div class="industry-card hover-lift" data-aos="fade-up" data-aos-delay="100">
-        <div class="industry-card-bg sky"></div>
-        <div class="industry-icon"><i class="fa-solid fa-truck-fast"></i></div>
-        <h3 class="industry-title">Logistics</h3>
-        <p class="industry-desc">Route optimization engines, vehicle telemetry monitors, and depot intake logging.</p>
-      </div>
     </div>
   </div>
 </section>
 
-<!-- CSS specifically for Industries component structure -->
+<!-- CSS specifically for Industries Bento Grid -->
 <style>
 .industries-section {
-  padding: 100px 0;
-  background-color: var(--white);
+  padding: 120px 0;
+  background-color: var(--light-bg);
   position: relative;
   overflow: hidden;
 }
 
-.industries-grid {
+/* Bento Grid Setup */
+.bento-grid {
   display: grid;
-  grid-template-cols: repeat(5, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 250px;
+  gap: 28px;
 }
 
-.industry-card {
+.bento-card {
   position: relative;
-  background-color: var(--white);
-  border: 1px solid var(--border-color);
-  border-radius: 16px;
-  padding: 24px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-normal);
   display: flex;
-  flex-direction: column;
-  height: 240px;
+  box-sizing: border-box;
 }
 
-/* Background gradients that appear on hover */
-.industry-card-bg {
+/* Gradient Borders */
+.bento-card::before {
+  content: "";
   position: absolute;
-  right: -40px;
-  bottom: -40px;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  filter: blur(25px);
-  opacity: 0;
-  transition: opacity var(--transition-slow);
-  pointer-events: none;
-  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-lg);
+  border: 1px solid transparent;
+  background: linear-gradient(135deg, rgba(109, 40, 255, 0.4), rgba(59, 130, 246, 0.4)) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  opacity: 0.4;
+  z-index: 5;
+  transition: opacity var(--transition-normal);
 }
 
-.industry-card:hover .industry-card-bg {
+.bento-card:hover::before {
   opacity: 1;
 }
 
-.industry-card-bg.rose { background-image: radial-gradient(circle, rgba(244, 63, 94, 0.15) 0%, transparent 70%); }
-.industry-card-bg.emerald { background-image: radial-gradient(circle, rgba(16, 185, 129, 0.15) 0%, transparent 70%); }
-.industry-card-bg.blue { background-image: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%); }
-.industry-card-bg.amber { background-image: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, transparent 70%); }
-.industry-card-bg.cyan { background-image: radial-gradient(circle, rgba(6, 182, 212, 0.15) 0%, transparent 70%); }
-.industry-card-bg.yellow { background-image: radial-gradient(circle, rgba(234, 179, 8, 0.15) 0%, transparent 70%); }
-.industry-card-bg.fuchsia { background-image: radial-gradient(circle, rgba(217, 70, 239, 0.15) 0%, transparent 70%); }
-.industry-card-bg.green { background-image: radial-gradient(circle, rgba(34, 197, 94, 0.15) 0%, transparent 70%); }
-.industry-card-bg.purple { background-image: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%); }
-.industry-card-bg.sky { background-image: radial-gradient(circle, rgba(14, 165, 233, 0.15) 0%, transparent 70%); }
+/* Bento Spans */
+.bento-card.span-2 {
+  grid-column: span 2;
+}
 
-.industry-icon {
-  position: relative;
+.bento-card.tall {
+  grid-row: span 2;
+}
+
+/* Card Image Backgrounds */
+.bg-image-card {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform var(--transition-slow);
+}
+
+.bento-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(8, 19, 39, 0.4) 0%, rgba(8, 19, 39, 0.85) 100%);
   z-index: 2;
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
-  background-color: var(--light-bg);
-  border: 1px solid var(--border-color);
-  color: var(--dark-navy);
+  transition: background var(--transition-normal);
+}
+
+.bento-card:hover .bento-overlay {
+  background: linear-gradient(180deg, rgba(8, 19, 39, 0.3) 0%, rgba(8, 19, 39, 0.95) 100%);
+}
+
+.bento-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+.bento-content {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.bento-card.tall .bento-content {
+  justify-content: space-between;
+}
+
+/* Icons */
+.bento-icon-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--white);
+  font-size: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   margin-bottom: 20px;
-  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(4px);
   transition: all var(--transition-normal);
 }
 
-.industry-card:hover .industry-icon {
+.bento-card:hover .bento-icon-container {
   background-color: var(--primary-purple);
-  color: var(--white);
   border-color: var(--primary-purple);
+  color: var(--white);
+  transform: scale(1.1);
 }
 
-.industry-title {
-  position: relative;
-  z-index: 2;
-  font-size: 1rem;
-  font-weight: 700;
+.bento-text h3 {
+  color: var(--white);
+  font-size: 1.25rem;
+  font-weight: 800;
   margin-bottom: 8px;
-  color: var(--dark-navy);
 }
 
-.industry-desc {
-  position: relative;
-  z-index: 2;
-  font-size: 0.8125rem;
+.bento-text p {
+  color: #cbd5e1;
+  font-size: 0.85rem;
   line-height: 1.5;
-  color: var(--secondary-text);
+  margin-bottom: 16px;
+  opacity: 0.85;
+  transition: all var(--transition-normal);
 }
 
+.bento-card:hover .bento-text p {
+  opacity: 1;
+  color: var(--white);
+}
+
+.bento-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #a275ff;
+  transition: all var(--transition-fast);
+}
+
+.bento-link i {
+  font-size: 0.7rem;
+  transition: transform var(--transition-fast);
+}
+
+.bento-card:hover .bento-link {
+  color: var(--white);
+}
+
+.bento-card:hover .bento-link i {
+  transform: translateX(4px);
+}
+
+/* Responsive adjustments */
 @media (max-width: 1024px) {
-  .industries-grid {
-    grid-template-cols: repeat(3, 1fr);
+  .bento-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+  }
+  
+  .bento-card.span-2 {
+    grid-column: span 2;
+  }
+
+  .bento-card.tall {
+    grid-row: span 2;
   }
 }
 
 @media (max-width: 767px) {
-  .industries-grid {
-    grid-template-cols: repeat(2, 1fr);
+  .industries-section {
+    padding: 80px 0;
+  }
+
+  .bento-grid {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 20px;
+  }
+
+  .bento-card.span-2,
+  .bento-card.tall {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .bento-content {
+    padding: 24px;
+    height: 250px;
+  }
+
+  .bento-card.tall .bento-content {
+    justify-content: flex-end;
   }
 }
 </style>

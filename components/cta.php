@@ -20,9 +20,10 @@
 
 <!-- CSS specifically for CTA component structure -->
 <style>
+/* Final CTA Section */
 .final-cta-section {
   position: relative;
-  padding: 100px 0;
+  padding: 120px 0;
   background: linear-gradient(135deg, var(--primary-purple) 0%, var(--dark-navy) 100%);
   overflow: hidden;
   text-align: center;
@@ -35,33 +36,34 @@
   transform: translate(-50%, -50%);
   width: 600px;
   height: 600px;
-  background-color: var(--primary-blue);
+  background-color: var(--electric-blue);
   filter: blur(160px);
   opacity: 0.15;
   pointer-events: none;
 }
 
 .cta-content-wrapper {
-  max-width: 800px;
+  max-width: 840px;
   margin: 0 auto;
   position: relative;
   z-index: 10;
 }
 
 .cta-title {
-  font-size: 3rem;
+  font-size: clamp(32px, 3.8vw, 48px);
   color: var(--white);
   line-height: 1.2;
   margin-bottom: 24px;
-  letter-spacing: -0.01em;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .cta-desc {
-  font-size: 1.15rem;
+  font-size: clamp(16px, 1.2vw, 19px);
   color: #cbd5e1;
   line-height: 1.7;
-  margin-bottom: 44px;
-  max-width: 680px;
+  margin-bottom: 40px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -82,7 +84,13 @@
 .btn-outline-white {
   background-color: transparent;
   color: var(--white);
-  border-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  transition: all var(--transition-normal);
 }
 
 .btn-outline-white:hover {

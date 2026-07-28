@@ -8,62 +8,58 @@
     <!-- Section Header -->
     <div class="section-header" data-aos="fade-up">
       <span class="section-badge" style="background-color: rgba(255,255,255,0.1); color: #fff; border-color: rgba(255,255,255,0.15)">Global Scale</span>
-      <h2 class="section-title text-white">Our Global Presence</h2>
+      <h2 class="section-title text-white">Follow-the-Sun Agile Delivery</h2>
       <p class="section-desc text-slate-300">
-        Operating across strategic enterprise markets to offer unmatched regional expertise, local compliance, and round-the-clock agile development capabilities.
+        Operating across strategic enterprise locations to offer round-the-clock engineering capability and seamless local timezone delivery support.
       </p>
     </div>
 
     <!-- Map & Details Layout Grid -->
     <div class="presence-grid">
       
-      <!-- Left Column: Custom SVG World Map -->
+      <!-- Left Column: Custom SVG World Map with Animated Connections -->
       <div class="map-container glass-panel-dark" data-aos="fade-right">
         <div class="map-wrapper">
           <svg viewBox="0 0 1000 500" class="world-svg-map">
             <!-- Simulated Continent Outlines -->
             <!-- North America -->
-            <path d="M100 100 C150 70, 200 80, 220 120 C240 160, 180 220, 160 250 C140 280, 120 300, 100 260 C80 220, 50 180, 70 140 C80 120, 90 110, 100 100 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+            <path d="M100 100 C150 70, 200 80, 220 120 C240 160, 180 220, 160 250 C140 280, 120 300, 100 260 C80 220, 50 180, 70 140 C80 120, 90 110, 100 100 Z" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
             <!-- South America -->
-            <path d="M160 260 C180 280, 220 340, 210 380 C200 420, 170 440, 150 420 C130 400, 120 340, 130 300 C140 270, 150 260, 160 260 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
-            <!-- Eurasia -->
-            <path d="M420 120 C480 80, 600 70, 720 100 C800 120, 850 150, 820 200 C800 240, 780 280, 750 300 C700 320, 640 270, 580 280 C520 290, 480 220, 440 200 C400 180, 400 140, 420 120 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+            <path d="M160 260 C180 280, 220 340, 210 380 C200 420, 170 440, 150 420 C130 400, 120 340, 130 300 C140 270, 150 260, 160 260 Z" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+            <!-- Eurasia (highlighted right end) -->
+            <path d="M420 120 C480 80, 600 70, 720 100 C800 120, 850 150, 820 200 C800 240, 780 280, 750 300 C700 320, 640 270, 580 280 C520 290, 480 220, 440 200 C400 180, 400 140, 420 120 Z" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
             <!-- Africa -->
-            <path d="M440 220 C480 210, 530 220, 550 260 C570 300, 560 360, 520 400 C480 440, 450 410, 440 370 C430 330, 420 280, 430 240 C435 230, 438 225, 440 220 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
-            <!-- Australia -->
-            <path d="M780 340 C840 330, 890 350, 910 390 C920 420, 880 450, 840 450 C780 450, 750 400, 760 370 C765 350, 770 345, 780 340 Z" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+            <path d="M440 220 C480 210, 530 220, 550 260 C570 300, 560 360, 520 400 C480 440, 450 410, 440 370 C430 330, 420 280, 430 240 C435 230, 438 225, 440 220 Z" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+            
+            <!-- Australia Highlighted -->
+            <path d="M780 340 C840 330, 890 350, 910 390 C920 420, 880 450, 840 450 C780 450, 750 400, 760 370 C765 350, 770 345, 780 340 Z" fill="rgba(109, 40, 255, 0.08)" stroke="rgba(109, 40, 255, 0.4)" stroke-width="2" class="australia-path" />
+
+            <!-- Animated Connection curve from Sydney (880, 380) to Bangalore (710, 275) -->
+            <path d="M 880,380 Q 795,290 710,275" fill="none" stroke="rgba(109, 40, 255, 0.2)" stroke-width="2" />
+            <path d="M 880,380 Q 795,290 710,275" fill="none" stroke="url(#connection-grad)" stroke-width="2.5" class="animated-connection-path" />
+            
+            <defs>
+              <linearGradient id="connection-grad" x1="100%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="#3B82F6" />
+                <stop offset="50%" stop-color="#6D28FF" />
+                <stop offset="100%" stop-color="#06B6D4" />
+              </linearGradient>
+            </defs>
           </svg>
 
           <!-- Interactive Pins -->
           <!-- Sydney -->
           <div class="map-pin active pulsing-pin" style="top: 76%; left: 88%;" data-office="aus">
             <i class="fa-solid fa-location-dot"></i>
-            <span class="pin-tooltip">Sydney</span>
+            <span class="pin-tooltip">Sydney HQ</span>
           </div>
 
           <!-- Bangalore -->
           <div class="map-pin pulsing-pin" style="top: 55%; left: 71%;" data-office="ind">
             <i class="fa-solid fa-location-dot"></i>
-            <span class="pin-tooltip">Bangalore</span>
+            <span class="pin-tooltip">Bangalore R&D</span>
           </div>
 
-          <!-- Johannesburg -->
-          <div class="map-pin pulsing-pin" style="top: 72%; left: 53%;" data-office="sa">
-            <i class="fa-solid fa-location-dot"></i>
-            <span class="pin-tooltip">Johannesburg</span>
-          </div>
-
-          <!-- Dubai -->
-          <div class="map-pin pulsing-pin" style="top: 50%; left: 62%;" data-office="uae">
-            <i class="fa-solid fa-location-dot"></i>
-            <span class="pin-tooltip">Dubai</span>
-          </div>
-
-          <!-- Singapore -->
-          <div class="map-pin pulsing-pin" style="top: 61%; left: 75%;" data-office="sg">
-            <i class="fa-solid fa-location-dot"></i>
-            <span class="pin-tooltip">Singapore</span>
-          </div>
         </div>
       </div>
 
@@ -75,15 +71,25 @@
           <div class="office-card-header">
             <img src="assets/icons/australia.png" alt="Australia Flag" class="office-flag">
             <div>
-              <h3>Sydney</h3>
-              <span class="office-tag">Australian Headquarters</span>
+              <h3>Sydney HQ</h3>
+              <span class="office-tag">Corporate Headquarters</span>
             </div>
           </div>
           <div class="office-card-body">
             <p class="office-detail"><i class="fa-solid fa-map-pin"></i> Level 14, 275 Alfred St, North Sydney NSW 2060</p>
             <p class="office-detail"><i class="fa-solid fa-phone"></i> <a href="tel:+61468403743">+61 468 403 743</a></p>
             <p class="office-detail"><i class="fa-solid fa-envelope"></i> <a href="mailto:sydney@jaiton.com">sydney@jaiton.com</a></p>
-            <div class="office-timezone"><i class="fa-solid fa-clock"></i> Local Timezone: <strong>AEST (UTC+10)</strong></div>
+            
+            <div class="office-clock-wrapper">
+              <div class="office-timezone"><i class="fa-solid fa-clock"></i> Local Timezone: <strong>AEST (UTC+10)</strong></div>
+              <div class="office-realtime" id="clock-aus">Loading...</div>
+            </div>
+            
+            <div class="office-features-badge">
+              <span>Client Strategy</span>
+              <span>Architecture</span>
+              <span>Project Management</span>
+            </div>
           </div>
         </div>
 
@@ -92,292 +98,327 @@
           <div class="office-card-header">
             <img src="assets/icons/india.png" alt="India Flag" class="office-flag">
             <div>
-              <h3>Bangalore</h3>
-              <span class="office-tag">Offshore R&D Center</span>
+              <h3>Bangalore R&D</h3>
+              <span class="office-tag">Offshore Engineering Center</span>
             </div>
           </div>
           <div class="office-card-body">
             <p class="office-detail"><i class="fa-solid fa-map-pin"></i> Prestige Trade Tower, Palace Rd, Bengaluru 560001</p>
-            <p class="office-detail"><i class="fa-solid fa-phone"></i> <a href="tel:+919353048488">+91 93530 48488</a></p>
-            <p class="office-detail"><i class="fa-solid fa-envelope"></i> <a href="mailto:bangalore@jaiton.com">bangalore@jaiton.com</a></p>
-            <div class="office-timezone"><i class="fa-solid fa-clock"></i> Local Timezone: <strong>IST (UTC+5:30)</strong></div>
-          </div>
-        </div>
-
-        <!-- South Africa details -->
-        <div class="office-card" id="office-sa">
-          <div class="office-card-header">
-            <img src="assets/icons/south-africa.png" alt="South Africa Flag" class="office-flag">
-            <div>
-              <h3>Johannesburg</h3>
-              <span class="office-tag">Regional Office</span>
+            <p class="office-detail"><i class="fa-solid fa-phone"></i> <a href="tel:+918040927700">+91 80 4092 7700</a></p>
+            <p class="office-detail"><i class="fa-solid fa-envelope"></i> <a href="mailto:india@jaiton.com">india@jaiton.com</a></p>
+            
+            <div class="office-clock-wrapper">
+              <div class="office-timezone"><i class="fa-solid fa-clock"></i> Local Timezone: <strong>IST (UTC+5:30)</strong></div>
+              <div class="office-realtime" id="clock-ind">Loading...</div>
             </div>
-          </div>
-          <div class="office-card-body">
-            <p class="office-detail"><i class="fa-solid fa-map-pin"></i> Sandton Eye, Rivonia Rd & West St, Sandton 2196</p>
-            <p class="office-detail"><i class="fa-solid fa-phone"></i> <a href="tel:+27787712294">+27 78 771 2294</a></p>
-            <p class="office-detail"><i class="fa-solid fa-envelope"></i> <a href="mailto:jhb@jaiton.com">jhb@jaiton.com</a></p>
-            <div class="office-timezone"><i class="fa-solid fa-clock"></i> Local Timezone: <strong>SAST (UTC+2)</strong></div>
-          </div>
-        </div>
 
-        <!-- UAE details -->
-        <div class="office-card" id="office-uae">
-          <div class="office-card-header">
-            <img src="assets/icons/uae.webp" alt="UAE Flag" class="office-flag">
-            <div>
-              <h3>Dubai</h3>
-              <span class="office-tag">Regional Office</span>
+            <div class="office-features-badge">
+              <span>Full-Stack Development</span>
+              <span>Quality Assurance</span>
+              <span>24/7 SLA Telemetry Support</span>
             </div>
-          </div>
-          <div class="office-card-body">
-            <p class="office-detail"><i class="fa-solid fa-map-pin"></i> The Gateway Tower, Dubai Media City, Dubai</p>
-            <p class="office-detail"><i class="fa-solid fa-phone"></i> <a href="tel:+97144019888">+971 4 401 9888</a></p>
-            <p class="office-detail"><i class="fa-solid fa-envelope"></i> <a href="mailto:dubai@jaiton.com">dubai@jaiton.com</a></p>
-            <div class="office-timezone"><i class="fa-solid fa-clock"></i> Local Timezone: <strong>GST (UTC+4)</strong></div>
-          </div>
-        </div>
-
-        <!-- Singapore details -->
-        <div class="office-card" id="office-sg">
-          <div class="office-card-header">
-            <img src="assets/icons/aus.webp" alt="Singapore Flag" class="office-flag">
-            <div>
-              <h3>Singapore</h3>
-              <span class="office-tag">Regional Hub</span>
-            </div>
-          </div>
-          <div class="office-card-body">
-            <p class="office-detail"><i class="fa-solid fa-map-pin"></i> Marina Bay Financial Centre Tower 1, Singapore 018981</p>
-            <p class="office-detail"><i class="fa-solid fa-phone"></i> <a href="tel:+6567011188">+65 6701 1188</a></p>
-            <p class="office-detail"><i class="fa-solid fa-envelope"></i> <a href="mailto:singapore@jaiton.com">singapore@jaiton.com</a></p>
-            <div class="office-timezone"><i class="fa-solid fa-clock"></i> Local Timezone: <strong>SGT (UTC+8)</strong></div>
           </div>
         </div>
 
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- CSS specifically for Presence component structure -->
+<!-- CSS specifically for Global Presence -->
 <style>
 .presence-section {
-  padding: 100px 0;
-  background-color: var(--dark-navy);
   position: relative;
+  padding: 120px 0;
+  background-color: var(--dark-navy);
   overflow: hidden;
 }
 
-/* Background Gradients */
 .presence-glow {
   position: absolute;
   width: 500px;
   height: 500px;
   border-radius: 50%;
   filter: blur(140px);
-  opacity: 0.1;
+  opacity: 0.15;
   pointer-events: none;
 }
 
-.presence-glow.purple {
-  top: -10%;
-  right: -5%;
-  background-color: var(--primary-purple);
-}
-
-.presence-glow.blue {
-  bottom: -10%;
-  left: -5%;
-  background-color: var(--primary-blue);
-}
+.presence-glow.purple { top: -10%; left: 10%; background-color: var(--primary-purple); }
+.presence-glow.blue { bottom: -10%; right: 10%; background-color: var(--electric-blue); }
 
 .presence-grid {
   display: grid;
-  grid-template-cols: 1.250fr 0.750fr;
-  gap: 50px;
+  grid-template-cols: 1.15fr 0.85fr;
+  gap: 60px;
   align-items: center;
 }
 
+/* World Map styling */
 .map-container {
-  position: relative;
   padding: 24px;
-  min-height: 400px;
+  border-radius: var(--radius-lg);
+  position: relative;
 }
 
 .map-wrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 2;
-  min-height: 320px;
 }
 
 .world-svg-map {
   width: 100%;
-  height: 100%;
-  opacity: 0.35;
+  height: auto;
 }
 
-/* Marker Pins */
+/* Glowing connection path animation */
+.animated-connection-path {
+  stroke-dasharray: 8 8;
+  animation: connectionGlow 15s linear infinite;
+}
+
+@keyframes connectionGlow {
+  to {
+    stroke-dashoffset: -160;
+  }
+}
+
+.australia-path {
+  animation: ausGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes ausGlow {
+  0% { fill: rgba(109, 40, 255, 0.05); }
+  100% { fill: rgba(109, 40, 255, 0.15); }
+}
+
+/* Pin styles */
 .map-pin {
   position: absolute;
-  color: var(--primary-blue);
-  font-size: 1.4rem;
+  color: var(--white);
   cursor: pointer;
   z-index: 10;
-  transform: translate(-50%, -100%);
+  transform: translate(-50%, -50%);
   transition: all var(--transition-fast);
 }
 
-.map-pin.active {
-  color: var(--primary-purple);
-  font-size: 1.7rem;
+.map-pin i {
+  font-size: 1.5rem;
+  filter: drop-shadow(0 4px 8px rgba(8, 19, 39, 0.5));
+  transition: all var(--transition-fast);
 }
 
-.map-pin:hover {
-  transform: translate(-50%, -110%) scale(1.1);
+.pulsing-pin::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-purple);
+  transform: translate(-50%, -50%) scale(0.6);
+  opacity: 0;
+  pointer-events: none;
+  transition: all var(--transition-normal);
+}
+
+.map-pin.active i {
   color: var(--primary-purple);
+}
+
+.map-pin.active::before {
+  animation: pinPulse 2s infinite;
+}
+
+@keyframes pinPulse {
+  0% { transform: translate(-50%, -50%) scale(0.6); opacity: 1; }
+  100% { transform: translate(-50%, -50%) scale(1.6); opacity: 0; }
 }
 
 .pin-tooltip {
   position: absolute;
-  top: -24px;
+  bottom: calc(100% + 10px);
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(10px);
   background-color: var(--dark-navy);
-  border: 1px solid rgba(255, 255, 255, 0.1);
   color: var(--white);
-  font-size: 0.65rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.6875rem;
   font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 4px;
+  white-space: nowrap;
   opacity: 0;
   visibility: hidden;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all var(--transition-fast);
-  white-space: nowrap;
 }
 
-.map-pin:hover .pin-tooltip {
+.map-pin:hover .pin-tooltip,
+.map-pin.active .pin-tooltip {
   opacity: 1;
   visibility: visible;
+  transform: translateX(-50%) translateY(0);
 }
 
-/* Details Panel cards */
+/* Office details cards */
 .office-panel {
-  position: relative;
-  min-height: 320px;
+  width: 100%;
 }
 
 .office-card {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  display: none;
+  background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 20px;
-  padding: 32px;
+  border-radius: var(--radius-lg);
+  padding: 40px;
   color: var(--white);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(15px);
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: var(--shadow-xl);
+  transition: all var(--transition-normal);
+  text-align: left;
 }
 
 .office-card.active {
-  position: relative;
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+  display: block;
 }
 
 .office-card-header {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 24px;
+  gap: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding-bottom: 16px;
+  padding-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .office-flag {
-  width: 44px;
-  height: auto;
-  border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.15);
 }
 
 .office-card-header h3 {
-  font-size: 1.35rem;
   color: var(--white);
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 4px;
 }
 
 .office-tag {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--primary-blue);
+  color: #a275ff;
   letter-spacing: 0.05em;
-  display: block;
-  margin-top: 4px;
-}
-
-.office-card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
 }
 
 .office-detail {
-  font-size: 0.875rem;
-  color: #cbd5e1;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 12px;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  margin-bottom: 18px;
+  color: #cbd5e1;
 }
 
 .office-detail i {
   color: var(--primary-purple);
   width: 16px;
-  margin-top: 3px;
 }
 
-.office-detail a:hover {
-  color: var(--white);
+.office-clock-wrapper {
+  margin: 28px 0;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .office-timezone {
+  font-size: 0.8125rem;
+  color: #94a3b8;
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 0.75rem;
-  color: #94a3b8;
-  margin-top: 12px;
-  padding-top: 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  gap: 6px;
 }
 
 .office-timezone i {
-  color: var(--primary-blue);
+  color: #3B82F6;
+}
+
+.office-realtime {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.office-features-badge {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.office-features-badge span {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: var(--white);
+  background-color: rgba(109, 40, 255, 0.15);
+  border: 1px solid rgba(109, 40, 255, 0.25);
+  padding: 6px 14px;
+  border-radius: 100px;
 }
 
 @media (max-width: 991px) {
   .presence-grid {
     grid-template-cols: 1fr;
+    gap: 40px;
   }
-  
-  .office-panel {
-    min-height: auto;
+}
+
+@media (max-width: 767px) {
+  .presence-section {
+    padding: 80px 0;
   }
-  
   .office-card {
-    position: static;
+    padding: 24px;
+  }
+  .office-clock-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 }
 </style>
+
+<!-- Script for Realtime Timezone Clocks -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const formatClock = (tz) => {
+    return new Date().toLocaleTimeString("en-AU", {
+      timeZone: tz,
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true
+    });
+  };
+
+  const updateClocks = () => {
+    const ausClock = document.getElementById("clock-aus");
+    const indClock = document.getElementById("clock-ind");
+    if (ausClock) ausClock.innerText = formatClock("Australia/Sydney");
+    if (indClock) indClock.innerText = formatClock("Asia/Kolkata");
+  };
+
+  setInterval(updateClocks, 1000);
+  updateClocks();
+});
+</script>

@@ -16,6 +16,20 @@
     padding-right: 24px;
   }
   /* Navigation */
+  .site-header {
+    top: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 72px !important;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    padding: 0 16px !important;
+  }
+
   .menu-toggle {
     display: block;
   }

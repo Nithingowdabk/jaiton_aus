@@ -25,5 +25,32 @@ document.addEventListener("DOMContentLoaded", () => {
       speed: 600,
       grabCursor: true,
     });
+
+    // Solutions Showcase Swiper Slider
+    new Swiper(".solutions-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: false,
+      speed: 600,
+      grabCursor: true,
+      pagination: {
+        el: ".solutions-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".solutions-next",
+        prevEl: ".solutions-prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 24,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        }
+      }
+    });
   }
 });
