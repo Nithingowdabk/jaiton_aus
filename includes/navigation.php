@@ -33,11 +33,6 @@ $nav_items = [
     'has_dropdown' => false
   ],
   [
-    'label' => 'Insights',
-    'url' => '#featured',
-    'has_dropdown' => false
-  ],
-  [
     'label' => 'Contact',
     'url' => '#contact',
     'has_dropdown' => false
