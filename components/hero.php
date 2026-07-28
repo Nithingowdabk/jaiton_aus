@@ -29,7 +29,7 @@
       
       <div class="hero-buttons">
         <a href="#contact" class="btn btn-primary ripple-btn">Book Strategy Session <i class="fa-solid fa-calendar-check"></i></a>
-        <a href="#solutions" class="btn btn-secondary">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#why-jaiton" class="btn btn-secondary">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
         <a href="#" class="btn-watch"><i class="fa-solid fa-play"></i> Watch Capabilities</a>
       </div>
 

@@ -31,12 +31,12 @@
         <div class="footer-col">
           <h5>Solutions</h5>
           <ul class="footer-links">
-            <li><a href="#solutions">AI Engineering</a></li>
-            <li><a href="#solutions">Cloud Modernisation</a></li>
-            <li><a href="#solutions">Enterprise Software</a></li>
-            <li><a href="#solutions">Data Intelligence</a></li>
-            <li><a href="#solutions">Cybersecurity</a></li>
-            <li><a href="#solutions">IoT Engineering</a></li>
+            <li><a href="#why-jaiton">AI Engineering</a></li>
+            <li><a href="#why-jaiton">Cloud Modernisation</a></li>
+            <li><a href="#why-jaiton">Enterprise Software</a></li>
+            <li><a href="#why-jaiton">Data Intelligence</a></li>
+            <li><a href="#why-jaiton">Cybersecurity</a></li>
+            <li><a href="#why-jaiton">IoT Engineering</a></li>
           </ul>
         </div>
 

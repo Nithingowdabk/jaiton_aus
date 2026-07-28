@@ -93,44 +93,44 @@
           
           <!-- Solutions Dropdown -->
           <li class="nav-item dropdown">
-            <a href="#solutions" class="nav-link">Solutions <i class="fa-solid fa-chevron-down"></i></a>
+            <a href="#why-jaiton" class="nav-link">Solutions <i class="fa-solid fa-chevron-down"></i></a>
             <div class="mega-menu">
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-brain"></i></div>
                 <div class="mega-menu-info">
                   <h4>AI Engineering</h4>
                   <p>NLP, custom models, and decision automation systems.</p>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-cloud"></i></div>
                 <div class="mega-menu-info">
                   <h4>Cloud Modernisation</h4>
                   <p>AWS/Azure microservices migrations & serverless setups.</p>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-laptop-code"></i></div>
                 <div class="mega-menu-info">
                   <h4>Enterprise Software</h4>
                   <p>Robust custom systems engineered for scaling businesses.</p>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-database"></i></div>
                 <div class="mega-menu-info">
                   <h4>Data Intelligence</h4>
                   <p>Data pipelines, warehouses, and advanced intelligence reporting.</p>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-shield-halved"></i></div>
                 <div class="mega-menu-info">
                   <h4>Cybersecurity</h4>
                   <p>End-to-end cloud protection, audits, and compliance.</p>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-microchip"></i></div>
                 <div class="mega-menu-info">
                   <h4>IoT Engineering</h4>
@@ -191,27 +191,27 @@
 
           <!-- Services Dropdown -->
           <li class="nav-item dropdown">
-            <a href="#solutions" class="nav-link">Services <i class="fa-solid fa-chevron-down"></i></a>
+            <a href="#why-jaiton" class="nav-link">Services <i class="fa-solid fa-chevron-down"></i></a>
             <div class="mega-menu" style="width: 320px; grid-template-cols: 1fr;">
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-code"></i></div>
                 <div class="mega-menu-info">
                   <h4>Custom Development</h4>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-users-gear"></i></div>
                 <div class="mega-menu-info">
                   <h4>Dedicated Teams</h4>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-angles-right"></i></div>
                 <div class="mega-menu-info">
                   <h4>Legacy Migration</h4>
                 </div>
               </a>
-              <a href="#solutions" class="mega-menu-link">
+              <a href="#why-jaiton" class="mega-menu-link">
                 <div class="mega-menu-icon"><i class="fa-solid fa-lightbulb"></i></div>
                 <div class="mega-menu-info">
                   <h4>Technology Advisory</h4>

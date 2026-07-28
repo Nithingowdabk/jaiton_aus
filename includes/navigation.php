@@ -12,7 +12,7 @@ $nav_items = [
   ],
   [
     'label' => 'Solutions',
-    'url' => '#solutions',
+    'url' => '#why-jaiton',
     'has_dropdown' => true,
     'menu_key' => 'solutions'
   ],
@@ -24,7 +24,7 @@ $nav_items = [
   ],
   [
     'label' => 'Services',
-    'url' => '#solutions',
+    'url' => '#why-jaiton',
     'has_dropdown' => false
   ],
   [
