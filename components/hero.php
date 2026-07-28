@@ -1,5 +1,5 @@
 <!-- ============================================================
-     HERO SECTION – Enterprise Bold Standard (Full Scale Typography)
+     HERO SECTION – Compact Enterprise Standard
      ============================================================ -->
 <section id="hero" class="hero-section">
   
@@ -20,7 +20,7 @@
   <div class="hero-container">
     <div class="hero-grid">
       
-      <!-- LEFT COLUMN (58%) – Full Bold Enterprise Copy & 56px CTAs -->
+      <!-- LEFT COLUMN (58%) – Compact Enterprise Copy & 50px CTAs -->
       <div class="hero-left" data-aos="fade-up" data-aos-duration="600">
         <span class="hero-badge">
           <i class="fa-solid fa-circle-check"></i> Australian Enterprise Technology Partner
@@ -34,13 +34,13 @@
           Helping Australian organisations modernise operations through AI, Cloud Engineering, Enterprise Software, Data Platforms, Cybersecurity and Intelligent Automation.
         </p>
         
-        <!-- CTA Action Buttons (56px Height) -->
+        <!-- CTA Action Buttons (50px Height) -->
         <div class="hero-ctas">
           <a href="#contact" class="btn btn-primary btn-magnetic">Book Strategy Session <i class="fa-solid fa-calendar-check"></i></a>
           <a href="#why-jaiton" class="btn btn-secondary btn-magnetic">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <!-- Trust Indicators (18–20px Checkmark Icons) -->
+        <!-- Trust Indicators -->
         <div class="hero-trust">
           <div class="trust-item"><span class="trust-icon">✔</span><span>Australian Quality Standards</span></div>
           <div class="trust-item"><span class="trust-icon">✔</span><span>Enterprise Security</span></div>
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <!-- RIGHT COLUMN (42%) – Adapted Enterprise AI Dashboard Illustration -->
+      <!-- RIGHT COLUMN (42%) – Compact Dashboard Illustration -->
       <div class="hero-right" data-aos="fade-left" data-aos-duration="800">
         <div class="hero-dashboard">
           
@@ -84,7 +84,7 @@
 
             <!-- SVG Diagram -->
             <div class="dashboard-canvas">
-              <svg viewBox="0 0 520 180" class="dashboard-svg" aria-hidden="true">
+              <svg viewBox="0 0 520 170" class="dashboard-svg" aria-hidden="true">
                 <defs>
                   <linearGradient id="hero-ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.25"/>
@@ -94,44 +94,44 @@
 
                 <!-- Grid lines -->
                 <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
-                  <line x1="60" y1="0" x2="60" y2="180"/>
-                  <line x1="180" y1="0" x2="180" y2="180"/>
-                  <line x1="300" y1="0" x2="300" y2="180"/>
-                  <line x1="420" y1="0" x2="420" y2="180"/>
+                  <line x1="60" y1="0" x2="60" y2="170"/>
+                  <line x1="180" y1="0" x2="180" y2="170"/>
+                  <line x1="300" y1="0" x2="300" y2="170"/>
+                  <line x1="420" y1="0" x2="420" y2="170"/>
                 </g>
 
                 <!-- Shield -->
-                <path d="M260,12 C295,12 320,22 320,22 C320,22 320,85 260,122 C200,85 200,22 200,22 C200,22 225,12 260,12 Z" fill="rgba(16,185,129,0.06)" stroke="#10B981" stroke-width="2" class="shield-pulse"/>
-                <text x="260" y="60" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ENTERPRISE CORE</text>
-                <text x="260" y="75" fill="#10B981" font-size="8" font-weight="600" text-anchor="middle">ENCRYPTED</text>
+                <path d="M260,10 C295,10 320,20 320,20 C320,20 320,80 260,118 C200,80 200,20 200,20 C200,20 225,10 260,10 Z" fill="rgba(16,185,129,0.06)" stroke="#10B981" stroke-width="2" class="shield-pulse"/>
+                <text x="260" y="56" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ENTERPRISE CORE</text>
+                <text x="260" y="70" fill="#10B981" font-size="8" font-weight="600" text-anchor="middle">ENCRYPTED</text>
 
                 <!-- Cloud Node -->
-                <rect x="40" y="44" width="100" height="40" rx="8" fill="url(#hero-ai-grad)" stroke="#3B82F6" stroke-width="1.5"/>
-                <text x="90" y="64" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
-                <text x="90" y="76" fill="#cbd5e1" font-size="7" text-anchor="middle">CLUSTER STABLE</text>
-                <circle cx="55" cy="64" r="3" fill="#3B82F6" class="pulse-node"/>
+                <rect x="40" y="40" width="100" height="38" rx="8" fill="url(#hero-ai-grad)" stroke="#3B82F6" stroke-width="1.5"/>
+                <text x="90" y="60" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
+                <text x="90" y="71" fill="#cbd5e1" font-size="7" text-anchor="middle">CLUSTER STABLE</text>
+                <circle cx="55" cy="59" r="3" fill="#3B82F6" class="pulse-node"/>
 
                 <!-- AI Node -->
-                <rect x="380" y="44" width="100" height="40" rx="8" fill="url(#hero-ai-grad)" stroke="#6D28FF" stroke-width="1.5"/>
-                <text x="430" y="64" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
-                <text x="430" y="76" fill="#a275ff" font-size="7" text-anchor="middle">NEURAL AGENTS</text>
-                <circle cx="395" cy="64" r="3" fill="#a275ff" class="pulse-node"/>
+                <rect x="380" y="40" width="100" height="38" rx="8" fill="url(#hero-ai-grad)" stroke="#6D28FF" stroke-width="1.5"/>
+                <text x="430" y="60" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
+                <text x="430" y="71" fill="#a275ff" font-size="7" text-anchor="middle">NEURAL AGENTS</text>
+                <circle cx="395" cy="59" r="3" fill="#a275ff" class="pulse-node"/>
 
                 <!-- Connectors -->
-                <line x1="140" y1="64" x2="200" y2="64" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
-                <line x1="320" y1="64" x2="380" y2="64" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <line x1="140" y1="59" x2="200" y2="59" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <line x1="320" y1="59" x2="380" y2="59" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
 
                 <!-- Flow Particles -->
-                <circle cx="140" cy="64" r="2.5" fill="#3B82F6" class="particle-flow-right"/>
-                <circle cx="380" cy="64" r="2.5" fill="#a275ff" class="particle-flow-left"/>
+                <circle cx="140" cy="59" r="2.5" fill="#3B82F6" class="particle-flow-right"/>
+                <circle cx="380" cy="59" r="2.5" fill="#a275ff" class="particle-flow-left"/>
 
                 <!-- Chart -->
-                <path d="M 40,158 Q 160,128 260,145 T 480,122" fill="none" stroke="#6D28FF" stroke-width="2" class="chart-draw-line"/>
+                <path d="M 40,150 Q 160,120 260,138 T 480,115" fill="none" stroke="#6D28FF" stroke-width="2" class="chart-draw-line"/>
               </svg>
             </div>
           </div>
 
-          <!-- Service Glass Pills (16px font-size) -->
+          <!-- Service Glass Pills (14px font-size) -->
           <div class="floating-pill floating-pill--ai">
             <div class="pill-dot pill-dot--purple"><i class="fa-solid fa-brain"></i></div>
             <span>Artificial Intelligence</span>
@@ -154,7 +154,7 @@
 
     </div>
 
-    <!-- Statistics Row (48–56px Digit Scale) -->
+    <!-- Statistics Row (Compact Scale) -->
     <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
       <div class="stat-card">
         <div class="stat-number-row">
@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <!-- ============================================================
-     HERO SCOPED STYLES (No Scaling / Bold Enterprise Standard)
+     HERO SCOPED STYLES (Clean Compact Content Scale)
      ============================================================ -->
 <style>
 /* ── Section Shell ── */
@@ -235,8 +235,8 @@ document.addEventListener("DOMContentLoaded", () => {
   flex-direction: column;
   justify-content: center;
   background-color: var(--dark-navy);
-  padding-top: 128px;   /* Header top clearance: 88px navbar + 40px padding */
-  padding-bottom: 24px;
+  padding-top: 120px;   /* Header top clearance */
+  padding-bottom: 20px;
   box-sizing: border-box;
 }
 
@@ -278,8 +278,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .hero-glow {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 480px;
   border-radius: 50%;
   filter: blur(140px);
   opacity: 0.2;
@@ -300,11 +300,11 @@ document.addEventListener("DOMContentLoaded", () => {
   box-sizing: border-box;
 }
 
-/* ── Hero Grid (58% Left / 42% Right, 48px Gap) ── */
+/* ── Hero Grid (58% Left / 42% Right, 40px Gap) ── */
 .hero-grid {
   display: grid;
   grid-template-columns: 58% 42%;
-  gap: 48px;
+  gap: 40px;
   align-items: center;
   width: 100%;
 }
@@ -317,28 +317,28 @@ document.addEventListener("DOMContentLoaded", () => {
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 6px 16px;
+  gap: 6px;
+  padding: 6px 14px;
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 100px;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   color: var(--white);
-  margin-bottom: 16px; /* Badge -> Heading: 16px */
+  margin-bottom: 14px;
 }
 
 .hero-badge i { color: #10B981; }
 
-/* Bold Full-Size Enterprise Heading (72px Desktop) */
+/* Reduced Headline Scale (52-56px Desktop) */
 .hero-heading {
   font-family: 'Poppins', sans-serif;
-  font-size: 72px;
+  font-size: clamp(38px, 3.5vw, 56px);
   font-weight: 700;
-  line-height: 1.05;
+  line-height: 1.1;
   color: var(--white);
   letter-spacing: -0.02em;
-  margin-bottom: 20px; /* Heading -> Description: 20px */
+  margin-bottom: 16px;
 }
 
 .gradient-text {
@@ -349,27 +349,27 @@ document.addEventListener("DOMContentLoaded", () => {
   display: inline;
 }
 
-/* Full-Size Description (22px Desktop) */
+/* Reduced Description Scale (17-18px Desktop) */
 .hero-description {
-  font-size: 22px;
+  font-size: clamp(15px, 1.1vw, 18px);
   line-height: 1.6;
   color: #cbd5e1;
-  max-width: 660px;
-  margin-bottom: 28px; /* Description -> Buttons: 28px */
+  max-width: 600px;
+  margin-bottom: 24px;
 }
 
-/* Full-Size CTA Buttons (56px Height) */
+/* Compact CTA Buttons (50px Height) */
 .hero-ctas {
   display: flex;
-  gap: 20px;
-  margin-bottom: 28px; /* Buttons -> Trust row: 28px */
+  gap: 16px;
+  margin-bottom: 24px;
 }
 
 .hero-ctas .btn {
-  height: 56px;
-  padding: 0 36px;
-  border-radius: 16px;
-  font-size: 16px;
+  height: 50px;
+  padding: 0 28px;
+  border-radius: 14px;
+  font-size: 15px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -401,34 +401,34 @@ document.addEventListener("DOMContentLoaded", () => {
   transform: translateY(-2px);
 }
 
-/* Trust Indicators (18–20px Checkmarks) */
+/* Trust Indicators */
 .hero-trust {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 20px;
+  gap: 10px 16px;
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding-top: 24px;
+  padding-top: 20px;
 }
 
 .trust-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .trust-icon {
   color: #10B981;
   font-weight: 800;
-  font-size: 19px; /* Trust icons: 18-20px */
+  font-size: 15px;
 }
 
 .trust-item span:last-child {
-  font-size: 0.85rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   color: #94a3b8;
 }
 
-/* ── Right Column – Adapted Dashboard Illustration ── */
+/* ── Right Column – Compact Dashboard Illustration ── */
 .hero-right {
   width: 100%;
 }
@@ -441,13 +441,13 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-panel {
   background: rgba(3,8,17,0.7);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 18px;
+  border-radius: 16px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.45);
-  padding: 16px;
+  padding: 14px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  max-height: 330px; /* Reduced by 10-15% */
+  gap: 10px;
+  max-height: 290px;
 }
 
 .dashboard-toolbar {
@@ -455,14 +455,14 @@ document.addEventListener("DOMContentLoaded", () => {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255,255,255,0.06);
-  padding-bottom: 8px;
+  padding-bottom: 6px;
 }
 
-.toolbar-dots { display: flex; gap: 6px; }
+.toolbar-dots { display: flex; gap: 5px; }
 
 .toolbar-dots .dot {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
 }
 
@@ -471,30 +471,30 @@ document.addEventListener("DOMContentLoaded", () => {
 .dot--green  { background: #10B981; }
 
 .toolbar-url {
-  font-size: 0.68rem;
+  font-size: 0.62rem;
   color: #cbd5e1;
   font-family: monospace;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
 }
 
 .toolbar-live {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.6rem;
+  gap: 4px;
+  font-size: 0.58rem;
   font-weight: 800;
   color: #10B981;
   background: rgba(16,185,129,0.1);
-  padding: 4px 8px;
+  padding: 3px 6px;
   border-radius: 4px;
   letter-spacing: 0.05em;
 }
 
 .toolbar-live-dot {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   background: #10B981;
   border-radius: 50%;
   animation: pulseGlow 1.8s infinite;
@@ -503,20 +503,20 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-metrics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 8px;
 }
 
 .metric-chip {
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.05);
-  border-radius: 8px;
-  padding: 8px 12px;
+  border-radius: 6px;
+  padding: 6px 10px;
   display: flex;
   flex-direction: column;
 }
 
 .metric-label {
-  font-size: 0.58rem;
+  font-size: 0.55rem;
   color: #94a3b8;
   font-weight: 700;
   text-transform: uppercase;
@@ -526,7 +526,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .metric-value {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 800;
 }
 
@@ -537,20 +537,20 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-canvas { width: 100%; }
 .dashboard-svg { width: 100%; height: auto; display: block; }
 
-/* Service Glass Pills (16px Font Size) */
+/* Service Glass Pills (14px Font Size) */
 .floating-pill {
   position: absolute;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   background: rgba(8,19,39,0.75);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255,255,255,0.12);
-  padding: 8px 16px;
+  padding: 6px 14px;
   border-radius: 100px;
   color: var(--white);
-  font-size: 16px; /* Service pills: 16px */
+  font-size: 14px;
   font-weight: 700;
   box-shadow: var(--shadow-lg);
   z-index: 6;
@@ -560,17 +560,17 @@ document.addEventListener("DOMContentLoaded", () => {
 .floating-pill:hover {
   border-color: rgba(109,40,255,0.4);
   transform: scale(1.04);
-  box-shadow: 0 0 18px rgba(109,40,255,0.3);
+  box-shadow: 0 0 16px rgba(109,40,255,0.3);
 }
 
 .pill-dot {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 22px;
-  height: 22px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 .pill-dot--purple { background: rgba(109,40,255,0.2); color: #a275ff; }
@@ -578,10 +578,10 @@ document.addEventListener("DOMContentLoaded", () => {
 .pill-dot--green  { background: rgba(16,185,129,0.2); color: #10B981; }
 .pill-dot--cyan   { background: rgba(6,182,212,0.2); color: var(--cyan); }
 
-.floating-pill--ai    { top: -12px; left: 8px; }
-.floating-pill--cloud { top: -12px; right: 8px; }
-.floating-pill--cyber { bottom: -12px; left: 8px; }
-.floating-pill--data  { bottom: -12px; right: 8px; }
+.floating-pill--ai    { top: -10px; left: 8px; }
+.floating-pill--cloud { top: -10px; right: 8px; }
+.floating-pill--cyber { bottom: -10px; left: 8px; }
+.floating-pill--data  { bottom: -10px; right: 8px; }
 
 /* ── SVG Animations ── */
 .shield-pulse       { animation: shieldPulse 3s infinite alternate; }
@@ -605,22 +605,22 @@ document.addEventListener("DOMContentLoaded", () => {
   100% { cx: 320; opacity: 0; }
 }
 
-/* ── Statistics Row (48–56px Numbers Scale) ── */
+/* ── Statistics Row (Compact Scale) ── */
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 16px;
   width: 100%;
-  margin-top: 32px; /* Trust row -> Statistics: 32px */
+  margin-top: 24px;
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding-top: 24px;
+  padding-top: 18px;
 }
 
 .stat-card {
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.05);
-  border-radius: 16px;
-  padding: 16px 20px;
+  border-radius: 12px;
+  padding: 12px 16px;
   display: flex;
   flex-direction: column;
 }
@@ -632,39 +632,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .stat-count {
   font-family: 'Poppins', sans-serif;
-  font-size: 52px; /* Statistics numbers: 48-56px */
+  font-size: 40px; /* Reduced digit scale */
   font-weight: 800;
   color: var(--white);
   line-height: 1.0;
 }
 
 .stat-suffix {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--primary-purple);
   margin-left: 2px;
 }
 
 .stat-label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: #94a3b8;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
-/* ── Responsive Grid Breakpoints ── */
+/* ── Responsive ── */
 @media (max-width: 1199px) {
-  .hero-heading { font-size: 56px; }
-  .hero-description { font-size: 18px; }
-  .hero-grid { grid-template-columns: 55% 45%; gap: 36px; }
+  .hero-heading { font-size: 44px; }
+  .hero-description { font-size: 16px; }
+  .hero-grid { grid-template-columns: 55% 45%; gap: 32px; }
 }
 
 @media (max-width: 991px) {
   .hero-section {
     min-height: auto;
-    padding-top: 120px;
+    max-height: none;
+    padding-top: 110px;
     padding-bottom: 40px;
   }
 
@@ -675,10 +676,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 32px;
   }
 
-  .hero-heading { font-size: 48px; }
+  .hero-heading { font-size: 38px; }
 
   .hero-stats {
     grid-template-columns: repeat(2, 1fr);
@@ -691,8 +692,8 @@ document.addEventListener("DOMContentLoaded", () => {
     padding-right: 16px;
   }
 
-  .hero-heading { font-size: 38px; }
-  .hero-description { font-size: 16px; }
+  .hero-heading { font-size: 32px; }
+  .hero-description { font-size: 14px; }
 
   .hero-ctas {
     flex-direction: column;
