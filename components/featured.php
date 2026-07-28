@@ -17,8 +17,16 @@
       <!-- Project 1: Aura IoT (Image Left) -->
       <div class="featured-row" data-aos="fade-up">
         <div class="featured-media">
-          <div class="media-container glass-panel">
-            <img src="assets/images/project_aura_iot.png" alt="Aura IoT Mining Telemetry Project Mockup">
+          <div class="browser-mockup glass-panel">
+            <div class="browser-mockup-header">
+              <span class="browser-dot red"></span>
+              <span class="browser-dot yellow"></span>
+              <span class="browser-dot green"></span>
+              <span class="browser-mockup-title">Aura IoT Telemetry Dashboard</span>
+            </div>
+            <div class="mockup-img-wrapper">
+              <img src="assets/images/project_aura_iot.png" alt="Aura IoT Mining Telemetry Project Mockup" class="case-img">
+            </div>
           </div>
         </div>
         <div class="featured-info">
@@ -59,8 +67,16 @@
       <!-- Project 2: MedAI (Image Right) -->
       <div class="featured-row reverse" data-aos="fade-up">
         <div class="featured-media">
-          <div class="media-container glass-panel">
-            <img src="assets/images/project_medai.png" alt="MedAI Diagnostic Imaging Platform Mockup">
+          <div class="browser-mockup glass-panel">
+            <div class="browser-mockup-header">
+              <span class="browser-dot red"></span>
+              <span class="browser-dot yellow"></span>
+              <span class="browser-dot green"></span>
+              <span class="browser-mockup-title">MedAI Diagnostic pathology Portal</span>
+            </div>
+            <div class="mockup-img-wrapper">
+              <img src="assets/images/project_medai.png" alt="MedAI Diagnostic Imaging Platform Mockup" class="case-img">
+            </div>
           </div>
         </div>
         <div class="featured-info">
@@ -101,8 +117,16 @@
       <!-- Project 3: LedgerHub (Image Left) -->
       <div class="featured-row" data-aos="fade-up">
         <div class="featured-media">
-          <div class="media-container glass-panel">
-            <img src="assets/images/project_ledgerhub.png" alt="LedgerHub Transaction Tracker Mockup">
+          <div class="browser-mockup glass-panel">
+            <div class="browser-mockup-header">
+              <span class="browser-dot red"></span>
+              <span class="browser-dot yellow"></span>
+              <span class="browser-dot green"></span>
+              <span class="browser-mockup-title">LedgerHub Transaction reconciliator</span>
+            </div>
+            <div class="mockup-img-wrapper">
+              <img src="assets/images/project_ledgerhub.png" alt="LedgerHub Transaction Tracker Mockup" class="case-img">
+            </div>
           </div>
         </div>
         <div class="featured-info">
@@ -156,19 +180,19 @@
 .featured-list {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 120px;
   margin-top: 64px;
 }
 
 .featured-row {
   display: grid;
-  grid-template-cols: 1.1fr 0.9fr;
-  gap: 80px;
+  grid-template-cols: 0.95fr 1.05fr;
+  gap: 60px;
   align-items: center;
 }
 
 .featured-row.reverse {
-  grid-template-cols: 0.9fr 1.1fr;
+  grid-template-cols: 1.05fr 0.95fr;
 }
 
 .featured-row.reverse .featured-media {
@@ -180,30 +204,74 @@
   grid-row: 1;
 }
 
-/* Media Mockup Container */
+/* Browser Mockup wrapper */
 .featured-media {
   width: 100%;
 }
 
-.media-container {
-  padding: 16px;
+.browser-mockup {
   background-color: rgba(248, 250, 252, 0.4);
-  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border-color);
   border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   transition: transform var(--transition-slow);
 }
 
-.media-container img {
+.browser-mockup-header {
+  background-color: rgba(8, 19, 39, 0.03);
+  border-bottom: 1px solid var(--border-color);
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.browser-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.browser-dot.red { background-color: #EF4444; }
+.browser-dot.yellow { background-color: #F59E0B; }
+.browser-dot.green { background-color: #10B981; }
+
+.browser-mockup-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--muted-text);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.mockup-img-wrapper {
   width: 100%;
-  height: auto;
-  border-radius: 16px;
-  box-shadow: var(--shadow-sm);
+  height: 300px;
+  overflow: hidden;
+  background-color: #030811;
+  display: flex;
+  align-items: flex-start;
+}
+
+.case-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
   transition: transform var(--transition-slow);
 }
 
-.featured-row:hover .media-container img {
-  transform: scale(1.02);
+.featured-row:hover .case-img {
+  transform: scale(1.03);
 }
 
 /* Info styling */
@@ -250,16 +318,16 @@
 }
 
 .featured-info h3 {
-  font-size: clamp(22px, 2.2vw, 32px);
+  font-size: clamp(20px, 2vw, 28px);
   font-weight: 800;
   color: var(--dark-navy);
   margin-bottom: 16px;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .project-summary {
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.65;
   color: var(--secondary-text);
   margin-bottom: 32px;
 }
@@ -299,7 +367,7 @@
 
 .metric-val {
   font-family: var(--font-heading);
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 800;
 }
 
@@ -312,9 +380,10 @@
   padding: 12px 28px;
   font-weight: 600;
   color: var(--dark-navy);
-  border-color: var(--border-color);
+  border: 1px solid var(--border-color);
   box-shadow: var(--shadow-sm);
   background-color: var(--white);
+  transition: all var(--transition-fast);
 }
 
 .featured-info .btn-outline:hover {
