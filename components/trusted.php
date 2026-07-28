@@ -1,19 +1,19 @@
-<!-- Trusted By Section (Floating Glassmorphic Capsule layout) -->
-<section class="trusted-section">
+<!-- Trusted By Section (Infinite Logo Ticker Slider) -->
+<section class="trusted-section" aria-label="Our Trusted Enterprise Clients">
   <div class="container">
-    <div class="trusted-card">
+    <div class="trusted-card glass-panel-dark">
       
-      <!-- Section Mini Header with pulse indicator -->
+      <!-- Mini header with live status pulse -->
       <div class="trusted-header">
         <span class="trusted-pulse"></span>
-        <p class="trusted-title">Trusted by innovative enterprises globally</p>
+        <p class="trusted-title">TRUSTED BY INNOVATIVE ENTERPRISES GLOBALLY</p>
       </div>
       
       <!-- Infinite Horizontal Scrolling Logo Marquee -->
       <div class="logo-marquee-wrapper">
         <div class="logo-marquee-track">
           
-          <!-- Mock Client Logos with Brand Colors on Hover -->
+          <!-- Mock Client Logos (Set 1) -->
           <div class="client-logo logo-atlassian">
             <i class="fa-brands fa-atlassian"></i> <span>Atlassian</span>
           </div>
@@ -24,7 +24,7 @@
             <i class="fa-brands fa-stripe"></i> <span>Stripe</span>
           </div>
           <div class="client-logo logo-canva">
-            <i class="fa-brands fa-canva"></i> <span>Canva</span>
+            <i class="fa-solid fa-compass-drafting"></i> <span>Canva</span>
           </div>
           <div class="client-logo logo-salesforce">
             <i class="fa-brands fa-salesforce"></i> <span>Salesforce</span>
@@ -34,9 +34,18 @@
           </div>
           <div class="client-logo logo-digitalocean">
             <i class="fa-brands fa-digital-ocean"></i> <span>DigitalOcean</span>
+          </div>
+          <div class="client-logo logo-microsoft">
+            <i class="fa-brands fa-microsoft"></i> <span>Microsoft</span>
+          </div>
+          <div class="client-logo logo-google">
+            <i class="fa-brands fa-google"></i> <span>Google Cloud</span>
+          </div>
+          <div class="client-logo logo-hubspot">
+            <i class="fa-brands fa-hubspot"></i> <span>HubSpot</span>
           </div>
           
-          <!-- Repeated for seamless loop -->
+          <!-- Mock Client Logos (Set 2 for seamless ticker loops) -->
           <div class="client-logo logo-atlassian">
             <i class="fa-brands fa-atlassian"></i> <span>Atlassian</span>
           </div>
@@ -47,7 +56,7 @@
             <i class="fa-brands fa-stripe"></i> <span>Stripe</span>
           </div>
           <div class="client-logo logo-canva">
-            <i class="fa-brands fa-canva"></i> <span>Canva</span>
+            <i class="fa-solid fa-compass-drafting"></i> <span>Canva</span>
           </div>
           <div class="client-logo logo-salesforce">
             <i class="fa-brands fa-salesforce"></i> <span>Salesforce</span>
@@ -57,6 +66,15 @@
           </div>
           <div class="client-logo logo-digitalocean">
             <i class="fa-brands fa-digital-ocean"></i> <span>DigitalOcean</span>
+          </div>
+          <div class="client-logo logo-microsoft">
+            <i class="fa-brands fa-microsoft"></i> <span>Microsoft</span>
+          </div>
+          <div class="client-logo logo-google">
+            <i class="fa-brands fa-google"></i> <span>Google Cloud</span>
+          </div>
+          <div class="client-logo logo-hubspot">
+            <i class="fa-brands fa-hubspot"></i> <span>HubSpot</span>
           </div>
 
         </div>
@@ -66,25 +84,25 @@
   </div>
 </section>
 
-<!-- CSS specifically for Trusted component structure -->
+<!-- CSS specifically for Trusted Marquee component -->
 <style>
 .trusted-section {
   position: relative;
   z-index: 10;
-  margin-top: -50px; /* Overlap bottom of Hero section */
-  margin-bottom: 50px;
+  margin-top: -36px; /* Sits slightly on top of bottom hero stats */
+  margin-bottom: 60px;
   padding: 0;
   overflow: visible;
 }
 
 .trusted-card {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(106, 27, 255, 0.08);
-  border-radius: 32px;
-  padding: 32px 40px;
-  box-shadow: 0 20px 40px rgba(8, 22, 61, 0.04), 0 1px 3px rgba(8, 22, 61, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  padding: 24px 32px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
 }
 
 .trusted-header {
@@ -92,23 +110,29 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .trusted-pulse {
   width: 6px;
   height: 6px;
-  background-color: var(--primary-purple);
+  background-color: #10B981;
   border-radius: 50%;
-  animation: pulseGlow 1.8s infinite;
+  animation: pulseGlowGreen 1.8s infinite;
+}
+
+@keyframes pulseGlowGreen {
+  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.5); }
+  70% { transform: scale(1.1); box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
 }
 
 .trusted-title {
-  font-size: 0.75rem;
+  font-size: 0.6875rem;
   font-weight: 700;
-  color: var(--secondary-text);
+  color: #94a3b8;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.15em;
   margin: 0;
   text-align: center;
 }
@@ -125,7 +149,7 @@
   content: "";
   position: absolute;
   top: 0;
-  width: 80px;
+  width: 100px;
   height: 100%;
   z-index: 5;
   pointer-events: none;
@@ -133,81 +157,72 @@
 
 .logo-marquee-wrapper::before {
   left: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.9), transparent);
+  background: linear-gradient(to right, #081327, transparent);
 }
 
 .logo-marquee-wrapper::after {
   right: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0.9), transparent);
+  background: linear-gradient(to left, #081327, transparent);
 }
 
 .logo-marquee-track {
   display: flex;
-  gap: 24px;
+  gap: 20px;
   width: max-content;
   align-items: center;
-  animation: infiniteScroll 30s linear infinite;
+  animation: infiniteScroll 25s linear infinite;
 }
 
 .client-logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   background: var(--white);
-  border: 1px solid var(--border-color);
-  padding: 10px 24px;
-  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 12px;
   font-family: var(--font-body);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.875rem;
+  color: var(--secondary-text);
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-normal);
   cursor: pointer;
+  filter: grayscale(1) opacity(0.55);
 }
 
-.client-logo i {
-  font-size: 1.25rem;
-  transition: transform var(--transition-fast) ease;
-}
-
-/* Interactive Brand Hover states */
+/* Hover effects */
 .client-logo:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+  filter: grayscale(0) opacity(1);
 }
 
-.client-logo:hover i {
-  transform: scale(1.1);
+/* Individual Brand Custom colors (hover states) */
+.logo-atlassian:hover { border-color: #0052CC; color: #0052CC; }
+.logo-aws:hover { border-color: #FF9900; color: #FF9900; }
+.logo-stripe:hover { border-color: #635BFF; color: #635BFF; }
+.logo-canva:hover { border-color: #00C4CC; color: #00C4CC; }
+.logo-salesforce:hover { border-color: #00A1E0; color: #00A1E0; }
+.logo-paypal:hover { border-color: #003087; color: #003087; }
+.logo-digitalocean:hover { border-color: #0080FF; color: #0080FF; }
+.logo-microsoft:hover { border-color: #F25022; color: #F25022; }
+.logo-google:hover { border-color: #4285F4; color: #4285F4; }
+.logo-hubspot:hover { border-color: #FF7A59; color: #FF7A59; }
+
+@keyframes infiniteScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
-/* Permanent Brand Colors & Subtle Borders */
-.logo-atlassian { border-color: rgba(0, 82, 204, 0.12); color: #0052CC !important; }
-.logo-aws { border-color: rgba(255, 153, 0, 0.12); color: #FF9900 !important; }
-.logo-stripe { border-color: rgba(99, 91, 255, 0.12); color: #635BFF !important; }
-.logo-canva { border-color: rgba(0, 196, 204, 0.12); color: #00C4CC !important; }
-.logo-salesforce { border-color: rgba(0, 161, 224, 0.12); color: #00A1E0 !important; }
-.logo-paypal { border-color: rgba(0, 48, 135, 0.12); color: #003087 !important; }
-.logo-digitalocean { border-color: rgba(0, 128, 255, 0.12); color: #0080FF !important; }
-
-/* Interactive Hover Background enhancements */
-.logo-atlassian:hover { border-color: #0052CC; background-color: rgba(0, 82, 204, 0.04); }
-.logo-aws:hover { border-color: #FF9900; background-color: rgba(255, 153, 0, 0.04); }
-.logo-stripe:hover { border-color: #635BFF; background-color: rgba(99, 91, 255, 0.04); }
-.logo-canva:hover { border-color: #00C4CC; background-color: rgba(0, 196, 204, 0.04); }
-.logo-salesforce:hover { border-color: #00A1E0; background-color: rgba(0, 161, 224, 0.04); }
-.logo-paypal:hover { border-color: #003087; background-color: rgba(0, 48, 135, 0.04); }
-.logo-digitalocean:hover { border-color: #0080FF; background-color: rgba(0, 128, 255, 0.04); }
-
-/* Responsive adjustments */
 @media (max-width: 767px) {
   .trusted-section {
-    margin-top: -30px;
-    margin-bottom: 30px;
+    margin-top: -24px;
+    margin-bottom: 40px;
   }
   
   .trusted-card {
-    padding: 24px 20px;
-    border-radius: 24px;
+    padding: 16px 20px;
   }
   
   .logo-marquee-wrapper::before,
