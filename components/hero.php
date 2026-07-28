@@ -123,12 +123,13 @@
 <style>
 .hero-section {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 750px;
   display: flex;
   align-items: center;
   background-color: var(--dark-navy);
   overflow: hidden;
-  padding: 120px 0 60px 0;
+  padding: 88px 0 0 0;
   box-sizing: border-box;
 }
 
@@ -489,7 +490,9 @@
 /* Responsive adjustments */
 @media (max-width: 991px) {
   .hero-section {
-    padding: 100px 0 60px 0;
+    height: auto;
+    min-height: auto;
+    padding: 120px 0 60px 0;
   }
 
   .hero-container {
