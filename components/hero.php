@@ -123,13 +123,12 @@
 <style>
 .hero-section {
   position: relative;
-  height: 100vh;
-  min-height: 750px;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   background-color: var(--dark-navy);
   overflow: hidden;
-  padding: 88px 0 0 0;
+  padding: 160px 0 80px 0;
   box-sizing: border-box;
 }
 

@@ -226,12 +226,12 @@ img {
   max-width: 1400px;
   height: 80px;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(109, 40, 255, 0.15); /* Transparent Purple */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(109, 40, 255, 0.08);
+  border: 1px solid rgba(109, 40, 255, 0.25);
   border-radius: 100px; /* Capsule shape */
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 8px 32px rgba(109, 40, 255, 0.15);
   display: flex;
   align-items: center;
   transition: all var(--transition-normal);
@@ -240,9 +240,9 @@ img {
 .site-header.scrolled {
   top: 12px;
   width: calc(100% - 24px);
-  background: rgba(255, 255, 255, 0.88);
-  box-shadow: var(--shadow-xl);
-  border-color: rgba(109, 40, 255, 0.12);
+  background: rgba(109, 40, 255, 0.25);
+  box-shadow: 0 12px 40px rgba(109, 40, 255, 0.25);
+  border-color: rgba(109, 40, 255, 0.4);
 }
 
 .header-container {
@@ -287,15 +287,15 @@ img {
   gap: 4px;
   font-size: 14px;
   font-weight: 600;
-  color: var(--secondary-text);
+  color: rgba(255, 255, 255, 0.85); /* Light text for dark purple background */
   padding: 10px 14px;
   border-radius: 100px;
   transition: all var(--transition-fast);
 }
 
 .nav-link:hover {
-  color: var(--primary-purple);
-  background-color: rgba(109, 40, 255, 0.05);
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 .nav-link i {
@@ -390,7 +390,7 @@ img {
 .search-btn {
   background: none;
   border: none;
-  color: var(--secondary-text);
+  color: rgba(255, 255, 255, 0.85);
   font-size: 1.1rem;
   cursor: pointer;
   padding: 8px;
@@ -399,22 +399,22 @@ img {
 }
 
 .search-btn:hover {
-  color: var(--primary-purple);
-  background-color: rgba(109, 40, 255, 0.05);
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 .btn-signin {
   font-size: 14px;
   font-weight: 600;
-  color: var(--secondary-text);
+  color: rgba(255, 255, 255, 0.85);
   padding: 10px 16px;
   border-radius: 100px;
   transition: all var(--transition-fast);
 }
 
 .btn-signin:hover {
-  color: var(--primary-purple);
-  background-color: rgba(109, 40, 255, 0.05);
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 .header-ctas .btn-primary {
