@@ -55,13 +55,11 @@
 }
 
 .trusted-card {
-  background: rgba(255,255,255,0.02);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.05);
+  background: #081327;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 24px;
   padding: 24px 32px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .trusted-header {
@@ -102,7 +100,7 @@
   overflow: hidden;
 }
 
-/* Gradient fade edges */
+/* Gradient fade edges matching #081327 card background */
 .logo-marquee-wrapper::before,
 .logo-marquee-wrapper::after {
   content: "";
@@ -116,12 +114,12 @@
 
 .logo-marquee-wrapper::before {
   left: 0;
-  background: linear-gradient(to right, rgba(8,22,61,0.85), transparent);
+  background: linear-gradient(to right, #081327 20%, transparent 100%);
 }
 
 .logo-marquee-wrapper::after {
   right: 0;
-  background: linear-gradient(to left, rgba(8,22,61,0.85), transparent);
+  background: linear-gradient(to left, #081327 20%, transparent 100%);
 }
 
 .logo-marquee-track {
