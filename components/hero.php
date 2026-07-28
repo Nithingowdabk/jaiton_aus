@@ -1,4 +1,4 @@
-<!-- Hero Section (92vh locked screen layout) -->
+<!-- Hero Section (90vh enterprise layout) -->
 <section id="hero" class="hero-section">
   
   <!-- Background Ambient Video & Mesh overlay -->
@@ -13,7 +13,8 @@
   <div class="hero-glow blue"></div>
   <div class="hero-grid-mesh"></div>
 
-  <div class="container hero-container-wrapper">
+  <!-- Hero Container (Max-width 1440px, padding 64px) -->
+  <div class="hero-container-wrapper">
     <div class="hero-grid-two-column">
       
       <!-- Left Column: Context copy & CTAs (55%) -->
@@ -28,7 +29,7 @@
           Helping Australian organisations modernise operations through AI, Cloud Engineering, Enterprise Software, Data Platforms, Cybersecurity and Intelligent Automation.
         </p>
         
-        <!-- CTA Action Buttons -->
+        <!-- CTA Action Buttons (56px high) -->
         <div class="hero-action-ctas">
           <a href="#contact" class="btn btn-primary btn-magnetic">Book Strategy Session <i class="fa-solid fa-calendar-check"></i></a>
           <a href="#why-jaiton" class="btn btn-secondary btn-magnetic">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
@@ -59,45 +60,86 @@
         </div>
       </div>
 
-      <!-- Right Column: Interactive Composition (45%) -->
+      <!-- Right Column: Premium Enterprise AI Dashboard Illustration (45%) -->
       <div class="hero-visual-col" data-aos="fade-left" data-aos-duration="800">
         <div class="visual-interactive-canvas">
           
-          <!-- Central Interactive Grid Mockup Panel -->
+          <!-- Large Enterprise AI Dashboard Card (Fills entire right side) -->
           <div class="canvas-mockup-panel glass-panel-dark">
             <div class="mockup-header">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
-              <span class="mockup-path">transform.jaiton.com.au</span>
+              <div class="mockup-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="mockup-path"><i class="fa-solid fa-shield-halved"></i> enterprise-ai.jaiton.com.au</span>
+              <span class="live-badge"><span class="live-dot"></span> LIVE METRICS</span>
             </div>
-            <div class="mockup-body">
-              <svg viewBox="0 0 400 240" class="canvas-svg">
-                <!-- Glowing Cybersecurity Shield -->
-                <path d="M200,30 C225,30 245,38 245,38 C245,38 245,100 200,135 C155,100 155,38 155,38 C155,38 175,30 200,30 Z" fill="rgba(16, 185, 129, 0.05)" stroke="#10B981" stroke-width="2" class="shield-pulse" />
-                <text x="200" y="85" fill="#fff" font-size="8" font-weight="bold" text-anchor="middle">SECUREGATE</text>
 
-                <!-- Cloud Infrastructure block -->
-                <rect x="30" y="65" width="80" height="35" rx="5" fill="rgba(59, 130, 246, 0.08)" stroke="#3B82F6" stroke-width="1.5" />
-                <text x="70" y="86" fill="#cbd5e1" font-size="8" text-anchor="middle">AWS CLOUD</text>
-                <circle cx="45" cy="83" r="3" fill="#3B82F6" class="pulse-node" />
+            <div class="mockup-dashboard-grid">
+              <!-- Top Metrics Cards Row -->
+              <div class="dashboard-mini-metrics">
+                <div class="mini-metric-card">
+                  <span class="mini-lbl">AI Model Throughput</span>
+                  <span class="mini-val text-purple">1.2M req/sec</span>
+                </div>
+                <div class="mini-metric-card">
+                  <span class="mini-lbl">System Latency</span>
+                  <span class="mini-val text-green">1.4 ms</span>
+                </div>
+                <div class="mini-metric-card">
+                  <span class="mini-lbl">Security Shield</span>
+                  <span class="mini-val text-blue">ISO 27001 ACTIVE</span>
+                </div>
+              </div>
 
-                <!-- AI Neural Node block -->
-                <rect x="290" y="65" width="80" height="35" rx="5" fill="rgba(109, 40, 255, 0.08)" stroke="#6D28FF" stroke-width="1.5" />
-                <text x="330" y="86" fill="#cbd5e1" font-size="8" text-anchor="middle">COGNITIVE AI</text>
-                <circle cx="305" cy="83" r="3" fill="#a275ff" class="pulse-node" />
+              <!-- Main SVG Vector Illustration Canvas -->
+              <div class="dashboard-svg-wrapper">
+                <svg viewBox="0 0 520 260" class="canvas-svg">
+                  <defs>
+                    <linearGradient id="ai-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.25"/>
+                      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.05"/>
+                    </linearGradient>
+                  </defs>
 
-                <!-- Active connector lines -->
-                <line x1="110" y1="82" x2="155" y2="82" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="3 3" />
-                <line x1="245" y1="82" x2="290" y2="82" stroke="rgba(255,255,255,0.1)" stroke-width="1" stroke-dasharray="3 3" />
+                  <!-- Central Network Grid Overlay -->
+                  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+                    <line x1="60" y1="0" x2="60" y2="260" />
+                    <line x1="180" y1="0" x2="180" y2="260" />
+                    <line x1="300" y1="0" x2="300" y2="260" />
+                    <line x1="420" y1="0" x2="420" y2="260" />
+                  </g>
 
-                <!-- Moving particles along paths -->
-                <circle cx="110" cy="82" r="2" fill="#3B82F6" class="particle-flow-right" />
-                <circle cx="290" cy="82" r="2" fill="#a275ff" class="particle-flow-left" />
+                  <!-- Cybersecurity Shield Icon Center -->
+                  <path d="M260,35 C295,35 320,45 320,45 C320,45 320,120 260,165 C200,120 200,45 200,45 C200,45 225,35 260,35 Z" fill="rgba(16, 185, 129, 0.06)" stroke="#10B981" stroke-width="2.5" class="shield-pulse" />
+                  <text x="260" y="95" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ENTERPRISE CORE</text>
+                  <text x="260" y="112" fill="#10B981" font-size="8" font-weight="600" text-anchor="middle">ENCRYPTED</text>
 
-                <!-- Real-time Chart path drawing -->
-                <path d="M 40,195 Q 140,165 240,185 T 360,160" fill="none" stroke="#6D28FF" stroke-width="1.5" class="chart-draw-line" />
-              </svg>
+                  <!-- Cloud Infrastructure Node -->
+                  <rect x="40" y="70" width="100" height="45" rx="8" fill="url(#ai-glow)" stroke="#3B82F6" stroke-width="1.5" />
+                  <text x="90" y="93" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
+                  <text x="90" y="106" fill="#cbd5e1" font-size="7" text-anchor="middle">CLUSTER STABLE</text>
+                  <circle cx="55" cy="92" r="3" fill="#3B82F6" class="pulse-node" />
+
+                  <!-- Cognitive AI Tensor Node -->
+                  <rect x="380" y="70" width="100" height="45" rx="8" fill="url(#ai-glow)" stroke="#6D28FF" stroke-width="1.5" />
+                  <text x="430" y="93" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
+                  <text x="430" y="106" fill="#a275ff" font-size="7" text-anchor="middle">NEURAL AGENTS</text>
+                  <circle cx="395" cy="92" r="3" fill="#a275ff" class="pulse-node" />
+
+                  <!-- Active Connector Lines & Signals -->
+                  <line x1="140" y1="92" x2="200" y2="92" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4" />
+                  <line x1="320" y1="92" x2="380" y2="92" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4" />
+
+                  <!-- Flowing Data Particles -->
+                  <circle cx="140" cy="92" r="2.5" fill="#3B82F6" class="particle-flow-right" />
+                  <circle cx="380" cy="92" r="2.5" fill="#a275ff" class="particle-flow-left" />
+
+                  <!-- Real-time Chart Path Animation -->
+                  <path d="M 40,220 Q 160,180 260,205 T 480,175" fill="none" stroke="#6D28FF" stroke-width="2" class="chart-draw-line" />
+                </svg>
+              </div>
             </div>
           </div>
 
@@ -124,7 +166,7 @@
 
     </div>
 
-    <!-- Bottom Horizontal Statistics Row (4 Glass cards) -->
+    <!-- Bottom Horizontal Statistics Glass Row (All 4 metrics in horizontal row) -->
     <div class="hero-stats-horizontal" data-aos="fade-up" data-aos-delay="200">
       <div class="stat-glass-card glass-panel-dark">
         <div class="stat-digit-row">
@@ -192,23 +234,24 @@ document.addEventListener("DOMContentLoaded", () => {
       onEnter: countStats
     });
   } else {
-    // Fallback trigger
     setTimeout(countStats, 500);
   }
 });
 </script>
 
-<!-- CSS Specifically for Refined Hero Component -->
+<!-- CSS Specifically for Enterprise Scaled Hero Component -->
 <style>
 .hero-section {
   position: relative;
-  height: 92vh;
-  min-height: 820px;
+  height: 90vh;
+  min-height: 850px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: var(--dark-navy);
   overflow: hidden;
-  padding: 110px 0 30px 0; /* Padding offsets fixed header */
+  padding-top: 148px; /* Header height (88px) + 60px padding = 148px */
+  padding-bottom: 40px;
   box-sizing: border-box;
 }
 
@@ -221,7 +264,7 @@ document.addEventListener("DOMContentLoaded", () => {
   height: 100%;
   z-index: 1;
   overflow: hidden;
-  opacity: 0.22; /* Constrained opacity */
+  opacity: 0.22;
 }
 
 .hero-bg-video {
@@ -268,17 +311,23 @@ document.addEventListener("DOMContentLoaded", () => {
 .hero-glow.purple { top: -10%; right: 10%; background-color: var(--primary-purple); }
 .hero-glow.blue { bottom: -10%; left: 10%; background-color: var(--electric-blue); }
 
+/* Exact Hero Container Specification */
 .hero-container-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 64px;
+  padding-right: 64px;
   position: relative;
   z-index: 5;
-  width: 100%;
+  box-sizing: border-box;
 }
 
-/* Two-Column Grid Setup */
+/* Two-Column Grid Setup: Left 55%, Right 45% */
 .hero-grid-two-column {
   display: grid;
-  grid-template-cols: 1.1fr 0.9fr; /* 55% to 45% proportions */
-  gap: 60px;
+  grid-template-cols: 55% 45%;
+  gap: 48px;
   align-items: center;
   width: 100%;
 }
@@ -295,7 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 100px;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 700;
   color: var(--white);
   margin-bottom: 24px;
@@ -305,7 +354,7 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #10B981;
 }
 
-/* Poppins Heading Override */
+/* Poppins Heading Specification */
 .hero-headline {
   font-family: 'Poppins', sans-serif;
   font-size: 72px;
@@ -313,7 +362,7 @@ document.addEventListener("DOMContentLoaded", () => {
   line-height: 1.1;
   color: var(--white);
   max-width: 700px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   letter-spacing: -0.02em;
 }
 
@@ -326,24 +375,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .hero-support {
   font-size: 22px;
-  line-height: 1.7;
-  color: #cbd5e1; /* Increased contrast slate */
+  line-height: 1.65;
+  color: #cbd5e1;
   max-width: 620px;
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 }
 
-/* CTA buttons with 56px heights */
+/* CTA buttons: 56px high */
 .hero-action-ctas {
   display: flex;
   gap: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
 .hero-action-ctas .btn {
   height: 56px;
-  padding: 0 32px;
+  padding: 0 36px;
   border-radius: 16px;
-  font-size: 0.9rem;
+  font-size: 16px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -376,7 +425,7 @@ document.addEventListener("DOMContentLoaded", () => {
   transform: translateY(-2px);
 }
 
-/* Trust Indicators Row below CTAs */
+/* Trust Indicators Row */
 .hero-trust-row {
   display: flex;
   flex-wrap: wrap;
@@ -398,12 +447,12 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .trust-lbl {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 600;
   color: #94a3b8;
 }
 
-/* Right Column Visual composition */
+/* Right Column Visual composition - Premium Enterprise Dashboard */
 .hero-visual-col {
   display: flex;
   align-items: center;
@@ -414,36 +463,45 @@ document.addEventListener("DOMContentLoaded", () => {
 .visual-interactive-canvas {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 480px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Central interactive dashboard mockup */
+/* Large Enterprise AI Dashboard Card (Fills entire right side) */
 .canvas-mockup-panel {
-  background-color: rgba(3, 8, 17, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: var(--radius-lg);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-  padding: 16px;
-  width: 90%;
-  max-width: 380px;
+  background-color: rgba(3, 8, 17, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   z-index: 5;
 }
 
 .mockup-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.mockup-dots {
+  display: flex;
   gap: 6px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  padding-bottom: 10px;
-  margin-bottom: 10px;
 }
 
 .mockup-header .dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
 }
 
@@ -452,10 +510,81 @@ document.addEventListener("DOMContentLoaded", () => {
 .mockup-header .dot.green { background-color: #10B981; }
 
 .mockup-path {
-  font-size: 0.55rem;
+  font-size: 0.7rem;
   color: #cbd5e1;
   font-family: monospace;
-  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.live-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.625rem;
+  font-weight: 800;
+  color: #10B981;
+  background-color: rgba(16, 185, 129, 0.1);
+  padding: 4px 10px;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+.live-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #10B981;
+  border-radius: 50%;
+  animation: pulseGlow 1.8s infinite;
+}
+
+.dashboard-mockup-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.dashboard-mini-metrics {
+  display: grid;
+  grid-template-cols: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.mini-metric-card {
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mini-lbl {
+  font-size: 0.625rem;
+  color: #94a3b8;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.mini-val {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.mini-val.text-purple { color: #a275ff; }
+.mini-val.text-green { color: #10B981; }
+.mini-val.text-blue { color: #3B82F6; }
+
+.dashboard-svg-wrapper {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
 }
 
 .canvas-svg {
@@ -469,14 +598,14 @@ document.addEventListener("DOMContentLoaded", () => {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: rgba(8, 19, 39, 0.6);
+  background: rgba(8, 19, 39, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 10px 18px;
   border-radius: 100px;
   color: var(--white);
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   box-shadow: var(--shadow-lg);
   z-index: 10;
@@ -484,19 +613,19 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .floating-tech-pill:hover {
-  border-color: rgba(109, 40, 255, 0.35);
+  border-color: rgba(109, 40, 255, 0.4);
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(109, 40, 255, 0.2);
+  box-shadow: 0 0 20px rgba(109, 40, 255, 0.3);
 }
 
 .pill-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  font-size: 0.65rem;
+  font-size: 0.75rem;
 }
 
 .pill-icon.bg-purple { background-color: rgba(109, 40, 255, 0.2); color: #a275ff; }
@@ -504,11 +633,10 @@ document.addEventListener("DOMContentLoaded", () => {
 .pill-icon.bg-green { background-color: rgba(16, 185, 129, 0.2); color: #10B981; }
 .pill-icon.bg-cyan { background-color: rgba(6, 182, 212, 0.2); color: var(--cyan); }
 
-/* Floating locations placement */
-.pill-ai { top: 10%; left: 0; }
-.pill-cloud { top: 5%; right: 0; }
-.pill-cyber { bottom: 15%; left: -5%; }
-.pill-data { bottom: 10%; right: -2%; }
+.pill-ai { top: -4%; left: -4%; }
+.pill-cloud { top: -2%; right: -4%; }
+.pill-cyber { bottom: 8%; left: -6%; }
+.pill-data { bottom: 6%; right: -4%; }
 
 /* SVG Flow Animations */
 .shield-pulse { animation: shieldPulse 3s infinite alternate; }
@@ -516,15 +644,15 @@ document.addEventListener("DOMContentLoaded", () => {
 .particle-flow-left { animation: flowLeft 2.5s infinite linear; }
 
 @keyframes flowRight {
-  0% { cx: 110; cy: 82; opacity: 1; }
-  90% { cx: 155; cy: 82; opacity: 1; }
-  100% { cx: 155; cy: 82; opacity: 0; }
+  0% { cx: 140; cy: 92; opacity: 1; }
+  90% { cx: 200; cy: 92; opacity: 1; }
+  100% { cx: 200; cy: 92; opacity: 0; }
 }
 
 @keyframes flowLeft {
-  0% { cx: 290; cy: 82; opacity: 1; }
-  90% { cx: 245; cy: 82; opacity: 1; }
-  100% { cx: 245; cy: 82; opacity: 0; }
+  0% { cx: 380; cy: 92; opacity: 1; }
+  90% { cx: 320; cy: 92; opacity: 1; }
+  100% { cx: 320; cy: 92; opacity: 0; }
 }
 
 /* Horizontal Statistics Row */
@@ -533,16 +661,16 @@ document.addEventListener("DOMContentLoaded", () => {
   grid-template-cols: repeat(4, 1fr);
   gap: 24px;
   width: 100%;
-  margin-top: 54px;
+  margin-top: 36px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
-  padding-top: 36px;
+  padding-top: 28px;
 }
 
 .stat-glass-card {
   background: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 16px;
-  padding: 20px 24px;
+  padding: 18px 24px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -579,7 +707,10 @@ document.addEventListener("DOMContentLoaded", () => {
 /* Responsive grid adjustments */
 @media (max-width: 1199px) {
   .hero-headline {
-    font-size: 60px;
+    font-size: 58px;
+  }
+  .hero-support {
+    font-size: 18px;
   }
 }
 
@@ -587,7 +718,13 @@ document.addEventListener("DOMContentLoaded", () => {
   .hero-section {
     height: auto;
     min-height: auto;
-    padding: 140px 0 60px 0;
+    padding-top: 140px;
+    padding-bottom: 60px;
+  }
+
+  .hero-container-wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .hero-grid-two-column {
@@ -603,15 +740,20 @@ document.addEventListener("DOMContentLoaded", () => {
   .hero-stats-horizontal {
     grid-template-cols: repeat(2, 1fr);
   }
-
-  .floating-tech-pill {
-    padding: 6px 12px;
-  }
 }
 
 @media (max-width: 767px) {
+  .hero-container-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   .hero-headline {
     font-size: 42px;
+  }
+
+  .hero-support {
+    font-size: 16px;
   }
 
   .hero-action-ctas {
