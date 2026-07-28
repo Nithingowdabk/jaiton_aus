@@ -135,37 +135,51 @@
   align-items: center;
   gap: 10px;
   background: var(--white);
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 10px 20px;
   border-radius: 12px;
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 0.875rem;
-  color: var(--secondary-text);
-  box-shadow: var(--shadow-sm);
+  color: var(--primary-text);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   transition: all var(--transition-normal);
   cursor: pointer;
-  filter: grayscale(1) opacity(0.55);
   flex-shrink: 0;
 }
 
-.client-logo:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-  filter: grayscale(0) opacity(1);
+.client-logo i {
+  font-size: 1.1rem;
 }
 
-/* Brand hover colors */
-.logo-atlassian:hover   { border-color: #0052CC; color: #0052CC; }
-.logo-aws:hover         { border-color: #FF9900; color: #FF9900; }
-.logo-stripe:hover      { border-color: #635BFF; color: #635BFF; }
-.logo-canva:hover       { border-color: #00C4CC; color: #00C4CC; }
-.logo-salesforce:hover  { border-color: #00A1E0; color: #00A1E0; }
-.logo-paypal:hover      { border-color: #003087; color: #003087; }
-.logo-digitalocean:hover{ border-color: #0080FF; color: #0080FF; }
-.logo-microsoft:hover   { border-color: #F25022; color: #F25022; }
-.logo-google:hover      { border-color: #4285F4; color: #4285F4; }
-.logo-hubspot:hover     { border-color: #FF7A59; color: #FF7A59; }
+.client-logo:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Authentic Brand Icon Colors (Default Visible) */
+.logo-atlassian i   { color: #0052CC; }
+.logo-aws i         { color: #FF9900; }
+.logo-stripe i      { color: #635BFF; }
+.logo-canva i       { color: #00C4CC; }
+.logo-salesforce i  { color: #00A1E0; }
+.logo-paypal i      { color: #003087; }
+.logo-digitalocean i{ color: #0080FF; }
+.logo-microsoft i   { color: #F25022; }
+.logo-google i      { color: #4285F4; }
+.logo-hubspot i     { color: #FF7A59; }
+
+/* Brand Hover Borders */
+.logo-atlassian:hover   { border-color: #0052CC; }
+.logo-aws:hover         { border-color: #FF9900; }
+.logo-stripe:hover      { border-color: #635BFF; }
+.logo-canva:hover       { border-color: #00C4CC; }
+.logo-salesforce:hover  { border-color: #00A1E0; }
+.logo-paypal:hover      { border-color: #003087; }
+.logo-digitalocean:hover{ border-color: #0080FF; }
+.logo-microsoft:hover   { border-color: #F25022; }
+.logo-google:hover      { border-color: #4285F4; }
+.logo-hubspot:hover     { border-color: #FF7A59; }
 
 @media (max-width: 991px) {
   .trusted-section {
