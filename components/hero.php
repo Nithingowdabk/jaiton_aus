@@ -1,9 +1,9 @@
 <!-- ============================================================
-     HERO SECTION – Enterprise Layout (Single Viewport Fit)
+     HERO SECTION – Enterprise Bold Standard (Full Scale Typography)
      ============================================================ -->
 <section id="hero" class="hero-section">
   
-  <!-- Background Layers (absolute-positioned decorations only) -->
+  <!-- Background Layers -->
   <div class="hero-bg-layers">
     <div class="hero-video-container">
       <video autoplay loop muted playsinline class="hero-bg-video">
@@ -16,11 +16,11 @@
     <div class="hero-glow hero-glow--blue"></div>
   </div>
 
-  <!-- Hero Content Container -->
-  <div class="container hero-inner">
-    <div class="hero-columns">
+  <!-- Hero Container (Max-width 1440px, padding 48px) -->
+  <div class="hero-container">
+    <div class="hero-grid">
       
-      <!-- LEFT COLUMN (55%) – Copy, CTAs, Trust -->
+      <!-- LEFT COLUMN (58%) – Full Bold Enterprise Copy & 56px CTAs -->
       <div class="hero-left" data-aos="fade-up" data-aos-duration="600">
         <span class="hero-badge">
           <i class="fa-solid fa-circle-check"></i> Australian Enterprise Technology Partner
@@ -34,13 +34,13 @@
           Helping Australian organisations modernise operations through AI, Cloud Engineering, Enterprise Software, Data Platforms, Cybersecurity and Intelligent Automation.
         </p>
         
-        <!-- CTA Buttons -->
+        <!-- CTA Action Buttons (56px Height) -->
         <div class="hero-ctas">
           <a href="#contact" class="btn btn-primary btn-magnetic">Book Strategy Session <i class="fa-solid fa-calendar-check"></i></a>
           <a href="#why-jaiton" class="btn btn-secondary btn-magnetic">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
         </div>
 
-        <!-- Trust Indicators -->
+        <!-- Trust Indicators (18–20px Checkmark Icons) -->
         <div class="hero-trust">
           <div class="trust-item"><span class="trust-icon">✔</span><span>Australian Quality Standards</span></div>
           <div class="trust-item"><span class="trust-icon">✔</span><span>Enterprise Security</span></div>
@@ -50,11 +50,11 @@
         </div>
       </div>
 
-      <!-- RIGHT COLUMN (45%) – Enterprise Dashboard Illustration -->
+      <!-- RIGHT COLUMN (42%) – Adapted Enterprise AI Dashboard Illustration -->
       <div class="hero-right" data-aos="fade-left" data-aos-duration="800">
         <div class="hero-dashboard">
           
-          <!-- Dashboard Card -->
+          <!-- Dashboard Panel -->
           <div class="dashboard-panel">
             <div class="dashboard-toolbar">
               <div class="toolbar-dots">
@@ -66,7 +66,7 @@
               <span class="toolbar-live"><span class="toolbar-live-dot"></span> LIVE</span>
             </div>
 
-            <!-- Mini Metric Row -->
+            <!-- Mini Metrics Row -->
             <div class="dashboard-metrics">
               <div class="metric-chip">
                 <span class="metric-label">AI Throughput</span>
@@ -82,9 +82,9 @@
               </div>
             </div>
 
-            <!-- SVG Illustration -->
+            <!-- SVG Diagram -->
             <div class="dashboard-canvas">
-              <svg viewBox="0 0 520 200" class="dashboard-svg" aria-hidden="true">
+              <svg viewBox="0 0 520 180" class="dashboard-svg" aria-hidden="true">
                 <defs>
                   <linearGradient id="hero-ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.25"/>
@@ -92,46 +92,46 @@
                   </linearGradient>
                 </defs>
 
-                <!-- Vertical grid lines -->
+                <!-- Grid lines -->
                 <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
-                  <line x1="60" y1="0" x2="60" y2="200"/>
-                  <line x1="180" y1="0" x2="180" y2="200"/>
-                  <line x1="300" y1="0" x2="300" y2="200"/>
-                  <line x1="420" y1="0" x2="420" y2="200"/>
+                  <line x1="60" y1="0" x2="60" y2="180"/>
+                  <line x1="180" y1="0" x2="180" y2="180"/>
+                  <line x1="300" y1="0" x2="300" y2="180"/>
+                  <line x1="420" y1="0" x2="420" y2="180"/>
                 </g>
 
                 <!-- Shield -->
-                <path d="M260,15 C295,15 320,25 320,25 C320,25 320,95 260,135 C200,95 200,25 200,25 C200,25 225,15 260,15 Z" fill="rgba(16,185,129,0.06)" stroke="#10B981" stroke-width="2" class="shield-pulse"/>
-                <text x="260" y="68" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ENTERPRISE CORE</text>
-                <text x="260" y="85" fill="#10B981" font-size="8" font-weight="600" text-anchor="middle">ENCRYPTED</text>
+                <path d="M260,12 C295,12 320,22 320,22 C320,22 320,85 260,122 C200,85 200,22 200,22 C200,22 225,12 260,12 Z" fill="rgba(16,185,129,0.06)" stroke="#10B981" stroke-width="2" class="shield-pulse"/>
+                <text x="260" y="60" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ENTERPRISE CORE</text>
+                <text x="260" y="75" fill="#10B981" font-size="8" font-weight="600" text-anchor="middle">ENCRYPTED</text>
 
                 <!-- Cloud Node -->
-                <rect x="40" y="50" width="100" height="42" rx="8" fill="url(#hero-ai-grad)" stroke="#3B82F6" stroke-width="1.5"/>
-                <text x="90" y="72" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
-                <text x="90" y="84" fill="#cbd5e1" font-size="7" text-anchor="middle">CLUSTER STABLE</text>
-                <circle cx="55" cy="71" r="3" fill="#3B82F6" class="pulse-node"/>
+                <rect x="40" y="44" width="100" height="40" rx="8" fill="url(#hero-ai-grad)" stroke="#3B82F6" stroke-width="1.5"/>
+                <text x="90" y="64" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
+                <text x="90" y="76" fill="#cbd5e1" font-size="7" text-anchor="middle">CLUSTER STABLE</text>
+                <circle cx="55" cy="64" r="3" fill="#3B82F6" class="pulse-node"/>
 
                 <!-- AI Node -->
-                <rect x="380" y="50" width="100" height="42" rx="8" fill="url(#hero-ai-grad)" stroke="#6D28FF" stroke-width="1.5"/>
-                <text x="430" y="72" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
-                <text x="430" y="84" fill="#a275ff" font-size="7" text-anchor="middle">NEURAL AGENTS</text>
-                <circle cx="395" cy="71" r="3" fill="#a275ff" class="pulse-node"/>
+                <rect x="380" y="44" width="100" height="40" rx="8" fill="url(#hero-ai-grad)" stroke="#6D28FF" stroke-width="1.5"/>
+                <text x="430" y="64" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
+                <text x="430" y="76" fill="#a275ff" font-size="7" text-anchor="middle">NEURAL AGENTS</text>
+                <circle cx="395" cy="64" r="3" fill="#a275ff" class="pulse-node"/>
 
-                <!-- Connector Lines -->
-                <line x1="140" y1="71" x2="200" y2="71" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
-                <line x1="320" y1="71" x2="380" y2="71" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <!-- Connectors -->
+                <line x1="140" y1="64" x2="200" y2="64" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <line x1="320" y1="64" x2="380" y2="64" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
 
-                <!-- Particles -->
-                <circle cx="140" cy="71" r="2.5" fill="#3B82F6" class="particle-flow-right"/>
-                <circle cx="380" cy="71" r="2.5" fill="#a275ff" class="particle-flow-left"/>
+                <!-- Flow Particles -->
+                <circle cx="140" cy="64" r="2.5" fill="#3B82F6" class="particle-flow-right"/>
+                <circle cx="380" cy="64" r="2.5" fill="#a275ff" class="particle-flow-left"/>
 
-                <!-- Chart Line -->
-                <path d="M 40,175 Q 160,140 260,160 T 480,135" fill="none" stroke="#6D28FF" stroke-width="2" class="chart-draw-line"/>
+                <!-- Chart -->
+                <path d="M 40,158 Q 160,128 260,145 T 480,122" fill="none" stroke="#6D28FF" stroke-width="2" class="chart-draw-line"/>
               </svg>
             </div>
           </div>
 
-          <!-- Floating Tech Pills (contained inside dashboard area) -->
+          <!-- Service Glass Pills (16px font-size) -->
           <div class="floating-pill floating-pill--ai">
             <div class="pill-dot pill-dot--purple"><i class="fa-solid fa-brain"></i></div>
             <span>Artificial Intelligence</span>
@@ -154,7 +154,7 @@
 
     </div>
 
-    <!-- Statistics Row – 4 equal compact glass cards -->
+    <!-- Statistics Row (48–56px Digit Scale) -->
     <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
       <div class="stat-card">
         <div class="stat-number-row">
@@ -224,20 +224,19 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <!-- ============================================================
-     HERO SCOPED STYLES (Single Viewport Constrained)
+     HERO SCOPED STYLES (No Scaling / Bold Enterprise Standard)
      ============================================================ -->
 <style>
 /* ── Section Shell ── */
 .hero-section {
   position: relative;
   min-height: calc(100vh - 20px);
-  max-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--dark-navy);
-  padding-top: 115px;   /* 88px header height + 27px top spacing */
-  padding-bottom: 20px;
+  padding-top: 128px;   /* Header top clearance: 88px navbar + 40px padding */
+  padding-bottom: 24px;
   box-sizing: border-box;
 }
 
@@ -289,26 +288,28 @@ document.addEventListener("DOMContentLoaded", () => {
 .hero-glow--purple { top: -10%; right: 10%; background: var(--primary-purple); }
 .hero-glow--blue   { bottom: -10%; left: 10%; background: var(--electric-blue); }
 
-/* ── Content Container ── */
-.hero-inner {
-  position: relative;
-  z-index: 5;
+/* ── Hero Container (1440px Max Width, 48px Padding) ── */
+.hero-container {
+  max-width: 1440px;
+  width: 100%;
   padding-left: 48px;
   padding-right: 48px;
-  width: 100%;
   margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  box-sizing: border-box;
 }
 
-/* ── Two-Column Grid ── */
-.hero-columns {
+/* ── Hero Grid (58% Left / 42% Right, 48px Gap) ── */
+.hero-grid {
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 58% 42%;
   gap: 48px;
   align-items: center;
   width: 100%;
 }
 
-/* ── Left Column ── */
+/* ── Left Column Copy ── */
 .hero-left {
   text-align: left;
 }
@@ -317,27 +318,27 @@ document.addEventListener("DOMContentLoaded", () => {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 6px 14px;
+  padding: 6px 16px;
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 100px;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 700;
   color: var(--white);
-  margin-bottom: 20px; /* Badge -> Heading: 20px */
+  margin-bottom: 16px; /* Badge -> Heading: 16px */
 }
 
 .hero-badge i { color: #10B981; }
 
+/* Bold Full-Size Enterprise Heading (72px Desktop) */
 .hero-heading {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(38px, 3.8vw, 64px);
+  font-size: 72px;
   font-weight: 700;
   line-height: 1.05;
   color: var(--white);
   letter-spacing: -0.02em;
   margin-bottom: 20px; /* Heading -> Description: 20px */
-  max-width: 680px;
 }
 
 .gradient-text {
@@ -348,26 +349,27 @@ document.addEventListener("DOMContentLoaded", () => {
   display: inline;
 }
 
+/* Full-Size Description (22px Desktop) */
 .hero-description {
-  font-size: clamp(15px, 1.2vw, 19px);
-  line-height: 1.5;
+  font-size: 22px;
+  line-height: 1.6;
   color: #cbd5e1;
-  max-width: 580px;
+  max-width: 660px;
   margin-bottom: 28px; /* Description -> Buttons: 28px */
 }
 
-/* ── CTA Buttons ── */
+/* Full-Size CTA Buttons (56px Height) */
 .hero-ctas {
   display: flex;
-  gap: 16px;
-  margin-bottom: 28px; /* Buttons -> Trust Row: 28px */
+  gap: 20px;
+  margin-bottom: 28px; /* Buttons -> Trust row: 28px */
 }
 
 .hero-ctas .btn {
-  height: 50px;
-  padding: 0 30px;
-  border-radius: 14px;
-  font-size: 15px;
+  height: 56px;
+  padding: 0 36px;
+  border-radius: 16px;
+  font-size: 16px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -399,34 +401,34 @@ document.addEventListener("DOMContentLoaded", () => {
   transform: translateY(-2px);
 }
 
-/* ── Trust Row ── */
+/* Trust Indicators (18–20px Checkmarks) */
 .hero-trust {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 18px;
+  gap: 12px 20px;
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding-top: 20px;
+  padding-top: 24px;
 }
 
 .trust-item {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .trust-icon {
   color: #10B981;
   font-weight: 800;
-  font-size: 0.8125rem;
+  font-size: 19px; /* Trust icons: 18-20px */
 }
 
 .trust-item span:last-child {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: #94a3b8;
 }
 
-/* ── Right Column – Dashboard Illustration ── */
+/* ── Right Column – Adapted Dashboard Illustration ── */
 .hero-right {
   width: 100%;
 }
@@ -439,13 +441,13 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-panel {
   background: rgba(3,8,17,0.7);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 16px;
+  border-radius: 18px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.45);
   padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-height: 380px;
+  max-height: 330px; /* Reduced by 10-15% */
 }
 
 .dashboard-toolbar {
@@ -456,7 +458,7 @@ document.addEventListener("DOMContentLoaded", () => {
   padding-bottom: 8px;
 }
 
-.toolbar-dots { display: flex; gap: 5px; }
+.toolbar-dots { display: flex; gap: 6px; }
 
 .toolbar-dots .dot {
   width: 7px;
@@ -469,7 +471,7 @@ document.addEventListener("DOMContentLoaded", () => {
 .dot--green  { background: #10B981; }
 
 .toolbar-url {
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   color: #cbd5e1;
   font-family: monospace;
   display: flex;
@@ -480,12 +482,12 @@ document.addEventListener("DOMContentLoaded", () => {
 .toolbar-live {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   font-size: 0.6rem;
   font-weight: 800;
   color: #10B981;
   background: rgba(16,185,129,0.1);
-  padding: 3px 8px;
+  padding: 4px 8px;
   border-radius: 4px;
   letter-spacing: 0.05em;
 }
@@ -498,7 +500,6 @@ document.addEventListener("DOMContentLoaded", () => {
   animation: pulseGlow 1.8s infinite;
 }
 
-/* ── Dashboard Metrics ── */
 .dashboard-metrics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -525,7 +526,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .metric-value {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 800;
 }
 
@@ -536,20 +537,20 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-canvas { width: 100%; }
 .dashboard-svg { width: 100%; height: auto; display: block; }
 
-/* ── Floating Pills ── */
+/* Service Glass Pills (16px Font Size) */
 .floating-pill {
   position: absolute;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   background: rgba(8,19,39,0.75);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255,255,255,0.12);
-  padding: 6px 14px;
+  padding: 8px 16px;
   border-radius: 100px;
   color: var(--white);
-  font-size: 0.75rem;
+  font-size: 16px; /* Service pills: 16px */
   font-weight: 700;
   box-shadow: var(--shadow-lg);
   z-index: 6;
@@ -559,17 +560,17 @@ document.addEventListener("DOMContentLoaded", () => {
 .floating-pill:hover {
   border-color: rgba(109,40,255,0.4);
   transform: scale(1.04);
-  box-shadow: 0 0 16px rgba(109,40,255,0.3);
+  box-shadow: 0 0 18px rgba(109,40,255,0.3);
 }
 
 .pill-dot {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
 }
 
 .pill-dot--purple { background: rgba(109,40,255,0.2); color: #a275ff; }
@@ -577,10 +578,10 @@ document.addEventListener("DOMContentLoaded", () => {
 .pill-dot--green  { background: rgba(16,185,129,0.2); color: #10B981; }
 .pill-dot--cyan   { background: rgba(6,182,212,0.2); color: var(--cyan); }
 
-.floating-pill--ai    { top: -10px; left: 8px; }
-.floating-pill--cloud { top: -10px; right: 8px; }
-.floating-pill--cyber { bottom: -10px; left: 8px; }
-.floating-pill--data  { bottom: -10px; right: 8px; }
+.floating-pill--ai    { top: -12px; left: 8px; }
+.floating-pill--cloud { top: -12px; right: 8px; }
+.floating-pill--cyber { bottom: -12px; left: 8px; }
+.floating-pill--data  { bottom: -12px; right: 8px; }
 
 /* ── SVG Animations ── */
 .shield-pulse       { animation: shieldPulse 3s infinite alternate; }
@@ -604,22 +605,22 @@ document.addEventListener("DOMContentLoaded", () => {
   100% { cx: 320; opacity: 0; }
 }
 
-/* ── Statistics Row (Compact Glass Cards) ── */
+/* ── Statistics Row (48–56px Numbers Scale) ── */
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 20px;
   width: 100%;
-  margin-top: 32px;
+  margin-top: 32px; /* Trust row -> Statistics: 32px */
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding-top: 20px;
+  padding-top: 24px;
 }
 
 .stat-card {
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.05);
-  border-radius: 12px;
-  padding: 14px 18px;
+  border-radius: 16px;
+  padding: 16px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -631,53 +632,53 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .stat-count {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.75rem;
+  font-size: 52px; /* Statistics numbers: 48-56px */
   font-weight: 800;
   color: var(--white);
+  line-height: 1.0;
 }
 
 .stat-suffix {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--primary-purple);
   margin-left: 2px;
 }
 
 .stat-label {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #94a3b8;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: 2px;
+  margin-top: 4px;
 }
 
-/* ── Responsive ── */
+/* ── Responsive Grid Breakpoints ── */
 @media (max-width: 1199px) {
-  .hero-heading { font-size: 48px; }
-  .hero-description { font-size: 16px; }
-  .hero-columns { gap: 36px; }
+  .hero-heading { font-size: 56px; }
+  .hero-description { font-size: 18px; }
+  .hero-grid { grid-template-columns: 55% 45%; gap: 36px; }
 }
 
 @media (max-width: 991px) {
   .hero-section {
     min-height: auto;
-    max-height: none;
-    padding-top: 110px;
+    padding-top: 120px;
     padding-bottom: 40px;
   }
 
-  .hero-inner {
+  .hero-container {
     padding-left: 24px;
     padding-right: 24px;
   }
 
-  .hero-columns {
+  .hero-grid {
     grid-template-columns: 1fr;
     gap: 36px;
   }
 
-  .hero-heading { font-size: 42px; }
+  .hero-heading { font-size: 48px; }
 
   .hero-stats {
     grid-template-columns: repeat(2, 1fr);
@@ -685,13 +686,13 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 @media (max-width: 767px) {
-  .hero-inner {
+  .hero-container {
     padding-left: 16px;
     padding-right: 16px;
   }
 
-  .hero-heading { font-size: 34px; }
-  .hero-description { font-size: 15px; }
+  .hero-heading { font-size: 38px; }
+  .hero-description { font-size: 16px; }
 
   .hero-ctas {
     flex-direction: column;
