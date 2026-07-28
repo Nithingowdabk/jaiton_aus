@@ -160,28 +160,30 @@
 /* Card layout */
 .testimonial-card {
   display: grid;
-  grid-template-cols: 0.8fr 1.2fr;
-  gap: 48px;
+  grid-template-columns: 220px 1fr;
+  gap: 36px;
   background-color: var(--white);
   border-radius: var(--radius-lg);
   border: 1px solid var(--border-color);
   box-shadow: var(--shadow-sm);
-  padding: 40px;
+  padding: 28px 36px;
   align-items: center;
   box-sizing: border-box;
 }
 
 /* Visual Mock side */
 .test-visual-side {
-  width: 100%;
+  width: 220px;
+  flex-shrink: 0;
 }
 
 .video-mock-container {
   position: relative;
-  border-radius: 16px;
+  width: 220px;
+  height: 160px;
+  border-radius: 14px;
   overflow: hidden;
-  aspect-ratio: 1.2;
-  box-shadow: var(--shadow-lg);
+  box-shadow: var(--shadow-md);
   cursor: pointer;
 }
 
@@ -203,9 +205,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 8px;
   color: var(--white);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: 700;
   opacity: 0.9;
   transition: opacity var(--transition-fast);
@@ -215,12 +217,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
   background-color: var(--primary-purple);
   color: var(--white);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.5);
   animation: playPulse 2s infinite;
 }
