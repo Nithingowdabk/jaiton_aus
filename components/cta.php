@@ -6,9 +6,6 @@
   <div class="container">
     <div class="cta-content-wrapper" data-aos="zoom-in">
       <h2 class="cta-title">Ready to Build Your Next Digital Product?</h2>
-      <p class="cta-desc">
-        Accelerate digital transformation with premium Australian quality standards, strict security frameworks, and a dedicated team of elite software developers.
-      </p>
       
       <div class="cta-buttons">
         <a href="#contact" class="btn btn-secondary ripple-btn px-32 py-16">Book Strategy Call <i class="fa-solid fa-calendar-check text-purple"></i></a>
