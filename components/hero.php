@@ -1,5 +1,5 @@
 <!-- ============================================================
-     HERO SECTION – Enterprise Layout (Clean Document Flow)
+     HERO SECTION – Enterprise Layout (Single Viewport Fit)
      ============================================================ -->
 <section id="hero" class="hero-section">
   
@@ -16,7 +16,7 @@
     <div class="hero-glow hero-glow--blue"></div>
   </div>
 
-  <!-- Hero Content Container (uses shared .container with override padding) -->
+  <!-- Hero Content Container -->
   <div class="container hero-inner">
     <div class="hero-columns">
       
@@ -34,7 +34,7 @@
           Helping Australian organisations modernise operations through AI, Cloud Engineering, Enterprise Software, Data Platforms, Cybersecurity and Intelligent Automation.
         </p>
         
-        <!-- CTA Buttons (56px height) -->
+        <!-- CTA Buttons -->
         <div class="hero-ctas">
           <a href="#contact" class="btn btn-primary btn-magnetic">Book Strategy Session <i class="fa-solid fa-calendar-check"></i></a>
           <a href="#why-jaiton" class="btn btn-secondary btn-magnetic">Explore Solutions <i class="fa-solid fa-arrow-right"></i></a>
@@ -84,7 +84,7 @@
 
             <!-- SVG Illustration -->
             <div class="dashboard-canvas">
-              <svg viewBox="0 0 520 220" class="dashboard-svg" aria-hidden="true">
+              <svg viewBox="0 0 520 200" class="dashboard-svg" aria-hidden="true">
                 <defs>
                   <linearGradient id="hero-ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.25"/>
@@ -94,39 +94,39 @@
 
                 <!-- Vertical grid lines -->
                 <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
-                  <line x1="60" y1="0" x2="60" y2="220"/>
-                  <line x1="180" y1="0" x2="180" y2="220"/>
-                  <line x1="300" y1="0" x2="300" y2="220"/>
-                  <line x1="420" y1="0" x2="420" y2="220"/>
+                  <line x1="60" y1="0" x2="60" y2="200"/>
+                  <line x1="180" y1="0" x2="180" y2="200"/>
+                  <line x1="300" y1="0" x2="300" y2="200"/>
+                  <line x1="420" y1="0" x2="420" y2="200"/>
                 </g>
 
                 <!-- Shield -->
-                <path d="M260,20 C295,20 320,30 320,30 C320,30 320,100 260,140 C200,100 200,30 200,30 C200,30 225,20 260,20 Z" fill="rgba(16,185,129,0.06)" stroke="#10B981" stroke-width="2" class="shield-pulse"/>
-                <text x="260" y="75" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ENTERPRISE CORE</text>
-                <text x="260" y="92" fill="#10B981" font-size="8" font-weight="600" text-anchor="middle">ENCRYPTED</text>
+                <path d="M260,15 C295,15 320,25 320,25 C320,25 320,95 260,135 C200,95 200,25 200,25 C200,25 225,15 260,15 Z" fill="rgba(16,185,129,0.06)" stroke="#10B981" stroke-width="2" class="shield-pulse"/>
+                <text x="260" y="68" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">ENTERPRISE CORE</text>
+                <text x="260" y="85" fill="#10B981" font-size="8" font-weight="600" text-anchor="middle">ENCRYPTED</text>
 
                 <!-- Cloud Node -->
-                <rect x="40" y="55" width="100" height="45" rx="8" fill="url(#hero-ai-grad)" stroke="#3B82F6" stroke-width="1.5"/>
-                <text x="90" y="78" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
-                <text x="90" y="91" fill="#cbd5e1" font-size="7" text-anchor="middle">CLUSTER STABLE</text>
-                <circle cx="55" cy="77" r="3" fill="#3B82F6" class="pulse-node"/>
+                <rect x="40" y="50" width="100" height="42" rx="8" fill="url(#hero-ai-grad)" stroke="#3B82F6" stroke-width="1.5"/>
+                <text x="90" y="72" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
+                <text x="90" y="84" fill="#cbd5e1" font-size="7" text-anchor="middle">CLUSTER STABLE</text>
+                <circle cx="55" cy="71" r="3" fill="#3B82F6" class="pulse-node"/>
 
                 <!-- AI Node -->
-                <rect x="380" y="55" width="100" height="45" rx="8" fill="url(#hero-ai-grad)" stroke="#6D28FF" stroke-width="1.5"/>
-                <text x="430" y="78" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
-                <text x="430" y="91" fill="#a275ff" font-size="7" text-anchor="middle">NEURAL AGENTS</text>
-                <circle cx="395" cy="77" r="3" fill="#a275ff" class="pulse-node"/>
+                <rect x="380" y="50" width="100" height="42" rx="8" fill="url(#hero-ai-grad)" stroke="#6D28FF" stroke-width="1.5"/>
+                <text x="430" y="72" fill="#fff" font-size="9" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
+                <text x="430" y="84" fill="#a275ff" font-size="7" text-anchor="middle">NEURAL AGENTS</text>
+                <circle cx="395" cy="71" r="3" fill="#a275ff" class="pulse-node"/>
 
                 <!-- Connector Lines -->
-                <line x1="140" y1="77" x2="200" y2="77" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
-                <line x1="320" y1="77" x2="380" y2="77" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <line x1="140" y1="71" x2="200" y2="71" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
+                <line x1="320" y1="71" x2="380" y2="71" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
 
                 <!-- Particles -->
-                <circle cx="140" cy="77" r="2.5" fill="#3B82F6" class="particle-flow-right"/>
-                <circle cx="380" cy="77" r="2.5" fill="#a275ff" class="particle-flow-left"/>
+                <circle cx="140" cy="71" r="2.5" fill="#3B82F6" class="particle-flow-right"/>
+                <circle cx="380" cy="71" r="2.5" fill="#a275ff" class="particle-flow-left"/>
 
                 <!-- Chart Line -->
-                <path d="M 40,190 Q 160,155 260,175 T 480,150" fill="none" stroke="#6D28FF" stroke-width="2" class="chart-draw-line"/>
+                <path d="M 40,175 Q 160,140 260,160 T 480,135" fill="none" stroke="#6D28FF" stroke-width="2" class="chart-draw-line"/>
               </svg>
             </div>
           </div>
@@ -154,7 +154,7 @@
 
     </div>
 
-    <!-- Statistics Row – 4 equal glass cards -->
+    <!-- Statistics Row – 4 equal compact glass cards -->
     <div class="hero-stats" data-aos="fade-up" data-aos-delay="200">
       <div class="stat-card">
         <div class="stat-number-row">
@@ -224,28 +224,29 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <!-- ============================================================
-     HERO SCOPED STYLES
+     HERO SCOPED STYLES (Single Viewport Constrained)
      ============================================================ -->
 <style>
 /* ── Section Shell ── */
 .hero-section {
   position: relative;
-  min-height: 92vh;
+  min-height: calc(100vh - 20px);
+  max-height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background-color: var(--dark-navy);
-  /* No overflow:hidden — pills must be visible */
-  padding-top: 160px;   /* 88px header + 24px top offset + 48px breathing room */
-  padding-bottom: 100px;
+  padding-top: 115px;   /* 88px header height + 27px top spacing */
+  padding-bottom: 20px;
   box-sizing: border-box;
 }
 
-/* ── Background Layers (decoration only — all absolute) ── */
+/* ── Background Layers ── */
 .hero-bg-layers {
   position: absolute;
   inset: 0;
   z-index: 1;
-  overflow: hidden; /* contain backgrounds, not content */
+  overflow: hidden;
   pointer-events: none;
 }
 
@@ -278,10 +279,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .hero-glow {
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
-  filter: blur(160px);
+  filter: blur(140px);
   opacity: 0.2;
 }
 
@@ -292,15 +293,17 @@ document.addEventListener("DOMContentLoaded", () => {
 .hero-inner {
   position: relative;
   z-index: 5;
-  padding-left: 64px;   /* hero-specific wider padding */
-  padding-right: 64px;
+  padding-left: 48px;
+  padding-right: 48px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-/* ── Two-Column Grid (fr units — no overflow) ── */
+/* ── Two-Column Grid ── */
 .hero-columns {
   display: grid;
-  grid-template-columns: 11fr 9fr;  /* 55% / 45% without overflow */
-  gap: 80px;
+  grid-template-columns: 55% 45%;
+  gap: 48px;
   align-items: center;
   width: 100%;
 }
@@ -314,26 +317,27 @@ document.addEventListener("DOMContentLoaded", () => {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 8px 18px;
+  padding: 6px 14px;
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 100px;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   color: var(--white);
-  margin-bottom: 24px;
+  margin-bottom: 20px; /* Badge -> Heading: 20px */
 }
 
 .hero-badge i { color: #10B981; }
 
 .hero-heading {
   font-family: 'Poppins', sans-serif;
-  font-size: 72px;
+  font-size: clamp(38px, 3.8vw, 64px);
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.05;
   color: var(--white);
   letter-spacing: -0.02em;
-  margin-bottom: 24px;
+  margin-bottom: 20px; /* Heading -> Description: 20px */
+  max-width: 680px;
 }
 
 .gradient-text {
@@ -345,25 +349,25 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .hero-description {
-  font-size: 22px;
-  line-height: 1.65;
+  font-size: clamp(15px, 1.2vw, 19px);
+  line-height: 1.5;
   color: #cbd5e1;
-  max-width: 620px;
-  margin-bottom: 40px;
+  max-width: 580px;
+  margin-bottom: 28px; /* Description -> Buttons: 28px */
 }
 
 /* ── CTA Buttons ── */
 .hero-ctas {
   display: flex;
-  gap: 20px;
-  margin-bottom: 48px;
+  gap: 16px;
+  margin-bottom: 28px; /* Buttons -> Trust Row: 28px */
 }
 
 .hero-ctas .btn {
-  height: 56px;
-  padding: 0 36px;
-  border-radius: 16px;
-  font-size: 16px;
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 14px;
+  font-size: 15px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -399,9 +403,9 @@ document.addEventListener("DOMContentLoaded", () => {
 .hero-trust {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 20px;
+  gap: 10px 18px;
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding-top: 24px;
+  padding-top: 20px;
 }
 
 .trust-item {
@@ -413,16 +417,16 @@ document.addEventListener("DOMContentLoaded", () => {
 .trust-icon {
   color: #10B981;
   font-weight: 800;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
 }
 
 .trust-item span:last-child {
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #94a3b8;
 }
 
-/* ── Right Column – Dashboard ── */
+/* ── Right Column – Dashboard Illustration ── */
 .hero-right {
   width: 100%;
 }
@@ -435,12 +439,13 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-panel {
   background: rgba(3,8,17,0.7);
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 20px;
-  box-shadow: 0 24px 60px rgba(0,0,0,0.45);
-  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.45);
+  padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
+  max-height: 380px;
 }
 
 .dashboard-toolbar {
@@ -448,14 +453,14 @@ document.addEventListener("DOMContentLoaded", () => {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255,255,255,0.06);
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
-.toolbar-dots { display: flex; gap: 6px; }
+.toolbar-dots { display: flex; gap: 5px; }
 
 .toolbar-dots .dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
 }
 
@@ -464,7 +469,7 @@ document.addEventListener("DOMContentLoaded", () => {
 .dot--green  { background: #10B981; }
 
 .toolbar-url {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   color: #cbd5e1;
   font-family: monospace;
   display: flex;
@@ -475,19 +480,19 @@ document.addEventListener("DOMContentLoaded", () => {
 .toolbar-live {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.625rem;
+  gap: 5px;
+  font-size: 0.6rem;
   font-weight: 800;
   color: #10B981;
   background: rgba(16,185,129,0.1);
-  padding: 4px 10px;
+  padding: 3px 8px;
   border-radius: 4px;
   letter-spacing: 0.05em;
 }
 
 .toolbar-live-dot {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   background: #10B981;
   border-radius: 50%;
   animation: pulseGlow 1.8s infinite;
@@ -497,30 +502,30 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-metrics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 10px;
 }
 
 .metric-chip {
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.05);
-  border-radius: 10px;
-  padding: 10px 14px;
+  border-radius: 8px;
+  padding: 8px 12px;
   display: flex;
   flex-direction: column;
 }
 
 .metric-label {
-  font-size: 0.625rem;
+  font-size: 0.58rem;
   color: #94a3b8;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .metric-value {
   font-family: 'Poppins', sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.88rem;
   font-weight: 800;
 }
 
@@ -531,20 +536,20 @@ document.addEventListener("DOMContentLoaded", () => {
 .dashboard-canvas { width: 100%; }
 .dashboard-svg { width: 100%; height: auto; display: block; }
 
-/* ── Floating Pills (contained inside .hero-dashboard, positive offsets) ── */
+/* ── Floating Pills ── */
 .floating-pill {
   position: absolute;
   display: flex;
   align-items: center;
-  gap: 8px;
-  background: rgba(8,19,39,0.7);
+  gap: 6px;
+  background: rgba(8,19,39,0.75);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(255,255,255,0.12);
-  padding: 10px 18px;
+  padding: 6px 14px;
   border-radius: 100px;
   color: var(--white);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: 700;
   box-shadow: var(--shadow-lg);
   z-index: 6;
@@ -553,18 +558,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .floating-pill:hover {
   border-color: rgba(109,40,255,0.4);
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(109,40,255,0.3);
+  transform: scale(1.04);
+  box-shadow: 0 0 16px rgba(109,40,255,0.3);
 }
 
 .pill-dot {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 
 .pill-dot--purple { background: rgba(109,40,255,0.2); color: #a275ff; }
@@ -572,11 +577,10 @@ document.addEventListener("DOMContentLoaded", () => {
 .pill-dot--green  { background: rgba(16,185,129,0.2); color: #10B981; }
 .pill-dot--cyan   { background: rgba(6,182,212,0.2); color: var(--cyan); }
 
-/* Pill positions – all positive, contained inside .hero-dashboard */
-.floating-pill--ai    { top: -12px; left: 10px; }
-.floating-pill--cloud { top: -12px; right: 10px; }
-.floating-pill--cyber { bottom: -12px; left: 10px; }
-.floating-pill--data  { bottom: -12px; right: 10px; }
+.floating-pill--ai    { top: -10px; left: 8px; }
+.floating-pill--cloud { top: -10px; right: 8px; }
+.floating-pill--cyber { bottom: -10px; left: 8px; }
+.floating-pill--data  { bottom: -10px; right: 8px; }
 
 /* ── SVG Animations ── */
 .shield-pulse       { animation: shieldPulse 3s infinite alternate; }
@@ -600,22 +604,22 @@ document.addEventListener("DOMContentLoaded", () => {
   100% { cx: 320; opacity: 0; }
 }
 
-/* ── Statistics Row ── */
+/* ── Statistics Row (Compact Glass Cards) ── */
 .hero-stats {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 16px;
   width: 100%;
-  margin-top: 64px;
+  margin-top: 32px;
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding-top: 32px;
+  padding-top: 20px;
 }
 
 .stat-card {
   background: rgba(255,255,255,0.02);
   border: 1px solid rgba(255,255,255,0.05);
-  border-radius: 16px;
-  padding: 20px 24px;
+  border-radius: 12px;
+  padding: 14px 18px;
   display: flex;
   flex-direction: column;
 }
@@ -627,39 +631,40 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .stat-count {
   font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 800;
   color: var(--white);
 }
 
 .stat-suffix {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--primary-purple);
   margin-left: 2px;
 }
 
 .stat-label {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 600;
   color: #94a3b8;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 /* ── Responsive ── */
 @media (max-width: 1199px) {
-  .hero-heading  { font-size: 58px; }
-  .hero-description { font-size: 18px; }
-  .hero-columns  { gap: 48px; }
+  .hero-heading { font-size: 48px; }
+  .hero-description { font-size: 16px; }
+  .hero-columns { gap: 36px; }
 }
 
 @media (max-width: 991px) {
   .hero-section {
     min-height: auto;
-    padding-top: 120px;
-    padding-bottom: 60px;
+    max-height: none;
+    padding-top: 110px;
+    padding-bottom: 40px;
   }
 
   .hero-inner {
@@ -669,10 +674,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   .hero-columns {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 36px;
   }
 
-  .hero-heading { font-size: 48px; }
+  .hero-heading { font-size: 42px; }
 
   .hero-stats {
     grid-template-columns: repeat(2, 1fr);
@@ -685,8 +690,8 @@ document.addEventListener("DOMContentLoaded", () => {
     padding-right: 16px;
   }
 
-  .hero-heading { font-size: 38px; }
-  .hero-description { font-size: 16px; }
+  .hero-heading { font-size: 34px; }
+  .hero-description { font-size: 15px; }
 
   .hero-ctas {
     flex-direction: column;

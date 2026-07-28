@@ -50,8 +50,8 @@
 <style>
 /* ── Normal document flow — NO negative margins, NO z-index hacks ── */
 .trusted-section {
-  padding-top: 80px;    /* spacing after hero */
-  padding-bottom: 100px; /* spacing before next section */
+  padding-top: 40px;    /* peeks into fold below hero */
+  padding-bottom: 60px; /* spacing before next section */
 }
 
 .trusted-card {
