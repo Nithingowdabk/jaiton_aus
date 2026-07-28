@@ -6,28 +6,69 @@
   <div class="story-radial-light"></div>
   <div class="story-grid-overlay"></div>
   
-  <!-- Pinned Timeline Navigation (Left) -->
+  <!-- Persistent Section Header & Horizontal Counters Row (Fixed at top) -->
+  <div class="story-header-fixed">
+    <div class="story-header-content">
+      <div class="story-title-wrap">
+        <span class="section-badge">Case Studies</span>
+        <h2 class="section-title text-white">Featured <span class="gradient-text">Enterprise Transformations</span></h2>
+        <p class="section-desc text-slate-300">
+          See how Jaiton architects AI, cloud platforms, enterprise software, and automation systems that deliver measurable business outcomes.
+        </p>
+      </div>
+      
+      <!-- Horizontal Counters Row -->
+      <div class="header-counters-row">
+        <div class="header-counter-item">
+          <div class="counter-digits">
+            <span class="counter-num" data-target="120">0</span><span class="counter-suffix">+</span>
+          </div>
+          <span class="counter-lbl">Projects Delivered</span>
+        </div>
+        <div class="header-counter-item">
+          <div class="counter-digits">
+            <span class="counter-num" data-target="98">0</span><span class="counter-suffix">%</span>
+          </div>
+          <span class="counter-lbl">Client Satisfaction</span>
+        </div>
+        <div class="header-counter-item">
+          <div class="counter-digits">
+            <span class="counter-num" data-target="15">0</span><span class="counter-suffix">+</span>
+          </div>
+          <span class="counter-lbl">Industries Served</span>
+        </div>
+        <div class="header-counter-item">
+          <div class="counter-digits">
+            <span class="counter-suffix">$</span><span class="counter-num" data-target="25">0</span><span class="counter-suffix">M+</span>
+          </div>
+          <span class="counter-lbl">Business Value</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Pinned Expandable Project Navigator (Left) -->
   <div class="timeline-nav">
-    <div class="timeline-nav-title">TRANSFORMATIONS</div>
+    <div class="timeline-nav-title">PROJECTS</div>
     <div class="timeline-links">
-      <button class="nav-link-item active" data-slide="1">
-        <span class="nav-num">01</span>
+      <button class="nav-link-item active" data-slide="0">
+        <i class="fa-solid fa-cloud"></i>
         <span class="nav-label">Cloud Modernisation</span>
       </button>
-      <button class="nav-link-item" data-slide="2">
-        <span class="nav-num">02</span>
+      <button class="nav-link-item" data-slide="1">
+        <i class="fa-solid fa-brain"></i>
         <span class="nav-label">AI Platform</span>
       </button>
-      <button class="nav-link-item" data-slide="3">
-        <span class="nav-num">03</span>
+      <button class="nav-link-item" data-slide="2">
+        <i class="fa-solid fa-microchip"></i>
         <span class="nav-label">IoT Monitoring</span>
       </button>
-      <button class="nav-link-item" data-slide="4">
-        <span class="nav-num">04</span>
+      <button class="nav-link-item" data-slide="3">
+        <i class="fa-solid fa-diagram-project"></i>
         <span class="nav-label">Enterprise ERP</span>
       </button>
-      <button class="nav-link-item" data-slide="5">
-        <span class="nav-num">05</span>
+      <button class="nav-link-item" data-slide="4">
+        <i class="fa-solid fa-shield-halved"></i>
         <span class="nav-label">Cybersecurity</span>
       </button>
     </div>
@@ -36,62 +77,18 @@
   <!-- Horizontal Scroll Container -->
   <div class="story-slides-wrapper">
     
-    <!-- Slide 0: Intro Page (Intro / Statistics) -->
-    <div class="story-slide slide-intro">
-      <div class="slide-intro-content">
-        <span class="section-badge">Case Studies</span>
-        <h2 class="section-title text-white">Featured <span class="gradient-text">Enterprise Transformations</span></h2>
-        <p class="section-desc text-slate-300">
-          See how Jaiton architects AI, cloud platforms, enterprise software, and automation systems that deliver measurable business outcomes.
-        </p>
-
-        <!-- Stats Numbers Panel -->
-        <div class="intro-stats-grid">
-          <div class="intro-stat-card glass-panel-dark">
-            <div class="stat-num-row">
-              <span class="intro-stat-num text-gradient" data-target="120">0</span><span class="intro-stat-plus">+</span>
-            </div>
-            <span class="intro-stat-label">Projects Delivered</span>
-          </div>
-          <div class="intro-stat-card glass-panel-dark">
-            <div class="stat-num-row">
-              <span class="intro-stat-num text-gradient" data-target="98">0</span><span class="intro-stat-plus">%</span>
-            </div>
-            <span class="intro-stat-label">Client Satisfaction</span>
-          </div>
-          <div class="intro-stat-card glass-panel-dark">
-            <div class="stat-num-row">
-              <span class="intro-stat-num text-gradient" data-target="15">0</span><span class="intro-stat-plus">+</span>
-            </div>
-            <span class="intro-stat-label">Industries</span>
-          </div>
-          <div class="intro-stat-card glass-panel-dark">
-            <div class="stat-num-row">
-              <span class="intro-stat-plus">$</span><span class="intro-stat-num text-gradient" data-target="25">0</span><span class="intro-stat-plus">M+</span>
-            </div>
-            <span class="intro-stat-label">Business Value Generated</span>
-          </div>
-        </div>
-
-        <div class="scroll-prompt-indicator">
-          <span>Scroll to begin</span>
-          <i class="fa-solid fa-chevron-right scroll-arrow"></i>
-        </div>
-      </div>
-    </div>
-
     <!-- Slide 1: Cloud Modernisation -->
     <div class="story-slide" id="slide-story-1">
       <div class="slide-grid">
         
-        <!-- Left Side: Project details -->
+        <!-- Left Side: Project details (40% Viewport width) -->
         <div class="slide-info-side">
-          <span class="industry-badge"><i class="fa-solid fa-cloud"></i> Infrastructure</span>
-          <h3 class="slide-project-title">Aura IoT: Scalable Cloud Architecture</h3>
+          <span class="industry-badge"><i class="fa-solid fa-cloud"></i> Cloud Infrastructure</span>
+          <h3 class="slide-project-title">Aura IoT: Intelligent Telemetry Platform</h3>
           <p class="slide-project-desc">
-            <strong>The Challenge:</strong> Aura Mining's legacy on-prem servers struggled to process high-frequency telemetry logs, leading to frequent data gaps and downtime.<br><br>
-            <strong>The Solution:</strong> We migrated their core backend services into a redundant AWS ECS cluster, utilizing Docker microservices, zero-downtime APIs, and telemetry pipelines.<br><br>
-            <strong>The Outcome:</strong> Achieved absolute reliability across all quarry locations, completely resolving server processing blockages.
+            <strong>The Challenge:</strong> Remote drilling equipment faced constant data gaps due to unstable local server processing.<br><br>
+            <strong>The Solution:</strong> Migrated telemetry processors to AWS ECS Docker containers with low-latency API sockets.<br><br>
+            <strong>The Outcome:</strong> Achieved absolute operational coverage, completely eliminating processing bottleneck faults.
           </p>
 
           <!-- Glass Metrics cards -->
@@ -124,7 +121,7 @@
           </div>
         </div>
 
-        <!-- Right Side: Animated Dashboard -->
+        <!-- Right Side: Large Animated Dashboard (60% Viewport width) -->
         <div class="slide-visual-side">
           <div class="dashboard-canvas glass-panel-dark">
             <div class="canvas-header">
@@ -133,40 +130,40 @@
             </div>
             
             <!-- SVG Cloud Architecture Visual -->
-            <svg class="visual-svg" viewBox="0 0 500 350">
+            <svg class="visual-svg" viewBox="0 0 500 320">
               <defs>
-                <linearGradient id="cloud-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+                <linearGradient id="cloud-glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
                   <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.2"/>
                   <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.05"/>
                 </linearGradient>
               </defs>
 
               <!-- Central Cloud Server Node -->
-              <rect x="180" y="50" width="140" height="70" rx="10" fill="url(#cloud-glow)" stroke="#6D28FF" stroke-width="2" />
-              <text x="250" y="90" fill="#fff" font-size="12" font-weight="bold" text-anchor="middle">AWS ECS CLUSTER</text>
-              <circle cx="210" cy="70" r="4" fill="#10B981" class="pulse-node" />
+              <rect x="180" y="30" width="140" height="70" rx="10" fill="url(#cloud-glow-grad)" stroke="#6D28FF" stroke-width="2" />
+              <text x="250" y="70" fill="#fff" font-size="12" font-weight="bold" text-anchor="middle">AWS ECS CLUSTER</text>
+              <circle cx="210" cy="50" r="4" fill="#10B981" class="pulse-node" />
 
               <!-- Lower Containers -->
-              <g transform="translate(60, 220)">
+              <g transform="translate(60, 200)">
                 <rect x="0" y="0" width="90" height="45" rx="6" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
                 <text x="45" y="27" fill="#cbd5e1" font-size="10" text-anchor="middle">API Node 1</text>
                 <line x1="45" y1="0" x2="160" y2="-100" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="4 4" class="dash-flow-up" />
               </g>
 
-              <g transform="translate(200, 220)">
+              <g transform="translate(200, 200)">
                 <rect x="0" y="0" width="90" height="45" rx="6" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
                 <text x="45" y="27" fill="#cbd5e1" font-size="10" text-anchor="middle">DB Worker</text>
                 <line x1="45" y1="0" x2="50" y2="-100" stroke="#6D28FF" stroke-width="1.5" stroke-dasharray="4 4" class="dash-flow-up" />
               </g>
 
-              <g transform="translate(340, 220)">
+              <g transform="translate(340, 200)">
                 <rect x="0" y="0" width="90" height="45" rx="6" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
                 <text x="45" y="27" fill="#cbd5e1" font-size="10" text-anchor="middle">Telemetry</text>
                 <line x1="45" y1="0" x2="-60" y2="-100" stroke="#06B6D4" stroke-width="1.5" stroke-dasharray="4 4" class="dash-flow-up" />
               </g>
 
-              <!-- Running Graph Path (Bottom Chart overlay) -->
-              <path d="M 50,320 Q 150,290 250,310 T 450,280" fill="none" stroke="#10B981" stroke-width="2" class="chart-line-draw" />
+              <!-- Running Graph Path -->
+              <path d="M 50,290 Q 150,260 250,280 T 450,250" fill="none" stroke="#10B981" stroke-width="2" class="chart-line-draw" />
             </svg>
           </div>
         </div>
@@ -178,14 +175,14 @@
     <div class="story-slide" id="slide-story-2">
       <div class="slide-grid">
         
-        <!-- Left Side: Project details -->
+        <!-- Left Side -->
         <div class="slide-info-side">
           <span class="industry-badge"><i class="fa-solid fa-brain"></i> Artificial Intelligence</span>
-          <h3 class="slide-project-title">MedAI: Automatic Pathology Scanner</h3>
+          <h3 class="slide-project-title">MedAI: Pathology Image scanner</h3>
           <p class="slide-project-desc">
-            <strong>The Challenge:</strong> Radiology departments spent hours manually auditing path scans, bottlenecking critical diagnostic timelines.<br><br>
-            <strong>The Solution:</strong> Jaiton developed a deep learning Pathology scanning portal that flags structural anomalies automatically using high-throughput convolutional arrays.<br><br>
-            <strong>The Outcome:</strong> Reduced scan checking times to seconds with outstanding classification metrics.
+            <strong>The Challenge:</strong> Manual diagnostics created massive backlogs in pathology auditing timelines.<br><br>
+            <strong>The Solution:</strong> Deployed automated pathology vision scanners integrated with custom convolutional tensor structures.<br><br>
+            <strong>The Outcome:</strong> Reduced diagnostics from hours to 15 seconds, maximizing scanner clinical throughput.
           </p>
 
           <!-- Glass Metrics cards -->
@@ -218,41 +215,38 @@
           </div>
         </div>
 
-        <!-- Right Side: Animated Dashboard -->
+        <!-- Right Side -->
         <div class="slide-visual-side">
           <div class="dashboard-canvas glass-panel-dark">
             <div class="canvas-header">
-              <span class="canvas-title"><i class="fa-solid fa-microchip"></i> AI Path Neural Node Diagnostics</span>
+              <span class="canvas-title"><i class="fa-solid fa-microchip"></i> AI pathology Neural Diagnostics</span>
               <span class="canvas-status green">ACCURACY: 98.6%</span>
             </div>
             
             <!-- SVG AI Platform Neural Net -->
-            <svg class="visual-svg" viewBox="0 0 500 350">
-              <!-- Network Connections -->
+            <svg class="visual-svg" viewBox="0 0 500 320">
               <g stroke="rgba(109, 40, 255, 0.15)" stroke-width="1.5">
-                <line x1="80" y1="175" x2="200" y2="100" />
-                <line x1="80" y1="175" x2="200" y2="175" />
-                <line x1="80" y1="175" x2="200" y2="250" />
+                <line x1="80" y1="150" x2="200" y2="80" />
+                <line x1="80" y1="150" x2="200" y2="150" />
+                <line x1="80" y1="150" x2="200" y2="220" />
 
-                <line x1="200" y1="100" x2="380" y2="120" />
-                <line x1="200" y1="175" x2="380" y2="120" />
-                <line x1="200" y1="175" x2="380" y2="230" />
-                <line x1="200" y1="250" x2="380" y2="230" />
+                <line x1="200" y1="80" x2="380" y2="100" />
+                <line x1="200" y1="150" x2="380" y2="100" />
+                <line x1="200" y1="150" x2="380" y2="200" />
+                <line x1="200" y1="220" x2="380" y2="200" />
               </g>
 
-              <!-- Node Signals -->
-              <circle cx="80" cy="175" r="5" fill="#3B82F6" />
-              <circle cx="200" cy="100" r="5" fill="#6D28FF" />
-              <circle cx="200" cy="175" r="5" fill="#6D28FF" />
-              <circle cx="200" cy="250" r="5" fill="#6D28FF" />
-              <circle cx="380" cy="120" r="5" fill="#06B6D4" />
-              <circle cx="380" cy="230" r="5" fill="#06B6D4" />
+              <circle cx="80" cy="150" r="5" fill="#3B82F6" />
+              <circle cx="200" cy="80" r="5" fill="#6D28FF" />
+              <circle cx="200" cy="150" r="5" fill="#6D28FF" />
+              <circle cx="200" cy="220" r="5" fill="#6D28FF" />
+              <circle cx="380" cy="100" r="5" fill="#06B6D4" />
+              <circle cx="380" cy="200" r="5" fill="#06B6D4" />
 
-              <!-- Signal pulses travelling along lines -->
-              <circle cx="80" cy="175" r="3" fill="#fff" class="flow-signal-1" />
-              <circle cx="80" cy="175" r="3" fill="#fff" class="flow-signal-2" />
+              <circle cx="80" cy="150" r="3" fill="#fff" class="flow-signal-1" />
+              <circle cx="80" cy="150" r="3" fill="#fff" class="flow-signal-2" />
 
-              <text x="250" y="310" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="monospace">Convolutional Feature Extraction Map</text>
+              <text x="250" y="280" fill="#cbd5e1" font-size="10" text-anchor="middle" font-family="monospace">Convolutional Feature Map Nodes</text>
             </svg>
           </div>
         </div>
@@ -264,14 +258,14 @@
     <div class="story-slide" id="slide-story-3">
       <div class="slide-grid">
         
-        <!-- Left Side: Project details -->
+        <!-- Left Side -->
         <div class="slide-info-side">
           <span class="industry-badge"><i class="fa-solid fa-microchip"></i> Internet of Things</span>
-          <h3 class="slide-project-title">Aura Fleet: IoT Telemetry Grid</h3>
+          <h3 class="slide-project-title">Aura Fleet: Live Quarry Telemetry</h3>
           <p class="slide-project-desc">
-            <strong>The Challenge:</strong> Monitoring heavy trucks and quarry equipment in deep, remote mining holes had zero coverage via standard wireless channels.<br><br>
-            <strong>The Solution:</strong> We deployed long-range telemetry boards integrated directly with vehicle CAN buses, sending packets back to a central tracking console.<br><br>
-            <strong>The Outcome:</strong> Complete asset coverage, preventing vehicle crashes and optimizing logistics operations.
+            <strong>The Challenge:</strong> Standard wireless tracking failed inside deep mining quarries, losing asset coordination telemetry.<br><br>
+            <strong>The Solution:</strong> Structured low-power CAN telemetry nodes connected directly back to central tracking loops.<br><br>
+            <strong>The Outcome:</strong> Achieved complete vehicle telemetry coverage, optimizing quarry transport paths.
           </p>
 
           <!-- Glass Metrics cards -->
@@ -304,7 +298,7 @@
           </div>
         </div>
 
-        <!-- Right Side: Animated Dashboard -->
+        <!-- Right Side -->
         <div class="slide-visual-side">
           <div class="dashboard-canvas glass-panel-dark">
             <div class="canvas-header">
@@ -313,31 +307,24 @@
             </div>
             
             <!-- SVG Map Grid IoT Telemetry -->
-            <svg class="visual-svg" viewBox="0 0 500 350">
-              <!-- Grid background -->
+            <svg class="visual-svg" viewBox="0 0 500 320">
               <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
-                <line x1="50" y1="0" x2="50" y2="350" />
-                <line x1="150" y1="0" x2="150" y2="350" />
-                <line x1="250" y1="0" x2="250" y2="350" />
-                <line x1="350" y1="0" x2="350" y2="350" />
-                <line x1="450" y1="0" x2="450" y2="350" />
-
-                <line x1="0" y1="50" x2="500" y2="50" />
-                <line x1="0" y1="150" x2="500" y2="150" />
-                <line x1="0" y1="250" x2="500" y2="250" />
+                <line x1="50" y1="0" x2="50" y2="320" />
+                <line x1="150" y1="0" x2="150" y2="320" />
+                <line x1="250" y1="0" x2="250" y2="320" />
+                <line x1="350" y1="0" x2="350" y2="320" />
+                <line x1="450" y1="0" x2="450" y2="320" />
               </g>
 
-              <!-- Map Paths -->
-              <path d="M 50,180 C 150,150 200,280 320,100 S 450,220 480,240" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="4" />
-              <path d="M 50,180 C 150,150 200,280 320,100 S 450,220 480,240" fill="none" stroke="#6D28FF" stroke-width="2" class="map-path-draw" />
+              <path d="M 50,150 C 150,120 200,250 320,80 S 450,200 480,220" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="4" />
+              <path d="M 50,150 C 150,120 200,250 320,80 S 450,200 480,220" fill="none" stroke="#6D28FF" stroke-width="2" class="map-path-draw" />
 
-              <!-- Moving cargo vehicle dot -->
-              <circle cx="50" cy="180" r="6" fill="#10B981" class="vehicle-dot">
-                <animateMotion path="M 0,0 C 100,-30 150,100 270,-80 S 400,40 430,60" dur="8s" repeatCount="indefinite" />
+              <circle cx="50" cy="150" r="6" fill="#10B981">
+                <animateMotion path="M 0,0 C 100,-30 150,100 270,-70 S 400,50 430,70" dur="8s" repeatCount="indefinite" />
               </circle>
 
-              <circle cx="200" cy="180" r="4" fill="#3B82F6" class="pulse-node" />
-              <circle cx="320" cy="100" r="4" fill="#06B6D4" class="pulse-node" />
+              <circle cx="200" cy="150" r="4" fill="#3B82F6" class="pulse-node" />
+              <circle cx="320" cy="80" r="4" fill="#06B6D4" class="pulse-node" />
             </svg>
           </div>
         </div>
@@ -349,14 +336,14 @@
     <div class="story-slide" id="slide-story-4">
       <div class="slide-grid">
         
-        <!-- Left Side: Project details -->
+        <!-- Left Side -->
         <div class="slide-info-side">
-          <span class="industry-badge"><i class="fa-solid fa-diagram-project"></i> Enterprise Resource Planning</span>
+          <span class="industry-badge"><i class="fa-solid fa-diagram-project"></i> Enterprise software</span>
           <h3 class="slide-project-title">LedgerHub: Transaction Reconciliation Gateway</h3>
           <p class="slide-project-desc">
-            <strong>The Challenge:</strong> Manual financial reconciliation across hundreds of global branches was a major operational bottleneck, leaking revenues and creating audit gaps.<br><br>
-            <strong>The Solution:</strong> Jaiton engineered LedgerHub, an automated real-time transaction reconciliation gateway mapping banking ledgers instantly with PostgreSQL database indices.<br><br>
-            <strong>The Outcome:</strong> Completely automated reconciliations, securing ledger compliance and saving AUD $1.2M annually.
+            <strong>The Challenge:</strong> Manual transactional reconciliation across multiple branches was slow and prone to audit leaks.<br><br>
+            <strong>The Solution:</strong> Designed a secure relational transaction mapping pipeline syncing ledger logs instantly.<br><br>
+            <strong>The Outcome:</strong> Completely automated financial reconciliations, saving AUD $1.2M annually.
           </p>
 
           <!-- Glass Metrics cards -->
@@ -389,7 +376,7 @@
           </div>
         </div>
 
-        <!-- Right Side: Animated Dashboard -->
+        <!-- Right Side -->
         <div class="slide-visual-side">
           <div class="dashboard-canvas glass-panel-dark">
             <div class="canvas-header">
@@ -398,22 +385,20 @@
             </div>
             
             <!-- SVG ERP Departments connected -->
-            <svg class="visual-svg" viewBox="0 0 500 350">
-              <!-- Departments nodes -->
-              <circle cx="100" cy="100" r="32" fill="rgba(59, 130, 246, 0.08)" stroke="#3B82F6" stroke-width="2" />
-              <text x="100" y="104" fill="#fff" font-size="8" text-anchor="middle">SALES</text>
+            <svg class="visual-svg" viewBox="0 0 500 320">
+              <circle cx="100" cy="80" r="32" fill="rgba(59, 130, 246, 0.08)" stroke="#3B82F6" stroke-width="2" />
+              <text x="100" y="84" fill="#fff" font-size="8" text-anchor="middle">SALES</text>
 
-              <circle cx="400" cy="100" r="32" fill="rgba(6, 182, 212, 0.08)" stroke="#06B6D4" stroke-width="2" />
-              <text x="400" y="104" fill="#fff" font-size="8" text-anchor="middle">LOGISTICS</text>
+              <circle cx="400" cy="80" r="32" fill="rgba(6, 182, 212, 0.08)" stroke="#06B6D4" stroke-width="2" />
+              <text x="400" y="84" fill="#fff" font-size="8" text-anchor="middle">LOGISTICS</text>
 
-              <circle cx="250" cy="230" r="40" fill="rgba(109, 40, 255, 0.08)" stroke="#6D28FF" stroke-width="2.5" />
-              <text x="250" y="234" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">LEDGERHUB</text>
+              <circle cx="250" cy="180" r="40" fill="rgba(109, 40, 255, 0.08)" stroke="#6D28FF" stroke-width="2.5" />
+              <text x="250" y="184" fill="#fff" font-size="10" font-weight="bold" text-anchor="middle">LEDGERHUB</text>
 
-              <!-- Lines linking to central ledger -->
-              <line x1="130" y1="115" x2="215" y2="205" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4" class="dash-flow-down" />
-              <line x1="370" y1="115" x2="285" y2="205" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4" class="dash-flow-up" />
+              <line x1="130" y1="95" x2="215" y2="155" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4" class="dash-flow-down" />
+              <line x1="370" y1="95" x2="285" y2="155" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4" class="dash-flow-up" />
 
-              <text x="250" y="310" fill="#94a3b8" font-size="10" text-anchor="middle" font-family="monospace">Real-time DB Reconciliation Feed</text>
+              <text x="250" y="270" fill="#94a3b8" font-size="10" text-anchor="middle" font-family="monospace">Real-time DB Reconciliation Feed</text>
             </svg>
           </div>
         </div>
@@ -425,14 +410,14 @@
     <div class="story-slide" id="slide-story-5">
       <div class="slide-grid">
         
-        <!-- Left Side: Project details -->
+        <!-- Left Side -->
         <div class="slide-info-side">
           <span class="industry-badge"><i class="fa-solid fa-shield-halved"></i> Cybersecurity</span>
           <h3 class="slide-project-title">SecureGate: Bank-Grade Threat Defense</h3>
           <p class="slide-project-desc">
-            <strong>The Challenge:</strong> Financial portal exposed to complex threat vectors, requiring real-time attack blocking and strict compliance logging.<br><br>
-            <strong>The Solution:</strong> We architected SecureGate, a security proxy filtering threats and executing real-time blocking via automated AI anomaly logs.<br><br>
-            <strong>The Outcome:</strong> Total shield protection with zero successful penetrations, fully compliant with ISO 27001 requirements.
+            <strong>The Challenge:</strong> Financial transaction portal exposed to highly complex botnet DDoS vectors.<br><br>
+            <strong>The Solution:</strong> Engineered real-time edge security proxies running machine learning telemetry logs.<br><br>
+            <strong>The Outcome:</strong> Blocked 100% of attack targets, securing complete compliance metrics.
           </p>
 
           <!-- Glass Metrics cards -->
@@ -465,7 +450,7 @@
           </div>
         </div>
 
-        <!-- Right Side: Animated Dashboard -->
+        <!-- Right Side -->
         <div class="slide-visual-side">
           <div class="dashboard-canvas glass-panel-dark">
             <div class="canvas-header">
@@ -474,16 +459,14 @@
             </div>
             
             <!-- SVG Security Shield with blocked attacks -->
-            <svg class="visual-svg" viewBox="0 0 500 350">
-              <!-- Central Shield path -->
-              <path d="M 250,80 C 290,80 320,90 320,90 C 320,90 320,180 250,240 C 180,180 180,90 180,90 C 180,90 210,80 250,80 Z" fill="rgba(16, 185, 129, 0.06)" stroke="#10B981" stroke-width="3" class="shield-pulse" />
-              <text x="250" y="165" fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">SECUREGATE</text>
+            <svg class="visual-svg" viewBox="0 0 500 320">
+              <path d="M 250,50 C 290,50 320,60 320,60 C 320,60 320,150 250,210 C 180,150 180,60 180,60 C 180,60 210,50 250,50 Z" fill="rgba(16, 185, 129, 0.06)" stroke="#10B981" stroke-width="3" class="shield-pulse" />
+              <text x="250" y="135" fill="#fff" font-size="11" font-weight="bold" text-anchor="middle">SECUREGATE</text>
 
-              <!-- Attack vector particles that dissolve on impact -->
-              <circle cx="50" cy="160" r="4" fill="#EF4444" class="attack-vector-1" />
-              <circle cx="450" cy="140" r="4" fill="#EF4444" class="attack-vector-2" />
+              <circle cx="50" cy="130" r="4" fill="#EF4444" class="attack-vector-1" />
+              <circle cx="450" cy="110" r="4" fill="#EF4444" class="attack-vector-2" />
 
-              <text x="250" y="310" fill="#94a3b8" font-size="10" text-anchor="middle" font-family="monospace">ISO 27001 Threat logs: Stable</text>
+              <text x="250" y="270" fill="#94a3b8" font-size="10" text-anchor="middle" font-family="monospace">ISO 27001 Threat logs: Stable</text>
             </svg>
           </div>
         </div>
@@ -508,7 +491,7 @@
 
   </div>
 
-  <!-- Bottom Navigation: Indicators & Slide Thumbnails -->
+  <!-- Bottom Navigation: Progress Line & Dots -->
   <div class="story-bottom-nav">
     <div class="slide-progress-line">
       <span class="progress-fill-bar"></span>
@@ -519,7 +502,6 @@
         <span class="prog-dot" data-slide="3"></span>
         <span class="prog-dot" data-slide="4"></span>
         <span class="prog-dot" data-slide="5"></span>
-        <span class="prog-dot" data-slide="6"></span>
       </div>
     </div>
   </div>
@@ -529,7 +511,6 @@
 <!-- Script initialization for GSAP ScrollTrigger Storyteller -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  // Ensure GSAP and ScrollTrigger are loaded before initializing
   if (typeof gsap === "undefined" || typeof ScrollTrigger === "undefined") {
     console.warn("GSAP or ScrollTrigger script CDN is not active.");
     return;
@@ -537,7 +518,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   gsap.registerPlugin(ScrollTrigger);
 
-  // Select key horizontal scroll elements
   const container = document.querySelector(".featured-storyteller");
   const slidesWrapper = document.querySelector(".story-slides-wrapper");
   const slides = gsap.utils.toArray(".story-slide");
@@ -545,7 +525,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const progressFill = document.querySelector(".progress-fill-bar");
   const progDots = document.querySelectorAll(".prog-dot");
   
-  // Set slides wrapper width dynamically based on slide count
   gsap.set(slidesWrapper, { width: `${slides.length * 100}vw` });
 
   // Main horizontal pinning animation tween
@@ -567,7 +546,6 @@ document.addEventListener("DOMContentLoaded", () => {
       onUpdate: (self) => {
         const progress = self.progress;
         
-        // Update bottom progress bar fill width
         if (progressFill) {
           progressFill.style.width = `${progress * 100}%`;
         }
@@ -585,25 +563,35 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
 
-        // Highlight left timeline navigation items (slides 1 to 5 mapped to timeline)
-        navLinks.forEach((link) => {
-          const slideId = parseInt(link.getAttribute("data-slide"));
-          if (slideId === currentActiveIndex) {
+        // Highlight left project navigator links
+        navLinks.forEach((link, idx) => {
+          if (idx === currentActiveIndex) {
             link.classList.add("active");
           } else {
             link.classList.remove("active");
           }
         });
+        
+        // Hide/fade the fixed top header on the outro slide to avoid layout clash
+        const fixedHeader = document.querySelector(".story-header-fixed");
+        if (fixedHeader) {
+          if (currentActiveIndex === totalSlides - 1) {
+            fixedHeader.style.opacity = "0";
+            fixedHeader.style.pointerEvents = "none";
+          } else {
+            fixedHeader.style.opacity = "1";
+            fixedHeader.style.pointerEvents = "all";
+          }
+        }
       }
     }
   });
 
-  // Clicking left timeline navigation links scrolls smoothly to target slide
-  navLinks.forEach((link) => {
+  // Clicking project navigator links scrolls smoothly to target slide
+  navLinks.forEach((link, idx) => {
     link.addEventListener("click", () => {
-      const slideIndex = parseInt(link.getAttribute("data-slide"));
       const totalSlides = slides.length;
-      const progress = slideIndex / (totalSlides - 1);
+      const progress = idx / (totalSlides - 1);
       
       const scrollStart = scrollTween.scrollTrigger.start;
       const scrollEnd = scrollTween.scrollTrigger.end;
@@ -617,11 +605,10 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Clicking bottom dots also navigates
-  progDots.forEach((dot) => {
+  progDots.forEach((dot, idx) => {
     dot.addEventListener("click", () => {
-      const slideIndex = parseInt(dot.getAttribute("data-slide"));
       const totalSlides = slides.length;
-      const progress = slideIndex / (totalSlides - 1);
+      const progress = idx / (totalSlides - 1);
       
       const scrollStart = scrollTween.scrollTrigger.start;
       const scrollEnd = scrollTween.scrollTrigger.end;
@@ -634,8 +621,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Numeric count animations for Slide 0 statistics
-  const statNumbers = document.querySelectorAll(".intro-stat-num");
+  // Numeric count animations for statistics
+  const statNumbers = document.querySelectorAll(".counter-num");
   
   const countStats = () => {
     statNumbers.forEach(num => {
@@ -652,15 +639,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  // Trigger counts once Slide 0 is in view
+  // Trigger counts once storyteller enters viewport
   ScrollTrigger.create({
-    trigger: ".slide-intro",
+    trigger: ".featured-storyteller",
     start: "top center",
     once: true,
     onEnter: countStats
   });
 
-  // Magnetic button micro-animations on mouse hover
+  // Magnetic button hover links
   const magneticButtons = document.querySelectorAll(".btn-magnetic");
   magneticButtons.forEach((btn) => {
     btn.addEventListener("mousemove", (e) => {
@@ -742,17 +729,97 @@ document.addEventListener("DOMContentLoaded", () => {
   z-index: 1;
 }
 
-/* Timeline Navigation (Pinned Left) */
+/* Persistent Header Fixed at Top */
+.story-header-fixed {
+  position: absolute;
+  top: 36px;
+  left: 180px; /* Aligned with navigation link starts */
+  right: 60px;
+  z-index: 15;
+  transition: opacity 0.4s ease;
+  pointer-events: all;
+  text-align: left;
+}
+
+.story-header-content {
+  display: grid;
+  grid-template-cols: 1.15fr 0.85fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.story-title-wrap .section-badge {
+  margin-bottom: 8px;
+}
+
+.story-title-wrap .section-title {
+  margin-bottom: 6px;
+  font-size: clamp(24px, 2.2vw, 32px) !important;
+}
+
+.story-title-wrap .section-desc {
+  font-size: 0.8125rem;
+  color: #cbd5e1;
+  max-width: 600px;
+  margin-bottom: 0;
+}
+
+/* Horizontal Row for Counters directly below heading */
+.header-counters-row {
+  display: flex;
+  gap: 24px;
+  justify-content: flex-start;
+}
+
+.header-counter-item {
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 10px 16px;
+  display: flex;
+  flex-direction: column;
+  min-width: 110px;
+}
+
+.counter-digits {
+  display: flex;
+  align-items: baseline;
+}
+
+.counter-num {
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.counter-suffix {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-purple);
+  margin-left: 2px;
+}
+
+.counter-lbl {
+  font-size: 0.625rem;
+  color: #94a3b8;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 2px;
+}
+
+/* Expandable Project Navigator (Pinned Left) */
 .timeline-nav {
   position: absolute;
   left: 40px;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 12;
+  z-index: 20;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
+  gap: 16px;
 }
 
 .timeline-nav-title {
@@ -762,65 +829,70 @@ document.addEventListener("DOMContentLoaded", () => {
   color: rgba(255, 255, 255, 0.3);
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .timeline-links {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
 }
 
 .nav-link-item {
-  background: none;
-  border: none;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   display: flex;
   align-items: center;
   gap: 12px;
   cursor: pointer;
-  padding: 4px 0;
-  text-align: left;
-  opacity: 0.35;
-  transition: all var(--transition-normal);
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.4);
+  width: 48px; /* Collapsed width: displays icon only */
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.nav-num {
-  font-family: var(--font-heading);
-  font-size: 0.75rem;
-  font-weight: 800;
-  color: var(--white);
+.nav-link-item i {
+  font-size: 1rem;
+  min-width: 16px;
+  text-align: center;
+  transition: color var(--transition-fast);
 }
 
 .nav-label {
   font-family: var(--font-body);
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: var(--white);
-  white-space: nowrap;
   opacity: 0;
-  transform: translateX(-10px);
-  transition: all var(--transition-normal);
+  transition: opacity 0.3s ease;
 }
 
 .nav-link-item.active {
-  opacity: 1;
+  width: 220px; /* Expanded active width */
+  background: rgba(109, 40, 255, 0.1);
+  border-color: rgba(109, 40, 255, 0.3);
+  color: var(--white);
+  box-shadow: 0 0 15px rgba(109, 40, 255, 0.2);
+}
+
+.nav-link-item.active i {
+  color: #a275ff;
 }
 
 .nav-link-item.active .nav-label {
   opacity: 1;
-  transform: translateX(0);
 }
 
 .nav-link-item:hover {
-  opacity: 0.8;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.nav-link-item:hover .nav-label {
-  opacity: 0.8;
-  transform: translateX(0);
-}
-
-/* Horizontal Wrapper */
+/* Horizontal Slides Wrapper */
 .story-slides-wrapper {
   display: flex;
   height: 100%;
@@ -834,91 +906,15 @@ document.addEventListener("DOMContentLoaded", () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 100px 0 180px; /* Spacer for left nav */
+  padding: 170px 60px 80px 280px; /* Expanded padding-left to leave space for left navigator */
   box-sizing: border-box;
 }
 
-/* Slide 0: Intro Styling */
-.slide-intro-content {
-  max-width: 900px;
-  text-align: left;
-}
-
-.gradient-text {
-  background: linear-gradient(135deg, #a275ff 0%, #3B82F6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.intro-stats-grid {
-  display: grid;
-  grid-template-cols: repeat(4, 1fr);
-  gap: 20px;
-  margin: 48px 0;
-}
-
-.intro-stat-card {
-  background-color: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: var(--radius-lg);
-  padding: 24px;
-  text-align: left;
-}
-
-.stat-num-row {
-  display: flex;
-  align-items: baseline;
-}
-
-.intro-stat-num {
-  font-family: var(--font-heading);
-  font-size: 2.2rem;
-  font-weight: 800;
-  color: var(--white);
-}
-
-.intro-stat-plus {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--primary-purple);
-  margin-left: 2px;
-}
-
-.intro-stat-label {
-  display: block;
-  margin-top: 8px;
-  font-size: 0.75rem;
-  color: #cbd5e1;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.scroll-prompt-indicator {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: #94a3b8;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.scroll-arrow {
-  animation: arrowBounce 1.5s infinite alternate;
-}
-
-@keyframes arrowBounce {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(6px); }
-}
-
-/* Split Slide Layout */
+/* Split Slide Layout (40% Info, 60% Visual) */
 .slide-grid {
   display: grid;
-  grid-template-cols: 0.9fr 1.15fr;
-  gap: 80px;
+  grid-template-cols: 0.8fr 1.2fr;
+  gap: 60px;
   width: 100%;
   align-items: center;
 }
@@ -940,37 +936,37 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #a275ff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .slide-project-title {
-  font-size: clamp(24px, 2.5vw, 36px);
+  font-size: clamp(20px, 1.8vw, 28px);
   font-weight: 800;
   color: var(--white);
-  line-height: 1.2;
-  margin-bottom: 20px;
+  line-height: 1.25;
+  margin-bottom: 12px;
 }
 
 .slide-project-desc {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   line-height: 1.6;
   color: #cbd5e1;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 /* Glass Metrics inside Slide */
 .slide-metrics-cards {
   display: grid;
   grid-template-cols: repeat(3, 1fr);
-  gap: 16px;
-  margin-bottom: 32px;
+  gap: 12px;
+  margin-bottom: 24px;
 }
 
 .slide-metric-box {
   background-color: rgba(255, 255, 255, 0.02);
   border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 12px;
-  padding: 14px;
+  border-radius: 8px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -991,7 +987,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .metric-v {
   font-family: var(--font-heading);
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   font-weight: 800;
 }
 
@@ -1003,33 +999,33 @@ document.addEventListener("DOMContentLoaded", () => {
 .slide-footer-tags {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
 }
 
 .glowing-pills {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .glowing-pills span {
-  font-size: 0.6875rem;
+  font-size: 0.65rem;
   font-weight: 700;
   color: #cbd5e1;
   background-color: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
-  padding: 4px 10px;
-  border-radius: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 
 .slide-ctas {
   display: flex;
-  gap: 16px;
+  gap: 12px;
 }
 
 .slide-ctas .btn {
-  padding: 12px 24px;
-  font-size: 0.8125rem;
+  padding: 10px 20px;
+  font-size: 0.75rem;
   font-weight: 700;
   border-radius: 100px;
 }
@@ -1054,7 +1050,7 @@ document.addEventListener("DOMContentLoaded", () => {
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-lg);
   box-shadow: 0 20px 50px rgba(0,0,0,0.4);
-  padding: 24px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -1065,17 +1061,17 @@ document.addEventListener("DOMContentLoaded", () => {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-  padding-bottom: 16px;
-  margin-bottom: 16px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .canvas-title {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: #cbd5e1;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -1085,9 +1081,9 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .canvas-status {
-  font-size: 0.625rem;
+  font-size: 0.6rem;
   font-weight: 800;
-  padding: 4px 10px;
+  padding: 3px 8px;
   border-radius: 4px;
   letter-spacing: 0.05em;
 }
@@ -1100,7 +1096,7 @@ document.addEventListener("DOMContentLoaded", () => {
 .visual-svg {
   width: 100%;
   height: auto;
-  aspect-ratio: 1.4;
+  aspect-ratio: 1.5;
 }
 
 /* SVG Animations */
@@ -1110,7 +1106,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 @keyframes nodePulse {
   0% { transform: scale(1); opacity: 0.7; }
-  100% { transform: scale(1.3); opacity: 1; }
+  100% { transform: scale(1.2); opacity: 1; }
 }
 
 .dash-flow-up {
@@ -1133,15 +1129,15 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 @keyframes flowAlongLine1 {
-  0% { cx: 80; cy: 175; }
-  50% { cx: 200; cy: 100; }
-  100% { cx: 380; cy: 120; }
+  0% { cx: 80; cy: 150; }
+  50% { cx: 200; cy: 80; }
+  100% { cx: 380; cy: 100; }
 }
 
 @keyframes flowAlongLine2 {
-  0% { cx: 80; cy: 175; }
-  50% { cx: 200; cy: 250; }
-  100% { cx: 380; cy: 230; }
+  0% { cx: 80; cy: 150; }
+  50% { cx: 200; cy: 220; }
+  100% { cx: 380; cy: 200; }
 }
 
 .map-path-draw {
@@ -1172,20 +1168,24 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 @keyframes threatAttack1 {
-  0% { cx: 50; cy: 160; opacity: 1; }
-  70% { cx: 180; cy: 140; opacity: 1; }
-  75% { cx: 180; cy: 140; opacity: 0; }
-  100% { cx: 180; cy: 140; opacity: 0; }
+  0% { cx: 50; cy: 130; opacity: 1; }
+  70% { cx: 180; cy: 110; opacity: 1; }
+  75% { cx: 180; cy: 110; opacity: 0; }
+  100% { cx: 180; cy: 110; opacity: 0; }
 }
 
 @keyframes threatAttack2 {
-  0% { cx: 450; cy: 140; opacity: 1; }
-  70% { cx: 320; cy: 160; opacity: 1; }
-  75% { cx: 320; cy: 160; opacity: 0; }
-  100% { cx: 320; cy: 160; opacity: 0; }
+  0% { cx: 450; cy: 110; opacity: 1; }
+  70% { cx: 320; cy: 130; opacity: 1; }
+  75% { cx: 320; cy: 130; opacity: 0; }
+  100% { cx: 320; cy: 130; opacity: 0; }
 }
 
 /* Outro Slide */
+.slide-outro {
+  padding: 170px 60px 80px 180px !important; /* Standard spacing for outro slide centering */
+}
+
 .slide-outro-content {
   max-width: 800px;
   text-align: center;
@@ -1193,15 +1193,15 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .outro-title {
-  font-size: clamp(32px, 3.8vw, 48px);
+  font-size: clamp(28px, 3.2vw, 42px);
   font-weight: 800;
-  line-height: 1.2;
+  line-height: 1.25;
   color: var(--white);
   margin-bottom: 24px;
 }
 
 .outro-desc {
-  font-size: clamp(16px, 1.2vw, 19px);
+  font-size: clamp(14px, 1.1vw, 17px);
   color: #cbd5e1;
   line-height: 1.7;
   margin-bottom: 40px;
@@ -1219,7 +1219,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /* Bottom Progress Nav */
 .story-bottom-nav {
   position: absolute;
-  bottom: 40px;
+  bottom: 32px;
   left: 50%;
   transform: translateX(-50%);
   width: 320px;
@@ -1281,6 +1281,29 @@ document.addEventListener("DOMContentLoaded", () => {
     display: none; /* Hide timeline navigation */
   }
 
+  .story-header-fixed {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 80px 24px 20px 24px;
+  }
+
+  .story-header-content {
+    grid-template-cols: 1fr;
+    gap: 32px;
+  }
+
+  .header-counters-row {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .header-counter-item {
+    flex-grow: 1;
+    min-width: 120px;
+  }
+
   .story-slides-wrapper {
     display: flex;
     flex-direction: column;
@@ -1291,16 +1314,12 @@ document.addEventListener("DOMContentLoaded", () => {
   .story-slide {
     width: 100%;
     height: auto;
-    padding: 80px 24px;
+    padding: 60px 24px;
   }
 
   .slide-grid {
     grid-template-cols: 1fr;
     gap: 40px;
-  }
-  
-  .intro-stats-grid {
-    grid-template-cols: repeat(2, 1fr);
   }
 
   .story-bottom-nav {
@@ -1310,12 +1329,6 @@ document.addEventListener("DOMContentLoaded", () => {
   .outro-buttons {
     flex-direction: column;
     gap: 16px;
-  }
-}
-
-@media (max-width: 575px) {
-  .intro-stats-grid {
-    grid-template-cols: 1fr;
   }
 }
 </style>
