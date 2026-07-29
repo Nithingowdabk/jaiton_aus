@@ -59,7 +59,7 @@
 .hero-video-container {
   position: absolute;
   inset: 0;
-  opacity: 0.18;
+  opacity: 1;
 }
 
 .hero-bg-video {
