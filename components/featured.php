@@ -465,11 +465,11 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-/* ============================================================
-     SUCCESS STORIES SCOPED STYLES (Single-Frame Compact Scale)
-     ============================================================ */
+<!-- ============================================================
+     SUCCESS STORIES SCOPED STYLES
+     ============================================================ -->
 <style>
-/* ── Section Shell ── */
+/* ── Section Shell (Compacted for Single Desktop Viewport Frame) ── */
 .cs-showcase-section {
   position: relative;
   padding: 50px 40px;
@@ -488,10 +488,10 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-bg-grid {
   position: absolute;
   inset: 0;
-  background-size: 32px 32px;
+  background-size: 40px 40px;
   background-image:
-    linear-gradient(to right, rgba(226, 232, 240, 0.4) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(226, 232, 240, 0.4) 1px, transparent 1px);
+    linear-gradient(to right, rgba(226, 232, 240, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.5) 1px, transparent 1px);
 }
 
 .cs-radial-glow {
@@ -499,17 +499,17 @@ document.addEventListener("DOMContentLoaded", () => {
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  filter: blur(240px);
-  opacity: 0.1;
+  filter: blur(280px);
+  opacity: 0.12;
 }
 
-.cs-radial-glow--purple { top: 5%; left: -10%; background: #6D28FF; }
-.cs-radial-glow--blue   { bottom: 5%; right: -10%; background: #3B82F6; }
+.cs-radial-glow--purple { top: 10%; left: -10%; background: #6D28FF; }
+.cs-radial-glow--blue   { bottom: 10%; right: -10%; background: #3B82F6; }
 
-/* ── Header ── */
+/* ── Header (Compact) ── */
 .cs-section-header {
   text-align: center;
-  max-width: 720px;
+  max-width: 760px;
   margin: 0 auto 20px auto;
   position: relative;
   z-index: 5;
@@ -527,7 +527,7 @@ document.addEventListener("DOMContentLoaded", () => {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   color: #6D28FF;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .cs-section-title {
@@ -537,20 +537,20 @@ document.addEventListener("DOMContentLoaded", () => {
   line-height: 1.2;
   color: #0F172A;
   letter-spacing: -0.02em;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .cs-section-subtitle {
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.45;
   color: #475569;
 }
 
-/* ── Selector Tabs ── */
+/* ── Selector Tabs (Compact) ── */
 .cs-selector-tabs {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   margin-bottom: 24px;
   position: relative;
   z-index: 5;
@@ -601,7 +601,7 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-panel-wrapper {
   display: none;
   opacity: 0;
-  transition: opacity 300ms ease;
+  transition: opacity 400ms ease;
 }
 
 .cs-panel-wrapper.active {
@@ -609,7 +609,7 @@ document.addEventListener("DOMContentLoaded", () => {
   opacity: 1;
 }
 
-/* 50% / 50% Grid Calculation */
+/* 50% Visual / 50% Content Grid */
 .cs-panel-grid {
   display: grid;
   grid-template-columns: 48% calc(52% - 32px);
@@ -619,7 +619,7 @@ document.addEventListener("DOMContentLoaded", () => {
   box-sizing: border-box;
 }
 
-/* ── Left Visual Side: Presentation Area ── */
+/* ── Left Visual Side: Presentation Area (Compact) ── */
 .cs-visual-side {
   width: 100%;
 }
@@ -627,6 +627,7 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-presentation-frame {
   position: relative;
   width: 100%;
+  min-height: 360px;
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
   border-radius: 24px;
@@ -640,8 +641,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .frame-bg-glow {
   position: absolute;
-  width: 220px;
-  height: 220px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(109, 40, 255, 0.08), transparent 70%);
   top: 50%;
@@ -667,13 +668,13 @@ document.addEventListener("DOMContentLoaded", () => {
   width: 100%;
   border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .cs-showcase-img {
   width: 100%;
-  height: 280px;
+  height: 340px;
   object-fit: cover;
   display: block;
   transition: transform 400ms ease;
@@ -691,10 +692,10 @@ document.addEventListener("DOMContentLoaded", () => {
   align-items: center;
   gap: 8px;
   background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   border: 1px solid rgba(226, 232, 240, 0.9);
-  padding: 6px 12px;
+  padding: 6px 14px;
   border-radius: 14px;
   box-shadow: 0 10px 24px -4px rgba(15, 23, 42, 0.12);
   transition: transform 250ms ease;
@@ -741,7 +742,7 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #64748B;
 }
 
-/* ── Right Content Side: Business Story Panel ── */
+/* ── Right Content Side: Business Story Panel (Compact) ── */
 .cs-content-side {
   width: 100%;
 }
@@ -751,7 +752,7 @@ document.addEventListener("DOMContentLoaded", () => {
   border: 1px solid #E2E8F0;
   border-radius: 24px;
   padding: 24px 28px;
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 16px 48px rgba(15, 23, 42, 0.06);
   box-sizing: border-box;
 }
 
@@ -764,31 +765,31 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #3B82F6;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .cs-story-headline {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(18px, 1.8vw, 22px);
+  font-size: clamp(19px, 1.8vw, 24px);
   font-weight: 800;
   color: #0F172A;
   line-height: 1.25;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
-/* Challenge & Solution Blocks (Compact) */
+/* Challenge & Solution Blocks */
 .cs-story-blocks {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: 14px;
+  gap: 10px;
+  margin-bottom: 16px;
 }
 
 .story-block {
   background: #F8FAFC;
   border-left: 3px solid #6D28FF;
-  padding: 8px 14px;
-  border-radius: 0 10px 10px 0;
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
 }
 
 .story-block:nth-child(2) {
@@ -811,19 +812,19 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #475569;
 }
 
-/* Business Impact KPI Grid (Compact) */
+/* Business Impact KPI Grid */
 .cs-kpi-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .kpi-card {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
   border-radius: 10px;
-  padding: 6px 4px;
+  padding: 8px 6px;
   text-align: center;
   transition: transform 200ms ease;
 }
@@ -835,7 +836,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .kpi-num {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 800;
   color: #6D28FF;
   display: block;
@@ -846,21 +847,21 @@ document.addEventListener("DOMContentLoaded", () => {
   font-size: 10px;
   font-weight: 600;
   color: #64748B;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
-/* Tech Stack Section (Compact) */
+/* Tech Stack Section */
 .cs-tech-section {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .tech-label {
   font-size: 10px;
   font-weight: 800;
   color: #94A3B8;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   display: block;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .cs-tech-pills {
@@ -870,7 +871,7 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .tech-pill {
-  padding: 2px 10px;
+  padding: 3px 10px;
   background: #F1F5F9;
   border: 1px solid #E2E8F0;
   border-radius: 100px;
@@ -886,16 +887,16 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #6D28FF;
 }
 
-/* Delivery Timeline (Compact) */
+/* Delivery Timeline */
 .cs-timeline-section {
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .timeline-label {
   font-size: 10px;
   font-weight: 800;
   color: #94A3B8;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   display: block;
   margin-bottom: 6px;
 }
@@ -939,14 +940,14 @@ document.addEventListener("DOMContentLoaded", () => {
   border: 2px solid #FFFFFF;
 }
 
-/* Client Info Strip (Compact) */
+/* Client Info Strip */
 .cs-info-strip {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #F8FAFC;
   border-radius: 10px;
-  padding: 8px 12px;
+  padding: 8px 14px;
   margin-bottom: 16px;
   flex-wrap: wrap;
   gap: 8px;
@@ -965,7 +966,7 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #6D28FF;
 }
 
-/* Actions Row (Compact) */
+/* Actions Row */
 .cs-action-row {
   display: flex;
   gap: 10px;
@@ -973,7 +974,7 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .btn-cs-primary {
-  height: 38px;
+  height: 40px;
   padding: 0 20px;
   border-radius: 100px;
   background: linear-gradient(135deg, #6D28FF, #3B82F6);
@@ -984,18 +985,18 @@ document.addEventListener("DOMContentLoaded", () => {
   align-items: center;
   gap: 6px;
   border: none;
-  box-shadow: 0 4px 12px rgba(109, 40, 255, 0.2);
+  box-shadow: 0 4px 14px rgba(109, 40, 255, 0.25);
   transition: all 250ms ease;
 }
 
 .btn-cs-primary:hover {
-  box-shadow: 0 6px 18px rgba(109, 40, 255, 0.4);
+  box-shadow: 0 6px 20px rgba(109, 40, 255, 0.4);
   transform: translateY(-2px);
   color: #FFFFFF;
 }
 
 .btn-cs-secondary {
-  height: 38px;
+  height: 40px;
   padding: 0 20px;
   border-radius: 100px;
   background: #FFFFFF;
@@ -1016,19 +1017,19 @@ document.addEventListener("DOMContentLoaded", () => {
   transform: translateY(-2px);
 }
 
-/* ── Bottom Banner ── */
+/* ── Bottom Banner (Compact) ── */
 .cs-bottom-banner {
   width: 100%;
   max-width: 1440px;
-  margin: 40px auto 0 auto;
+  margin: 50px auto 0 auto;
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
-  border-radius: 20px;
-  padding: 24px 32px;
+  border-radius: 24px;
+  padding: 28px 36px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 16px 48px rgba(15, 23, 42, 0.05);
   position: relative;
   z-index: 5;
   box-sizing: border-box;
@@ -1036,14 +1037,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .cs-banner-text h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 800;
   color: #0F172A;
   margin-bottom: 4px;
 }
 
 .cs-banner-text p {
-  font-size: 13px;
+  font-size: 14px;
   color: #475569;
 }
 
@@ -1057,24 +1058,24 @@ document.addEventListener("DOMContentLoaded", () => {
 @media (max-width: 1199px) {
   .cs-panel-grid {
     grid-template-columns: 1fr;
-    gap: 32px;
+    gap: 48px;
   }
 
   .cs-bottom-banner {
     flex-direction: column;
     text-align: center;
-    gap: 16px;
-    padding: 24px 20px;
+    gap: 24px;
+    padding: 32px 24px;
   }
 }
 
 @media (max-width: 767px) {
   .cs-showcase-section {
-    padding: 40px 16px;
+    padding: 80px 20px;
   }
 
   .cs-story-card {
-    padding: 20px 16px;
+    padding: 28px 20px;
   }
 
   .cs-kpi-grid {
