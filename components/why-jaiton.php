@@ -408,24 +408,29 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .showcase-panel {
-  display: flex;
+  display: grid;
+  grid-template-columns: 42% calc(58% - 48px);
+  gap: 48px;
   align-items: center;
-  gap: 80px;
   width: 100%;
+  box-sizing: border-box;
 }
 
-/* Grid Ratios: 45% Media Workspace / 55% Content Side */
+.panel-02,
+.panel-04 {
+  grid-template-columns: calc(58% - 48px) 42%;
+}
+
+/* Grid Column Sides */
 .showcase-media-side {
-  flex: 0 0 45%;
-  max-width: 45%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .showcase-content-side {
-  flex: 0 0 55%;
-  max-width: 55%;
+  width: 100%;
 }
 
 /* ── Design Workspace (Illustration Presentation Area) ── */
