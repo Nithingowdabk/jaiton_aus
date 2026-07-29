@@ -3,34 +3,6 @@
      ============================================================ -->
 <section id="why-jaiton" class="why-executive-section">
   
-  <!-- Premium Enterprise Technology Background Layers (PCB / Infrastructure Blueprint) -->
-  <div class="tech-bg-layers" aria-hidden="true">
-    <div class="tech-divider-top"></div>
-    <div class="tech-divider-bottom"></div>
-    <div class="tech-glow tech-glow--purple"></div>
-    <div class="tech-glow tech-glow--blue"></div>
-
-    <svg class="tech-pcb-svg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-      <pattern id="pcb-grid-pattern" width="140" height="140" patternUnits="userSpaceOnUse">
-        <!-- Thin Technology Traces (1px, 3-6% opacity) -->
-        <path d="M0,35 L45,35 L65,55 L140,55" stroke="rgba(109,40,255,0.06)" stroke-width="1" fill="none"/>
-        <path d="M35,0 L35,45 L55,65 L55,140" stroke="rgba(59,130,246,0.05)" stroke-width="1" fill="none"/>
-        <path d="M140,105 L95,105 L75,125 L0,125" stroke="rgba(109,40,255,0.05)" stroke-width="1" fill="none"/>
-        <path d="M105,140 L105,95 L125,75 L125,0" stroke="rgba(59,130,246,0.05)" stroke-width="1" fill="none"/>
-
-        <!-- Microchip Terminal Nodes -->
-        <circle cx="65" cy="55" r="2.5" fill="none" stroke="rgba(109,40,255,0.08)" stroke-width="1"/>
-        <circle cx="65" cy="55" r="1" fill="rgba(109,40,255,0.12)"/>
-        
-        <circle cx="55" cy="65" r="2.5" fill="none" stroke="rgba(59,130,246,0.08)" stroke-width="1"/>
-        <circle cx="55" cy="65" r="1" fill="rgba(59,130,246,0.12)"/>
-
-        <rect x="85" y="85" width="10" height="10" rx="2" fill="none" stroke="rgba(109,40,255,0.06)" stroke-width="1"/>
-      </pattern>
-      <rect width="100%" height="100%" fill="url(#pcb-grid-pattern)"/>
-    </svg>
-  </div>
-  
   <div class="container">
     
     <!-- Section Header (Max Width 900px, Centered) -->
