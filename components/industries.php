@@ -122,26 +122,47 @@
   </div>
 </section>
 
-<!-- CSS specifically for Industries Bento Grid -->
 <style>
 .industries-section {
-  padding: 120px 0;
+  padding: 50px 0;
   background-color: var(--light-bg);
   position: relative;
   overflow: hidden;
 }
 
-/* Bento Grid Setup */
+.industries-section .section-header {
+  margin-bottom: 24px;
+}
+
+.industries-section .section-badge {
+  margin-bottom: 8px;
+  padding: 4px 12px;
+  font-size: 0.7rem;
+}
+
+.industries-section .section-title {
+  font-size: clamp(26px, 2.2vw, 34px);
+  margin-bottom: 6px;
+}
+
+.industries-section .section-desc {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+/* Bento Grid Compact Setup (Fits in 1 Desktop Frame) */
 .bento-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 250px;
-  gap: 28px;
+  grid-auto-rows: 175px;
+  gap: 16px;
 }
 
 .bento-card {
   position: relative;
-  border-radius: var(--radius-lg);
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-normal);
@@ -157,7 +178,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: var(--radius-lg);
+  border-radius: 16px;
   border: 1px solid transparent;
   background: linear-gradient(135deg, rgba(109, 40, 255, 0.4), rgba(59, 130, 246, 0.4)) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
@@ -195,17 +216,17 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(8, 19, 39, 0.4) 0%, rgba(8, 19, 39, 0.85) 100%);
+  background: linear-gradient(180deg, rgba(8, 19, 39, 0.35) 0%, rgba(8, 19, 39, 0.88) 100%);
   z-index: 2;
   transition: background var(--transition-normal);
 }
 
 .bento-card:hover .bento-overlay {
-  background: linear-gradient(180deg, rgba(8, 19, 39, 0.3) 0%, rgba(8, 19, 39, 0.95) 100%);
+  background: linear-gradient(180deg, rgba(8, 19, 39, 0.25) 0%, rgba(8, 19, 39, 0.95) 100%);
 }
 
 .bento-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: var(--shadow-xl);
 }
 
@@ -214,7 +235,7 @@
   z-index: 3;
   width: 100%;
   height: 100%;
-  padding: 32px;
+  padding: 18px 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -231,14 +252,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 48px;
-  border-radius: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.12);
   color: var(--white);
-  font-size: 1.25rem;
+  font-size: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   backdrop-filter: blur(4px);
   transition: all var(--transition-normal);
 }
@@ -247,23 +268,32 @@
   background-color: var(--primary-purple);
   border-color: var(--primary-purple);
   color: var(--white);
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 .bento-text h3 {
   color: var(--white);
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 800;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
+  line-height: 1.2;
 }
 
 .bento-text p {
   color: #cbd5e1;
-  font-size: 0.85rem;
-  line-height: 1.5;
-  margin-bottom: 16px;
-  opacity: 0.85;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  opacity: 0.9;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   transition: all var(--transition-normal);
+}
+
+.bento-card.tall .bento-text p {
+  -webkit-line-clamp: 4;
 }
 
 .bento-card:hover .bento-text p {
@@ -274,15 +304,15 @@
 .bento-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.8125rem;
+  gap: 5px;
+  font-size: 0.75rem;
   font-weight: 700;
   color: #a275ff;
   transition: all var(--transition-fast);
 }
 
 .bento-link i {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   transition: transform var(--transition-fast);
 }
 
@@ -295,12 +325,12 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   .bento-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: 250px;
+    grid-auto-rows: 180px;
   }
-  
+
   .bento-card.span-2 {
     grid-column: span 2;
   }
@@ -312,13 +342,13 @@
 
 @media (max-width: 767px) {
   .industries-section {
-    padding: 80px 0;
+    padding: 40px 0;
   }
 
   .bento-grid {
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
-    gap: 20px;
+    gap: 16px;
   }
 
   .bento-card.span-2,
@@ -328,8 +358,8 @@
   }
 
   .bento-content {
-    padding: 24px;
-    height: 250px;
+    padding: 20px;
+    height: 190px;
   }
 
   .bento-card.tall .bento-content {
