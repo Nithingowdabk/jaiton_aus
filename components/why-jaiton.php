@@ -283,16 +283,46 @@
 
     </div>
 
-    <!-- Bottom Executive CTA Showcase Banner -->
-    <div class="showcase-cta-banner" data-aos="fade-up">
-      <div class="cta-banner-content">
-        <h3 class="cta-banner-title">Ready to Experience Enterprise Software Excellence?</h3>
-        <p class="cta-banner-desc">Discuss your platform goals with our Australian software strategy team.</p>
+    <!-- Bottom Executive Action Showcase Capsule -->
+    <div class="why-action-showcase" data-aos="fade-up">
+      <div class="showcase-top-info">
+        <span class="showcase-mini-badge"><i class="fa-solid fa-circle-check"></i> Australian Enterprise Partnership</span>
+        <h3 class="showcase-heading">Accelerate Your Digital Platform Architecture</h3>
+        <p class="showcase-subheading">Collaborate directly with our onshore Sydney software engineering squad to build scalable, AI-powered digital infrastructure.</p>
       </div>
-      <div class="cta-banner-actions">
-        <a href="#contact" class="btn btn-primary btn-magnetic">Book a Strategy Call <i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#services" class="btn btn-secondary">Explore Capabilities <i class="fa-solid fa-layer-group"></i></a>
+
+      <!-- 2 Interactive Action Pathways -->
+      <div class="showcase-action-grid">
+        
+        <!-- Action Card 1: Executive Strategy Session -->
+        <div class="action-card card-primary">
+          <div class="card-icon-box"><i class="fa-solid fa-calendar-check"></i></div>
+          <div class="card-text-box">
+            <h4>Book Executive Strategy Session</h4>
+            <p>30-minute 1-on-1 architecture & roadmap consultation with our onshore technology directors.</p>
+          </div>
+          <a href="#contact" class="btn btn-action-primary">Schedule Session <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- Action Card 2: Architecture & Security Audit -->
+        <div class="action-card card-secondary">
+          <div class="card-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="card-text-box">
+            <h4>Request Platform Technical Audit</h4>
+            <p>Receive a comprehensive enterprise architecture, cloud performance, and security readiness audit.</p>
+          </div>
+          <a href="#contact" class="btn btn-action-secondary">Request Audit <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
       </div>
+
+      <!-- Bottom Trust Indicators Bar -->
+      <div class="showcase-trust-strip">
+        <div class="trust-strip-item"><i class="fa-solid fa-circle-check"></i> 100% Onshore Australian Governance</div>
+        <div class="trust-strip-item"><i class="fa-solid fa-circle-check"></i> Zero-Obligation Technical Evaluation</div>
+        <div class="trust-strip-item"><i class="fa-solid fa-circle-check"></i> ISO 27001 Security Aligned</div>
+      </div>
+
     </div>
 
   </div>
@@ -637,46 +667,183 @@ document.addEventListener("DOMContentLoaded", () => {
   align-items: center;
 }
 
-/* ── Bottom Executive CTA Showcase Banner ── */
-.showcase-cta-banner {
+/* ── Bottom Executive Action Showcase Capsule ── */
+.why-action-showcase {
   width: 100%;
   margin-top: 140px;
-  background: #F8FAFC;
+  background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  border-radius: 28px;
-  padding: 48px 56px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.06);
+  border-radius: 32px;
+  padding: 56px;
+  box-shadow: 0 24px 64px -12px rgba(15, 23, 42, 0.08);
   box-sizing: border-box;
 }
 
-.cta-banner-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #0F172A;
-  margin-bottom: 6px;
+.showcase-top-info {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 40px auto;
 }
 
-.cta-banner-desc {
+.showcase-mini-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #6D28FF;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.showcase-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(26px, 2.5vw, 34px);
+  font-weight: 800;
+  color: #0F172A;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.showcase-subheading {
   font-size: 16px;
+  line-height: 1.6;
   color: #475569;
 }
 
-.cta-banner-actions {
-  display: flex;
-  gap: 16px;
-  flex-shrink: 0;
+/* 2 Action Cards Grid */
+.showcase-action-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-bottom: 36px;
 }
 
-.cta-banner-actions .btn {
-  height: 50px;
-  padding: 0 28px;
-  border-radius: 12px;
-  font-size: 15px;
+.action-card {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: transform 300ms ease, box-shadow 300ms ease, border-color 300ms ease;
+  box-sizing: border-box;
+}
+
+.action-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
+  border-color: rgba(109, 40, 255, 0.3);
+}
+
+.card-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+}
+
+.card-primary .card-icon-box {
+  background: rgba(109, 40, 255, 0.08);
+  color: #6D28FF;
+}
+
+.card-secondary .card-icon-box {
+  background: rgba(59, 130, 246, 0.08);
+  color: #3B82F6;
+}
+
+.card-text-box h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
   font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 8px;
+}
+
+.card-text-box p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: #64748B;
+  margin-bottom: 24px;
+}
+
+.btn-action-primary {
+  height: 46px;
+  padding: 0 24px;
+  border-radius: 100px;
+  background: linear-gradient(135deg, #6D28FF, #3B82F6);
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  box-shadow: 0 4px 16px rgba(109, 40, 255, 0.25);
+  transition: all 250ms ease;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.btn-action-primary:hover {
+  box-shadow: 0 8px 24px rgba(109, 40, 255, 0.45);
+  transform: translateY(-2px);
+  color: #FFFFFF;
+}
+
+.btn-action-secondary {
+  height: 46px;
+  padding: 0 24px;
+  border-radius: 100px;
+  background: #FFFFFF;
+  border: 1.5px solid #3B82F6;
+  color: #0F172A;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 250ms ease;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.btn-action-secondary:hover {
+  background: rgba(59, 130, 246, 0.08);
+  border-color: #2563EB;
+  color: #3B82F6;
+  transform: translateY(-2px);
+}
+
+/* Trust Indicators Strip */
+.showcase-trust-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding-top: 28px;
+  border-top: 1px solid #F1F5F9;
+  flex-wrap: wrap;
+}
+
+.trust-strip-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+}
+
+.trust-strip-item i {
+  color: #10B981;
 }
 
 /* ── Responsive Breakpoints ── */
