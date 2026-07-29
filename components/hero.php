@@ -3,7 +3,15 @@
      ============================================================ -->
 <section id="hero" class="hero-section">
   
-
+  <!-- Background Layers -->
+  <div class="hero-bg-layers">
+    <div class="hero-video-container">
+      <video autoplay loop muted playsinline class="hero-bg-video">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hero-bg-grid"></div>
+  </div>
 
   <!-- Hero Container -->
   <div class="hero-container">
@@ -229,7 +237,35 @@ document.addEventListener("DOMContentLoaded", () => {
   box-sizing: border-box;
 }
 
+/* ── Background Layers ── */
+.hero-bg-layers {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: hidden;
+  pointer-events: none;
+}
 
+.hero-video-container {
+  position: absolute;
+  inset: 0;
+  opacity: 0.18;
+}
+
+.hero-bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-bg-grid {
+  position: absolute;
+  inset: 0;
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.015) 1px, transparent 1px);
+}
 
 /* ── Hero Container ── */
 .hero-container {
