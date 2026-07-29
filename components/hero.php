@@ -16,17 +16,9 @@
   <!-- Hero Container -->
   <div class="hero-container">
     <div class="hero-content" data-aos="fade-up" data-aos-duration="600">
-      <span class="hero-badge">
-        <i class="fa-solid fa-circle-check"></i> Australian Enterprise Technology Partner
-      </span>
-
       <h1 class="hero-heading">
         Engineering <span class="gradient-text">Intelligent</span> Digital Platforms for <span class="gradient-text">Australia</span>'s <span class="gradient-text">Future Enterprises</span>
       </h1>
-
-      <p class="hero-description">
-        Helping Australian organisations modernise operations through AI, Cloud Engineering, Enterprise Software, Data Platforms, Cybersecurity and Intelligent Automation.
-      </p>
       
       <!-- CTA Action Buttons -->
       <div class="hero-ctas">
