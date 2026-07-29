@@ -1,7 +1,7 @@
 <!-- ============================================================
-     GLOBAL DELIVERY NETWORK – Live Enterprise Operations Dashboard
+     GLOBAL DELIVERY NETWORK – Production Enterprise Operations Center
      ============================================================ -->
-<section id="presence" class="presence-section" aria-label="Global Operations Map">
+<section id="presence" class="presence-section" aria-label="Global Operations Network">
   
   <!-- Blueprint Grid & Radial Glow Background Layers (Dark Navy Theme) -->
   <div class="presence-bg-layers" aria-hidden="true">
@@ -25,111 +25,157 @@
       </p>
     </div>
 
-    <!-- 2-Column Desktop Grid: Left 60% Interactive Map / Right 40% Live Operations Dashboard -->
+    <!-- 2-Column Desktop Layout: Left 60% Map / Right 40% Live Operations KPI Panel -->
     <div class="presence-operations-grid">
       
       <!-- ============================================================
-           LEFT 60%: Interactive World Map & Data Network
+           LEFT 60%: Realistic Vector World Map & Orbital Network
            ============================================================ -->
       <div class="ops-map-wrapper" data-aos="fade-right">
         <div class="ops-map-card">
           
+          <!-- Capability Chips Overlay around Map -->
+          <div class="g-capability-chip chip-1"><i class="fa-solid fa-code text-purple"></i> Enterprise Software</div>
+          <div class="g-capability-chip chip-2"><i class="fa-solid fa-cloud text-blue"></i> Cloud Engineering</div>
+          <div class="g-capability-chip chip-3"><i class="fa-solid fa-brain text-purple"></i> AI Solutions</div>
+          <div class="g-capability-chip chip-4"><i class="fa-solid fa-microchip text-green"></i> IoT Systems</div>
+          <div class="g-capability-chip chip-5"><i class="fa-solid fa-shield-halved text-blue"></i> Cyber Security</div>
+          <div class="g-capability-chip chip-6"><i class="fa-solid fa-database text-purple"></i> Data Platforms</div>
+
+          <!-- SVG World Map with Detailed Continent Paths -->
           <svg viewBox="0 0 1000 500" class="ops-world-map" aria-hidden="true">
             <defs>
-              <linearGradient id="gNetGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <linearGradient id="netArcGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stop-color="#6D28FF"/>
-                <stop offset="100%" stop-color="#3B82F6"/>
-              </linearGradient>
-              <linearGradient id="gNetGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#3B82F6"/>
+                <stop offset="50%" stop-color="#3B82F6"/>
                 <stop offset="100%" stop-color="#10B981"/>
               </linearGradient>
+
+              <!-- Radial Glow for Highlighted Node Countries -->
+              <radialGradient id="countryGlowGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="rgba(109, 40, 255, 0.4)"/>
+                <stop offset="100%" stop-color="rgba(59, 130, 246, 0.08)"/>
+              </radialGradient>
             </defs>
 
-            <!-- Background Grid Coordinates -->
-            <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
-              <line x1="100" y1="0" x2="100" y2="500"/>
-              <line x1="300" y1="0" x2="300" y2="500"/>
-              <line x1="500" y1="0" x2="500" y2="500"/>
-              <line x1="700" y1="0" x2="700" y2="500"/>
-              <line x1="900" y1="0" x2="900" y2="500"/>
+            <!-- Blueprint Coordinate Grid Lines -->
+            <g stroke="rgba(255,255,255,0.035)" stroke-width="1">
+              <line x1="150" y1="0" x2="150" y2="500"/>
+              <line x1="350" y1="0" x2="350" y2="500"/>
+              <line x1="550" y1="0" x2="550" y2="500"/>
+              <line x1="750" y1="0" x2="750" y2="500"/>
+              <line x1="950" y1="0" x2="950" y2="500"/>
               <line x1="0" y1="125" x2="1000" y2="125"/>
               <line x1="0" y1="250" x2="1000" y2="250"/>
               <line x1="0" y1="375" x2="1000" y2="375"/>
             </g>
 
-            <!-- Continents Outlines (Dark Navy Blueprint Palette) -->
-            <!-- North America -->
-            <path d="M120,90 C180,60 240,70 260,110 C280,150 200,210 180,240 C160,270 140,290 120,250 C100,210 70,170 90,130 Z" fill="rgba(255,255,255,0.015)" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
-            <!-- South America -->
-            <path d="M180,250 C200,270 240,330 230,370 C220,410 190,430 170,410 C150,390 140,330 150,290 Z" fill="rgba(255,255,255,0.015)" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
-            <!-- Eurasia & Asia -->
-            <path d="M430,110 C490,70 610,60 740,90 C820,110 870,140 840,190 C810,230 780,270 750,290 C700,310 630,260 570,270 C510,280 470,210 440,190 Z" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
-            <!-- Africa -->
-            <path d="M460,210 C500,200 550,210 570,250 C590,290 580,350 540,390 C500,430 470,400 460,360 C450,320 440,270 450,230 Z" fill="rgba(255,255,255,0.015)" stroke="rgba(255,255,255,0.06)" stroke-width="1.5"/>
+            <!-- Detailed Continent Outlines (Thin Stroke, Ultra-Subtle Fill) -->
+            <g fill="rgba(255, 255, 255, 0.02)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.2" stroke-linejoin="round">
+              
+              <!-- North America -->
+              <path d="M 80,75 L 110,65 L 140,55 L 190,50 L 240,65 L 280,75 L 295,95 L 280,120 L 260,135 L 245,160 L 225,180 L 210,210 L 190,225 L 175,210 L 160,195 L 145,175 L 130,160 L 115,145 L 95,130 L 75,115 L 70,95 Z"/>
+              <path d="M 230,35 L 260,25 L 280,35 L 265,55 L 240,45 Z"/> <!-- Greenland -->
 
-            <!-- Highlighted Key Region: Australia -->
-            <path d="M800,330 C860,320 910,340 930,380 C940,410 900,440 860,440 C800,440 770,390 780,360 Z" fill="rgba(109, 40, 255, 0.15)" stroke="#6D28FF" stroke-width="2" class="glowing-country"/>
+              <!-- South America -->
+              <path d="M 220,240 L 250,230 L 285,255 L 305,290 L 310,330 L 290,370 L 270,410 L 250,430 L 235,410 L 225,370 L 220,330 L 210,290 L 205,260 Z"/>
 
-            <!-- Flight Path Network (Sydney -> Singapore -> Bangalore -> Dubai -> Johannesburg) -->
-            <path d="M880,380 Q820,320 760,280" fill="none" stroke="url(#gNetGrad1)" stroke-width="2" stroke-dasharray="6 6" class="ops-flow-path"/>
-            <path d="M760,280 Q730,265 700,260" fill="none" stroke="url(#gNetGrad1)" stroke-width="2" stroke-dasharray="6 6" class="ops-flow-path"/>
-            <path d="M700,260 Q660,230 630,220" fill="none" stroke="url(#gNetGrad2)" stroke-width="2" stroke-dasharray="6 6" class="ops-flow-path"/>
-            <path d="M630,220 Q560,280 530,360" fill="none" stroke="url(#gNetGrad2)" stroke-width="2" stroke-dasharray="6 6" class="ops-flow-path"/>
+              <!-- Europe -->
+              <path d="M 430,75 L 460,65 L 500,60 L 530,75 L 545,95 L 525,115 L 495,120 L 465,115 L 440,110 L 420,95 Z"/>
+              <path d="M 410,95 L 425,75 L 440,85 L 420,105 Z"/> <!-- UK & Ireland -->
 
-            <!-- Moving Traveling Data Particles -->
-            <circle cx="880" cy="380" r="3.5" fill="#6D28FF" class="particle-syd-sgp"/>
-            <circle cx="760" cy="280" r="3.5" fill="#3B82F6" class="particle-sgp-blr"/>
-            <circle cx="700" cy="260" r="3.5" fill="#10B981" class="particle-blr-dxb"/>
+              <!-- Africa -->
+              <path d="M 450,140 L 510,135 L 560,165 L 580,205 L 565,245 L 545,285 L 530,335 L 515,375 L 490,390 L 470,360 L 460,310 L 445,265 L 430,215 L 425,175 Z"/>
+              <path d="M 585,310 L 600,300 L 605,335 L 590,345 Z"/> <!-- Madagascar -->
+
+              <!-- Asia & Eurasia -->
+              <path d="M 535,70 L 600,55 L 680,50 L 760,55 L 830,70 L 870,95 L 850,130 L 810,150 L 760,165 L 720,185 L 680,210 L 640,195 L 600,175 L 565,150 L 540,120 Z"/>
+              <path d="M 830,135 L 850,125 L 860,155 L 840,175 Z"/> <!-- Japan -->
+
+              <!-- Australia & Oceania (Highlighted Governance Region) -->
+              <path d="M 770,320 L 830,305 L 890,315 L 935,345 L 940,380 L 910,425 L 850,435 L 790,420 L 765,375 L 755,345 Z" class="map-highlight-country"/>
+              <path d="M 945,395 L 965,385 L 970,420 L 950,430 Z"/> <!-- New Zealand -->
+
+            </g>
+
+            <!-- Soft Glowing Highlights on Key Enterprise Hub Countries -->
+            <!-- 1. Australia -->
+            <ellipse cx="850" cy="370" rx="75" ry="55" fill="url(#countryGlowGrad)"/>
+            <!-- 2. India -->
+            <ellipse cx="700" cy="235" rx="35" ry="30" fill="url(#countryGlowGrad)"/>
+            <!-- 3. Singapore -->
+            <ellipse cx="760" cy="275" rx="20" ry="18" fill="url(#countryGlowGrad)"/>
+            <!-- 4. UAE -->
+            <ellipse cx="630" cy="205" rx="22" ry="18" fill="url(#countryGlowGrad)"/>
+            <!-- 5. South Africa -->
+            <ellipse cx="510" cy="365" rx="30" ry="25" fill="url(#countryGlowGrad)"/>
+
+            <!-- Continuous Animated Network Connection Routes -->
+            <!-- Sydney (875,375) <-> Singapore (760,275) <-> Bangalore (700,235) <-> Dubai (630,205) <-> Johannesburg (510,365) <-> Sydney -->
+            <path d="M 875,375 Q 820,310 760,275" fill="none" stroke="url(#netArcGrad1)" stroke-width="2" stroke-dasharray="6 6" class="net-flow-path"/>
+            <path d="M 760,275 Q 730,250 700,235" fill="none" stroke="url(#netArcGrad1)" stroke-width="2" stroke-dasharray="6 6" class="net-flow-path"/>
+            <path d="M 700,235 Q 665,215 630,205" fill="none" stroke="url(#netArcGrad1)" stroke-width="2" stroke-dasharray="6 6" class="net-flow-path"/>
+            <path d="M 630,205 Q 560,270 510,365" fill="none" stroke="url(#netArcGrad1)" stroke-width="2" stroke-dasharray="6 6" class="net-flow-path"/>
+            <path d="M 510,365 Q 690,440 875,375" fill="none" stroke="url(#netArcGrad1)" stroke-width="2" stroke-dasharray="6 6" class="net-flow-path"/>
+
+            <!-- Smoothly Traveling Data Particles -->
+            <circle cx="875" cy="375" r="3.5" fill="#6D28FF" class="particle-flow-1"/>
+            <circle cx="760" cy="275" r="3.5" fill="#3B82F6" class="particle-flow-2"/>
+            <circle cx="700" cy="235" r="3.5" fill="#10B981" class="particle-flow-3"/>
           </svg>
 
-          <!-- Interactive Office Nodes -->
+          <!-- Central Global Operations Rotating Orbital Ring around Sydney HQ -->
+          <div class="sydney-orbital-wrapper" style="top: 75%; left: 87.5%;">
+            <div class="orbital-ring"></div>
+            <div class="orbital-ring-outer"></div>
+          </div>
+
+          <!-- Interactive Enterprise Office Nodes -->
           <!-- 1. Sydney HQ (Dominant Node) -->
-          <div class="ops-pin active hq-pin" style="top: 76%; left: 88%;" data-office="syd">
-            <span class="pin-pulse-ring hq-ring"></span>
+          <div class="ops-pin active hq-pin" style="top: 75%; left: 87.5%;" data-office="syd">
+            <span class="pin-pulse-halo"></span>
             <i class="fa-solid fa-location-dot pin-icon"></i>
             <div class="pin-badge">🇦🇺 Sydney HQ (Global Governance)</div>
           </div>
 
           <!-- 2. Bangalore R&D -->
-          <div class="ops-pin" style="top: 52%; left: 70%;" data-office="blr">
-            <span class="pin-pulse-ring"></span>
+          <div class="ops-pin" style="top: 47%; left: 70%;" data-office="blr">
+            <span class="pin-pulse-halo"></span>
             <i class="fa-solid fa-location-dot pin-icon"></i>
             <div class="pin-badge">🇮🇳 Bangalore R&D</div>
           </div>
 
           <!-- 3. Singapore APAC -->
-          <div class="ops-pin" style="top: 56%; left: 76%;" data-office="sgp">
-            <span class="pin-pulse-ring"></span>
+          <div class="ops-pin" style="top: 55%; left: 76%;" data-office="sgp">
+            <span class="pin-pulse-halo"></span>
             <i class="fa-solid fa-location-dot pin-icon"></i>
             <div class="pin-badge">🇸🇬 Singapore Hub</div>
           </div>
 
           <!-- 4. Dubai UAE -->
-          <div class="ops-pin" style="top: 44%; left: 63%;" data-office="dxb">
-            <span class="pin-pulse-ring"></span>
+          <div class="ops-pin" style="top: 41%; left: 63%;" data-office="dxb">
+            <span class="pin-pulse-halo"></span>
             <i class="fa-solid fa-location-dot pin-icon"></i>
             <div class="pin-badge">🇦🇪 Dubai UAE</div>
           </div>
 
           <!-- 5. Johannesburg Hub -->
-          <div class="ops-pin" style="top: 72%; left: 53%;" data-office="jnb">
-            <span class="pin-pulse-ring"></span>
+          <div class="ops-pin" style="top: 73%; left: 51%;" data-office="jnb">
+            <span class="pin-pulse-halo"></span>
             <i class="fa-solid fa-location-dot pin-icon"></i>
             <div class="pin-badge">🇿🇦 Johannesburg Hub</div>
           </div>
 
-          <!-- Floating Information Chips around Map -->
-          <div class="g-map-chip chip-tl"><i class="fa-solid fa-shield-check text-blue"></i> ISO 27001 Certified</div>
-          <div class="g-map-chip chip-tr"><i class="fa-solid fa-cloud text-purple"></i> Cloud Native Architecture</div>
-          <div class="g-map-chip chip-bl"><i class="fa-solid fa-flag-usa text-green"></i> Australian Standards</div>
-          <div class="g-map-chip chip-br"><i class="fa-solid fa-rotate text-blue"></i> Agile Delivery</div>
+          <!-- Dynamic Live Network Event Toast Badges -->
+          <div class="live-event-toast toast-1"><i class="fa-solid fa-circle-check text-green"></i> Deployment Complete</div>
+          <div class="live-event-toast toast-2"><i class="fa-solid fa-cloud-arrow-up text-blue"></i> Cloud Sync Active</div>
+          <div class="live-event-toast toast-3"><i class="fa-solid fa-shield-check text-purple"></i> Security Scan Passed</div>
 
         </div>
       </div>
 
       <!-- ============================================================
-           RIGHT 40%: Live Operations Dashboard Panel
+           RIGHT 40%: Live Operations Panel (Clean KPI Widgets)
            ============================================================ -->
       <div class="ops-panel-wrapper" data-aos="fade-left">
         <div class="ops-dashboard-card">
@@ -137,12 +183,12 @@
           <div class="dash-top-bar">
             <div class="dash-title">
               <span class="live-dot"></span>
-              <span>LIVE OPERATIONS CENTER</span>
+              <span>LIVE OPERATIONS DASHBOARD</span>
             </div>
-            <span class="dash-status-badge">SYSTEM STABLE</span>
+            <span class="dash-status-badge">HEALTH: 100%</span>
           </div>
 
-          <!-- Office Information Switcher Panels -->
+          <!-- Office Specific KPI Widgets Panel (Switches on Pin Click) -->
           <!-- 1. Sydney HQ (Default Active) -->
           <div class="office-panel-content active" id="office-syd">
             <div class="office-panel-header">
@@ -153,28 +199,36 @@
               </div>
             </div>
 
-            <!-- Live Clock & SLAs -->
             <div class="office-live-time-box">
               <div class="time-label"><i class="fa-solid fa-clock"></i> LIVE SYDNEY TIME (AEST)</div>
               <div class="time-value" id="clock-syd">--:--:--</div>
             </div>
 
-            <div class="office-metrics-grid">
-              <div class="dash-metric">
-                <span class="m-val">< 30 mins</span>
-                <span class="m-lbl">SLA Response Time</span>
+            <!-- Clean Enterprise KPI Widgets Grid -->
+            <div class="kpi-widget-grid">
+              <div class="kpi-widget">
+                <span class="widget-label">ACTIVE REGION</span>
+                <span class="widget-value text-purple">Sydney HQ</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">45+</span>
-                <span class="m-lbl">Onshore Engineers</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ENGINEERING CAPACITY</span>
+                <span class="widget-value">250+ Engineers</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">99.99%</span>
-                <span class="m-lbl">Cloud Availability</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ONLINE TEAMS</span>
+                <span class="widget-value">5 Regions 24/7</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">Active</span>
-                <span class="m-lbl">Project Governance</span>
+              <div class="kpi-widget">
+                <span class="widget-label">RUNNING PROJECTS</span>
+                <span class="widget-value">120+ Platforms</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SUPPORT STATUS</span>
+                <span class="widget-value text-green">Active (< 30m SLA)</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SYSTEM HEALTH</span>
+                <span class="widget-value text-blue">99.99% Operational</span>
               </div>
             </div>
           </div>
@@ -194,22 +248,30 @@
               <div class="time-value" id="clock-blr">--:--:--</div>
             </div>
 
-            <div class="office-metrics-grid">
-              <div class="dash-metric">
-                <span class="m-val">24×7</span>
-                <span class="m-lbl">Shift Operations</span>
+            <div class="kpi-widget-grid">
+              <div class="kpi-widget">
+                <span class="widget-label">ACTIVE REGION</span>
+                <span class="widget-value text-purple">Bangalore R&D</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">180+</span>
-                <span class="m-lbl">AI & Dev Engineers</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ENGINEERING CAPACITY</span>
+                <span class="widget-value">180+ AI Specialists</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">< 15 mins</span>
-                <span class="m-lbl">Code Commit Sync</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ONLINE TEAMS</span>
+                <span class="widget-value">3 Shift Cycles</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">Active</span>
-                <span class="m-lbl">R&D Lab Pipeline</span>
+              <div class="kpi-widget">
+                <span class="widget-label">RUNNING PROJECTS</span>
+                <span class="widget-value">85+ Active Sprints</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SUPPORT STATUS</span>
+                <span class="widget-value text-green">Active (24/7)</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SYSTEM HEALTH</span>
+                <span class="widget-value text-blue">100% Pipeline</span>
               </div>
             </div>
           </div>
@@ -220,7 +282,7 @@
               <span class="office-flag-emoji">🇸🇬</span>
               <div>
                 <h3 class="office-name">Singapore Hub</h3>
-                <span class="office-role-badge">Asia-Pacific Operations</span>
+                <span class="office-role-badge">Asia-Pacific Regional Ops</span>
               </div>
             </div>
 
@@ -229,22 +291,30 @@
               <div class="time-value" id="clock-sgp">--:--:--</div>
             </div>
 
-            <div class="office-metrics-grid">
-              <div class="dash-metric">
-                <span class="m-val">APAC</span>
-                <span class="m-lbl">Regional Support</span>
+            <div class="kpi-widget-grid">
+              <div class="kpi-widget">
+                <span class="widget-label">ACTIVE REGION</span>
+                <span class="widget-value text-purple">Singapore APAC</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">30+</span>
-                <span class="m-lbl">Regional Specialists</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ENGINEERING CAPACITY</span>
+                <span class="widget-value">30+ Regional Devs</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">< 20 mins</span>
-                <span class="m-lbl">Support Response</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ONLINE TEAMS</span>
+                <span class="widget-value">APAC Shift</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">Active</span>
-                <span class="m-lbl">Enterprise Gateway</span>
+              <div class="kpi-widget">
+                <span class="widget-label">RUNNING PROJECTS</span>
+                <span class="widget-value">40+ Enterprise Apps</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SUPPORT STATUS</span>
+                <span class="widget-value text-green">Active</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SYSTEM HEALTH</span>
+                <span class="widget-value text-blue">99.9% Uptime</span>
               </div>
             </div>
           </div>
@@ -264,22 +334,30 @@
               <div class="time-value" id="clock-dxb">--:--:--</div>
             </div>
 
-            <div class="office-metrics-grid">
-              <div class="dash-metric">
-                <span class="m-val">MENA</span>
-                <span class="m-lbl">Strategic Operations</span>
+            <div class="kpi-widget-grid">
+              <div class="kpi-widget">
+                <span class="widget-label">ACTIVE REGION</span>
+                <span class="widget-value text-purple">Dubai UAE</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">25+</span>
-                <span class="m-lbl">Solutions Architects</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ENGINEERING CAPACITY</span>
+                <span class="widget-value">25+ Architects</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">Active</span>
-                <span class="m-lbl">Client Engagement</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ONLINE TEAMS</span>
+                <span class="widget-value">MENA Shift</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">Secure</span>
-                <span class="m-lbl">Infrastructure</span>
+              <div class="kpi-widget">
+                <span class="widget-label">RUNNING PROJECTS</span>
+                <span class="widget-value">30+ Platforms</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SUPPORT STATUS</span>
+                <span class="widget-value text-green">Active</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SYSTEM HEALTH</span>
+                <span class="widget-value text-blue">100% Operational</span>
               </div>
             </div>
           </div>
@@ -299,29 +377,37 @@
               <div class="time-value" id="clock-jnb">--:--:--</div>
             </div>
 
-            <div class="office-metrics-grid">
-              <div class="dash-metric">
-                <span class="m-val">QA & Test</span>
-                <span class="m-lbl">Core Competency</span>
+            <div class="kpi-widget-grid">
+              <div class="kpi-widget">
+                <span class="widget-label">ACTIVE REGION</span>
+                <span class="widget-value text-purple">Johannesburg</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">40+</span>
-                <span class="m-lbl">QA Engineers</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ENGINEERING CAPACITY</span>
+                <span class="widget-value">40+ QA Engineers</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">Automated</span>
-                <span class="m-lbl">Testing Pipelines</span>
+              <div class="kpi-widget">
+                <span class="widget-label">ONLINE TEAMS</span>
+                <span class="widget-value">EMEA Shift</span>
               </div>
-              <div class="dash-metric">
-                <span class="m-val">Active</span>
-                <span class="m-lbl">Security Audits</span>
+              <div class="kpi-widget">
+                <span class="widget-label">RUNNING PROJECTS</span>
+                <span class="widget-value">Automated Testing</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SUPPORT STATUS</span>
+                <span class="widget-value text-green">Active</span>
+              </div>
+              <div class="kpi-widget">
+                <span class="widget-label">SYSTEM HEALTH</span>
+                <span class="widget-value text-blue">100% Verified</span>
               </div>
             </div>
           </div>
 
           <!-- Follow-the-Sun Continuous Delivery Timeline -->
           <div class="sun-delivery-box">
-            <div class="sun-title"><i class="fa-solid fa-arrows-spin"></i> FOLLOW-THE-SUN DELIVERY MODEL</div>
+            <div class="sun-title"><i class="fa-solid fa-arrows-spin"></i> FOLLOW-THE-SUN DELIVERY WORKFLOW</div>
             <div class="sun-flow">
               <span class="sun-step">🇦🇺 Australia <small>(Arch)</small></span>
               <i class="fa-solid fa-arrow-right sun-arrow"></i>
@@ -335,7 +421,7 @@
 
           <!-- Real-Time Activity Event Feed -->
           <div class="live-feed-box">
-            <div class="feed-title"><i class="fa-solid fa-rss"></i> LIVE GLOBAL ACTIVITY FEED</div>
+            <div class="feed-title"><i class="fa-solid fa-rss"></i> LIVE GLOBAL NETWORK ACTIVITY</div>
             <div class="feed-message" id="live-feed-msg">
               <i class="fa-solid fa-circle-check text-green"></i> <span>Sydney HQ approved enterprise release deployment</span>
             </div>
@@ -346,26 +432,6 @@
 
     </div>
 
-    <!-- 4 Live Metric Counters Strip -->
-    <div class="presence-kpi-strip" data-aos="fade-up">
-      <div class="kpi-box">
-        <span class="kpi-val" data-target="120">120+</span>
-        <span class="kpi-lbl">Projects Delivered</span>
-      </div>
-      <div class="kpi-box">
-        <span class="kpi-val" data-target="98">98%</span>
-        <span class="kpi-lbl">Client Satisfaction</span>
-      </div>
-      <div class="kpi-box">
-        <span class="kpi-val">24/7</span>
-        <span class="kpi-lbl">Support Coverage</span>
-      </div>
-      <div class="kpi-box">
-        <span class="kpi-val">5</span>
-        <span class="kpi-lbl">Strategic Locations</span>
-      </div>
-    </div>
-
     <!-- Bottom Executive Action CTA Banner -->
     <div class="presence-bottom-cta" data-aos="fade-up">
       <div class="cta-text">
@@ -374,7 +440,7 @@
       </div>
       <div class="cta-actions">
         <a href="#contact" class="btn btn-g-primary">Schedule Strategy Session <i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#services" class="btn btn-g-secondary">Explore Delivery Model <i class="fa-solid fa-network-wired"></i></a>
+        <a href="#services" class="btn btn-g-secondary">Explore Global Delivery Model <i class="fa-solid fa-network-wired"></i></a>
       </div>
     </div>
 
@@ -384,7 +450,7 @@
 <!-- Live Clocks & Activity Feed Rotation Script -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. Live Time Clocks (AEST, IST, SGT, GST, SAST)
+  // 1. Real-Time Timezone Clocks
   const updateClocks = () => {
     const now = new Date();
     
@@ -412,7 +478,7 @@ document.addEventListener("DOMContentLoaded", () => {
   updateClocks();
   setInterval(updateClocks, 1000);
 
-  // 2. Interactive Map Pins Selection
+  // 2. Interactive Map Node Selection
   const pins = document.querySelectorAll(".ops-pin");
   const officePanels = document.querySelectorAll(".office-panel-content");
 
@@ -430,13 +496,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // 3. Rotating Live Activity Feed
+  // 3. Rotating Activity Feed Ticker
   const feedMessages = [
     "Sydney HQ approved enterprise release deployment",
     "Bangalore R&D completed sprint review & code commit",
     "Johannesburg QA automated security test verification complete",
     "Singapore APAC cloud infrastructure telemetry active",
-    "Sydney Strategy team initiated client discovery workshop"
+    "Dubai UAE solutions team synced client discovery roadmap"
   ];
   let feedIndex = 0;
   const feedEl = document.getElementById("live-feed-msg");
@@ -460,7 +526,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <style>
 .presence-section {
   position: relative;
-  padding: 100px 40px;
+  padding: 90px 40px;
   background-color: #08163D;
   color: #FFFFFF;
   overflow: hidden;
@@ -498,7 +564,7 @@ document.addEventListener("DOMContentLoaded", () => {
 .presence-header {
   text-align: center;
   max-width: 760px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 40px auto;
   position: relative;
   z-index: 5;
 }
@@ -515,7 +581,7 @@ document.addEventListener("DOMContentLoaded", () => {
   font-weight: 700;
   color: #A275FF;
   letter-spacing: 2px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .badge-pulse-dot {
@@ -535,15 +601,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .presence-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(32px, 3.2vw, 44px);
+  font-size: clamp(30px, 3vw, 42px);
   font-weight: 800;
   line-height: 1.2;
   color: #FFFFFF;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .presence-desc {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.6;
   color: #94A3B8;
 }
@@ -551,8 +617,8 @@ document.addEventListener("DOMContentLoaded", () => {
 /* Operations Grid: 60% Map / 40% Dashboard */
 .presence-operations-grid {
   display: grid;
-  grid-template-columns: 58% calc(42% - 32px);
-  gap: 32px;
+  grid-template-columns: 60% calc(40% - 28px);
+  gap: 28px;
   align-items: center;
   position: relative;
   z-index: 5;
@@ -560,7 +626,7 @@ document.addEventListener("DOMContentLoaded", () => {
   margin: 0 auto;
 }
 
-/* ── Left 60%: Interactive Map ── */
+/* ── Left 60%: Interactive Vector Map ── */
 .ops-map-wrapper {
   width: 100%;
 }
@@ -568,11 +634,11 @@ document.addEventListener("DOMContentLoaded", () => {
 .ops-map-card {
   position: relative;
   width: 100%;
-  background: rgba(15, 30, 66, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(15, 30, 66, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 28px;
   padding: 24px;
-  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(20px);
   box-sizing: border-box;
 }
@@ -583,16 +649,90 @@ document.addEventListener("DOMContentLoaded", () => {
   display: block;
 }
 
-.glowing-country {
-  filter: drop-shadow(0 0 12px rgba(109, 40, 255, 0.6));
+.map-highlight-country {
+  fill: rgba(109, 40, 255, 0.22);
+  stroke: #6D28FF;
+  stroke-width: 2;
+  filter: drop-shadow(0 0 14px rgba(109, 40, 255, 0.6));
 }
 
-.ops-flow-path {
-  animation: dashFlow 20s linear infinite;
+.net-flow-path {
+  animation: dashFlow 18s linear infinite;
 }
 
 @keyframes dashFlow {
-  to { stroke-dashoffset: -100; }
+  to { stroke-dashoffset: -120; }
+}
+
+/* Floating Capability Chips around Map */
+.g-capability-chip {
+  position: absolute;
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(15, 30, 66, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 6px 14px;
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #FFFFFF;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+  animation: chipFloat 4s ease-in-out infinite alternate;
+}
+
+@keyframes chipFloat {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-5px); }
+}
+
+.chip-1 { top: 16px; left: 16px; animation-delay: 0s; }
+.chip-2 { top: 16px; right: 16px; animation-delay: 1.2s; }
+.chip-3 { top: 50%; left: -10px; transform: translateY(-50%); animation-delay: 0.6s; }
+.chip-4 { bottom: 16px; left: 16px; animation-delay: 1.8s; }
+.chip-5 { bottom: 16px; right: 16px; animation-delay: 2.4s; }
+.chip-6 { top: 50%; right: -10px; transform: translateY(-50%); animation-delay: 0.9s; }
+
+.text-purple { color: #A275FF; }
+.text-blue   { color: #3B82F6; }
+.text-green  { color: #10B981; }
+
+/* Rotating Orbital Ring around Sydney HQ */
+.sydney-orbital-wrapper {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 8;
+}
+
+.orbital-ring {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 1.5px dashed rgba(109, 40, 255, 0.6);
+  animation: orbitRotate 12s linear infinite;
+}
+
+.orbital-ring-outer {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  animation: orbitRotateRev 16s linear infinite;
+}
+
+@keyframes orbitRotate {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes orbitRotateRev {
+  to { transform: rotate(-360deg); }
 }
 
 /* Map Pins */
@@ -600,50 +740,50 @@ document.addEventListener("DOMContentLoaded", () => {
   position: absolute;
   transform: translate(-50%, -50%);
   cursor: pointer;
-  z-index: 10;
+  z-index: 15;
 }
 
 .pin-icon {
-  font-size: 20px;
+  font-size: 18px;
   color: #3B82F6;
   transition: transform 200ms ease;
 }
 
 .ops-pin.active .pin-icon {
   color: #6D28FF;
-  transform: scale(1.3);
+  transform: scale(1.35);
 }
 
-.pin-pulse-ring {
+.pin-pulse-halo {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 28px;
-  height: 28px;
-  margin-top: -14px;
-  margin-left: -14px;
+  width: 26px;
+  height: 26px;
+  margin-top: -13px;
+  margin-left: -13px;
   border-radius: 50%;
   border: 2px solid #3B82F6;
-  animation: ringPulse 2s infinite;
+  animation: haloPulse 3s infinite ease-in-out;
   pointer-events: none;
 }
 
-.hq-ring {
-  width: 40px;
-  height: 40px;
-  margin-top: -20px;
-  margin-left: -20px;
+.hq-pin .pin-pulse-halo {
+  width: 38px;
+  height: 38px;
+  margin-top: -19px;
+  margin-left: -19px;
   border-color: #6D28FF;
 }
 
-@keyframes ringPulse {
+@keyframes haloPulse {
   0% { transform: scale(0.6); opacity: 1; }
   100% { transform: scale(1.6); opacity: 0; }
 }
 
 .pin-badge {
   position: absolute;
-  top: -30px;
+  top: -28px;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(8, 22, 61, 0.95);
@@ -656,31 +796,32 @@ document.addEventListener("DOMContentLoaded", () => {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Floating Chips around Map */
-.g-map-chip {
+/* Dynamic Live Network Event Toast Badges */
+.live-event-toast {
   position: absolute;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(12px);
-  padding: 6px 14px;
+  z-index: 14;
+  background: rgba(15, 30, 66, 0.9);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  padding: 4px 12px;
   border-radius: 100px;
-  font-size: 12px;
+  font-size: 10.5px;
   font-weight: 700;
   color: #FFFFFF;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-  pointer-events: none;
-  animation: mapChipFloat 4s ease-in-out infinite alternate;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  animation: toastFade 6s ease-in-out infinite alternate;
 }
 
-@keyframes mapChipFloat {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-6px); }
-}
+.toast-1 { top: 38%; left: 62%; animation-delay: 0s; }
+.toast-2 { top: 68%; left: 48%; animation-delay: 2s; }
+.toast-3 { top: 48%; left: 78%; animation-delay: 4s; }
 
-.chip-tl { top: 20px; left: 20px; animation-delay: 0s; }
-.chip-tr { top: 20px; right: 20px; animation-delay: 1.5s; }
-.chip-bl { bottom: 20px; left: 20px; animation-delay: 0.8s; }
-.chip-br { bottom: 20px; right: 20px; animation-delay: 2.2s; }
+@keyframes toastFade {
+  0%, 100% { opacity: 0; transform: translateY(4px); }
+  20%, 80% { opacity: 1; transform: translateY(0); }
+}
 
 /* ── Right 40%: Operations Dashboard ── */
 .ops-panel-wrapper {
@@ -691,7 +832,7 @@ document.addEventListener("DOMContentLoaded", () => {
   background: rgba(15, 30, 66, 0.85);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 28px;
-  padding: 36px;
+  padding: 32px;
   box-shadow: 0 24px 64px rgba(0, 0, 0, 0.35);
   backdrop-filter: blur(20px);
   box-sizing: border-box;
@@ -702,15 +843,15 @@ document.addEventListener("DOMContentLoaded", () => {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  padding-bottom: 16px;
-  margin-bottom: 24px;
+  padding-bottom: 14px;
+  margin-bottom: 20px;
 }
 
 .dash-title {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 800;
   letter-spacing: 1.5px;
   color: #94A3B8;
@@ -745,24 +886,24 @@ document.addEventListener("DOMContentLoaded", () => {
 .office-panel-header {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 20px;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
 .office-flag-emoji {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .office-name {
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 800;
   color: #FFFFFF;
   margin-bottom: 2px;
 }
 
 .office-role-badge {
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 700;
   color: #3B82F6;
 }
@@ -771,19 +912,19 @@ document.addEventListener("DOMContentLoaded", () => {
 .office-live-time-box {
   background: rgba(8, 22, 61, 0.8);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
-  padding: 14px 18px;
-  margin-bottom: 20px;
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin-bottom: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .time-label {
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 800;
   color: #94A3B8;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -791,56 +932,58 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .time-value {
   font-family: monospace;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 800;
   color: #A275FF;
 }
 
-/* Dashboard Metrics 2x2 */
-.office-metrics-grid {
+/* KPI Widget Grid */
+.kpi-widget-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-.dash-metric {
+.kpi-widget {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 14px;
-  padding: 12px 14px;
+  border-radius: 12px;
+  padding: 10px 12px;
   display: flex;
   flex-direction: column;
 }
 
-.m-val {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+.widget-label {
+  font-size: 9.5px;
   font-weight: 800;
-  color: #FFFFFF;
-  margin-bottom: 2px;
+  color: #94A3B8;
+  letter-spacing: 0.6px;
+  margin-bottom: 3px;
 }
 
-.m-lbl {
-  font-size: 11px;
-  color: #94A3B8;
+.widget-value {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #FFFFFF;
 }
 
 /* Follow the Sun Delivery Box */
 .sun-delivery-box {
   background: rgba(8, 22, 61, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
-  padding: 14px 16px;
-  margin-bottom: 20px;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 16px;
 }
 
 .sun-title {
-  font-size: 10px;
+  font-size: 9.5px;
   font-weight: 800;
   color: #6D28FF;
-  letter-spacing: 1px;
-  margin-bottom: 8px;
+  letter-spacing: 0.8px;
+  margin-bottom: 6px;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -850,86 +993,52 @@ document.addEventListener("DOMContentLoaded", () => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 700;
   color: #E2E8F0;
 }
 
 .sun-arrow {
   color: #3B82F6;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 /* Live Activity Feed */
 .live-feed-box {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 14px;
-  padding: 12px 16px;
+  border-radius: 12px;
+  padding: 10px 14px;
 }
 
 .feed-title {
-  font-size: 10px;
+  font-size: 9.5px;
   font-weight: 800;
   color: #10B981;
-  letter-spacing: 1px;
-  margin-bottom: 6px;
+  letter-spacing: 0.8px;
+  margin-bottom: 4px;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
 }
 
 .feed-message {
-  font-size: 12px;
+  font-size: 11.5px;
   color: #CBD5E1;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   transition: opacity 300ms ease;
-}
-
-/* KPI Metrics Strip */
-.presence-kpi-strip {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  max-width: 1440px;
-  margin: 60px auto 0 auto;
-  position: relative;
-  z-index: 5;
-}
-
-.kpi-box {
-  background: rgba(15, 30, 66, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 20px;
-  padding: 24px;
-  text-align: center;
-}
-
-.kpi-val {
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  font-weight: 800;
-  color: #A275FF;
-  display: block;
-  margin-bottom: 4px;
-}
-
-.kpi-lbl {
-  font-size: 13px;
-  color: #94A3B8;
-  font-weight: 600;
 }
 
 /* Bottom Action Banner */
 .presence-bottom-cta {
   max-width: 1440px;
-  margin: 60px auto 0 auto;
+  margin: 50px auto 0 auto;
   background: rgba(15, 30, 66, 0.85);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 28px;
-  padding: 40px 48px;
+  border-radius: 24px;
+  padding: 32px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -941,30 +1050,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .cta-text h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 800;
   color: #FFFFFF;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .cta-text p {
-  font-size: 15px;
+  font-size: 14px;
   color: #94A3B8;
 }
 
 .cta-actions {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   flex-shrink: 0;
 }
 
 .btn-g-primary {
-  height: 48px;
-  padding: 0 26px;
+  height: 44px;
+  padding: 0 24px;
   border-radius: 100px;
   background: linear-gradient(135deg, #6D28FF, #3B82F6);
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -981,13 +1090,13 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .btn-g-secondary {
-  height: 48px;
-  padding: 0 26px;
+  height: 44px;
+  padding: 0 24px;
   border-radius: 100px;
   background: rgba(255, 255, 255, 0.08);
   border: 1.5px solid rgba(255, 255, 255, 0.2);
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 13.5px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
@@ -1006,32 +1115,24 @@ document.addEventListener("DOMContentLoaded", () => {
 @media (max-width: 1199px) {
   .presence-operations-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .presence-kpi-strip {
-    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
   }
 
   .presence-bottom-cta {
     flex-direction: column;
     text-align: center;
-    gap: 24px;
-    padding: 32px 24px;
+    gap: 20px;
+    padding: 28px 20px;
   }
 }
 
 @media (max-width: 767px) {
   .presence-section {
-    padding: 70px 20px;
+    padding: 60px 20px;
   }
 
   .ops-dashboard-card {
-    padding: 24px 20px;
-  }
-
-  .presence-kpi-strip {
-    grid-template-columns: 1fr;
+    padding: 20px 16px;
   }
 
   .cta-actions {
