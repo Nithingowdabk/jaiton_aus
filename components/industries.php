@@ -159,7 +159,7 @@
   height: 100%;
   border-radius: var(--radius-lg);
   border: 1px solid transparent;
-  background: linear-gradient(135deg, rgba(106, 2, 197, 0.4), rgba(137, 97, 249, 0.4)) border-box;
+  background: linear-gradient(135deg, rgba(109, 40, 255, 0.4), rgba(59, 130, 246, 0.4)) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;

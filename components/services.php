@@ -227,7 +227,7 @@
 }
 
 .solution-card:hover {
-  border-color: rgba(106, 2, 197, 0.2);
+  border-color: rgba(109, 40, 255, 0.2);
   box-shadow: var(--shadow-xl);
 }
 
@@ -248,20 +248,20 @@
   font-size: 1.4rem;
 }
 
-.sol-icon.bg-purple { background-color: rgba(106, 2, 197, 0.08); color: var(--primary-purple); }
-.sol-icon.bg-blue { background-color: rgba(137, 97, 249, 0.08); color: var(--electric-blue); }
+.sol-icon.bg-purple { background-color: rgba(109, 40, 255, 0.08); color: var(--primary-purple); }
+.sol-icon.bg-blue { background-color: rgba(59, 130, 246, 0.08); color: var(--electric-blue); }
 .sol-icon.bg-cyan { background-color: rgba(185, 140, 255, 0.08); color: var(--cyan); }
 
 .sol-roi {
   font-size: 0.75rem;
   font-weight: 700;
   color: var(--primary-purple);
-  background-color: rgba(106, 2, 197, 0.06);
+  background-color: rgba(109, 40, 255, 0.06);
   padding: 6px 14px;
   border-radius: 100px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border: 1px solid rgba(106, 2, 197, 0.1);
+  border: 1px solid rgba(109, 40, 255, 0.1);
 }
 
 .sol-title {
@@ -323,7 +323,7 @@
   background-color: var(--light-bg);
   padding: 4px 10px;
   border-radius: 6px;
-  border: 1px solid rgba(106, 2, 197, 0.05);
+  border: 1px solid rgba(109, 40, 255, 0.05);
 }
 
 .sol-link {

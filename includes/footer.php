@@ -143,7 +143,7 @@
   .site-footer {
     background: linear-gradient(135deg, var(--primary-purple) 0%, var(--royal-purple) 50%, var(--electric-blue) 100%);
     border-top: 2px solid var(--primary-purple);
-    box-shadow: 0 -12px 40px rgba(106, 2, 197, 0.15);
+    box-shadow: 0 -12px 40px rgba(109, 40, 255, 0.15);
     padding: 80px 0 40px 0;
     color: var(--white);
   }
@@ -247,12 +247,12 @@
     align-items: center;
     justify-content: center;
     transition: all var(--transition-fast);
-    box-shadow: 0 4px 10px rgba(106, 2, 197, 0.2);
+    box-shadow: 0 4px 10px rgba(109, 40, 255, 0.2);
   }
 
   .newsletter-form button:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 14px rgba(106, 2, 197, 0.4);
+    box-shadow: 0 6px 14px rgba(109, 40, 255, 0.4);
   }
 
   /* Columns quick links grid */

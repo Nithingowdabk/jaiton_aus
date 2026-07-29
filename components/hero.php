@@ -87,8 +87,8 @@
               <svg viewBox="0 0 520 150" class="dashboard-svg" aria-hidden="true">
                 <defs>
                   <linearGradient id="hero-ai-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#6A02C5" stop-opacity="0.25"/>
-                    <stop offset="100%" stop-color="#8961F9" stop-opacity="0.05"/>
+                    <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.25"/>
+                    <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.05"/>
                   </linearGradient>
                 </defs>
 
@@ -106,13 +106,13 @@
                 <text x="260" y="63" fill="#10B981" font-size="7.5" font-weight="600" text-anchor="middle">ENCRYPTED</text>
 
                 <!-- Cloud Node -->
-                <rect x="40" y="34" width="96" height="34" rx="6" fill="url(#hero-ai-grad)" stroke="#8961F9" stroke-width="1.5"/>
+                <rect x="40" y="34" width="96" height="34" rx="6" fill="url(#hero-ai-grad)" stroke="#3B82F6" stroke-width="1.5"/>
                 <text x="88" y="52" fill="#fff" font-size="8.5" font-weight="bold" text-anchor="middle">AWS / AZURE</text>
                 <text x="88" y="62" fill="#cbd5e1" font-size="6.5" text-anchor="middle">CLUSTER STABLE</text>
-                <circle cx="53" cy="51" r="2.5" fill="#8961F9" class="pulse-node"/>
+                <circle cx="53" cy="51" r="2.5" fill="#3B82F6" class="pulse-node"/>
 
                 <!-- AI Node -->
-                <rect x="384" y="34" width="96" height="34" rx="6" fill="url(#hero-ai-grad)" stroke="#6A02C5" stroke-width="1.5"/>
+                <rect x="384" y="34" width="96" height="34" rx="6" fill="url(#hero-ai-grad)" stroke="#6D28FF" stroke-width="1.5"/>
                 <text x="432" y="52" fill="#fff" font-size="8.5" font-weight="bold" text-anchor="middle">COGNITIVE AI</text>
                 <text x="432" y="62" fill="#a275ff" font-size="6.5" text-anchor="middle">NEURAL AGENTS</text>
                 <circle cx="397" cy="51" r="2.5" fill="#a275ff" class="pulse-node"/>
@@ -122,11 +122,11 @@
                 <line x1="320" y1="51" x2="384" y2="51" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" stroke-dasharray="4 4"/>
 
                 <!-- Flow Particles -->
-                <circle cx="136" cy="51" r="2" fill="#8961F9" class="particle-flow-right"/>
+                <circle cx="136" cy="51" r="2" fill="#3B82F6" class="particle-flow-right"/>
                 <circle cx="384" cy="51" r="2" fill="#a275ff" class="particle-flow-left"/>
 
                 <!-- Chart -->
-                <path d="M 40,132 Q 160,105 260,120 T 480,100" fill="none" stroke="#6A02C5" stroke-width="1.8" class="chart-draw-line"/>
+                <path d="M 40,132 Q 160,105 260,120 T 480,100" fill="none" stroke="#6D28FF" stroke-width="1.8" class="chart-draw-line"/>
               </svg>
             </div>
           </div>
@@ -342,7 +342,7 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #a275ff 0%, #8961F9 100%);
+  background: linear-gradient(135deg, #a275ff 0%, #3B82F6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -381,11 +381,11 @@ document.addEventListener("DOMContentLoaded", () => {
   background: linear-gradient(135deg, var(--primary-purple), var(--royal-purple));
   color: var(--white);
   border: none;
-  box-shadow: 0 4px 14px rgba(106, 2, 197,0.25);
+  box-shadow: 0 4px 14px rgba(109, 40, 255,0.25);
 }
 
 .hero-ctas .btn-primary:hover {
-  box-shadow: 0 8px 24px rgba(106, 2, 197,0.45);
+  box-shadow: 0 8px 24px rgba(109, 40, 255,0.45);
   transform: translateY(-2px);
 }
 
@@ -532,7 +532,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .metric-value--purple { color: #a275ff; }
 .metric-value--green  { color: #10B981; }
-.metric-value--blue   { color: #8961F9; }
+.metric-value--blue   { color: #3B82F6; }
 
 .dashboard-canvas { width: 100%; }
 .dashboard-svg { width: 100%; height: auto; display: block; }
@@ -558,9 +558,9 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .floating-pill:hover {
-  border-color: rgba(106, 2, 197,0.4);
+  border-color: rgba(109, 40, 255,0.4);
   transform: scale(1.04);
-  box-shadow: 0 0 14px rgba(106, 2, 197,0.3);
+  box-shadow: 0 0 14px rgba(109, 40, 255,0.3);
 }
 
 .pill-dot {
@@ -573,8 +573,8 @@ document.addEventListener("DOMContentLoaded", () => {
   font-size: 0.6rem;
 }
 
-.pill-dot--purple { background: rgba(106, 2, 197,0.2); color: #a275ff; }
-.pill-dot--blue   { background: rgba(137, 97, 249,0.2); color: var(--electric-blue); }
+.pill-dot--purple { background: rgba(109, 40, 255,0.2); color: #a275ff; }
+.pill-dot--blue   { background: rgba(59, 130, 246,0.2); color: var(--electric-blue); }
 .pill-dot--green  { background: rgba(16,185,129,0.2); color: #10B981; }
 .pill-dot--cyan   { background: rgba(185, 140, 255,0.2); color: var(--cyan); }
 

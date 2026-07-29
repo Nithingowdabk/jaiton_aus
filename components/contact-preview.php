@@ -258,7 +258,7 @@
 
 .calendar-slot-btn:hover {
   border-color: var(--primary-purple);
-  background-color: rgba(106, 2, 197, 0.04);
+  background-color: rgba(109, 40, 255, 0.04);
 }
 
 .calendar-slot-btn.selected {
@@ -349,7 +349,7 @@
 .form-group select:focus,
 .form-group textarea:focus {
   border-color: var(--primary-purple);
-  box-shadow: 0 0 0 3px rgba(106, 2, 197, 0.1);
+  box-shadow: 0 0 0 3px rgba(109, 40, 255, 0.1);
 }
 
 .form-submit {
@@ -359,12 +359,12 @@
   font-weight: 600;
   padding: 14px 28px;
   border-radius: 100px;
-  box-shadow: 0 4px 14px rgba(106, 2, 197, 0.15);
+  box-shadow: 0 4px 14px rgba(109, 40, 255, 0.15);
   margin-top: 12px;
 }
 
 .form-submit:hover {
-  box-shadow: 0 8px 24px rgba(106, 2, 197, 0.35);
+  box-shadow: 0 8px 24px rgba(109, 40, 255, 0.35);
   transform: translateY(-2px);
 }
 

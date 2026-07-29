@@ -227,7 +227,7 @@
 
 .tech-floating-card:hover {
   transform: translateY(-5px) scale(1.05);
-  border-color: rgba(106, 2, 197, 0.2);
+  border-color: rgba(109, 40, 255, 0.2);
   box-shadow: var(--shadow-lg);
   background-color: var(--white);
 }

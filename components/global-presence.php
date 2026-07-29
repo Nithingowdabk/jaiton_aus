@@ -55,11 +55,11 @@
           <svg viewBox="0 0 1000 500" class="ops-world-map" aria-hidden="true">
             <defs>
               <linearGradient id="arcGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#6A02C5"/>
-                <stop offset="100%" stop-color="#8961F9"/>
+                <stop offset="0%" stop-color="#6D28FF"/>
+                <stop offset="100%" stop-color="#3B82F6"/>
               </linearGradient>
               <linearGradient id="arcGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#8961F9"/>
+                <stop offset="0%" stop-color="#3B82F6"/>
                 <stop offset="100%" stop-color="#10B981"/>
               </linearGradient>
             </defs>
@@ -88,7 +88,7 @@
 
             <!-- Highlighted Key Countries -->
             <!-- Australia -->
-            <path d="M800,330 C860,320 910,340 930,380 C940,410 900,440 860,440 C800,440 770,390 780,360 Z" fill="rgba(106, 2, 197,0.12)" stroke="#6A02C5" stroke-width="2" class="glowing-country"/>
+            <path d="M800,330 C860,320 910,340 930,380 C940,410 900,440 860,440 C800,440 770,390 780,360 Z" fill="rgba(109, 40, 255,0.12)" stroke="#6D28FF" stroke-width="2" class="glowing-country"/>
 
             <!-- Flight Path Connections (Animated Flow Lines) -->
             <!-- Sydney (880,380) <-> Singapore (760,280) <-> Bangalore (700,260) <-> Dubai (630,220) <-> Johannesburg (530,360) -->
@@ -98,8 +98,8 @@
             <path d="M630,220 Q560,280 530,360" fill="none" stroke="url(#arcGrad2)" stroke-width="2" stroke-dasharray="6 6" class="ops-flow-path"/>
 
             <!-- Moving Connection Particles -->
-            <circle cx="880" cy="380" r="3" fill="#6A02C5" class="particle-syd-sgp"/>
-            <circle cx="760" cy="280" r="3" fill="#8961F9" class="particle-sgp-blr"/>
+            <circle cx="880" cy="380" r="3" fill="#6D28FF" class="particle-syd-sgp"/>
+            <circle cx="760" cy="280" r="3" fill="#3B82F6" class="particle-sgp-blr"/>
             <circle cx="700" cy="260" r="3" fill="#10B981" class="particle-blr-dxb"/>
           </svg>
 
@@ -431,8 +431,8 @@ document.addEventListener("DOMContentLoaded", () => {
   align-items: center;
   gap: 8px;
   padding: 6px 16px;
-  background: rgba(106, 2, 197,0.08);
-  border: 1px solid rgba(106, 2, 197,0.15);
+  background: rgba(109, 40, 255,0.08);
+  border: 1px solid rgba(109, 40, 255,0.15);
   border-radius: 100px;
   font-size: 0.75rem;
   font-weight: 700;
@@ -445,16 +445,16 @@ document.addEventListener("DOMContentLoaded", () => {
 .badge-pulse-dot {
   width: 6px;
   height: 6px;
-  background: #6A02C5;
+  background: #6D28FF;
   border-radius: 50%;
-  box-shadow: 0 0 8px #6A02C5;
+  box-shadow: 0 0 8px #6D28FF;
   animation: pulsePurpleDot 2s infinite;
 }
 
 @keyframes pulsePurpleDot {
-  0%   { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(106, 2, 197, 0.6); }
-  70%  { transform: scale(1.2); box-shadow: 0 0 0 8px rgba(106, 2, 197, 0); }
-  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(106, 2, 197, 0); }
+  0%   { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.6); }
+  70%  { transform: scale(1.2); box-shadow: 0 0 0 8px rgba(109, 40, 255, 0); }
+  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(109, 40, 255, 0); }
 }
 
 .presence-title {
@@ -604,7 +604,7 @@ document.addEventListener("DOMContentLoaded", () => {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  border: 2px solid #6A02C5;
+  border: 2px solid #6D28FF;
   transform: translate(-50%, -50%) scale(0.6);
   opacity: 0;
   pointer-events: none;
@@ -634,7 +634,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .ops-pin:hover .pin-icon,
 .ops-pin.active .pin-icon {
-  color: #6A02C5;
+  color: #6D28FF;
 }
 
 .ops-pin.active .pin-pulse-ring {
@@ -704,8 +704,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* Live Time Clock Box */
 .office-live-time-box {
-  background: rgba(106, 2, 197, 0.08);
-  border: 1px solid rgba(106, 2, 197, 0.2);
+  background: rgba(109, 40, 255, 0.08);
+  border: 1px solid rgba(109, 40, 255, 0.2);
   border-radius: 14px;
   padding: 12px 16px;
   margin-bottom: 24px;

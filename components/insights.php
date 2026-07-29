@@ -209,7 +209,7 @@
   height: 44px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid rgba(106, 2, 197, 0.1);
+  border: 2px solid rgba(109, 40, 255, 0.1);
 }
 
 .insight-author strong {

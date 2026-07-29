@@ -96,7 +96,7 @@
   transform: translate(-50%, -50%);
   width: 700px;
   height: 300px;
-  background: radial-gradient(circle, rgba(106, 2, 197, 0.12) 0%, rgba(137, 97, 249, 0.05) 50%, transparent 75%);
+  background: radial-gradient(circle, rgba(109, 40, 255, 0.12) 0%, rgba(59, 130, 246, 0.05) 50%, transparent 75%);
   filter: blur(80px);
 }
 
@@ -123,7 +123,7 @@
   inset: 0;
   border-radius: 24px;
   padding: 1px;
-  background: linear-gradient(135deg, rgba(106, 2, 197, 0.2), rgba(137, 97, 249, 0.2), rgba(106, 2, 197, 0.1));
+  background: linear-gradient(135deg, rgba(109, 40, 255, 0.2), rgba(59, 130, 246, 0.2), rgba(109, 40, 255, 0.1));
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
@@ -149,16 +149,16 @@
 .glowing-pulse-dot {
   width: 7px;
   height: 7px;
-  background: #6A02C5;
+  background: #6D28FF;
   border-radius: 50%;
-  box-shadow: 0 0 10px #6A02C5;
+  box-shadow: 0 0 10px #6D28FF;
   animation: pulsePurpleDot 2s infinite;
 }
 
 @keyframes pulsePurpleDot {
-  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(106, 2, 197, 0.6); }
-  70% { transform: scale(1.15); box-shadow: 0 0 0 8px rgba(106, 2, 197, 0); }
-  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(106, 2, 197, 0); }
+  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.6); }
+  70% { transform: scale(1.15); box-shadow: 0 0 0 8px rgba(109, 40, 255, 0); }
+  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(109, 40, 255, 0); }
 }
 
 .trusted-heading {
@@ -220,8 +220,8 @@
 /* Hover Behavior: Scale 1.04, Lift, Soft Purple Glow, Blue-Purple Border */
 .enterprise-logo-card:hover {
   transform: translateY(-4px) scale(1.04);
-  box-shadow: 0 12px 28px rgba(106, 2, 197, 0.18);
-  border-color: rgba(106, 2, 197, 0.4);
+  box-shadow: 0 12px 28px rgba(109, 40, 255, 0.18);
+  border-color: rgba(109, 40, 255, 0.4);
 }
 
 /* Responsive Grid Breakpoints */

@@ -223,7 +223,7 @@
   background-color: var(--primary-purple);
   color: var(--white);
   font-size: 0.8rem;
-  box-shadow: 0 0 0 0 rgba(106, 2, 197, 0.5);
+  box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.5);
   animation: playPulse 2s infinite;
 }
 
@@ -354,13 +354,13 @@
 
 @keyframes playPulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(106, 2, 197, 0.4);
+    box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.4);
   }
   70% {
-    box-shadow: 0 0 0 10px rgba(106, 2, 197, 0);
+    box-shadow: 0 0 0 10px rgba(109, 40, 255, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(106, 2, 197, 0);
+    box-shadow: 0 0 0 0 rgba(109, 40, 255, 0);
   }
 }
 

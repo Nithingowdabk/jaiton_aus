@@ -274,7 +274,7 @@
   background-color: var(--primary-purple);
   border-color: var(--primary-purple);
   color: var(--white);
-  box-shadow: 0 8px 24px rgba(106, 2, 197, 0.25);
+  box-shadow: 0 8px 24px rgba(109, 40, 255, 0.25);
   transform: scale(1.05);
 }
 
