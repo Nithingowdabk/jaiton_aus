@@ -231,7 +231,7 @@ document.addEventListener("DOMContentLoaded", () => {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: linear-gradient(135deg, var(--primary-purple) 0%, var(--royal-purple) 50%, var(--electric-blue) 100%);
+  background-color: var(--dark-navy);
   padding-top: 105px;   /* Header top clearance */
   padding-bottom: 16px;
   box-sizing: border-box;
