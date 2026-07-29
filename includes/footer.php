@@ -1,9 +1,12 @@
   <!-- ============================================================
-       PREMIUM ENTERPRISE FOOTER – JAITON TECHNOLOGIES
+       PRODUCTION READY ENTERPRISE FOOTER – JAITON TECHNOLOGIES
        ============================================================ -->
   <footer class="site-footer" id="footer">
     
-    <!-- Subtle Blueprint Grid & Atmosphere Glow Layers -->
+    <!-- Thin Gradient Divider above Footer -->
+    <div class="footer-top-gradient-line" aria-hidden="true"></div>
+
+    <!-- Blueprint Grid & Radial Atmosphere Layers (4% Grid Opacity) -->
     <div class="footer-bg-layers" aria-hidden="true">
       <div class="footer-grid-texture"></div>
       <div class="footer-glow footer-glow--purple"></div>
@@ -32,7 +35,7 @@
           </div>
         </div>
 
-        <!-- Right Side: Animated Code / Architecture Preview Card -->
+        <!-- Right Side: Terminal Architecture Preview Card -->
         <div class="cta-tech-preview">
           <div class="preview-terminal">
             <div class="terminal-dots">
@@ -73,77 +76,101 @@
       </div>
 
       <!-- ============================================================
-           3. MAIN 5-COLUMN FOOTER GRID
+           3. MAIN FOOTER 5-COLUMN GRID (28px Headings, 16px Links)
            ============================================================ -->
       <div class="footer-main-grid" data-aos="fade-up">
         
-        <!-- COL 1: Company Overview & Capabilities -->
+        <!-- COL 1: Company Overview & Official Logo -->
         <div class="footer-col col-brand">
           <div class="footer-logo-wrap">
-            <span class="logo-text">JAITON<span class="logo-dot">.</span></span>
+            <img src="assets/logo/Logo.png" alt="Jaiton Technologies Official Logo" class="footer-official-logo">
           </div>
           <p class="brand-description">
             Jaiton Technologies engineers enterprise-grade software, AI solutions, cloud platforms, and digital transformation systems for businesses across Australia and global markets.
           </p>
-          <div class="capability-badges">
-            <span class="cap-badge"><i class="fa-solid fa-shield-halved text-purple"></i> Secure Dev Lifecycle</span>
-            <span class="cap-badge"><i class="fa-solid fa-cloud text-blue"></i> Cloud-Native Engineering</span>
-            <span class="cap-badge"><i class="fa-solid fa-brain text-purple"></i> Enterprise AI</span>
-            <span class="cap-badge"><i class="fa-solid fa-bolt text-green"></i> Agile Delivery</span>
+          
+          <!-- Premium Capability Badges (Light Glass Cards with Circular Icons & Dark Navy Text) -->
+          <div class="capability-badges-grid">
+            <div class="capability-tag">
+              <span class="tag-icon-circle"><i class="fa-solid fa-shield-halved"></i></span>
+              <span class="tag-label">Secure Development</span>
+            </div>
+            <div class="capability-tag">
+              <span class="tag-icon-circle"><i class="fa-solid fa-cloud"></i></span>
+              <span class="tag-label">Cloud-Native Engineering</span>
+            </div>
+            <div class="capability-tag">
+              <span class="tag-icon-circle"><i class="fa-solid fa-brain"></i></span>
+              <span class="tag-label">Enterprise AI</span>
+            </div>
+            <div class="capability-tag">
+              <span class="tag-icon-circle"><i class="fa-solid fa-bolt"></i></span>
+              <span class="tag-label">Agile Delivery</span>
+            </div>
           </div>
         </div>
 
         <!-- COL 2: Solutions -->
         <div class="footer-col">
-          <h4 class="col-title">Solutions</h4>
+          <h3 class="col-title">Solutions</h3>
           <ul class="footer-nav-list">
-            <li><a href="#services">Custom Software <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">AI & Machine Learning <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">Enterprise Applications <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">Cloud Engineering <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">IoT Solutions <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">Mobile Apps <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">Web Development <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">Data Platforms <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
-            <li><a href="#services">Digital Transformation <i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+            <li><a href="#services">Custom Software <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">AI & Machine Learning <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">Enterprise Applications <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">Cloud Engineering <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">IoT Solutions <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">Mobile Apps <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">Web Development <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">Data Platforms <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#services">Digital Transformation <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
           </ul>
         </div>
 
         <!-- COL 3: Industries -->
         <div class="footer-col">
-          <h4 class="col-title">Industries</h4>
+          <h3 class="col-title">Industries</h3>
           <ul class="footer-nav-list">
-            <li><a href="#industries">Healthcare</a></li>
-            <li><a href="#industries">Manufacturing</a></li>
-            <li><a href="#industries">Construction</a></li>
-            <li><a href="#industries">Education</a></li>
-            <li><a href="#industries">Government</a></li>
-            <li><a href="#industries">Retail</a></li>
-            <li><a href="#industries">Finance</a></li>
-            <li><a href="#industries">Mining</a></li>
-            <li><a href="#industries">Agriculture</a></li>
+            <li><a href="#industries">Healthcare <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Manufacturing <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Construction <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Education <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Government <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Retail <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Finance <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Mining <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
+            <li><a href="#industries">Agriculture <i class="fa-solid fa-arrow-right list-arrow"></i></a></li>
           </ul>
         </div>
 
-        <!-- COL 4: Global Offices & Contact -->
+        <!-- COL 4: Global Offices (Left Accent Line, Role Badges) -->
         <div class="footer-col col-offices">
-          <h4 class="col-title">Global Offices</h4>
-          <div class="office-mini-cards">
-            <div class="mini-office-box">
-              <span class="office-country">🇦🇺 Australia</span>
-              <strong>Sydney HQ</strong>
-              <small>Level 14, 275 Alfred St, North Sydney</small>
+          <h3 class="col-title">Global Offices</h3>
+          <div class="office-cards-wrap">
+            
+            <div class="accent-office-card">
+              <div class="office-card-top">
+                <span class="office-flag">🇦🇺 Sydney</span>
+                <span class="office-role-badge">HQ</span>
+              </div>
+              <p class="office-detail">Level 14, 275 Alfred St, North Sydney NSW 2060</p>
             </div>
-            <div class="mini-office-box">
-              <span class="office-country">🇮🇳 India</span>
-              <strong>Bangalore R&D</strong>
-              <small>Prestige Trade Tower, Palace Rd</small>
+
+            <div class="accent-office-card">
+              <div class="office-card-top">
+                <span class="office-flag">🇮🇳 Bangalore</span>
+                <span class="office-role-badge">Engineering</span>
+              </div>
+              <p class="office-detail">Prestige Trade Tower, Palace Rd, Bengaluru 560001</p>
             </div>
-            <div class="mini-office-box">
-              <span class="office-country">🇿🇦 South Africa</span>
-              <strong>Johannesburg Hub</strong>
-              <small>Regional Delivery Center</small>
+
+            <div class="accent-office-card">
+              <div class="office-card-top">
+                <span class="office-flag">🇿🇦 Johannesburg</span>
+                <span class="office-role-badge">Delivery</span>
+              </div>
+              <p class="office-detail">EMEA Regional Delivery Center</p>
             </div>
+
           </div>
           <div class="office-direct-contacts">
             <a href="tel:+61468403743"><i class="fa-solid fa-phone"></i> +61 468 403 743</a>
@@ -152,24 +179,26 @@
           </div>
         </div>
 
-        <!-- COL 5: Newsletter & Social Links -->
+        <!-- COL 5: Newsletter (30px Heading, Glass Input, 52px Button) -->
         <div class="footer-col col-newsletter">
-          <h4 class="col-title">Stay Informed</h4>
+          <h3 class="col-title newsletter-heading">Stay Ahead in Enterprise Tech</h3>
           <p class="newsletter-sub">Get the latest technology reports and enterprise insights.</p>
+          
           <form class="footer-subscribe-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
-            <input type="email" placeholder="Enter your business email" required aria-label="Business Email">
-            <button type="submit">Subscribe</button>
+            <input type="email" placeholder="Enter your business email" required aria-label="Business Email" class="glass-email-input">
+            <button type="submit" class="gradient-subscribe-btn">Subscribe</button>
           </form>
           <small class="newsletter-disclaimer"><i class="fa-solid fa-shield-check"></i> No spam. Enterprise updates only.</small>
           
+          <!-- Frosted Glass Circular Social Buttons (44x44px) -->
           <div class="footer-social-wrap">
-            <span class="social-header">Connect With Us</span>
-            <div class="social-icon-row">
-              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-              <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <span class="social-header">CONNECT WITH US</span>
+            <div class="frosted-social-row">
+              <a href="#" aria-label="LinkedIn" class="social-glass-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" aria-label="GitHub" class="social-glass-btn"><i class="fa-brands fa-github"></i></a>
+              <a href="#" aria-label="Instagram" class="social-glass-btn"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook" class="social-glass-btn"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="YouTube" class="social-glass-btn"><i class="fa-brands fa-youtube"></i></a>
             </div>
           </div>
         </div>
@@ -206,16 +235,14 @@
         <div class="legal-links-center">
           <a href="#">Privacy Policy</a>
           <span class="dot-sep">•</span>
+          <a href="#">Terms</a>
+          <span class="dot-sep">•</span>
           <a href="#">Cookies</a>
           <span class="dot-sep">•</span>
-          <a href="#">Terms & Conditions</a>
-          <span class="dot-sep">•</span>
           <a href="#">Accessibility</a>
-          <span class="dot-sep">•</span>
-          <a href="#">Sitemap</a>
         </div>
         <div class="credit-right">
-          Engineered with precision by Jaiton Technologies
+          Designed & Engineered by Jaiton Technologies
         </div>
       </div>
 
@@ -243,7 +270,7 @@
   </script>
 
   <!-- ============================================================
-       SCOPED FOOTER STYLES (Dark Navy Palette #08163D)
+       SCOPED PRODUCTION FOOTER STYLES (#08163D Navy Palette)
        ============================================================ -->
   <style>
   .site-footer {
@@ -253,6 +280,16 @@
     padding: 100px 0 40px 0;
     overflow: hidden;
     font-family: 'Inter', sans-serif;
+  }
+
+  .footer-top-gradient-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #6A1BFF 40%, #0D6EFD 60%, transparent);
+    z-index: 10;
   }
 
   .footer-bg-layers {
@@ -266,8 +303,8 @@
     inset: 0;
     background-size: 32px 32px;
     background-image:
-      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
   }
 
   .footer-glow {
@@ -279,8 +316,8 @@
     opacity: 0.12;
   }
 
-  .footer-glow--purple { top: 0; left: -10%; background: #6D28FF; }
-  .footer-glow--blue   { bottom: 0; right: -10%; background: #3B82F6; }
+  .footer-glow--purple { top: 0; left: -10%; background: #6A1BFF; }
+  .footer-glow--blue   { bottom: 0; right: -10%; background: #0D6EFD; }
 
   .footer-container {
     max-width: 1440px;
@@ -311,8 +348,8 @@
     align-items: center;
     gap: 6px;
     padding: 4px 14px;
-    background: rgba(109, 40, 255, 0.15);
-    border: 1px solid rgba(109, 40, 255, 0.4);
+    background: rgba(106, 27, 255, 0.15);
+    border: 1px solid rgba(106, 27, 255, 0.4);
     border-radius: 100px;
     font-size: 11px;
     font-weight: 800;
@@ -325,8 +362,8 @@
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background: #3B82F6;
-    box-shadow: 0 0 8px #3B82F6;
+    background: #0D6EFD;
+    box-shadow: 0 0 8px #0D6EFD;
   }
 
   .cta-card-title {
@@ -355,7 +392,7 @@
     height: 48px;
     padding: 0 26px;
     border-radius: 100px;
-    background: linear-gradient(135deg, #6D28FF, #3B82F6);
+    background: linear-gradient(135deg, #6A1BFF, #0D6EFD);
     color: #FFFFFF;
     font-size: 14px;
     font-weight: 700;
@@ -363,12 +400,12 @@
     align-items: center;
     gap: 8px;
     border: none;
-    box-shadow: 0 4px 16px rgba(109, 40, 255, 0.35);
+    box-shadow: 0 4px 16px rgba(106, 27, 255, 0.35);
     transition: all 250ms ease;
   }
 
   .btn-cta-primary:hover {
-    box-shadow: 0 8px 24px rgba(109, 40, 255, 0.55);
+    box-shadow: 0 8px 24px rgba(106, 27, 255, 0.55);
     transform: translateY(-2px);
     color: #FFFFFF;
   }
@@ -390,7 +427,7 @@
 
   .btn-cta-secondary:hover {
     background: rgba(255, 255, 255, 0.15);
-    border-color: #3B82F6;
+    border-color: #0D6EFD;
     color: #FFFFFF;
     transform: translateY(-2px);
   }
@@ -423,7 +460,7 @@
   }
 
   .t-purple { color: #A275FF; }
-  .t-blue   { color: #3B82F6; }
+  .t-blue   { color: #0D6EFD; }
   .t-green  { color: #10B981; }
   .t-string { color: #F59E0B; }
   .t-comment{ color: #64748B; font-style: italic; }
@@ -483,127 +520,203 @@
     margin-bottom: 60px;
   }
 
-  .logo-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    letter-spacing: -0.5px;
-    color: #FFFFFF;
+  /* 1. Official Jaiton Logo */
+  .footer-logo-wrap {
+    margin-bottom: 24px;
+    padding: 4px 0;
+    position: relative;
   }
 
-  .logo-dot {
-    color: #6D28FF;
+  .footer-official-logo {
+    height: 52px;
+    width: auto;
+    display: block;
+
+    filter: drop-shadow(0 0 20px rgba(106, 27, 255, 0.25));
   }
 
   .brand-description {
-    font-size: 13.5px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.7;
     color: #94A3B8;
-    margin: 16px 0 20px 0;
+    margin-bottom: 24px;
   }
 
-  .capability-badges {
+  /* 2. Premium Capability Badges */
+  .capability-badges-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
   }
 
-  .cap-badge {
-    font-size: 11px;
-    font-weight: 700;
-    padding: 5px 12px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 6px;
-    color: #CBD5E1;
+  .capability-tag {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(106, 27, 255, 0.18);
+    border-radius: 14px;
+    padding: 10px 18px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 250ms ease;
   }
 
+  .tag-icon-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6A1BFF, #0D6EFD);
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transition: transform 250ms ease;
+  }
+
+  .tag-label {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: #08163D;
+  }
+
+  .capability-tag:hover {
+    border-color: #6A1BFF;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(106, 27, 255, 0.25);
+  }
+
+  .capability-tag:hover .tag-icon-circle {
+    transform: rotate(8deg);
+  }
+
+  /* 8. Column Headings (28px Poppins Bold) & Links (16px) */
   .col-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 800;
+    font-size: 28px;
+    font-weight: 700;
     color: #FFFFFF;
-    margin-bottom: 20px;
-    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+    letter-spacing: -0.01em;
+  }
+
+  .newsletter-heading {
+    font-size: 30px;
   }
 
   .footer-nav-list {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
+    gap: 12px;
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
   .footer-nav-list li a {
-    font-size: 13px;
+    font-size: 16px;
     color: #94A3B8;
+    position: relative;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    transition: all 250ms ease;
+    gap: 8px;
+    transition: color 220ms ease;
   }
 
-  .footer-nav-list li a i {
-    font-size: 9px;
+  /* Link underline animation */
+  .footer-nav-list li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1.5px;
+    background: #6A1BFF;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 220ms ease;
+  }
+
+  .list-arrow {
+    font-size: 11px;
     opacity: 0;
-    transition: all 250ms ease;
+    transform: translateX(-4px);
+    transition: all 220ms ease;
   }
 
   .footer-nav-list li a:hover {
-    color: #FFFFFF;
-    transform: translateX(4px);
+    color: #6A1BFF;
   }
 
-  .footer-nav-list li a:hover i {
+  .footer-nav-list li a:hover::after {
+    transform: scaleX(1);
+  }
+
+  .footer-nav-list li a:hover .list-arrow {
     opacity: 1;
-    color: #3B82F6;
+    transform: translateX(4px);
+    color: #6A1BFF;
   }
 
-  /* Office Mini Cards */
-  .office-mini-cards {
+  /* 4. Office Cards (Accent Line & Role Badges) */
+  .office-cards-wrap {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
   }
 
-  .mini-office-box {
+  .accent-office-card {
     background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 3px solid #6A1BFF;
     border-radius: 10px;
-    padding: 10px 12px;
+    padding: 12px 14px;
+    transition: all 250ms ease;
+  }
+
+  .accent-office-card:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(106, 27, 255, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(106, 27, 255, 0.15);
+  }
+
+  .office-card-top {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
   }
 
-  .office-country {
-    font-size: 11px;
-    font-weight: 800;
-    color: #A275FF;
-    margin-bottom: 2px;
-  }
-
-  .mini-office-box strong {
-    font-size: 12.5px;
+  .office-flag {
+    font-size: 13px;
+    font-weight: 700;
     color: #FFFFFF;
   }
 
-  .mini-office-box small {
-    font-size: 10.5px;
+  .office-role-badge {
+    font-size: 10px;
+    font-weight: 800;
+    padding: 2px 8px;
+    border-radius: 100px;
+    background: rgba(106, 27, 255, 0.2);
+    border: 1px solid rgba(106, 27, 255, 0.4);
+    color: #A275FF;
+  }
+
+  .office-detail {
+    font-size: 12px;
     color: #94A3B8;
+    margin: 0;
   }
 
   .office-direct-contacts {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    font-size: 12px;
+    font-size: 13px;
     color: #94A3B8;
   }
 
@@ -611,112 +724,124 @@
     color: #CBD5E1;
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     transition: color 200ms ease;
   }
 
   .office-direct-contacts a:hover {
-    color: #3B82F6;
+    color: #6A1BFF;
   }
 
-  /* Newsletter Box */
+  /* 3. Newsletter Inputs (52px Height, Glass Card) */
   .newsletter-sub {
-    font-size: 13px;
+    font-size: 14px;
     color: #94A3B8;
-    margin-bottom: 14px;
-    line-height: 1.4;
+    margin-bottom: 16px;
+    line-height: 1.5;
   }
 
   .footer-subscribe-form {
     display: flex;
-    gap: 8px;
-    margin-bottom: 8px;
+    gap: 10px;
+    margin-bottom: 10px;
   }
 
-  .footer-subscribe-form input {
+  .glass-email-input {
     flex: 1;
-    height: 42px;
-    padding: 0 14px;
-    border-radius: 100px;
+    height: 52px;
+    padding: 0 18px;
+    border-radius: 16px;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    background: rgba(8, 22, 61, 0.8);
+    background: rgba(255, 255, 255, 0.05);
     color: #FFFFFF;
-    font-size: 12.5px;
+    font-size: 14px;
     outline: none;
+    transition: all 200ms ease;
   }
 
-  .footer-subscribe-form button {
-    height: 42px;
-    padding: 0 18px;
-    border-radius: 100px;
+  .glass-email-input:focus {
+    border-color: #6A1BFF;
+    box-shadow: 0 0 0 3px rgba(106, 27, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .gradient-subscribe-btn {
+    height: 52px;
+    padding: 0 24px;
+    border-radius: 16px;
     border: none;
-    background: #6D28FF;
+    background: linear-gradient(135deg, #6A1BFF, #0D6EFD);
     color: #FFFFFF;
-    font-size: 12.5px;
+    font-size: 14px;
     font-weight: 700;
     cursor: pointer;
-    transition: background 200ms ease;
+    box-shadow: 0 4px 16px rgba(106, 27, 255, 0.3);
+    transition: all 250ms ease;
   }
 
-  .footer-subscribe-form button:hover {
-    background: #3B82F6;
+  .gradient-subscribe-btn:hover {
+    box-shadow: 0 8px 24px rgba(106, 27, 255, 0.5);
+    transform: translateY(-2px);
   }
 
   .newsletter-disclaimer {
-    font-size: 11px;
+    font-size: 11.5px;
     color: #64748B;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
   }
 
+  /* 7. Frosted Glass Circular Social Buttons (44x44px) */
   .social-header {
     font-size: 11px;
     font-weight: 800;
     color: #94A3B8;
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
-  .social-icon-row {
+  .frosted-social-row {
     display: flex;
-    gap: 8px;
+    gap: 10px;
   }
 
-  .social-icon-row a {
-    width: 34px;
-    height: 34px;
+  .social-glass-btn {
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
     color: #CBD5E1;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
-    transition: all 200ms ease;
+    font-size: 15px;
+    transition: all 250ms ease;
   }
 
-  .social-icon-row a:hover {
-    background: #6D28FF;
-    border-color: #6D28FF;
+  .social-glass-btn:hover {
+    background: linear-gradient(135deg, #6A1BFF, #0D6EFD);
+    border-color: transparent;
     color: #FFFFFF;
-    transform: translateY(-2px);
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(106, 27, 255, 0.4);
   }
 
   /* ── 4. Technology Strip ── */
   .footer-tech-strip {
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 20px 0;
+    padding: 24px 0;
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-bottom: 32px;
+    margin-bottom: 36px;
   }
 
   .tech-strip-title {
-    font-size: 11px;
+    font-size: 11.5px;
     font-weight: 800;
     color: #64748B;
     letter-spacing: 1.5px;
@@ -730,10 +855,10 @@
   }
 
   .tech-tag {
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 700;
     color: #94A3B8;
-    padding: 4px 12px;
+    padding: 6px 14px;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.06);
     border-radius: 100px;
@@ -745,16 +870,18 @@
 
   .tech-tag:hover {
     color: #FFFFFF;
-    border-color: #3B82F6;
-    background: rgba(59, 130, 246, 0.1);
+    border-color: #0D6EFD;
+    background: rgba(13, 110, 253, 0.12);
   }
 
-  /* ── 5. Bottom Legal Bar ── */
+  /* ── 9. Bottom Legal Bar (Subtle Separators) ── */
   .footer-bottom-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 13px;
     color: #64748B;
     flex-wrap: wrap;
     gap: 16px;
@@ -763,7 +890,7 @@
   .legal-links-center {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
   }
 
   .legal-links-center a {
@@ -772,11 +899,12 @@
   }
 
   .legal-links-center a:hover {
-    color: #FFFFFF;
+    color: #6A1BFF;
   }
 
   .dot-sep {
     color: #475569;
+    font-size: 11px;
   }
 
   /* Responsive Breakpoints */
@@ -805,6 +933,9 @@
     .footer-main-grid {
       grid-template-columns: 1fr;
       gap: 32px;
+    }
+    .col-title {
+      font-size: 24px;
     }
     .footer-bottom-bar {
       flex-direction: column;
