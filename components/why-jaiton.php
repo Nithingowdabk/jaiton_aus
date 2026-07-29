@@ -1,338 +1,349 @@
 <!-- ============================================================
-     WHY CHOOSE JAITON – 4 Premium Interactive Enterprise Cards
+     WHY CHOOSE JAITON – 4 Full-Screen Interactive Storytelling Sections
      ============================================================ -->
-<section id="why-jaiton" class="why-choose-section">
+<section id="why-jaiton" class="why-story-section">
   
-  <!-- Background Layers -->
-  <div class="why-bg-layers" aria-hidden="true">
-    <div class="why-bg-grid"></div>
-    <div class="why-radial-glow why-radial-glow--purple"></div>
-    <div class="why-radial-glow why-radial-glow--blue"></div>
+  <!-- Subtle Background Layers -->
+  <div class="story-bg-layers" aria-hidden="true">
+    <div class="story-bg-grid"></div>
+    <div class="story-radial-glow story-radial-glow--purple"></div>
+    <div class="story-radial-glow story-radial-glow--blue"></div>
   </div>
 
   <div class="container">
     
-    <!-- Section Header (Max Width 760px, Centered) -->
-    <div class="why-section-header" data-aos="fade-up">
-      <span class="why-badge">WHY CHOOSE JAITON</span>
-      <h2 class="why-section-title">
-        Your Long-Term <span class="gradient-text">Technology Partner</span>
+    <!-- Section Header (Centered) -->
+    <div class="story-header" data-aos="fade-up">
+      <span class="story-badge">WHY CHOOSE JAITON</span>
+      <h2 class="story-main-title">
+        4 Reasons Enterprise Leaders <span class="gradient-text">Partner With Us</span>
       </h2>
-      <p class="why-section-subtitle">
-        We don't just build software—we become an extension of your business, delivering scalable technology, transparent collaboration, and measurable outcomes.
-      </p>
     </div>
 
-    <!-- 2 x 2 Interactive Cards Grid (Desktop Max Width 1440px, Gap 36px) -->
-    <div class="why-card-grid">
+    <!-- Sticky Storytelling Flow Wrapper -->
+    <div class="story-flow-wrapper">
       
-      <!-- CARD 1: Australian Business Standards -->
-      <div class="why-choose-card card-blueprint-state" data-aos="fade-up" data-aos-delay="0">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
+      <!-- ============================================================
+           STORY 01: Australian Business Standards
+           Layout: Left (SVG Blueprint -> Platform) | Right (Content)
+           ============================================================ -->
+      <article class="story-panel story-panel--1" data-aos="fade-up">
         
-        <!-- SVG Graphic: Animated Digital Blueprint Structure -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 320 140" class="card-svg svg-blueprint" aria-hidden="true">
-            <defs>
-              <linearGradient id="blueprintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.3"/>
-                <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.1"/>
-              </linearGradient>
-            </defs>
+        <!-- Left: Large Animated Interactive SVG -->
+        <div class="story-media-side">
+          <div class="story-svg-card parallax-target">
+            <svg viewBox="0 0 500 360" class="story-svg svg-story-1" aria-hidden="true">
+              <defs>
+                <linearGradient id="blueprintGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.35"/>
+                  <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.1"/>
+                </linearGradient>
+              </defs>
 
-            <!-- Blueprint Grid Lines -->
-            <g stroke="rgba(59,130,246,0.12)" stroke-width="1" stroke-dasharray="3 3">
-              <line x1="20" y1="20" x2="300" y2="20"/>
-              <line x1="20" y1="70" x2="300" y2="70"/>
-              <line x1="20" y1="120" x2="300" y2="120"/>
-              <line x1="60" y1="10" x2="60" y2="130"/>
-              <line x1="160" y1="10" x2="160" y2="130"/>
-              <line x1="260" y1="10" x2="260" y2="130"/>
-            </g>
+              <!-- Blueprint Grid Lines -->
+              <g stroke="rgba(59,130,246,0.15)" stroke-width="1" stroke-dasharray="4 4">
+                <line x1="40" y1="40" x2="460" y2="40"/>
+                <line x1="40" y1="180" x2="460" y2="180"/>
+                <line x1="40" y1="320" x2="460" y2="320"/>
+                <line x1="100" y1="20" x2="100" y2="340"/>
+                <line x1="250" y1="20" x2="250" y2="340"/>
+                <line x1="400" y1="20" x2="400" y2="340"/>
+              </g>
 
-            <!-- Building Architecture Outlines (Draw Animation) -->
-            <rect x="60" y="40" width="200" height="70" rx="8" fill="url(#blueprintGrad)" stroke="#3B82F6" stroke-width="1.5" class="blueprint-base-path"/>
-            <path d="M60,40 L160,15 L260,40" fill="none" stroke="#6D28FF" stroke-width="1.8" class="blueprint-roof-path"/>
-            <rect x="90" y="55" width="40" height="35" rx="4" fill="rgba(109,40,255,0.15)" stroke="#6D28FF" stroke-width="1"/>
-            <rect x="190" y="55" width="40" height="35" rx="4" fill="rgba(59,130,246,0.15)" stroke="#3B82F6" stroke-width="1"/>
-
-            <!-- Construction Nodes -->
-            <circle cx="60" cy="40" r="4" fill="#6D28FF" class="bp-node"/>
-            <circle cx="160" cy="15" r="5" fill="#3B82F6" class="bp-node-center"/>
-            <circle cx="260" cy="40" r="4" fill="#6D28FF" class="bp-node"/>
-            <circle cx="110" cy="72" r="3.5" fill="#10B981" class="bp-node"/>
-            <circle cx="210" cy="72" r="3.5" fill="#10B981" class="bp-node"/>
-          </svg>
-        </div>
-
-        <h3 class="card-title">Australian Business Standards</h3>
-        <p class="card-desc">
-          Enterprise development aligned with modern Australian business expectations, quality assurance, security, and transparent project governance.
-        </p>
-
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
-        </div>
-      </div>
-
-      <!-- CARD 2: Transparent Collaboration -->
-      <div class="why-choose-card card-collab-state" data-aos="fade-up" data-aos-delay="100">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
-
-        <!-- SVG Graphic: Connected Team Avatars & Signals -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 320 140" class="card-svg svg-collab" aria-hidden="true">
-            <!-- Connection Matrix Lines -->
-            <g stroke="rgba(109,40,255,0.25)" stroke-width="1.5" stroke-dasharray="4 4" class="collab-lines">
-              <line x1="60" y1="40" x2="160" y2="40"/>
-              <line x1="160" y1="40" x2="260" y2="40"/>
-              <line x1="60" y1="40" x2="110" y2="100"/>
-              <line x1="260" y1="40" x2="210" y2="100"/>
-              <line x1="110" y1="100" x2="210" y2="100"/>
-            </g>
-
-            <!-- Message Signal Particles travelling between nodes -->
-            <circle cx="60" cy="40" r="3" fill="#3B82F6" class="msg-particle-1"/>
-            <circle cx="160" cy="40" r="3" fill="#6D28FF" class="msg-particle-2"/>
-            <circle cx="210" cy="100" r="3" fill="#10B981" class="msg-particle-3"/>
-
-            <!-- Node 1: Client PM -->
-            <g transform="translate(60, 40)">
-              <circle cx="0" cy="0" r="18" fill="rgba(59,130,246,0.15)" stroke="#3B82F6" stroke-width="1.5"/>
-              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">PM</text>
-              <circle cx="12" cy="-12" r="4" fill="#10B981"/> <!-- Green Online dot -->
-            </g>
-
-            <!-- Node 2: Lead Architect -->
-            <g transform="translate(160, 40)">
-              <circle cx="0" cy="0" r="18" fill="rgba(109,40,255,0.15)" stroke="#6D28FF" stroke-width="1.5"/>
-              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">ARCH</text>
-              <circle cx="12" cy="-12" r="4" fill="#10B981"/>
-            </g>
-
-            <!-- Node 3: QA Lead -->
-            <g transform="translate(260, 40)">
-              <circle cx="0" cy="0" r="18" fill="rgba(16,185,129,0.15)" stroke="#10B981" stroke-width="1.5"/>
-              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">QA</text>
-              <circle cx="12" cy="-12" r="4" fill="#10B981"/>
-            </g>
-
-            <!-- Node 4: Exec Sponsor -->
-            <g transform="translate(160, 100)">
-              <circle cx="0" cy="0" r="18" fill="rgba(162,117,255,0.15)" stroke="#a275ff" stroke-width="1.5"/>
-              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">EXEC</text>
-              <circle cx="12" cy="-12" r="4" fill="#3B82F6"/>
-            </g>
-
-            <!-- Status Badges -->
-            <rect x="90" y="15" width="45" height="16" rx="8" fill="#10B981" opacity="0.9"/>
-            <text x="112" y="26" font-size="7.5" fill="#fff" text-anchor="middle" font-weight="bold">ONLINE</text>
-            
-            <rect x="185" y="15" width="45" height="16" rx="8" fill="#3B82F6" opacity="0.9"/>
-            <text x="207" y="26" font-size="7.5" fill="#fff" text-anchor="middle" font-weight="bold">REVIEW</text>
-          </svg>
-        </div>
-
-        <h3 class="card-title">Transparent Collaboration</h3>
-        <p class="card-desc">
-          Weekly reporting, sprint reviews, direct communication, and complete project visibility from discovery to deployment.
-        </p>
-
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
-        </div>
-      </div>
-
-      <!-- CARD 3: Scalable Digital Solutions -->
-      <div class="why-choose-card card-scale-state" data-aos="fade-up" data-aos-delay="200">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
-
-        <!-- SVG Graphic: Platform Expanding Upward & Rising Chart -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 320 140" class="card-svg svg-scale" aria-hidden="true">
-            <!-- Growing Isometric Blocks -->
-            <g class="scale-blocks-group">
-              <!-- Base Layer Block -->
-              <polygon points="100,110 160,80 220,110 160,135" fill="rgba(109,40,255,0.15)" stroke="#6D28FF" stroke-width="1.5"/>
+              <!-- Blueprint Structure transforming into Finished Platform -->
+              <rect x="90" y="90" width="320" height="190" rx="16" fill="url(#blueprintGrad1)" stroke="#3B82F6" stroke-width="2" class="blueprint-frame-draw"/>
+              <path d="M90,90 L250,30 L410,90" fill="none" stroke="#6D28FF" stroke-width="2.5" class="blueprint-roof-draw"/>
               
-              <!-- Mid Layer Block (Expanding upward) -->
-              <polygon points="100,85 160,55 220,85 160,110" fill="rgba(59,130,246,0.2)" stroke="#3B82F6" stroke-width="1.5" class="scale-mid-block"/>
+              <!-- Structural Modules -->
+              <rect x="130" y="125" width="90" height="70" rx="8" fill="rgba(109,40,255,0.2)" stroke="#6D28FF" stroke-width="1.5"/>
+              <rect x="280" y="125" width="90" height="70" rx="8" fill="rgba(59,130,246,0.2)" stroke="#3B82F6" stroke-width="1.5"/>
+              <rect x="130" y="210" width="240" height="50" rx="8" fill="rgba(16,185,129,0.15)" stroke="#10B981" stroke-width="1.5"/>
+
+              <!-- Glowing Construction Nodes -->
+              <circle cx="90" cy="90" r="6" fill="#6D28FF" class="story-node-pulse"/>
+              <circle cx="250" cy="30" r="7" fill="#3B82F6" class="story-node-pulse"/>
+              <circle cx="410" cy="90" r="6" fill="#6D28FF" class="story-node-pulse"/>
+              <circle cx="175" cy="160" r="4.5" fill="#10B981" class="story-node-pulse"/>
+              <circle cx="325" cy="160" r="4.5" fill="#10B981" class="story-node-pulse"/>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="story-content-side">
+          <div class="story-number">01</div>
+          <h3 class="story-title">Australian Business Standards</h3>
+          <p class="story-desc">
+            Enterprise development aligned with modern Australian business expectations, quality assurance, security, and transparent project governance.
+          </p>
+
+          <!-- KPI / Proof Point Badge -->
+          <div class="story-kpi-badge">
+            <i class="fa-solid fa-shield-check kpi-icon"></i>
+            <div>
+              <div class="kpi-val">ISO 9001 & 27001 Ready</div>
+              <div class="kpi-lbl">100% Onshore Governance & Quality Standards</div>
+            </div>
+          </div>
+        </div>
+
+      </article>
+
+      <!-- ============================================================
+           STORY 02: Transparent Delivery Process
+           Layout: Left (Content) | Right (SVG Workflow)
+           ============================================================ -->
+      <article class="story-panel story-panel--2" data-aos="fade-up">
+        
+        <!-- Left: Content -->
+        <div class="story-content-side">
+          <div class="story-number">02</div>
+          <h3 class="story-title">Transparent Delivery Process</h3>
+          <p class="story-desc">
+            Weekly reporting, sprint reviews, direct communication, and complete project visibility from discovery to deployment.
+          </p>
+
+          <div class="story-kpi-badge">
+            <i class="fa-solid fa-code-commit kpi-icon"></i>
+            <div>
+              <div class="kpi-val">100% Code & Sprint Visibility</div>
+              <div class="kpi-lbl">Direct Jira / GitHub access & weekly executive briefings</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Large Animated Interactive SVG -->
+        <div class="story-media-side">
+          <div class="story-svg-card parallax-target">
+            <svg viewBox="0 0 500 360" class="story-svg svg-story-2" aria-hidden="true">
+              <!-- Workflow Connection Matrix -->
+              <g stroke="rgba(109,40,255,0.3)" stroke-width="2" stroke-dasharray="6 6" class="collab-matrix-lines">
+                <line x1="100" y1="100" x2="250" y2="100"/>
+                <line x1="250" y1="100" x2="400" y2="100"/>
+                <line x1="100" y1="100" x2="175" y2="260"/>
+                <line x1="400" y1="100" x2="325" y2="260"/>
+                <line x1="175" y1="260" x2="325" y2="260"/>
+              </g>
+
+              <!-- Animated Data Flow Particles -->
+              <circle cx="100" cy="100" r="4" fill="#3B82F6" class="story-particle-1"/>
+              <circle cx="250" cy="100" r="4" fill="#6D28FF" class="story-particle-2"/>
+              <circle cx="325" cy="260" r="4" fill="#10B981" class="story-particle-3"/>
+
+              <!-- Node 1: Client Team -->
+              <g transform="translate(100, 100)">
+                <circle cx="0" cy="0" r="32" fill="rgba(59,130,246,0.15)" stroke="#3B82F6" stroke-width="2.5"/>
+                <text x="0" y="5" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">CLIENT</text>
+                <circle cx="22" cy="-22" r="6" fill="#10B981"/>
+              </g>
+
+              <!-- Node 2: Engineering Squad -->
+              <g transform="translate(250, 100)">
+                <circle cx="0" cy="0" r="32" fill="rgba(109,40,255,0.15)" stroke="#6D28FF" stroke-width="2.5"/>
+                <text x="0" y="5" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">SQUAD</text>
+                <circle cx="22" cy="-22" r="6" fill="#10B981"/>
+              </g>
+
+              <!-- Node 3: QA & Testing -->
+              <g transform="translate(400, 100)">
+                <circle cx="0" cy="0" r="32" fill="rgba(16,185,129,0.15)" stroke="#10B981" stroke-width="2.5"/>
+                <text x="0" y="5" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">QA/CI</text>
+                <circle cx="22" cy="-22" r="6" fill="#10B981"/>
+              </g>
+
+              <!-- Node 4: Product Governance -->
+              <g transform="translate(250, 260)">
+                <circle cx="0" cy="0" r="32" fill="rgba(162,117,255,0.15)" stroke="#a275ff" stroke-width="2.5"/>
+                <text x="0" y="5" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">EXEC</text>
+                <circle cx="22" cy="-22" r="6" fill="#3B82F6"/>
+              </g>
+
+              <!-- Status Badges -->
+              <rect x="140" y="45" width="70" height="24" rx="12" fill="#10B981" opacity="0.9"/>
+              <text x="175" y="61" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">SPRINT ACTIVE</text>
               
-              <!-- Top Layer Block -->
-              <polygon points="100,60 160,30 220,60 160,85" fill="rgba(16,185,129,0.25)" stroke="#10B981" stroke-width="1.5" class="scale-top-block"/>
-            </g>
-
-            <!-- Rising Growth Curve Line -->
-            <path d="M40,115 C100,105 140,75 220,35 T280,20" fill="none" stroke="#6D28FF" stroke-width="2.5" stroke-dasharray="250" class="growth-line-path"/>
-            
-            <!-- Growth Points -->
-            <circle cx="100" cy="100" r="4" fill="#6D28FF" class="growth-dot"/>
-            <circle cx="170" cy="62" r="4" fill="#3B82F6" class="growth-dot"/>
-            <circle cx="280" cy="20" r="5" fill="#10B981" class="growth-dot-top"/>
-          </svg>
+              <rect x="290" y="45" width="70" height="24" rx="12" fill="#3B82F6" opacity="0.9"/>
+              <text x="325" y="61" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">CODE REVIEW</text>
+            </svg>
+          </div>
         </div>
 
-        <h3 class="card-title">Scalable Digital Solutions</h3>
-        <p class="card-desc">
-          Solutions engineered to grow with your business without costly rebuilds or technical limitations.
-        </p>
+      </article>
 
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
-        </div>
-      </div>
+      <!-- ============================================================
+           STORY 03: Solutions Built to Scale
+           Layout: Left (SVG Architecture Expand) | Right (Content)
+           ============================================================ -->
+      <article class="story-panel story-panel--3" data-aos="fade-up">
+        
+        <!-- Left: Large Animated Interactive SVG -->
+        <div class="story-media-side">
+          <div class="story-svg-card parallax-target">
+            <svg viewBox="0 0 500 360" class="story-svg svg-story-3" aria-hidden="true">
+              <!-- Expanding Platform Building Blocks -->
+              <g class="story-blocks-stack">
+                <!-- Base Layer -->
+                <polygon points="150,290 250,230 350,290 250,340" fill="rgba(109,40,255,0.18)" stroke="#6D28FF" stroke-width="2"/>
+                <polygon points="150,290 250,340 250,355 150,305" fill="rgba(109,40,255,0.3)" stroke="#6D28FF" stroke-width="1.5"/>
+                <polygon points="250,340 350,290 350,305 250,355" fill="rgba(109,40,255,0.4)" stroke="#6D28FF" stroke-width="1.5"/>
 
-      <!-- CARD 4: Long-Term Technology Partnership -->
-      <div class="why-choose-card card-ecosystem-state" data-aos="fade-up" data-aos-delay="300">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
+                <!-- Middle Layer -->
+                <polygon points="150,230 250,170 350,230 250,280" fill="rgba(59,130,246,0.22)" stroke="#3B82F6" stroke-width="2" class="story-mid-block"/>
+                <polygon points="150,230 250,280 250,295 150,245" fill="rgba(59,130,246,0.35)" stroke="#3B82F6" stroke-width="1.5" class="story-mid-block"/>
+                <polygon points="250,280 350,230 350,245 250,295" fill="rgba(59,130,246,0.45)" stroke="#3B82F6" stroke-width="1.5" class="story-mid-block"/>
 
-        <!-- SVG Graphic: Central Jaiton Hub & Orbiting Nodes -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 320 140" class="card-svg svg-ecosystem" aria-hidden="true">
-            <!-- Central Orbital Track -->
-            <ellipse cx="160" cy="70" rx="90" ry="42" fill="none" stroke="rgba(109,40,255,0.2)" stroke-width="1.5" stroke-dasharray="4 4"/>
-            <ellipse cx="160" cy="70" rx="90" ry="42" fill="none" stroke="url(#orbitGrad)" stroke-width="2" class="orbit-glow-path"/>
-
-            <defs>
-              <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#6D28FF"/>
-                <stop offset="50%" stop-color="#3B82F6"/>
-                <stop offset="100%" stop-color="#10B981"/>
-              </linearGradient>
-            </defs>
-
-            <!-- Center JAITON Core Badge -->
-            <g transform="translate(160, 70)">
-              <circle cx="0" cy="0" r="22" fill="rgba(109,40,255,0.25)" stroke="#6D28FF" stroke-width="2"/>
-              <text x="0" y="4" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">JAITON</text>
-            </g>
-
-            <!-- Orbiting Ecosystem Group (Rotating via CSS) -->
-            <g class="orbiting-nodes-group">
-              <!-- Orbit Node 1: Support -->
-              <g class="orbit-node node-support" transform="translate(70, 70)">
-                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#3B82F6" stroke-width="1.5"/>
-                <text x="0" y="3" font-size="7" fill="#3B82F6" text-anchor="middle" font-weight="bold">Support</text>
+                <!-- Top Layer -->
+                <polygon points="150,170 250,110 350,170 250,220" fill="rgba(16,185,129,0.28)" stroke="#10B981" stroke-width="2" class="story-top-block"/>
+                <polygon points="150,170 250,220 250,232 150,182" fill="rgba(16,185,129,0.4)" stroke="#10B981" stroke-width="1.5" class="story-top-block"/>
+                <polygon points="250,220 350,170 350,182 250,232" fill="rgba(16,185,129,0.5)" stroke="#10B981" stroke-width="1.5" class="story-top-block"/>
               </g>
 
-              <!-- Orbit Node 2: Innovation -->
-              <g class="orbit-node node-innovation" transform="translate(160, 28)">
-                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#6D28FF" stroke-width="1.5"/>
-                <text x="0" y="3" font-size="7" fill="#a275ff" text-anchor="middle" font-weight="bold">Innovate</text>
-              </g>
-
-              <!-- Orbit Node 3: Maintenance -->
-              <g class="orbit-node node-maintenance" transform="translate(250, 70)">
-                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#10B981" stroke-width="1.5"/>
-                <text x="0" y="3" font-size="7" fill="#10B981" text-anchor="middle" font-weight="bold">Maintain</text>
-              </g>
-
-              <!-- Orbit Node 4: Growth -->
-              <g class="orbit-node node-growth" transform="translate(160, 112)">
-                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#06B6D4" stroke-width="1.5"/>
-                <text x="0" y="3" font-size="7" fill="#06B6D4" text-anchor="middle" font-weight="bold">Growth</text>
-              </g>
-            </g>
-          </svg>
+              <!-- Rising Throughput Curve -->
+              <path d="M60,300 C150,280 220,180 380,60 T440,30" fill="none" stroke="#6D28FF" stroke-width="3" stroke-dasharray="350" class="story-growth-curve"/>
+              <circle cx="150" cy="270" r="5" fill="#6D28FF" class="curve-dot"/>
+              <circle cx="270" cy="150" r="5" fill="#3B82F6" class="curve-dot"/>
+              <circle cx="440" cy="30" r="7" fill="#10B981" class="curve-dot-top"/>
+            </svg>
+          </div>
         </div>
 
-        <h3 class="card-title">Long-Term Technology Partnership</h3>
-        <p class="card-desc">
-          Beyond project delivery, we provide continuous optimisation, maintenance, strategic consulting, and future technology planning.
-        </p>
+        <!-- Right: Content -->
+        <div class="story-content-side">
+          <div class="story-number">03</div>
+          <h3 class="story-title">Solutions Built to Scale</h3>
+          <p class="story-desc">
+            Solutions engineered to grow with your business without costly rebuilds or technical limitations.
+          </p>
 
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
+          <div class="story-kpi-badge">
+            <i class="fa-solid fa-chart-line-up kpi-icon"></i>
+            <div>
+              <div class="kpi-val">Zero Architectural Limitations</div>
+              <div class="kpi-lbl">Event-driven microservices designed for 10x throughput expansion</div>
+            </div>
+          </div>
         </div>
-      </div>
+
+      </article>
+
+      <!-- ============================================================
+           STORY 04: Long-Term Technology Partnership
+           Layout: Left (Content) | Right (SVG Orbiting Ecosystem)
+           ============================================================ -->
+      <article class="story-panel story-panel--4" data-aos="fade-up">
+        
+        <!-- Left: Content -->
+        <div class="story-content-side">
+          <div class="story-number">04</div>
+          <h3 class="story-title">Long-Term Technology Partnership</h3>
+          <p class="story-desc">
+            Beyond project delivery, we provide continuous optimisation, maintenance, strategic consulting, and future technology planning.
+          </p>
+
+          <div class="story-kpi-badge">
+            <i class="fa-solid fa-handshake-angle kpi-icon"></i>
+            <div>
+              <div class="kpi-val">99.9% Uptime & 24/7 SLA</div>
+              <div class="kpi-lbl">Dedicated engineering squad supporting long-term platform evolution</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Large Animated Interactive SVG -->
+        <div class="story-media-side">
+          <div class="story-svg-card parallax-target">
+            <svg viewBox="0 0 500 360" class="story-svg svg-story-4" aria-hidden="true">
+              <!-- Central Orbital Ellipse -->
+              <ellipse cx="250" cy="180" rx="160" ry="85" fill="none" stroke="rgba(109,40,255,0.2)" stroke-width="2" stroke-dasharray="6 6"/>
+              <ellipse cx="250" cy="180" rx="160" ry="85" fill="none" stroke="url(#storyOrbitGrad)" stroke-width="2.5" class="story-orbit-glow"/>
+
+              <defs>
+                <linearGradient id="storyOrbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6D28FF"/>
+                  <stop offset="50%" stop-color="#3B82F6"/>
+                  <stop offset="100%" stop-color="#10B981"/>
+                </linearGradient>
+              </defs>
+
+              <!-- Central Client Core Badge -->
+              <g transform="translate(250, 180)">
+                <circle cx="0" cy="0" r="40" fill="rgba(109,40,255,0.25)" stroke="#6D28FF" stroke-width="2.5"/>
+                <text x="0" y="6" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">CLIENT</text>
+              </g>
+
+              <!-- Orbiting Ecosystem Group -->
+              <g class="story-orbit-group">
+                <!-- Orbit 1: Support -->
+                <g class="story-orbit-node" transform="translate(90, 180)">
+                  <circle cx="0" cy="0" r="22" fill="#081327" stroke="#3B82F6" stroke-width="2"/>
+                  <text x="0" y="4" font-size="10" fill="#3B82F6" text-anchor="middle" font-weight="bold">Support</text>
+                </g>
+
+                <!-- Orbit 2: Innovation -->
+                <g class="story-orbit-node" transform="translate(250, 95)">
+                  <circle cx="0" cy="0" r="22" fill="#081327" stroke="#6D28FF" stroke-width="2"/>
+                  <text x="0" y="4" font-size="10" fill="#a275ff" text-anchor="middle" font-weight="bold">Innovate</text>
+                </g>
+
+                <!-- Orbit 3: Maintenance -->
+                <g class="story-orbit-node" transform="translate(410, 180)">
+                  <circle cx="0" cy="0" r="22" fill="#081327" stroke="#10B981" stroke-width="2"/>
+                  <text x="0" y="4" font-size="10" fill="#10B981" text-anchor="middle" font-weight="bold">Maintain</text>
+                </g>
+
+                <!-- Orbit 4: Growth -->
+                <g class="story-orbit-node" transform="translate(250, 265)">
+                  <circle cx="0" cy="0" r="22" fill="#081327" stroke="#06B6D4" stroke-width="2"/>
+                  <text x="0" y="4" font-size="10" fill="#06B6D4" text-anchor="middle" font-weight="bold">Growth</text>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+      </article>
 
     </div>
 
     <!-- Bottom CTA Banner -->
-    <div class="why-cta-banner" data-aos="fade-up" data-aos-delay="200">
-      <div class="why-cta-content">
-        <h3 class="why-cta-title">Ready to Build with a Trusted Technology Partner?</h3>
-        <p class="why-cta-desc">Discuss your project requirements with our Australian strategy and engineering team.</p>
+    <div class="story-cta-banner" data-aos="fade-up">
+      <div class="story-cta-content">
+        <h3 class="story-cta-title">Ready to Experience Enterprise Software Excellence?</h3>
+        <p class="story-cta-desc">Discuss your platform goals with our Australian software strategy team.</p>
       </div>
-      <div class="why-cta-actions">
-        <a href="#contact" class="btn btn-primary btn-magnetic">Book a Strategy Call <i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#services" class="btn btn-secondary">Explore Our Capabilities <i class="fa-solid fa-layer-group"></i></a>
+      <div class="story-cta-actions">
+        <a href="#contact" class="btn btn-primary btn-magnetic">Book a Strategy Session <i class="fa-solid fa-calendar-check"></i></a>
+        <a href="#services" class="btn btn-secondary">Explore Capabilities <i class="fa-solid fa-arrow-right"></i></a>
       </div>
     </div>
 
   </div>
 </section>
 
-<!-- 3D Mouse Tilt & Shuffle Animation Script -->
+<!-- Mouse Parallax & Animation Control Script -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const cards = document.querySelectorAll(".why-choose-card");
+  const parallaxTargets = document.querySelectorAll(".parallax-target");
   const section = document.getElementById("why-jaiton");
 
-  // 1. 3D Mouse Tilt Effect
-  cards.forEach(card => {
-    card.addEventListener("mousemove", (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
-      const rotateX = (-y / (rect.height / 2)) * 4; // Max 4 deg
-      const rotateY = (x / (rect.width / 2)) * 4;   // Max 4 deg
+  // 1. Mouse Parallax Effect on SVG Cards
+  window.addEventListener("mousemove", (e) => {
+    const x = (e.clientX - window.innerWidth / 2) * 0.015;
+    const y = (e.clientY - window.innerHeight / 2) * 0.015;
 
-      card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-8px)`;
-    });
-
-    card.addEventListener("mouseleave", () => {
-      card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)`;
+    parallaxTargets.forEach(card => {
+      card.style.transform = `translate3d(${x.toFixed(2)}px, ${y.toFixed(2)}px, 0)`;
     });
   });
 
-  // 2. Seamless Shuffle Animation System (Cycles internal SVG states every 8-10 seconds)
-  let shuffleState = 0;
-  const runStateCycle = () => {
-    shuffleState = (shuffleState + 1) % 3;
-    
-    // Card 1: Cycle Blueprint redraw glow
-    const bpBase = document.querySelector(".blueprint-base-path");
-    if (bpBase) {
-      bpBase.style.stroke = shuffleState === 1 ? "#10B981" : "#3B82F6";
-    }
-
-    // Card 2: Reroute Collaboration Message particles
-    const p1 = document.querySelector(".msg-particle-1");
-    if (p1) {
-      p1.style.animationDuration = shuffleState === 1 ? "1.5s" : "3s";
-    }
-
-    // Card 3: Expand Growth Chart curve
-    const growthLine = document.querySelector(".growth-line-path");
-    if (growthLine) {
-      growthLine.style.stroke = shuffleState === 2 ? "#10B981" : "#6D28FF";
-    }
-
-    // Card 4: Accelerate Orbiting Ecosystem
-    const orbitGroup = document.querySelector(".orbiting-nodes-group");
-    if (orbitGroup) {
-      orbitGroup.style.animationDuration = shuffleState === 1 ? "6s" : "12s";
-    }
-  };
-
-  let cycleTimer = setInterval(runStateCycle, 9000);
-
-  // 3. Intersection Observer API (Pauses animations when off-screen for 60 FPS)
+  // 2. Intersection Observer API (Pauses animations off-screen for 60 FPS)
   if ("IntersectionObserver" in window && section) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (!entry.isIntersecting) {
-          clearInterval(cycleTimer);
-          document.body.classList.add("why-animations-paused");
+          document.body.classList.add("story-animations-paused");
         } else {
-          document.body.classList.remove("why-animations-paused");
-          clearInterval(cycleTimer);
-          cycleTimer = setInterval(runStateCycle, 9000);
+          document.body.classList.remove("story-animations-paused");
         }
       });
     }, { threshold: 0.1 });
@@ -343,19 +354,19 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <!-- ============================================================
-     WHY CHOOSE JAITON SCOPED STYLES
+     WHY STORYTELLING SCOPED STYLES
      ============================================================ -->
 <style>
 /* ── Section Shell ── */
-.why-choose-section {
+.why-story-section {
   position: relative;
   padding: 120px 0;
   background-color: var(--dark-navy);
   overflow: hidden;
 }
 
-/* ── Background Grid & Radial Glows ── */
-.why-bg-layers {
+/* ── Background Layers ── */
+.story-bg-layers {
   position: absolute;
   inset: 0;
   pointer-events: none;
@@ -363,7 +374,7 @@ document.addEventListener("DOMContentLoaded", () => {
   z-index: 1;
 }
 
-.why-bg-grid {
+.story-bg-grid {
   position: absolute;
   inset: 0;
   background-size: 40px 40px;
@@ -372,28 +383,28 @@ document.addEventListener("DOMContentLoaded", () => {
     linear-gradient(to bottom, rgba(255,255,255,0.015) 1px, transparent 1px);
 }
 
-.why-radial-glow {
+.story-radial-glow {
   position: absolute;
-  width: 650px;
-  height: 650px;
+  width: 700px;
+  height: 700px;
   border-radius: 50%;
-  filter: blur(160px);
+  filter: blur(180px);
   opacity: 0.15;
 }
 
-.why-radial-glow--purple { top: 15%; left: -10%; background: var(--primary-purple); }
-.why-radial-glow--blue   { bottom: 10%; right: -10%; background: var(--electric-blue); }
+.story-radial-glow--purple { top: 10%; left: -10%; background: var(--primary-purple); }
+.story-radial-glow--blue   { bottom: 10%; right: -10%; background: var(--electric-blue); }
 
-/* ── Section Header (Max Width 760px, Centered) ── */
-.why-section-header {
+/* ── Section Header ── */
+.story-header {
   text-align: center;
   max-width: 760px;
-  margin: 0 auto 64px auto;
+  margin: 0 auto 80px auto;
   position: relative;
   z-index: 5;
 }
 
-.why-badge {
+.story-badge {
   display: inline-flex;
   align-items: center;
   padding: 6px 16px;
@@ -408,27 +419,20 @@ document.addEventListener("DOMContentLoaded", () => {
   margin-bottom: 18px;
 }
 
-.why-section-title {
+.story-main-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(34px, 3.4vw, 46px);
+  font-size: clamp(34px, 3.4vw, 48px);
   font-weight: 800;
   line-height: 1.2;
   color: var(--white);
   letter-spacing: -0.02em;
-  margin-bottom: 16px;
 }
 
-.why-section-subtitle {
-  font-size: clamp(15px, 1.1vw, 18px);
-  line-height: 1.6;
-  color: #cbd5e1;
-}
-
-/* ── 2 x 2 Cards Grid (Desktop Max Width 1440px, Gap 36px) ── */
-.why-card-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 36px;
+/* ── Story Flow Wrapper ── */
+.story-flow-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -436,233 +440,187 @@ document.addEventListener("DOMContentLoaded", () => {
   z-index: 5;
 }
 
-/* ── Individual Glassmorphism Feature Card ── */
-.why-choose-card {
-  position: relative;
-  background: rgba(255, 255, 255, 0.03);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-radius: 24px;
-  padding: 40px;
+/* ── Individual Full-Screen Storytelling Panels (approx 80-100vh) ── */
+.story-panel {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 60px;
+  align-items: center;
+  min-height: 75vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Content Side */
+.story-content-side {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 20px 48px -12px rgba(8, 19, 39, 0.4);
-  transition: transform 300ms ease-out, box-shadow 300ms ease-out, background 300ms ease-out, border-color 300ms ease-out;
-  cursor: pointer;
-  overflow: hidden;
+}
+
+.story-number {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(54px, 5vw, 72px);
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(135deg, #6D28FF 0%, #3B82F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 12px;
+}
+
+.story-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(30px, 2.6vw, 40px);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--white);
+  letter-spacing: -0.02em;
+  margin-bottom: 18px;
+}
+
+.story-desc {
+  font-size: clamp(16px, 1.2vw, 18px);
+  line-height: 1.65;
+  color: #cbd5e1;
+  margin-bottom: 32px;
+  max-width: 560px;
+}
+
+/* KPI / Proof Point Badge */
+.story-kpi-badge {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 16px 24px;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(8, 19, 39, 0.3);
+}
+
+.kpi-icon {
+  font-size: 1.8rem;
+  color: #3B82F6;
+  flex-shrink: 0;
+}
+
+.kpi-val {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 2px;
+}
+
+.kpi-lbl {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* Media Side (SVG Card) */
+.story-media-side {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-svg-card {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 28px;
+  padding: 36px;
+  box-shadow: 0 24px 60px rgba(8, 19, 39, 0.4);
+  transition: transform 200ms ease-out;
   box-sizing: border-box;
 }
 
-/* Animated Gradient Border (8s loop) */
-.card-gradient-border {
-  position: absolute;
-  inset: 0;
-  border-radius: 24px;
-  padding: 1.5px;
-  background: linear-gradient(135deg, rgba(109, 40, 255, 0.4), rgba(59, 130, 246, 0.4), rgba(109, 40, 255, 0.2));
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-  opacity: 0.35;
-  transition: opacity 300ms ease;
-  animation: cardBorderLoop 8s linear infinite alternate;
-}
-
-@keyframes cardBorderLoop {
-  0%   { filter: hue-rotate(0deg); }
-  100% { filter: hue-rotate(60deg); }
-}
-
-/* Soft Inner Glow */
-.card-inner-glow {
-  position: absolute;
-  top: -60px;
-  left: -60px;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(109, 40, 255, 0.18), transparent 70%);
-  pointer-events: none;
-  opacity: 0.5;
-  transition: opacity 300ms ease;
-}
-
-/* Hover State */
-.why-choose-card:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(109, 40, 255, 0.35);
-  box-shadow: 0 24px 60px -12px rgba(109, 40, 255, 0.25);
-}
-
-.why-choose-card:hover .card-gradient-border,
-.why-choose-card:hover .card-inner-glow {
-  opacity: 1;
-}
-
-/* Graphic Area (SVG) */
-.card-graphic-area {
+.story-svg {
   width: 100%;
-  height: 140px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 24px;
-}
-
-.card-svg {
-  width: 100%;
-  height: 100%;
+  height: auto;
   display: block;
 }
 
-/* Card Title & Description */
-.card-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--white);
-  margin-bottom: 12px;
-  transition: transform 300ms ease;
+/* ── SVG Story Animations ── */
+.story-node-pulse { animation: storyNodeGlow 2s infinite alternate; }
+
+@keyframes storyNodeGlow {
+  0%   { r: 4.5; opacity: 0.7; }
+  100% { r: 6.5; opacity: 1; }
 }
 
-.why-choose-card:hover .card-title {
-  transform: translateY(-4px);
+/* Story 2 Particles */
+.story-particle-1 { animation: sParticleFlow1 3s linear infinite; }
+.story-particle-2 { animation: sParticleFlow2 3s linear infinite 1s; }
+.story-particle-3 { animation: sParticleFlow3 3s linear infinite 2s; }
+
+@keyframes sParticleFlow1 {
+  0%   { cx: 100; cy: 100; opacity: 1; }
+  100% { cx: 250; cy: 100; opacity: 0; }
 }
 
-.card-desc {
-  font-size: 15px;
-  line-height: 1.65;
-  color: #cbd5e1;
-  margin-bottom: 28px;
-  flex-grow: 1;
-  transition: transform 300ms ease;
+@keyframes sParticleFlow2 {
+  0%   { cx: 250; cy: 100; opacity: 1; }
+  100% { cx: 400; cy: 100; opacity: 0; }
 }
 
-.why-choose-card:hover .card-desc {
-  transform: translateY(-4px);
+@keyframes sParticleFlow3 {
+  0%   { cx: 325; cy: 260; opacity: 1; }
+  100% { cx: 175; cy: 260; opacity: 0; }
 }
 
-/* Bottom Right CTA Arrow */
-.card-cta {
-  align-self: flex-end;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  color: var(--white);
-  transition: all 300ms ease;
-}
+/* Story 3 Blocks & Curve */
+.story-mid-block { animation: sBlockElevate1 3s ease-in-out infinite alternate; }
+.story-top-block { animation: sBlockElevate2 3s ease-in-out infinite alternate 0.5s; }
 
-.card-arrow {
-  font-size: 0.9rem;
-  transition: transform 300ms ease;
-}
-
-.why-choose-card:hover .card-cta {
-  background: var(--primary-purple);
-  border-color: var(--primary-purple);
-  box-shadow: 0 4px 14px rgba(109, 40, 255, 0.4);
-}
-
-.why-choose-card:hover .card-arrow {
-  transform: translateX(6px);
-}
-
-/* ── SVG Internal Animations ── */
-/* Card 1: Blueprint */
-.bp-node        { animation: bpNodePulse 2s infinite alternate; }
-.bp-node-center { animation: bpNodeCenterPulse 1.8s infinite alternate; }
-
-@keyframes bpNodePulse {
-  0%   { r: 4; opacity: 0.7; }
-  100% { r: 6; opacity: 1; }
-}
-
-@keyframes bpNodeCenterPulse {
-  0%   { r: 5; fill: #3B82F6; }
-  100% { r: 7; fill: #10B981; }
-}
-
-/* Card 2: Collaboration Message Particles */
-.msg-particle-1 { animation: msgFlow1 3s linear infinite; }
-.msg-particle-2 { animation: msgFlow2 3s linear infinite 1s; }
-.msg-particle-3 { animation: msgFlow3 3s linear infinite 2s; }
-
-@keyframes msgFlow1 {
-  0%   { cx: 60; cy: 40; opacity: 1; }
-  100% { cx: 160; cy: 40; opacity: 0; }
-}
-
-@keyframes msgFlow2 {
-  0%   { cx: 160; cy: 40; opacity: 1; }
-  100% { cx: 260; cy: 40; opacity: 0; }
-}
-
-@keyframes msgFlow3 {
-  0%   { cx: 210; cy: 100; opacity: 1; }
-  100% { cx: 110; cy: 100; opacity: 0; }
-}
-
-/* Card 3: Scale Blocks & Growth Line */
-.scale-mid-block { animation: blockElevate1 3s ease-in-out infinite alternate; }
-.scale-top-block { animation: blockElevate2 3s ease-in-out infinite alternate 0.5s; }
-.growth-dot-top  { animation: topDotGlow 1.8s infinite alternate; }
-
-@keyframes blockElevate1 {
+@keyframes sBlockElevate1 {
   0%   { transform: translateY(0px); }
-  100% { transform: translateY(-4px); }
+  100% { transform: translateY(-6px); }
 }
 
-@keyframes blockElevate2 {
+@keyframes sBlockElevate2 {
   0%   { transform: translateY(0px); }
-  100% { transform: translateY(-8px); }
+  100% { transform: translateY(-12px); }
 }
 
-@keyframes topDotGlow {
-  0%   { r: 5; fill: #10B981; }
-  100% { r: 7; fill: #3B82F6; }
+/* Story 4 Orbit */
+.story-orbit-group {
+  transform-origin: 250px 180px;
+  animation: sOrbitRotate 14s linear infinite;
 }
 
-/* Card 4: Ecosystem Orbit */
-.orbiting-nodes-group {
-  transform-origin: 160px 70px;
-  animation: orbitRotate 12s linear infinite;
-}
-
-@keyframes orbitRotate {
+@keyframes sOrbitRotate {
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
 
 /* Pause Animations Off-screen */
-body.why-animations-paused .bp-node,
-body.why-animations-paused .msg-particle-1,
-body.why-animations-paused .msg-particle-2,
-body.why-animations-paused .msg-particle-3,
-body.why-animations-paused .scale-mid-block,
-body.why-animations-paused .scale-top-block,
-body.why-animations-paused .orbiting-nodes-group {
+body.story-animations-paused .story-node-pulse,
+body.story-animations-paused .story-particle-1,
+body.story-animations-paused .story-particle-2,
+body.story-animations-paused .story-particle-3,
+body.story-animations-paused .story-mid-block,
+body.story-animations-paused .story-top-block,
+body.story-animations-paused .story-orbit-group {
   animation-play-state: paused !important;
 }
 
 /* ── Bottom CTA Banner ── */
-.why-cta-banner {
+.story-cta-banner {
   max-width: 1440px;
   width: 100%;
-  margin: 64px auto 0 auto;
+  margin: 100px auto 0 auto;
   background: linear-gradient(135deg, rgba(109,40,255,0.25) 0%, rgba(59,130,246,0.15) 100%);
   border: 1px solid rgba(109,40,255,0.3);
   border-radius: 24px;
-  padding: 36px 48px;
+  padding: 40px 52px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -673,41 +631,47 @@ body.why-animations-paused .orbiting-nodes-group {
   box-sizing: border-box;
 }
 
-.why-cta-title {
+.story-cta-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 800;
   color: var(--white);
   margin-bottom: 6px;
 }
 
-.why-cta-desc {
-  font-size: 14px;
+.story-cta-desc {
+  font-size: 15px;
   color: #cbd5e1;
 }
 
-.why-cta-actions {
+.story-cta-actions {
   display: flex;
   gap: 16px;
   flex-shrink: 0;
 }
 
-.why-cta-actions .btn {
-  height: 48px;
-  padding: 0 24px;
+.story-cta-actions .btn {
+  height: 50px;
+  padding: 0 28px;
   border-radius: 12px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
 }
 
 /* ── Responsive Breakpoints ── */
 @media (max-width: 1199px) {
-  .why-card-grid {
+  .story-panel {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 40px;
+    min-height: auto;
   }
 
-  .why-cta-banner {
+  .story-panel--2 .story-content-side,
+  .story-panel--4 .story-content-side {
+    order: -1; /* Keep content on top on mobile/tablet */
+  }
+
+  .story-cta-banner {
     flex-direction: column;
     text-align: center;
     gap: 24px;
@@ -716,20 +680,24 @@ body.why-animations-paused .orbiting-nodes-group {
 }
 
 @media (max-width: 767px) {
-  .why-choose-section {
+  .why-story-section {
     padding: 80px 0;
   }
 
-  .why-choose-card {
-    padding: 28px 20px;
+  .story-flow-wrapper {
+    gap: 80px;
   }
 
-  .why-cta-actions {
+  .story-svg-card {
+    padding: 20px;
+  }
+
+  .story-cta-actions {
     flex-direction: column;
     width: 100%;
   }
 
-  .why-cta-actions .btn {
+  .story-cta-actions .btn {
     width: 100%;
   }
 }
