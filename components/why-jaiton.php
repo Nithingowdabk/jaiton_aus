@@ -3,6 +3,34 @@
      ============================================================ -->
 <section id="why-jaiton" class="why-executive-section">
   
+  <!-- Premium Enterprise Technology Background Layers (PCB / Infrastructure Blueprint) -->
+  <div class="tech-bg-layers" aria-hidden="true">
+    <div class="tech-divider-top"></div>
+    <div class="tech-divider-bottom"></div>
+    <div class="tech-glow tech-glow--purple"></div>
+    <div class="tech-glow tech-glow--blue"></div>
+
+    <svg class="tech-pcb-svg" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+      <pattern id="pcb-grid-pattern" width="140" height="140" patternUnits="userSpaceOnUse">
+        <!-- Thin Technology Traces (1px, 3-6% opacity) -->
+        <path d="M0,35 L45,35 L65,55 L140,55" stroke="rgba(109,40,255,0.06)" stroke-width="1" fill="none"/>
+        <path d="M35,0 L35,45 L55,65 L55,140" stroke="rgba(59,130,246,0.05)" stroke-width="1" fill="none"/>
+        <path d="M140,105 L95,105 L75,125 L0,125" stroke="rgba(109,40,255,0.05)" stroke-width="1" fill="none"/>
+        <path d="M105,140 L105,95 L125,75 L125,0" stroke="rgba(59,130,246,0.05)" stroke-width="1" fill="none"/>
+
+        <!-- Microchip Terminal Nodes -->
+        <circle cx="65" cy="55" r="2.5" fill="none" stroke="rgba(109,40,255,0.08)" stroke-width="1"/>
+        <circle cx="65" cy="55" r="1" fill="rgba(109,40,255,0.12)"/>
+        
+        <circle cx="55" cy="65" r="2.5" fill="none" stroke="rgba(59,130,246,0.08)" stroke-width="1"/>
+        <circle cx="55" cy="65" r="1" fill="rgba(59,130,246,0.12)"/>
+
+        <rect x="85" y="85" width="10" height="10" rx="2" fill="none" stroke="rgba(109,40,255,0.06)" stroke-width="1"/>
+      </pattern>
+      <rect width="100%" height="100%" fill="url(#pcb-grid-pattern)"/>
+    </svg>
+  </div>
+  
   <div class="container">
     
     <!-- Section Header (Max Width 900px, Centered) -->
@@ -34,13 +62,7 @@
 
         <!-- Right: 55% Content Card -->
         <div class="exec-content-side">
-          <div class="exec-card asymmetric-corner-card">
-            <!-- Asymmetric Corner Frame Overlay -->
-            <div class="corner-frame-overlay">
-              <div class="corner-tl"><span class="node-tl-end"></span><span class="node-tl-vert"></span></div>
-              <div class="corner-br"><span class="node-br-end"></span><span class="node-br-vert"></span></div>
-            </div>
-
+          <div class="exec-card">
             <div class="exec-num">01.</div>
             <h3 class="exec-card-title">Australian Business Standards</h3>
             <p class="exec-card-desc">
@@ -64,13 +86,7 @@
         
         <!-- Left: 55% Content Card -->
         <div class="exec-content-side">
-          <div class="exec-card asymmetric-corner-card">
-            <!-- Asymmetric Corner Frame Overlay -->
-            <div class="corner-frame-overlay">
-              <div class="corner-tl"><span class="node-tl-end"></span><span class="node-tl-vert"></span></div>
-              <div class="corner-br"><span class="node-br-end"></span><span class="node-br-vert"></span></div>
-            </div>
-
+          <div class="exec-card">
             <div class="exec-num">02.</div>
             <h3 class="exec-card-title">Transparent Delivery Process</h3>
             <p class="exec-card-desc">
@@ -108,13 +124,7 @@
 
         <!-- Right: 55% Content Card -->
         <div class="exec-content-side">
-          <div class="exec-card asymmetric-corner-card">
-            <!-- Asymmetric Corner Frame Overlay -->
-            <div class="corner-frame-overlay">
-              <div class="corner-tl"><span class="node-tl-end"></span><span class="node-tl-vert"></span></div>
-              <div class="corner-br"><span class="node-br-end"></span><span class="node-br-vert"></span></div>
-            </div>
-
+          <div class="exec-card">
             <div class="exec-num">03.</div>
             <h3 class="exec-card-title">Scalable Digital Solutions</h3>
             <p class="exec-card-desc">
@@ -138,13 +148,7 @@
         
         <!-- Left: 55% Content Card -->
         <div class="exec-content-side">
-          <div class="exec-card asymmetric-corner-card">
-            <!-- Asymmetric Corner Frame Overlay -->
-            <div class="corner-frame-overlay">
-              <div class="corner-tl"><span class="node-tl-end"></span><span class="node-tl-vert"></span></div>
-              <div class="corner-br"><span class="node-br-end"></span><span class="node-br-vert"></span></div>
-            </div>
-
+          <div class="exec-card">
             <div class="exec-num">04.</div>
             <h3 class="exec-card-title">Long-Term Technology Partnership</h3>
             <p class="exec-card-desc">
@@ -184,29 +188,6 @@
   </div>
 </section>
 
-<!-- 3D Tilt & Light Sweep Interaction Script -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const cards = document.querySelectorAll(".asymmetric-corner-card");
-
-  cards.forEach(card => {
-    card.addEventListener("mousemove", (e) => {
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
-      const rotateX = (-y / (rect.height / 2)) * 3; // Max 3 deg
-      const rotateY = (x / (rect.width / 2)) * 3;   // Max 3 deg
-
-      card.style.transform = `perspective(1200px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-6px)`;
-    });
-
-    card.addEventListener("mouseleave", () => {
-      card.style.transform = `perspective(1200px) rotateX(0deg) rotateY(0deg) translateY(0px)`;
-    });
-  });
-});
-</script>
-
 <!-- ============================================================
      WHY EXECUTIVES LIGHT SCOPED STYLES
      ============================================================ -->
@@ -214,11 +195,82 @@ document.addEventListener("DOMContentLoaded", () => {
 /* ── Section Shell ── */
 .why-executive-section {
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #F7FAFF;
   padding: 120px 40px;
   max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* ── Enterprise Technical Background Layers (PCB / Blueprint) ── */
+.tech-bg-layers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.tech-divider-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to bottom, #FFFFFF 0%, transparent 100%);
+  z-index: 2;
+}
+
+.tech-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(to top, #FFFFFF 0%, transparent 100%);
+  z-index: 2;
+}
+
+.tech-glow {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  filter: blur(300px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.tech-glow--purple {
+  top: 5%;
+  left: -5%;
+  background: rgba(109, 40, 255, 0.05);
+}
+
+.tech-glow--blue {
+  bottom: 5%;
+  right: -5%;
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.tech-pcb-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  z-index: 1;
+}
+
+#pcb-grid-pattern circle {
+  animation: pcbNodePulse 18s infinite ease-in-out alternate;
+}
+
+@keyframes pcbNodePulse {
+  0%   { opacity: 0.3; }
+  50%  { opacity: 0.9; }
+  100% { opacity: 0.3; }
 }
 
 /* ── Section Header (Max Width 900px, Centered) ── */
