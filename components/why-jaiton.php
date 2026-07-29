@@ -1,9 +1,9 @@
 <!-- ============================================================
-     WHY JAITON SECTION – Six Interactive Enterprise Feature Cards
+     WHY CHOOSE JAITON – 4 Premium Interactive Enterprise Cards
      ============================================================ -->
-<section id="why-jaiton" class="why-jaiton-section">
+<section id="why-jaiton" class="why-choose-section">
   
-  <!-- Subtle Background Glows & Grid -->
+  <!-- Background Layers -->
   <div class="why-bg-layers" aria-hidden="true">
     <div class="why-bg-grid"></div>
     <div class="why-radial-glow why-radial-glow--purple"></div>
@@ -12,310 +12,345 @@
 
   <div class="container">
     
-    <!-- Section Title Header -->
+    <!-- Section Header (Max Width 760px, Centered) -->
     <div class="why-section-header" data-aos="fade-up">
-      <span class="why-badge">Why Jaiton</span>
+      <span class="why-badge">WHY CHOOSE JAITON</span>
       <h2 class="why-section-title">
-        Redefining Technology Partnerships <br>
-        for <span class="gradient-text">Complex Enterprises</span>
+        Your Long-Term <span class="gradient-text">Technology Partner</span>
       </h2>
+      <p class="why-section-subtitle">
+        We don't just build software—we become an extension of your business, delivering scalable technology, transparent collaboration, and measurable outcomes.
+      </p>
     </div>
 
-    <!-- 6 Interactive Feature Cards Grid (3 columns x 2 rows on Desktop) -->
-    <div class="why-feature-grid">
+    <!-- 2 x 2 Interactive Cards Grid (Desktop Max Width 1440px, Gap 36px) -->
+    <div class="why-card-grid">
       
-      <!-- CARD 1: Enterprise Security -->
-      <div class="why-feature-card" data-aos="fade-up" data-aos-delay="0">
+      <!-- CARD 1: Australian Business Standards -->
+      <div class="why-choose-card card-blueprint-state" data-aos="fade-up" data-aos-delay="0">
         <div class="card-gradient-border"></div>
         <div class="card-inner-glow"></div>
         
-        <!-- Top Graphic: Glowing Security Shield & Network -->
+        <!-- SVG Graphic: Animated Digital Blueprint Structure -->
         <div class="card-graphic-area">
-          <svg viewBox="0 0 280 120" class="card-svg card-svg--security" aria-hidden="true">
+          <svg viewBox="0 0 320 140" class="card-svg svg-blueprint" aria-hidden="true">
             <defs>
-              <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#10B981" stop-opacity="0.3"/>
+              <linearGradient id="blueprintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6D28FF" stop-opacity="0.3"/>
                 <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.1"/>
               </linearGradient>
             </defs>
-            
-            <!-- Encrypted Network Lines -->
-            <g stroke="rgba(16,185,129,0.25)" stroke-width="1.5" stroke-dasharray="4 4" class="network-lines">
-              <line x1="30" y1="60" x2="110" y2="60"/>
-              <line x1="170" y1="60" x2="250" y2="60"/>
-              <line x1="140" y1="15" x2="140" y2="40"/>
-              <line x1="140" y1="80" x2="140" y2="105"/>
-            </g>
-            
-            <!-- Glowing Network Nodes -->
-            <circle cx="30" cy="60" r="4" fill="#10B981" class="node-pulse"/>
-            <circle cx="250" cy="60" r="4" fill="#3B82F6" class="node-pulse"/>
-            <circle cx="140" cy="15" r="4" fill="#6D28FF" class="node-pulse"/>
-            <circle cx="140" cy="105" r="4" fill="#10B981" class="node-pulse"/>
 
-            <!-- Center Security Shield -->
-            <path d="M140,25 C165,25 185,32 185,32 C185,32 185,75 140,100 C95,75 95,32 95,32 C95,32 115,25 140,25 Z" fill="url(#shieldGrad)" stroke="#10B981" stroke-width="2" class="shield-pulse-path"/>
-            <path d="M132,60 L138,66 L150,52" fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-
-        <!-- Middle: Title -->
-        <h3 class="card-title">Enterprise Security</h3>
-
-        <!-- Bottom: Description -->
-        <p class="card-desc">End-to-end security architecture and compliance systems designed for complex enterprise platforms.</p>
-
-        <!-- Bottom Right: Arrow -->
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
-        </div>
-      </div>
-
-      <!-- CARD 2: AI Powered Engineering -->
-      <div class="why-feature-card" data-aos="fade-up" data-aos-delay="100">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
-
-        <!-- Top Graphic: Neural Network -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 280 120" class="card-svg card-svg--ai" aria-hidden="true">
-            <!-- Neural Connection Lines -->
-            <g stroke="rgba(109, 40, 255,0.3)" stroke-width="1.5" class="ai-connections">
-              <line x1="50" y1="40" x2="110" y2="25"/>
-              <line x1="50" y1="40" x2="110" y2="60"/>
-              <line x1="50" y1="40" x2="110" y2="95"/>
-              <line x1="50" y1="80" x2="110" y2="60"/>
-              <line x1="50" y1="80" x2="110" y2="95"/>
-              <line x1="110" y1="25" x2="170" y2="40"/>
-              <line x1="110" y1="60" x2="170" y2="40"/>
-              <line x1="110" y1="60" x2="170" y2="80"/>
-              <line x1="110" y1="95" x2="170" y2="80"/>
-              <line x1="170" y1="40" x2="230" y2="60"/>
-              <line x1="170" y1="80" x2="230" y2="60"/>
+            <!-- Blueprint Grid Lines -->
+            <g stroke="rgba(59,130,246,0.12)" stroke-width="1" stroke-dasharray="3 3">
+              <line x1="20" y1="20" x2="300" y2="20"/>
+              <line x1="20" y1="70" x2="300" y2="70"/>
+              <line x1="20" y1="120" x2="300" y2="120"/>
+              <line x1="60" y1="10" x2="60" y2="130"/>
+              <line x1="160" y1="10" x2="160" y2="130"/>
+              <line x1="260" y1="10" x2="260" y2="130"/>
             </g>
 
-            <!-- Active Neural Nodes -->
-            <circle cx="50" cy="40" r="5" fill="#6D28FF" class="ai-node"/>
-            <circle cx="50" cy="80" r="5" fill="#3B82F6" class="ai-node"/>
-            <circle cx="110" cy="25" r="5" fill="#a275ff" class="ai-node"/>
-            <circle cx="110" cy="60" r="6" fill="#6D28FF" class="ai-node-main"/>
-            <circle cx="110" cy="95" r="5" fill="#3B82F6" class="ai-node"/>
-            <circle cx="170" cy="40" r="5" fill="#6D28FF" class="ai-node"/>
-            <circle cx="170" cy="80" r="5" fill="#a275ff" class="ai-node"/>
-            <circle cx="230" cy="60" r="7" fill="#6D28FF" class="ai-node-out"/>
+            <!-- Building Architecture Outlines (Draw Animation) -->
+            <rect x="60" y="40" width="200" height="70" rx="8" fill="url(#blueprintGrad)" stroke="#3B82F6" stroke-width="1.5" class="blueprint-base-path"/>
+            <path d="M60,40 L160,15 L260,40" fill="none" stroke="#6D28FF" stroke-width="1.8" class="blueprint-roof-path"/>
+            <rect x="90" y="55" width="40" height="35" rx="4" fill="rgba(109,40,255,0.15)" stroke="#6D28FF" stroke-width="1"/>
+            <rect x="190" y="55" width="40" height="35" rx="4" fill="rgba(59,130,246,0.15)" stroke="#3B82F6" stroke-width="1"/>
+
+            <!-- Construction Nodes -->
+            <circle cx="60" cy="40" r="4" fill="#6D28FF" class="bp-node"/>
+            <circle cx="160" cy="15" r="5" fill="#3B82F6" class="bp-node-center"/>
+            <circle cx="260" cy="40" r="4" fill="#6D28FF" class="bp-node"/>
+            <circle cx="110" cy="72" r="3.5" fill="#10B981" class="bp-node"/>
+            <circle cx="210" cy="72" r="3.5" fill="#10B981" class="bp-node"/>
           </svg>
         </div>
 
-        <h3 class="card-title">AI Powered Engineering</h3>
-        <p class="card-desc">Autonomous AI agents and intelligent machine learning models integrated into core enterprise software.</p>
-        
+        <h3 class="card-title">Australian Business Standards</h3>
+        <p class="card-desc">
+          Enterprise development aligned with modern Australian business expectations, quality assurance, security, and transparent project governance.
+        </p>
+
         <div class="card-cta">
           <i class="fa-solid fa-arrow-right-long card-arrow"></i>
         </div>
       </div>
 
-      <!-- CARD 3: Cloud Infrastructure -->
-      <div class="why-feature-card" data-aos="fade-up" data-aos-delay="200">
+      <!-- CARD 2: Transparent Collaboration -->
+      <div class="why-choose-card card-collab-state" data-aos="fade-up" data-aos-delay="100">
         <div class="card-gradient-border"></div>
         <div class="card-inner-glow"></div>
 
-        <!-- Top Graphic: Cloud -> Server -> Database Data Packets -->
+        <!-- SVG Graphic: Connected Team Avatars & Signals -->
         <div class="card-graphic-area">
-          <svg viewBox="0 0 280 120" class="card-svg card-svg--cloud" aria-hidden="true">
-            <!-- Cloud Icon Box -->
-            <rect x="30" y="35" width="60" height="48" rx="10" fill="rgba(59, 130, 246,0.1)" stroke="#3B82F6" stroke-width="1.5"/>
-            <path d="M50,62 C45,62 42,57 45,52 C47,48 53,47 56,50 C58,45 66,45 68,50 C72,50 74,54 72,58 C74,62 70,62 67,62 Z" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+          <svg viewBox="0 0 320 140" class="card-svg svg-collab" aria-hidden="true">
+            <!-- Connection Matrix Lines -->
+            <g stroke="rgba(109,40,255,0.25)" stroke-width="1.5" stroke-dasharray="4 4" class="collab-lines">
+              <line x1="60" y1="40" x2="160" y2="40"/>
+              <line x1="160" y1="40" x2="260" y2="40"/>
+              <line x1="60" y1="40" x2="110" y2="100"/>
+              <line x1="260" y1="40" x2="210" y2="100"/>
+              <line x1="110" y1="100" x2="210" y2="100"/>
+            </g>
 
-            <!-- Server Box -->
-            <rect x="110" y="35" width="60" height="48" rx="10" fill="rgba(109, 40, 255,0.1)" stroke="#6D28FF" stroke-width="1.5"/>
-            <line x1="120" y1="50" x2="160" y2="50" stroke="#6D28FF" stroke-width="1.5"/>
-            <line x1="120" y1="60" x2="160" y2="60" stroke="#6D28FF" stroke-width="1.5"/>
-            <circle cx="155" cy="50" r="1.5" fill="#10B981"/>
-            <circle cx="155" cy="60" r="1.5" fill="#10B981"/>
+            <!-- Message Signal Particles travelling between nodes -->
+            <circle cx="60" cy="40" r="3" fill="#3B82F6" class="msg-particle-1"/>
+            <circle cx="160" cy="40" r="3" fill="#6D28FF" class="msg-particle-2"/>
+            <circle cx="210" cy="100" r="3" fill="#10B981" class="msg-particle-3"/>
 
-            <!-- Database Cylinder Box -->
-            <rect x="190" y="35" width="60" height="48" rx="10" fill="rgba(16,185,129,0.1)" stroke="#10B981" stroke-width="1.5"/>
-            <ellipse cx="220" cy="48" rx="16" ry="5" fill="none" stroke="#10B981" stroke-width="1.5"/>
-            <ellipse cx="220" cy="58" rx="16" ry="5" fill="none" stroke="#10B981" stroke-width="1.5"/>
-            <ellipse cx="220" cy="68" rx="16" ry="5" fill="none" stroke="#10B981" stroke-width="1.5"/>
+            <!-- Node 1: Client PM -->
+            <g transform="translate(60, 40)">
+              <circle cx="0" cy="0" r="18" fill="rgba(59,130,246,0.15)" stroke="#3B82F6" stroke-width="1.5"/>
+              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">PM</text>
+              <circle cx="12" cy="-12" r="4" fill="#10B981"/> <!-- Green Online dot -->
+            </g>
 
-            <!-- Flow Connector Lines -->
-            <line x1="90" y1="59" x2="110" y2="59" stroke="rgba(15,23,42,0.18)" stroke-width="1.5" stroke-dasharray="3 3"/>
-            <line x1="170" y1="59" x2="190" y2="59" stroke="rgba(15,23,42,0.18)" stroke-width="1.5" stroke-dasharray="3 3"/>
+            <!-- Node 2: Lead Architect -->
+            <g transform="translate(160, 40)">
+              <circle cx="0" cy="0" r="18" fill="rgba(109,40,255,0.15)" stroke="#6D28FF" stroke-width="1.5"/>
+              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">ARCH</text>
+              <circle cx="12" cy="-12" r="4" fill="#10B981"/>
+            </g>
 
-            <!-- Data Packets travelling -->
-            <circle cx="90" cy="59" r="2.5" fill="#3B82F6" class="cloud-packet-1"/>
-            <circle cx="170" cy="59" r="2.5" fill="#6D28FF" class="cloud-packet-2"/>
-          </svg>
-        </div>
+            <!-- Node 3: QA Lead -->
+            <g transform="translate(260, 40)">
+              <circle cx="0" cy="0" r="18" fill="rgba(16,185,129,0.15)" stroke="#10B981" stroke-width="1.5"/>
+              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">QA</text>
+              <circle cx="12" cy="-12" r="4" fill="#10B981"/>
+            </g>
 
-        <h3 class="card-title">Cloud Infrastructure</h3>
-        <p class="card-desc">High-availability multi-cloud architecture engineered for 99.99% uptime and zero-downtime deployments.</p>
-        
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
-        </div>
-      </div>
+            <!-- Node 4: Exec Sponsor -->
+            <g transform="translate(160, 100)">
+              <circle cx="0" cy="0" r="18" fill="rgba(162,117,255,0.15)" stroke="#a275ff" stroke-width="1.5"/>
+              <text x="0" y="4" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">EXEC</text>
+              <circle cx="12" cy="-12" r="4" fill="#3B82F6"/>
+            </g>
 
-      <!-- CARD 4: Agile Delivery -->
-      <div class="why-feature-card" data-aos="fade-up" data-aos-delay="300">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
-
-        <!-- Top Graphic: Circular Agile Workflow -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 280 120" class="card-svg card-svg--agile" aria-hidden="true">
-            <!-- Central Workflow Track -->
-            <circle cx="140" cy="60" r="40" fill="none" stroke="rgba(15,23,42,0.08)" stroke-width="3"/>
-            <circle cx="140" cy="60" r="40" fill="none" stroke="url(#agileGrad)" stroke-width="3" stroke-dasharray="180 80" class="agile-spinner"/>
+            <!-- Status Badges -->
+            <rect x="90" y="15" width="45" height="16" rx="8" fill="#10B981" opacity="0.9"/>
+            <text x="112" y="26" font-size="7.5" fill="#fff" text-anchor="middle" font-weight="bold">ONLINE</text>
             
+            <rect x="185" y="15" width="45" height="16" rx="8" fill="#3B82F6" opacity="0.9"/>
+            <text x="207" y="26" font-size="7.5" fill="#fff" text-anchor="middle" font-weight="bold">REVIEW</text>
+          </svg>
+        </div>
+
+        <h3 class="card-title">Transparent Collaboration</h3>
+        <p class="card-desc">
+          Weekly reporting, sprint reviews, direct communication, and complete project visibility from discovery to deployment.
+        </p>
+
+        <div class="card-cta">
+          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
+        </div>
+      </div>
+
+      <!-- CARD 3: Scalable Digital Solutions -->
+      <div class="why-choose-card card-scale-state" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-gradient-border"></div>
+        <div class="card-inner-glow"></div>
+
+        <!-- SVG Graphic: Platform Expanding Upward & Rising Chart -->
+        <div class="card-graphic-area">
+          <svg viewBox="0 0 320 140" class="card-svg svg-scale" aria-hidden="true">
+            <!-- Growing Isometric Blocks -->
+            <g class="scale-blocks-group">
+              <!-- Base Layer Block -->
+              <polygon points="100,110 160,80 220,110 160,135" fill="rgba(109,40,255,0.15)" stroke="#6D28FF" stroke-width="1.5"/>
+              
+              <!-- Mid Layer Block (Expanding upward) -->
+              <polygon points="100,85 160,55 220,85 160,110" fill="rgba(59,130,246,0.2)" stroke="#3B82F6" stroke-width="1.5" class="scale-mid-block"/>
+              
+              <!-- Top Layer Block -->
+              <polygon points="100,60 160,30 220,60 160,85" fill="rgba(16,185,129,0.25)" stroke="#10B981" stroke-width="1.5" class="scale-top-block"/>
+            </g>
+
+            <!-- Rising Growth Curve Line -->
+            <path d="M40,115 C100,105 140,75 220,35 T280,20" fill="none" stroke="#6D28FF" stroke-width="2.5" stroke-dasharray="250" class="growth-line-path"/>
+            
+            <!-- Growth Points -->
+            <circle cx="100" cy="100" r="4" fill="#6D28FF" class="growth-dot"/>
+            <circle cx="170" cy="62" r="4" fill="#3B82F6" class="growth-dot"/>
+            <circle cx="280" cy="20" r="5" fill="#10B981" class="growth-dot-top"/>
+          </svg>
+        </div>
+
+        <h3 class="card-title">Scalable Digital Solutions</h3>
+        <p class="card-desc">
+          Solutions engineered to grow with your business without costly rebuilds or technical limitations.
+        </p>
+
+        <div class="card-cta">
+          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
+        </div>
+      </div>
+
+      <!-- CARD 4: Long-Term Technology Partnership -->
+      <div class="why-choose-card card-ecosystem-state" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-gradient-border"></div>
+        <div class="card-inner-glow"></div>
+
+        <!-- SVG Graphic: Central Jaiton Hub & Orbiting Nodes -->
+        <div class="card-graphic-area">
+          <svg viewBox="0 0 320 140" class="card-svg svg-ecosystem" aria-hidden="true">
+            <!-- Central Orbital Track -->
+            <ellipse cx="160" cy="70" rx="90" ry="42" fill="none" stroke="rgba(109,40,255,0.2)" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <ellipse cx="160" cy="70" rx="90" ry="42" fill="none" stroke="url(#orbitGrad)" stroke-width="2" class="orbit-glow-path"/>
+
             <defs>
-              <linearGradient id="agileGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stop-color="#6D28FF"/>
-                <stop offset="100%" stop-color="#3B82F6"/>
+                <stop offset="50%" stop-color="#3B82F6"/>
+                <stop offset="100%" stop-color="#10B981"/>
               </linearGradient>
             </defs>
 
-            <!-- 5 Stages Nodes -->
-            <circle cx="140" cy="20" r="4" fill="#6D28FF" class="agile-node"/>
-            <circle cx="178" cy="48" r="4" fill="#3B82F6" class="agile-node"/>
-            <circle cx="163" cy="92" r="4" fill="#10B981" class="agile-node"/>
-            <circle cx="117" cy="92" r="4" fill="#06B6D4" class="agile-node"/>
-            <circle cx="102" cy="48" r="4" fill="#a275ff" class="agile-node"/>
-
-            <text x="140" y="64" fill="#0F172A" font-size="9" font-weight="bold" text-anchor="middle">AGILE</text>
-          </svg>
-        </div>
-
-        <h3 class="card-title">Agile Delivery Model</h3>
-        <p class="card-desc">Continuous integration and rapid iteration frameworks delivering production-ready software every sprint.</p>
-        
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
-        </div>
-      </div>
-
-      <!-- CARD 5: Global Delivery Team -->
-      <div class="why-feature-card" data-aos="fade-up" data-aos-delay="400">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
-
-        <!-- Top Graphic: World Map & Pulsing Hub Pins -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 280 120" class="card-svg card-svg--map" aria-hidden="true">
-            <!-- Simplified Map Grid -->
-            <g opacity="0.15" stroke="#cbd5e1" stroke-width="0.5">
-              <line x1="30" y1="30" x2="250" y2="30"/>
-              <line x1="30" y1="60" x2="250" y2="60"/>
-              <line x1="30" y1="90" x2="250" y2="90"/>
-              <line x1="80" y1="15" x2="80" y2="105"/>
-              <line x1="140" y1="15" x2="140" y2="105"/>
-              <line x1="200" y1="15" x2="200" y2="105"/>
+            <!-- Center JAITON Core Badge -->
+            <g transform="translate(160, 70)">
+              <circle cx="0" cy="0" r="22" fill="rgba(109,40,255,0.25)" stroke="#6D28FF" stroke-width="2"/>
+              <text x="0" y="4" font-size="9" fill="#fff" text-anchor="middle" font-weight="bold">JAITON</text>
             </g>
 
-            <!-- Connecting Arcs -->
-            <path d="M 215,85 Q 165,40 155,50" fill="none" stroke="#6D28FF" stroke-width="1.5" stroke-dasharray="3 3" class="arc-line-1"/>
-            <path d="M 155,50 Q 140,65 145,75" fill="none" stroke="#3B82F6" stroke-width="1.5" stroke-dasharray="3 3" class="arc-line-2"/>
-
-            <!-- Australia Hub Pin (Sydney) -->
-            <circle cx="215" cy="85" r="5" fill="#6D28FF" class="hub-pulse"/>
-            <circle cx="215" cy="85" r="9" fill="none" stroke="#6D28FF" stroke-width="1" class="ring-pulse"/>
-            <text x="215" y="102" fill="#a275ff" font-size="8" font-weight="bold" text-anchor="middle">AUSTRALIA HQ</text>
-
-            <!-- India Hub Pin (Bangalore) -->
-            <circle cx="155" cy="50" r="5" fill="#3B82F6" class="hub-pulse"/>
-            <text x="155" y="38" fill="#3B82F6" font-size="8" font-weight="bold" text-anchor="middle">INDIA R&D</text>
-
-            <!-- South Africa Hub Pin -->
-            <circle cx="145" cy="75" r="4" fill="#10B981" class="hub-pulse"/>
-          </svg>
-        </div>
-
-        <h3 class="card-title">Global Delivery Network</h3>
-        <p class="card-desc">Cross-border engineering squads combining Australian strategic oversight with round-the-clock technical execution.</p>
-        
-        <div class="card-cta">
-          <i class="fa-solid fa-arrow-right-long card-arrow"></i>
-        </div>
-      </div>
-
-      <!-- CARD 6: Scalable Architecture -->
-      <div class="why-feature-card" data-aos="fade-up" data-aos-delay="500">
-        <div class="card-gradient-border"></div>
-        <div class="card-inner-glow"></div>
-
-        <!-- Top Graphic: Stacking Building Blocks -->
-        <div class="card-graphic-area">
-          <svg viewBox="0 0 280 120" class="card-svg card-svg--blocks" aria-hidden="true">
-            <!-- Isometric Building Blocks -->
-            <g class="block-stack">
-              <!-- Base Block -->
-              <polygon points="140,85 185,62 140,40 95,62" fill="rgba(109, 40, 255,0.15)" stroke="#6D28FF" stroke-width="1.5"/>
-              <polygon points="95,62 140,85 140,97 95,74" fill="rgba(109, 40, 255,0.25)" stroke="#6D28FF" stroke-width="1.5"/>
-              <polygon points="140,85 185,62 185,74 140,97" fill="rgba(109, 40, 255,0.35)" stroke="#6D28FF" stroke-width="1.5"/>
-
-              <!-- Mid Block -->
-              <g class="mid-block-float">
-                <polygon points="140,65 175,47 140,30 105,47" fill="rgba(59, 130, 246,0.2)" stroke="#3B82F6" stroke-width="1.5"/>
-                <polygon points="105,47 140,65 140,75 105,57" fill="rgba(59, 130, 246,0.3)" stroke="#3B82F6" stroke-width="1.5"/>
-                <polygon points="140,65 175,47 175,57 140,75" fill="rgba(59, 130, 246,0.4)" stroke="#3B82F6" stroke-width="1.5"/>
+            <!-- Orbiting Ecosystem Group (Rotating via CSS) -->
+            <g class="orbiting-nodes-group">
+              <!-- Orbit Node 1: Support -->
+              <g class="orbit-node node-support" transform="translate(70, 70)">
+                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#3B82F6" stroke-width="1.5"/>
+                <text x="0" y="3" font-size="7" fill="#3B82F6" text-anchor="middle" font-weight="bold">Support</text>
               </g>
 
-              <!-- Top Block -->
-              <g class="top-block-float">
-                <polygon points="140,45 165,32 140,20 115,32" fill="rgba(16,185,129,0.3)" stroke="#10B981" stroke-width="1.5"/>
-                <polygon points="115,32 140,45 140,53 115,40" fill="rgba(16,185,129,0.4)" stroke="#10B981" stroke-width="1.5"/>
-                <polygon points="140,45 165,32 165,40 140,53" fill="rgba(16,185,129,0.5)" stroke="#10B981" stroke-width="1.5"/>
+              <!-- Orbit Node 2: Innovation -->
+              <g class="orbit-node node-innovation" transform="translate(160, 28)">
+                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#6D28FF" stroke-width="1.5"/>
+                <text x="0" y="3" font-size="7" fill="#a275ff" text-anchor="middle" font-weight="bold">Innovate</text>
+              </g>
+
+              <!-- Orbit Node 3: Maintenance -->
+              <g class="orbit-node node-maintenance" transform="translate(250, 70)">
+                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#10B981" stroke-width="1.5"/>
+                <text x="0" y="3" font-size="7" fill="#10B981" text-anchor="middle" font-weight="bold">Maintain</text>
+              </g>
+
+              <!-- Orbit Node 4: Growth -->
+              <g class="orbit-node node-growth" transform="translate(160, 112)">
+                <circle cx="0" cy="0" r="13" fill="#081327" stroke="#06B6D4" stroke-width="1.5"/>
+                <text x="0" y="3" font-size="7" fill="#06B6D4" text-anchor="middle" font-weight="bold">Growth</text>
               </g>
             </g>
           </svg>
         </div>
 
-        <h3 class="card-title">Scalable Architecture</h3>
-        <p class="card-desc">Microservices and event-driven foundation built to scale effortlessly with enterprise growth.</p>
-        
+        <h3 class="card-title">Long-Term Technology Partnership</h3>
+        <p class="card-desc">
+          Beyond project delivery, we provide continuous optimisation, maintenance, strategic consulting, and future technology planning.
+        </p>
+
         <div class="card-cta">
           <i class="fa-solid fa-arrow-right-long card-arrow"></i>
         </div>
       </div>
 
+    </div>
+
+    <!-- Bottom CTA Banner -->
+    <div class="why-cta-banner" data-aos="fade-up" data-aos-delay="200">
+      <div class="why-cta-content">
+        <h3 class="why-cta-title">Ready to Build with a Trusted Technology Partner?</h3>
+        <p class="why-cta-desc">Discuss your project requirements with our Australian strategy and engineering team.</p>
+      </div>
+      <div class="why-cta-actions">
+        <a href="#contact" class="btn btn-primary btn-magnetic">Book a Strategy Call <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#services" class="btn btn-secondary">Explore Our Capabilities <i class="fa-solid fa-layer-group"></i></a>
+      </div>
     </div>
 
   </div>
 </section>
 
-<!-- 3D Mouse Tilt Script -->
+<!-- 3D Mouse Tilt & Shuffle Animation Script -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const cards = document.querySelectorAll(".why-feature-card");
+  const cards = document.querySelectorAll(".why-choose-card");
+  const section = document.getElementById("why-jaiton");
 
+  // 1. 3D Mouse Tilt Effect
   cards.forEach(card => {
     card.addEventListener("mousemove", (e) => {
       const rect = card.getBoundingClientRect();
       const x = e.clientX - rect.left - rect.width / 2;
       const y = e.clientY - rect.top - rect.height / 2;
-      const rotateX = (-y / (rect.height / 2)) * 4; // Max 4deg tilt
-      const rotateY = (x / (rect.width / 2)) * 4;   // Max 4deg tilt
+      const rotateX = (-y / (rect.height / 2)) * 4; // Max 4 deg
+      const rotateY = (x / (rect.width / 2)) * 4;   // Max 4 deg
 
-      card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-10px)`;
+      card.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-8px)`;
     });
 
     card.addEventListener("mouseleave", () => {
       card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)`;
     });
   });
+
+  // 2. Seamless Shuffle Animation System (Cycles internal SVG states every 8-10 seconds)
+  let shuffleState = 0;
+  const runStateCycle = () => {
+    shuffleState = (shuffleState + 1) % 3;
+    
+    // Card 1: Cycle Blueprint redraw glow
+    const bpBase = document.querySelector(".blueprint-base-path");
+    if (bpBase) {
+      bpBase.style.stroke = shuffleState === 1 ? "#10B981" : "#3B82F6";
+    }
+
+    // Card 2: Reroute Collaboration Message particles
+    const p1 = document.querySelector(".msg-particle-1");
+    if (p1) {
+      p1.style.animationDuration = shuffleState === 1 ? "1.5s" : "3s";
+    }
+
+    // Card 3: Expand Growth Chart curve
+    const growthLine = document.querySelector(".growth-line-path");
+    if (growthLine) {
+      growthLine.style.stroke = shuffleState === 2 ? "#10B981" : "#6D28FF";
+    }
+
+    // Card 4: Accelerate Orbiting Ecosystem
+    const orbitGroup = document.querySelector(".orbiting-nodes-group");
+    if (orbitGroup) {
+      orbitGroup.style.animationDuration = shuffleState === 1 ? "6s" : "12s";
+    }
+  };
+
+  let cycleTimer = setInterval(runStateCycle, 9000);
+
+  // 3. Intersection Observer API (Pauses animations when off-screen for 60 FPS)
+  if ("IntersectionObserver" in window && section) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) {
+          clearInterval(cycleTimer);
+          document.body.classList.add("why-animations-paused");
+        } else {
+          document.body.classList.remove("why-animations-paused");
+          clearInterval(cycleTimer);
+          cycleTimer = setInterval(runStateCycle, 9000);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    observer.observe(section);
+  }
 });
 </script>
 
 <!-- ============================================================
-     WHY JAITON SCOPED STYLES (Glass Feature Cards)
+     WHY CHOOSE JAITON SCOPED STYLES
      ============================================================ -->
 <style>
 /* ── Section Shell ── */
-.why-jaiton-section {
+.why-choose-section {
   position: relative;
   padding: 120px 0;
-  background-color: var(--light-bg);
+  background-color: var(--dark-navy);
   overflow: hidden;
 }
 
@@ -333,26 +368,26 @@ document.addEventListener("DOMContentLoaded", () => {
   inset: 0;
   background-size: 40px 40px;
   background-image:
-    linear-gradient(to right, rgba(15,23,42,0.025) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(15,23,42,0.025) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.015) 1px, transparent 1px);
 }
 
 .why-radial-glow {
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 650px;
+  height: 650px;
   border-radius: 50%;
   filter: blur(160px);
-  opacity: 0.1;
+  opacity: 0.15;
 }
 
-.why-radial-glow--purple { top: 20%; left: -10%; background: var(--primary-purple); }
+.why-radial-glow--purple { top: 15%; left: -10%; background: var(--primary-purple); }
 .why-radial-glow--blue   { bottom: 10%; right: -10%; background: var(--electric-blue); }
 
-/* ── Section Header ── */
+/* ── Section Header (Max Width 760px, Centered) ── */
 .why-section-header {
   text-align: center;
-  max-width: 800px;
+  max-width: 760px;
   margin: 0 auto 64px auto;
   position: relative;
   z-index: 5;
@@ -362,8 +397,8 @@ document.addEventListener("DOMContentLoaded", () => {
   display: inline-flex;
   align-items: center;
   padding: 6px 16px;
-  background: rgba(109, 40, 255,0.08);
-  border: 1px solid rgba(109, 40, 255,0.15);
+  background: rgba(109,40,255,0.08);
+  border: 1px solid rgba(109,40,255,0.15);
   border-radius: 100px;
   font-size: 0.75rem;
   font-weight: 700;
@@ -375,18 +410,25 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .why-section-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(32px, 3.2vw, 44px);
-  font-weight: 700;
+  font-size: clamp(34px, 3.4vw, 46px);
+  font-weight: 800;
   line-height: 1.2;
-  color: var(--primary-text);
+  color: var(--white);
   letter-spacing: -0.02em;
+  margin-bottom: 16px;
 }
 
-/* ── Feature Cards Grid (3 columns x 2 rows, Max Width 1440px) ── */
-.why-feature-grid {
+.why-section-subtitle {
+  font-size: clamp(15px, 1.1vw, 18px);
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+
+/* ── 2 x 2 Cards Grid (Desktop Max Width 1440px, Gap 36px) ── */
+.why-card-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
@@ -394,18 +436,20 @@ document.addEventListener("DOMContentLoaded", () => {
   z-index: 5;
 }
 
-/* ── Individual Feature Glass Card ── */
-.why-feature-card {
+/* ── Individual Glassmorphism Feature Card ── */
+.why-choose-card {
   position: relative;
-  background: var(--white);
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: 24px;
-  padding: 36px 32px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-md);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 48px -12px rgba(8, 19, 39, 0.4);
   transition: transform 300ms ease-out, box-shadow 300ms ease-out, background 300ms ease-out, border-color 300ms ease-out;
   cursor: pointer;
   overflow: hidden;
@@ -424,7 +468,7 @@ document.addEventListener("DOMContentLoaded", () => {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
-  opacity: 0.3;
+  opacity: 0.35;
   transition: opacity 300ms ease;
   animation: cardBorderLoop 8s linear infinite alternate;
 }
@@ -437,40 +481,37 @@ document.addEventListener("DOMContentLoaded", () => {
 /* Soft Inner Glow */
 .card-inner-glow {
   position: absolute;
-  top: -50px;
-  left: -50px;
-  width: 150px;
-  height: 150px;
+  top: -60px;
+  left: -60px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(109, 40, 255, 0.15), transparent 70%);
+  background: radial-gradient(circle, rgba(109, 40, 255, 0.18), transparent 70%);
   pointer-events: none;
   opacity: 0.5;
   transition: opacity 300ms ease;
 }
 
 /* Hover State */
-.why-feature-card:hover {
-  background: var(--surface-indigo);
-  border-color: rgba(109, 40, 255, 0.3);
-  box-shadow: var(--shadow-premium-hover);
+.why-choose-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(109, 40, 255, 0.35);
+  box-shadow: 0 24px 60px -12px rgba(109, 40, 255, 0.25);
 }
 
-.why-feature-card:hover .card-gradient-border {
-  opacity: 1;
-}
-
-.why-feature-card:hover .card-inner-glow {
+.why-choose-card:hover .card-gradient-border,
+.why-choose-card:hover .card-inner-glow {
   opacity: 1;
 }
 
 /* Graphic Area (SVG) */
 .card-graphic-area {
   width: 100%;
-  height: 130px;
+  height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .card-svg {
@@ -479,31 +520,30 @@ document.addEventListener("DOMContentLoaded", () => {
   display: block;
 }
 
-/* Feature Title & Description */
+/* Card Title & Description */
 .card-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 700;
-  color: var(--primary-text);
+  color: var(--white);
   margin-bottom: 12px;
   transition: transform 300ms ease;
 }
 
-.why-feature-card:hover .card-title {
+.why-choose-card:hover .card-title {
   transform: translateY(-4px);
-  color: var(--primary-purple);
 }
 
 .card-desc {
   font-size: 15px;
-  line-height: 1.6;
-  color: var(--secondary-text);
-  margin-bottom: 24px;
+  line-height: 1.65;
+  color: #cbd5e1;
+  margin-bottom: 28px;
   flex-grow: 1;
   transition: transform 300ms ease;
 }
 
-.why-feature-card:hover .card-desc {
+.why-choose-card:hover .card-desc {
   transform: translateY(-4px);
 }
 
@@ -513,12 +553,12 @@ document.addEventListener("DOMContentLoaded", () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
-  background: var(--surface-indigo);
-  border: 1px solid var(--border-color);
-  color: var(--primary-purple);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--white);
   transition: all 300ms ease;
 }
 
@@ -527,113 +567,170 @@ document.addEventListener("DOMContentLoaded", () => {
   transition: transform 300ms ease;
 }
 
-.why-feature-card:hover .card-cta {
+.why-choose-card:hover .card-cta {
   background: var(--primary-purple);
   border-color: var(--primary-purple);
   box-shadow: 0 4px 14px rgba(109, 40, 255, 0.4);
 }
 
-.why-feature-card:hover .card-arrow {
+.why-choose-card:hover .card-arrow {
   transform: translateX(6px);
 }
 
-/* ── SVG Micro Animations ── */
-.shield-pulse-path { animation: shieldGlow 2.5s infinite alternate ease-in-out; }
-.node-pulse        { animation: nodeGlow 2s infinite alternate; }
+/* ── SVG Internal Animations ── */
+/* Card 1: Blueprint */
+.bp-node        { animation: bpNodePulse 2s infinite alternate; }
+.bp-node-center { animation: bpNodeCenterPulse 1.8s infinite alternate; }
 
-@keyframes shieldGlow {
-  0%   { stroke-opacity: 0.6; fill-opacity: 0.2; }
-  100% { stroke-opacity: 1; fill-opacity: 0.4; }
-}
-
-@keyframes nodeGlow {
+@keyframes bpNodePulse {
   0%   { r: 4; opacity: 0.7; }
   100% { r: 6; opacity: 1; }
 }
 
-/* AI Nodes Pulse */
-.ai-node      { animation: aiPulse 2s infinite alternate ease-in-out; }
-.ai-node-main { animation: aiMainPulse 1.8s infinite alternate; }
-
-@keyframes aiPulse {
-  0%   { opacity: 0.5; }
-  100% { opacity: 1; }
+@keyframes bpNodeCenterPulse {
+  0%   { r: 5; fill: #3B82F6; }
+  100% { r: 7; fill: #10B981; }
 }
 
-@keyframes aiMainPulse {
-  0%   { r: 5; fill: #6D28FF; }
-  100% { r: 7; fill: #3B82F6; }
+/* Card 2: Collaboration Message Particles */
+.msg-particle-1 { animation: msgFlow1 3s linear infinite; }
+.msg-particle-2 { animation: msgFlow2 3s linear infinite 1s; }
+.msg-particle-3 { animation: msgFlow3 3s linear infinite 2s; }
+
+@keyframes msgFlow1 {
+  0%   { cx: 60; cy: 40; opacity: 1; }
+  100% { cx: 160; cy: 40; opacity: 0; }
 }
 
-/* Cloud Packets */
-.cloud-packet-1 { animation: packetMove1 2s linear infinite; }
-.cloud-packet-2 { animation: packetMove2 2s linear infinite 1s; }
-
-@keyframes packetMove1 {
-  0%   { cx: 90; opacity: 1; }
-  90%  { cx: 110; opacity: 1; }
-  100% { cx: 110; opacity: 0; }
+@keyframes msgFlow2 {
+  0%   { cx: 160; cy: 40; opacity: 1; }
+  100% { cx: 260; cy: 40; opacity: 0; }
 }
 
-@keyframes packetMove2 {
-  0%   { cx: 170; opacity: 1; }
-  90%  { cx: 190; opacity: 1; }
-  100% { cx: 190; opacity: 0; }
+@keyframes msgFlow3 {
+  0%   { cx: 210; cy: 100; opacity: 1; }
+  100% { cx: 110; cy: 100; opacity: 0; }
 }
 
-/* Agile Spinner */
-.agile-spinner {
-  animation: agileRotate 8s linear infinite;
-  transform-origin: 140px 60px;
-}
+/* Card 3: Scale Blocks & Growth Line */
+.scale-mid-block { animation: blockElevate1 3s ease-in-out infinite alternate; }
+.scale-top-block { animation: blockElevate2 3s ease-in-out infinite alternate 0.5s; }
+.growth-dot-top  { animation: topDotGlow 1.8s infinite alternate; }
 
-@keyframes agileRotate {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* World Map Pulse */
-.hub-pulse { animation: hubPulse 2s infinite alternate; }
-
-@keyframes hubPulse {
-  0%   { opacity: 0.7; transform: scale(0.95); }
-  100% { opacity: 1; transform: scale(1.1); }
-}
-
-/* Stacking Blocks */
-.mid-block-float { animation: blockFloat1 3s ease-in-out infinite alternate; }
-.top-block-float { animation: blockFloat2 3s ease-in-out infinite alternate 0.5s; }
-
-@keyframes blockFloat1 {
+@keyframes blockElevate1 {
   0%   { transform: translateY(0px); }
   100% { transform: translateY(-4px); }
 }
 
-@keyframes blockFloat2 {
+@keyframes blockElevate2 {
   0%   { transform: translateY(0px); }
   100% { transform: translateY(-8px); }
 }
 
-/* ── Responsive Grid Breakpoints ── */
+@keyframes topDotGlow {
+  0%   { r: 5; fill: #10B981; }
+  100% { r: 7; fill: #3B82F6; }
+}
+
+/* Card 4: Ecosystem Orbit */
+.orbiting-nodes-group {
+  transform-origin: 160px 70px;
+  animation: orbitRotate 12s linear infinite;
+}
+
+@keyframes orbitRotate {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Pause Animations Off-screen */
+body.why-animations-paused .bp-node,
+body.why-animations-paused .msg-particle-1,
+body.why-animations-paused .msg-particle-2,
+body.why-animations-paused .msg-particle-3,
+body.why-animations-paused .scale-mid-block,
+body.why-animations-paused .scale-top-block,
+body.why-animations-paused .orbiting-nodes-group {
+  animation-play-state: paused !important;
+}
+
+/* ── Bottom CTA Banner ── */
+.why-cta-banner {
+  max-width: 1440px;
+  width: 100%;
+  margin: 64px auto 0 auto;
+  background: linear-gradient(135deg, rgba(109,40,255,0.25) 0%, rgba(59,130,246,0.15) 100%);
+  border: 1px solid rgba(109,40,255,0.3);
+  border-radius: 24px;
+  padding: 36px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  position: relative;
+  z-index: 5;
+  box-sizing: border-box;
+}
+
+.why-cta-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+.why-cta-desc {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.why-cta-actions {
+  display: flex;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.why-cta-actions .btn {
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ── Responsive Breakpoints ── */
 @media (max-width: 1199px) {
-  .why-feature-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .why-card-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .why-cta-banner {
+    flex-direction: column;
+    text-align: center;
     gap: 24px;
+    padding: 32px 24px;
   }
 }
 
 @media (max-width: 767px) {
-  .why-jaiton-section {
+  .why-choose-section {
     padding: 80px 0;
   }
 
-  .why-feature-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
+  .why-choose-card {
+    padding: 28px 20px;
   }
 
-  .why-feature-card {
-    padding: 28px 20px;
+  .why-cta-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .why-cta-actions .btn {
+    width: 100%;
   }
 }
 </style>
