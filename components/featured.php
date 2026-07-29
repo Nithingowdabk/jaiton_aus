@@ -465,14 +465,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<!-- ============================================================
-     SUCCESS STORIES SCOPED STYLES
-     ============================================================ -->
+/* ============================================================
+     SUCCESS STORIES SCOPED STYLES (Single-Frame Compact Scale)
+     ============================================================ */
 <style>
 /* ── Section Shell ── */
 .cs-showcase-section {
   position: relative;
-  padding: 120px 40px;
+  padding: 50px 40px;
   background-color: #FFFFFF;
   overflow: hidden;
 }
@@ -488,29 +488,29 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-bg-grid {
   position: absolute;
   inset: 0;
-  background-size: 40px 40px;
+  background-size: 32px 32px;
   background-image:
-    linear-gradient(to right, rgba(226, 232, 240, 0.5) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(226, 232, 240, 0.5) 1px, transparent 1px);
+    linear-gradient(to right, rgba(226, 232, 240, 0.4) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.4) 1px, transparent 1px);
 }
 
 .cs-radial-glow {
   position: absolute;
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
-  filter: blur(280px);
-  opacity: 0.12;
+  filter: blur(240px);
+  opacity: 0.1;
 }
 
-.cs-radial-glow--purple { top: 10%; left: -10%; background: #6D28FF; }
-.cs-radial-glow--blue   { bottom: 10%; right: -10%; background: #3B82F6; }
+.cs-radial-glow--purple { top: 5%; left: -10%; background: #6D28FF; }
+.cs-radial-glow--blue   { bottom: 5%; right: -10%; background: #3B82F6; }
 
 /* ── Header ── */
 .cs-section-header {
   text-align: center;
-  max-width: 760px;
-  margin: 0 auto 50px auto;
+  max-width: 720px;
+  margin: 0 auto 20px auto;
   position: relative;
   z-index: 5;
 }
@@ -518,31 +518,31 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-badge {
   display: inline-flex;
   align-items: center;
-  padding: 6px 18px;
+  padding: 4px 14px;
   background-color: transparent;
   border: 1.5px solid #6D28FF;
   border-radius: 100px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2.5px;
   color: #6D28FF;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .cs-section-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(34px, 3.5vw, 46px);
+  font-size: clamp(24px, 2.2vw, 32px);
   font-weight: 800;
   line-height: 1.2;
   color: #0F172A;
   letter-spacing: -0.02em;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
 }
 
 .cs-section-subtitle {
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 1.5;
   color: #475569;
 }
 
@@ -550,8 +550,8 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-selector-tabs {
   display: flex;
   justify-content: center;
-  gap: 16px;
-  margin-bottom: 60px;
+  gap: 12px;
+  margin-bottom: 24px;
   position: relative;
   z-index: 5;
   flex-wrap: wrap;
@@ -560,13 +560,13 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-selector-btn {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 24px;
+  gap: 8px;
+  padding: 8px 18px;
   border-radius: 100px;
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
   color: #475569;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 700;
   cursor: pointer;
   transition: all 250ms ease;
@@ -583,7 +583,7 @@ document.addEventListener("DOMContentLoaded", () => {
   background: #0F172A;
   border-color: #0F172A;
   color: #FFFFFF;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.2);
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.18);
 }
 
 .cs-selector-btn.active i {
@@ -601,7 +601,7 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-panel-wrapper {
   display: none;
   opacity: 0;
-  transition: opacity 400ms ease;
+  transition: opacity 300ms ease;
 }
 
 .cs-panel-wrapper.active {
@@ -609,11 +609,11 @@ document.addEventListener("DOMContentLoaded", () => {
   opacity: 1;
 }
 
-/* 55% Visual / 45% Content Grid */
+/* 50% / 50% Grid Calculation */
 .cs-panel-grid {
   display: grid;
-  grid-template-columns: 50% calc(50% - 48px);
-  gap: 48px;
+  grid-template-columns: 48% calc(52% - 32px);
+  gap: 32px;
   align-items: center;
   width: 100%;
   box-sizing: border-box;
@@ -627,22 +627,21 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-presentation-frame {
   position: relative;
   width: 100%;
-  min-height: 480px;
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
-  border-radius: 32px;
-  padding: 24px;
+  border-radius: 24px;
+  padding: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.05);
   box-sizing: border-box;
 }
 
 .frame-bg-glow {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(109, 40, 255, 0.08), transparent 70%);
   top: 50%;
@@ -654,8 +653,8 @@ document.addEventListener("DOMContentLoaded", () => {
 .frame-blueprint-grid {
   position: absolute;
   inset: 0;
-  border-radius: 32px;
-  background-size: 24px 24px;
+  border-radius: 24px;
+  background-size: 20px 20px;
   background-image:
     linear-gradient(to right, rgba(226, 232, 240, 0.6) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(226, 232, 240, 0.6) 1px, transparent 1px);
@@ -666,15 +665,15 @@ document.addEventListener("DOMContentLoaded", () => {
   position: relative;
   z-index: 2;
   width: 100%;
-  border-radius: 24px;
+  border-radius: 18px;
   overflow: hidden;
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .cs-showcase-img {
   width: 100%;
-  height: 420px;
+  height: 280px;
   object-fit: cover;
   display: block;
   transition: transform 400ms ease;
@@ -684,43 +683,43 @@ document.addEventListener("DOMContentLoaded", () => {
   transform: scale(1.03);
 }
 
-/* Floating Metrics Cards */
+/* Floating Metrics Cards (Compact) */
 .cs-floating-metric {
   position: absolute;
   z-index: 10;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border: 1px solid rgba(226, 232, 240, 0.9);
-  padding: 10px 18px;
-  border-radius: 18px;
-  box-shadow: 0 14px 32px -4px rgba(15, 23, 42, 0.14);
+  padding: 6px 12px;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px -4px rgba(15, 23, 42, 0.12);
   transition: transform 250ms ease;
   animation: metricFloat 4s ease-in-out infinite alternate;
 }
 
 @keyframes metricFloat {
   0%   { transform: translateY(0px); }
-  100% { transform: translateY(-6px); }
+  100% { transform: translateY(-5px); }
 }
 
-.metric-top-right { top: -16px; right: 16px; animation-delay: 0s; }
-.metric-mid-left   { top: 50%; left: -20px; transform: translateY(-50%); animation-delay: 1.2s; }
-.metric-bottom-right { bottom: -16px; right: 24px; animation-delay: 0.6s; }
+.metric-top-right { top: -10px; right: 12px; animation-delay: 0s; }
+.metric-mid-left   { top: 50%; left: -14px; transform: translateY(-50%); animation-delay: 1.2s; }
+.metric-bottom-right { bottom: -10px; right: 16px; animation-delay: 0.6s; }
 
 .metric-icon-box {
-  width: 38px;
-  height: 38px;
-  border-radius: 12px;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
   background: rgba(109, 40, 255, 0.08);
   color: #6D28FF;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .metric-data {
@@ -730,14 +729,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .metric-val {
   font-family: 'Poppins', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 800;
   color: #0F172A;
   line-height: 1;
 }
 
 .metric-lbl {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   color: #64748B;
 }
@@ -750,46 +749,46 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-story-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  border-radius: 28px;
-  padding: 44px;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  padding: 24px 28px;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
   box-sizing: border-box;
 }
 
 .cs-category-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 12px;
+  gap: 5px;
+  font-size: 11px;
   font-weight: 800;
   color: #3B82F6;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 12px;
+  letter-spacing: 1.2px;
+  margin-bottom: 6px;
 }
 
 .cs-story-headline {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(24px, 2.2vw, 32px);
+  font-size: clamp(18px, 1.8vw, 22px);
   font-weight: 800;
   color: #0F172A;
   line-height: 1.25;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
-/* Challenge & Solution Blocks */
+/* Challenge & Solution Blocks (Compact) */
 .cs-story-blocks {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  margin-bottom: 28px;
+  gap: 8px;
+  margin-bottom: 14px;
 }
 
 .story-block {
   background: #F8FAFC;
-  border-left: 3.5px solid #6D28FF;
-  padding: 16px 20px;
-  border-radius: 0 12px 12px 0;
+  border-left: 3px solid #6D28FF;
+  padding: 8px 14px;
+  border-radius: 0 10px 10px 0;
 }
 
 .story-block:nth-child(2) {
@@ -797,85 +796,85 @@ document.addEventListener("DOMContentLoaded", () => {
 }
 
 .block-label {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 800;
   color: #0F172A;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
 }
 
 .block-text {
-  font-size: 14px;
-  line-height: 1.55;
+  font-size: 13px;
+  line-height: 1.45;
   color: #475569;
 }
 
-/* Business Impact KPI Grid */
+/* Business Impact KPI Grid (Compact) */
 .cs-kpi-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 8px;
+  margin-bottom: 14px;
 }
 
 .kpi-card {
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
-  border-radius: 14px;
-  padding: 12px 8px;
+  border-radius: 10px;
+  padding: 6px 4px;
   text-align: center;
   transition: transform 200ms ease;
 }
 
 .kpi-card:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   border-color: #3B82F6;
 }
 
 .kpi-num {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
   color: #6D28FF;
   display: block;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 
 .kpi-desc {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   color: #64748B;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
-/* Tech Stack Section */
+/* Tech Stack Section (Compact) */
 .cs-tech-section {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .tech-label {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 800;
   color: #94A3B8;
   letter-spacing: 1px;
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .cs-tech-pills {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 
 .tech-pill {
-  padding: 4px 12px;
+  padding: 2px 10px;
   background: #F1F5F9;
   border: 1px solid #E2E8F0;
   border-radius: 100px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   color: #0F172A;
   transition: all 200ms ease;
@@ -887,18 +886,18 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #6D28FF;
 }
 
-/* Delivery Timeline */
+/* Delivery Timeline (Compact) */
 .cs-timeline-section {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .timeline-label {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 800;
   color: #94A3B8;
   letter-spacing: 1px;
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .cs-timeline-flow {
@@ -912,9 +911,9 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-timeline-flow::before {
   content: "";
   position: absolute;
-  top: 5px;
-  left: 10px;
-  right: 10px;
+  top: 4px;
+  left: 8px;
+  right: 8px;
   height: 2px;
   background: #E2E8F0;
   z-index: 1;
@@ -924,40 +923,40 @@ document.addEventListener("DOMContentLoaded", () => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
   position: relative;
   z-index: 2;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   color: #475569;
 }
 
 .tl-dot {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: #3B82F6;
   border: 2px solid #FFFFFF;
 }
 
-/* Client Info Strip */
+/* Client Info Strip (Compact) */
 .cs-info-strip {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #F8FAFC;
-  border-radius: 12px;
-  padding: 12px 16px;
-  margin-bottom: 28px;
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-bottom: 16px;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 8px;
 }
 
 .info-item {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 13px;
+  gap: 5px;
+  font-size: 12px;
   font-weight: 700;
   color: #0F172A;
 }
@@ -966,47 +965,47 @@ document.addEventListener("DOMContentLoaded", () => {
   color: #6D28FF;
 }
 
-/* Actions Row */
+/* Actions Row (Compact) */
 .cs-action-row {
   display: flex;
-  gap: 14px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .btn-cs-primary {
-  height: 48px;
-  padding: 0 26px;
+  height: 38px;
+  padding: 0 20px;
   border-radius: 100px;
   background: linear-gradient(135deg, #6D28FF, #3B82F6);
   color: #FFFFFF;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   border: none;
-  box-shadow: 0 4px 16px rgba(109, 40, 255, 0.25);
+  box-shadow: 0 4px 12px rgba(109, 40, 255, 0.2);
   transition: all 250ms ease;
 }
 
 .btn-cs-primary:hover {
-  box-shadow: 0 8px 24px rgba(109, 40, 255, 0.45);
+  box-shadow: 0 6px 18px rgba(109, 40, 255, 0.4);
   transform: translateY(-2px);
   color: #FFFFFF;
 }
 
 .btn-cs-secondary {
-  height: 48px;
-  padding: 0 26px;
+  height: 38px;
+  padding: 0 20px;
   border-radius: 100px;
   background: #FFFFFF;
   border: 1.5px solid #3B82F6;
   color: #0F172A;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   transition: all 250ms ease;
 }
 
@@ -1021,15 +1020,15 @@ document.addEventListener("DOMContentLoaded", () => {
 .cs-bottom-banner {
   width: 100%;
   max-width: 1440px;
-  margin: 100px auto 0 auto;
+  margin: 40px auto 0 auto;
   background: #F8FAFC;
   border: 1px solid #E2E8F0;
-  border-radius: 28px;
-  padding: 44px 52px;
+  border-radius: 20px;
+  padding: 24px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.06);
+  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.04);
   position: relative;
   z-index: 5;
   box-sizing: border-box;
@@ -1037,20 +1036,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .cs-banner-text h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 800;
   color: #0F172A;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .cs-banner-text p {
-  font-size: 15px;
+  font-size: 13px;
   color: #475569;
 }
 
 .cs-banner-actions {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   flex-shrink: 0;
 }
 
@@ -1058,24 +1057,24 @@ document.addEventListener("DOMContentLoaded", () => {
 @media (max-width: 1199px) {
   .cs-panel-grid {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 32px;
   }
 
   .cs-bottom-banner {
     flex-direction: column;
     text-align: center;
-    gap: 24px;
-    padding: 32px 24px;
+    gap: 16px;
+    padding: 24px 20px;
   }
 }
 
 @media (max-width: 767px) {
   .cs-showcase-section {
-    padding: 80px 20px;
+    padding: 40px 16px;
   }
 
   .cs-story-card {
-    padding: 28px 20px;
+    padding: 20px 16px;
   }
 
   .cs-kpi-grid {
