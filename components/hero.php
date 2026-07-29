@@ -3,18 +3,7 @@
      ============================================================ -->
 <section id="hero" class="hero-section">
   
-  <!-- Background Layers -->
-  <div class="hero-bg-layers">
-    <div class="hero-video-container">
-      <video autoplay loop muted playsinline class="hero-bg-video">
-        <source src="assets/video/hero.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div class="hero-bg-gradient"></div>
-    <div class="hero-bg-grid"></div>
-    <div class="hero-glow hero-glow--purple"></div>
-    <div class="hero-glow hero-glow--blue"></div>
-  </div>
+
 
   <!-- Hero Container -->
   <div class="hero-container">
@@ -240,53 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
   box-sizing: border-box;
 }
 
-/* ── Background Layers ── */
-.hero-bg-layers {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  overflow: hidden;
-  pointer-events: none;
-}
 
-.hero-video-container {
-  position: absolute;
-  inset: 0;
-  opacity: 0.18;
-}
-
-.hero-bg-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero-bg-gradient {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at center, transparent 35%, rgba(18, 6, 66, 0.4) 100%);
-}
-
-.hero-bg-grid {
-  position: absolute;
-  inset: 0;
-  background-size: 40px 40px;
-  background-image:
-    linear-gradient(to right, rgba(255,255,255,0.015) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.015) 1px, transparent 1px);
-}
-
-.hero-glow {
-  position: absolute;
-  width: 420px;
-  height: 420px;
-  border-radius: 50%;
-  filter: blur(120px);
-  opacity: 0.2;
-}
-
-.hero-glow--purple { top: -10%; right: 10%; background: var(--primary-purple); }
-.hero-glow--blue   { bottom: -10%; left: 10%; background: var(--electric-blue); }
 
 /* ── Hero Container ── */
 .hero-container {
