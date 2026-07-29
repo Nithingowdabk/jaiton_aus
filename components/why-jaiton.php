@@ -1,5 +1,5 @@
 <!-- ============================================================
-     WHY CHOOSE JAITON – Standalone 2D Vector Illustrations
+     WHY CHOOSE JAITON – Executive Light Layout with Architectural Frame
      ============================================================ -->
 <section id="why-jaiton" class="why-executive-section">
   
@@ -32,9 +32,30 @@
           </div>
         </div>
 
-        <!-- Right: 55% Content Card -->
+        <!-- Right: 55% Content Card with Architectural Frame -->
         <div class="exec-content-side">
           <div class="exec-card">
+            
+            <!-- Architectural Frame SVG Overlay (Top-Left & Bottom-Right Accents) -->
+            <svg class="arch-frame-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="archGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6D28FF"/>
+                  <stop offset="100%" stop-color="#3B82F6"/>
+                </linearGradient>
+              </defs>
+              <!-- Top-Left Accent Segment -->
+              <path d="M 24,2 L 8,2 A 6,6 0 0,0 2,8 L 2,24" fill="none" stroke="url(#archGrad1)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-topleft"/>
+              <!-- Bottom-Right Accent Segment -->
+              <path d="M 76,98 L 92,98 A 6,6 0 0,0 98,92 L 98,76" fill="none" stroke="url(#archGrad1)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-bottomright"/>
+            </svg>
+
+            <!-- Blueprint Construction Nodes (4px circles) -->
+            <div class="arch-node arch-node--tl-start"></div>
+            <div class="arch-node arch-node--tl-end"></div>
+            <div class="arch-node arch-node--br-start"></div>
+            <div class="arch-node arch-node--br-end"></div>
+
             <div class="exec-num">01.</div>
             <h3 class="exec-card-title">Australian Business Standards</h3>
             <p class="exec-card-desc">
@@ -56,9 +77,28 @@
            ============================================================ -->
       <article class="why-exec-panel panel-02" data-aos="fade-up">
         
-        <!-- Left: 55% Content Card -->
+        <!-- Left: 55% Content Card with Architectural Frame -->
         <div class="exec-content-side">
           <div class="exec-card">
+            
+            <!-- Architectural Frame SVG Overlay -->
+            <svg class="arch-frame-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="archGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6D28FF"/>
+                  <stop offset="100%" stop-color="#3B82F6"/>
+                </linearGradient>
+              </defs>
+              <path d="M 24,2 L 8,2 A 6,6 0 0,0 2,8 L 2,24" fill="none" stroke="url(#archGrad2)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-topleft"/>
+              <path d="M 76,98 L 92,98 A 6,6 0 0,0 98,92 L 98,76" fill="none" stroke="url(#archGrad2)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-bottomright"/>
+            </svg>
+
+            <!-- Blueprint Construction Nodes -->
+            <div class="arch-node arch-node--tl-start"></div>
+            <div class="arch-node arch-node--tl-end"></div>
+            <div class="arch-node arch-node--br-start"></div>
+            <div class="arch-node arch-node--br-end"></div>
+
             <div class="exec-num">02.</div>
             <h3 class="exec-card-title">Transparent Delivery Process</h3>
             <p class="exec-card-desc">
@@ -94,9 +134,28 @@
           </div>
         </div>
 
-        <!-- Right: 55% Content Card -->
+        <!-- Right: 55% Content Card with Architectural Frame -->
         <div class="exec-content-side">
           <div class="exec-card">
+            
+            <!-- Architectural Frame SVG Overlay -->
+            <svg class="arch-frame-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="archGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6D28FF"/>
+                  <stop offset="100%" stop-color="#3B82F6"/>
+                </linearGradient>
+              </defs>
+              <path d="M 24,2 L 8,2 A 6,6 0 0,0 2,8 L 2,24" fill="none" stroke="url(#archGrad3)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-topleft"/>
+              <path d="M 76,98 L 92,98 A 6,6 0 0,0 98,92 L 98,76" fill="none" stroke="url(#archGrad3)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-bottomright"/>
+            </svg>
+
+            <!-- Blueprint Construction Nodes -->
+            <div class="arch-node arch-node--tl-start"></div>
+            <div class="arch-node arch-node--tl-end"></div>
+            <div class="arch-node arch-node--br-start"></div>
+            <div class="arch-node arch-node--br-end"></div>
+
             <div class="exec-num">03.</div>
             <h3 class="exec-card-title">Scalable Digital Solutions</h3>
             <p class="exec-card-desc">
@@ -118,9 +177,28 @@
            ============================================================ -->
       <article class="why-exec-panel panel-04" data-aos="fade-up">
         
-        <!-- Left: 55% Content Card -->
+        <!-- Left: 55% Content Card with Architectural Frame -->
         <div class="exec-content-side">
           <div class="exec-card">
+            
+            <!-- Architectural Frame SVG Overlay -->
+            <svg class="arch-frame-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="archGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#6D28FF"/>
+                  <stop offset="100%" stop-color="#3B82F6"/>
+                </linearGradient>
+              </defs>
+              <path d="M 24,2 L 8,2 A 6,6 0 0,0 2,8 L 2,24" fill="none" stroke="url(#archGrad4)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-topleft"/>
+              <path d="M 76,98 L 92,98 A 6,6 0 0,0 98,92 L 98,76" fill="none" stroke="url(#archGrad4)" stroke-width="2.5" stroke-linecap="round" class="arch-accent-bottomright"/>
+            </svg>
+
+            <!-- Blueprint Construction Nodes -->
+            <div class="arch-node arch-node--tl-start"></div>
+            <div class="arch-node arch-node--tl-end"></div>
+            <div class="arch-node arch-node--br-start"></div>
+            <div class="arch-node arch-node--br-end"></div>
+
             <div class="exec-num">04.</div>
             <h3 class="exec-card-title">Long-Term Technology Partnership</h3>
             <p class="exec-card-desc">
@@ -244,7 +322,7 @@
   max-width: 55%;
 }
 
-/* Standalone 2D Vector Illustration Wrapper (No Card Box / No Border / No Shadow) */
+/* Standalone 2D Vector Illustration Wrapper */
 .exec-illustration-wrapper {
   width: 100%;
   max-width: 440px;
@@ -267,14 +345,89 @@
   transform: translateY(-4px) scale(1.02);
 }
 
-/* ── Floating White Content Card ── */
+/* ── Floating White Content Card with Architectural Frame ── */
 .exec-card {
+  position: relative;
   background: #FFFFFF;
-  border: 1px solid #E2E8F0;
+  border: 1px solid #E7ECF5;
   border-radius: 24px;
   padding: 48px;
   box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
   box-sizing: border-box;
+  transition: transform 300ms ease-out, box-shadow 300ms ease-out;
+}
+
+/* Architectural Frame SVG Overlay */
+.arch-frame-svg {
+  position: absolute;
+  inset: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  pointer-events: none;
+  overflow: visible;
+  z-index: 2;
+}
+
+.arch-accent-topleft,
+.arch-accent-bottomright {
+  opacity: 0.85;
+  filter: drop-shadow(0 0 8px rgba(109, 40, 255, 0.25));
+  transition: opacity 300ms ease, filter 300ms ease;
+}
+
+.arch-accent-topleft {
+  animation: archPulseTL 9s infinite alternate ease-in-out;
+}
+
+.arch-accent-bottomright {
+  animation: archPulseBR 9s infinite alternate ease-in-out 1s;
+}
+
+@keyframes archPulseTL {
+  0%   { opacity: 0.65; filter: drop-shadow(0 0 4px rgba(109, 40, 255, 0.15)); }
+  100% { opacity: 0.95; filter: drop-shadow(0 0 10px rgba(109, 40, 255, 0.35)); }
+}
+
+@keyframes archPulseBR {
+  0%   { opacity: 0.65; filter: drop-shadow(0 0 4px rgba(59, 130, 246, 0.15)); }
+  100% { opacity: 0.95; filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.35)); }
+}
+
+/* Blueprint Construction Nodes (4px circles) */
+.arch-node {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  z-index: 3;
+  pointer-events: none;
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.arch-node--tl-start { top: -1px; left: 60px; transform: translate(-50%, -50%); background: #3B82F6; box-shadow: 0 0 6px #3B82F6; }
+.arch-node--tl-end   { top: 60px; left: -1px; transform: translate(-50%, -50%); background: #6D28FF; box-shadow: 0 0 6px #6D28FF; }
+.arch-node--br-start { bottom: -1px; right: 60px; transform: translate(50%, 50%); background: #6D28FF; box-shadow: 0 0 6px #6D28FF; }
+.arch-node--br-end   { bottom: 60px; right: -1px; transform: translate(50%, 50%); background: #3B82F6; box-shadow: 0 0 6px #3B82F6; }
+
+/* Card Hover State */
+.exec-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 48px -12px rgba(109, 40, 255, 0.15), 0 10px 30px rgba(15, 23, 42, 0.06);
+}
+
+.exec-card:hover .arch-accent-topleft,
+.exec-card:hover .arch-accent-bottomright {
+  opacity: 1;
+  filter: drop-shadow(0 0 12px rgba(109, 40, 255, 0.45));
+}
+
+.exec-card:hover .arch-node {
+  transform: translate(-50%, -50%) scale(1.4);
+}
+
+.exec-card:hover .arch-node--br-start,
+.exec-card:hover .arch-node--br-end {
+  transform: translate(50%, 50%) scale(1.4);
 }
 
 .exec-num {
@@ -284,6 +437,8 @@
   line-height: 1;
   color: #CBD5E1;
   margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
 }
 
 .exec-card-title {
@@ -293,6 +448,8 @@
   color: #0F172A;
   margin-bottom: 16px;
   line-height: 1.25;
+  position: relative;
+  z-index: 1;
 }
 
 .exec-card-desc {
@@ -300,6 +457,8 @@
   line-height: 1.65;
   color: #475569;
   margin-bottom: 28px;
+  position: relative;
+  z-index: 1;
 }
 
 .exec-proof-chip {
@@ -313,6 +472,8 @@
   font-size: 14px;
   font-weight: 600;
   color: #0F172A;
+  position: relative;
+  z-index: 1;
 }
 
 .chip-icon {
