@@ -1,192 +1,101 @@
-<!-- Solutions Showcase Component -->
-<section id="solutions" class="solutions-section">
+<!-- ============================================================
+     SERVICES SHOWCASE SECTION – (02. OUR SERVICES Style Layout)
+     ============================================================ -->
+<section id="services" class="services-showcase-section">
+  
   <div class="container">
     
-    <!-- Section Header -->
-    <div class="section-header" data-aos="fade-up">
-      <span class="section-badge blue">Solutions Showcase</span>
-      <h2 class="section-title">Enterprise Digital Solutions</h2>
-      <p class="section-desc">
-        Explore our high-performance capabilities, designed to accelerate operations, modernize architecture, and secure corporate assets.
-      </p>
+    <!-- Section Header Row (Header Left, Slider Nav Arrows Right) -->
+    <div class="services-header-row" data-aos="fade-up">
+      <div class="services-header-left">
+        <span class="services-badge">
+          <span class="badge-lines">==</span> 02. OUR SERVICES
+        </span>
+        <h2 class="services-main-title">
+          Expert Consulting Solutions Strategic Guidance
+        </h2>
+      </div>
+
+      <!-- Top Right Slider Navigation Arrows -->
+      <div class="services-slider-nav">
+        <button class="nav-arrow-btn services-prev-btn" aria-label="Previous Service">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button class="nav-arrow-btn services-next-btn" aria-label="Next Service">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
     </div>
 
-    <!-- Swiper Slider Wrapper -->
-    <div class="solutions-swiper-container" data-aos="fade-up" data-aos-delay="100">
-      <div class="swiper solutions-swiper">
+    <!-- Swiper Carousel Container -->
+    <div class="services-swiper-wrapper" data-aos="fade-up" data-aos-delay="150">
+      <div class="swiper services-swiper">
         <div class="swiper-wrapper">
           
-          <!-- Slide 1: AI Platforms -->
+          <!-- Card 01: IT Strategy Digital Transformation (Soft Beige/Olive Theme) -->
           <div class="swiper-slide">
-            <div class="solution-card glass-panel hover-lift">
-              <div class="sol-top">
-                <div class="sol-icon bg-purple"><i class="fa-solid fa-brain"></i></div>
-                <div class="sol-roi">ROI: +94% Speed Gain</div>
-              </div>
-              <h3 class="sol-title">Enterprise AI Platforms</h3>
-              <p class="sol-desc">Train and deploy specialized cognitive systems, custom chatbots, NLP translators, and predictive analysis frameworks.</p>
-              
-              <ul class="sol-features">
-                <li><i class="fa-solid fa-circle-check"></i> Custom LLM Fine-Tuning</li>
-                <li><i class="fa-solid fa-circle-check"></i> Cognitive Logic Automation</li>
-                <li><i class="fa-solid fa-circle-check"></i> High-Throughput Analytics</li>
-              </ul>
-              
-              <div class="sol-footer">
-                <div class="sol-tech-tags">
-                  <span>Python</span>
-                  <span>TensorFlow</span>
-                  <span>OpenAI</span>
+            <div class="service-card theme-beige">
+              <div class="card-top-content">
+                <span class="card-num-step">01</span>
+                <h3 class="card-service-title">IT Strategy Digital Transformation</h3>
+                <div class="card-line-icon">
+                  <i class="fa-solid fa-network-wired"></i>
                 </div>
-                <a href="#contact" class="sol-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="card-photo-box">
+                <img src="assets/images/hero-meeting.png" alt="IT Strategy Digital Transformation" class="card-bottom-img">
               </div>
             </div>
           </div>
 
-          <!-- Slide 2: Enterprise Applications -->
+          <!-- Card 02: Cloud Consulting Services (Soft Green Theme) -->
           <div class="swiper-slide">
-            <div class="solution-card glass-panel hover-lift">
-              <div class="sol-top">
-                <div class="sol-icon bg-blue"><i class="fa-solid fa-laptop-code"></i></div>
-                <div class="sol-roi">ROI: -40% Admin Hours</div>
-              </div>
-              <h3 class="sol-title">Core Enterprise Apps</h3>
-              <p class="sol-desc">Custom financial engines, operational flow dashboards, and internal database hubs built for security and high concurrency.</p>
-              
-              <ul class="sol-features">
-                <li><i class="fa-solid fa-circle-check"></i> Granular RBAC Permissions</li>
-                <li><i class="fa-solid fa-circle-check"></i> ISO 27001 Prepared Audit Logs</li>
-                <li><i class="fa-solid fa-circle-check"></i> Real-time DB Synchronization</li>
-              </ul>
-              
-              <div class="sol-footer">
-                <div class="sol-tech-tags">
-                  <span>Next.js</span>
-                  <span>Node.js</span>
-                  <span>PostgreSQL</span>
+            <div class="service-card theme-green">
+              <div class="card-top-content">
+                <span class="card-num-step">02</span>
+                <h3 class="card-service-title">Cloud Consulting Services</h3>
+                <div class="card-line-icon">
+                  <i class="fa-solid fa-cloud-arrow-up"></i>
                 </div>
-                <a href="#contact" class="sol-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="card-photo-box">
+                <img src="assets/images/why-scalable.png" alt="Cloud Consulting Services" class="card-bottom-img">
               </div>
             </div>
           </div>
 
-          <!-- Slide 3: Cloud Migration -->
+          <!-- Card 03: Software Custom Application (Dark Navy Accent Theme) -->
           <div class="swiper-slide">
-            <div class="solution-card glass-panel hover-lift">
-              <div class="sol-top">
-                <div class="sol-icon bg-cyan"><i class="fa-solid fa-cloud"></i></div>
-                <div class="sol-roi">SLA: 99.99% Availability</div>
-              </div>
-              <h3 class="sol-title">Cloud Scale Infrastructure</h3>
-              <p class="sol-desc">High-performance setups with automated failover, load balancing, API gateways, and serverless clusters on AWS/Azure.</p>
-              
-              <ul class="sol-features">
-                <li><i class="fa-solid fa-circle-check"></i> Fully Managed Kubernetes</li>
-                <li><i class="fa-solid fa-circle-check"></i> Zero-Downtime Migration</li>
-                <li><i class="fa-solid fa-circle-check"></i> Encrypted Transit & Rest</li>
-              </ul>
-              
-              <div class="sol-footer">
-                <div class="sol-tech-tags">
-                  <span>AWS</span>
-                  <span>Kubernetes</span>
-                  <span>Terraform</span>
+            <div class="service-card theme-dark-navy">
+              <div class="card-top-content">
+                <span class="card-num-step">03</span>
+                <h3 class="card-service-title">Software Custom Application</h3>
+                <div class="card-line-icon">
+                  <i class="fa-solid fa-code"></i>
                 </div>
-                <a href="#contact" class="sol-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="card-photo-box">
+                <img src="assets/images/why-partnership.png" alt="Software Custom Application" class="card-bottom-img">
               </div>
             </div>
           </div>
 
-          <!-- Slide 4: Digital Transformation -->
+          <!-- Card 04: AI & Data Analytics Consulting (Soft Cyan/Blue Theme) -->
           <div class="swiper-slide">
-            <div class="solution-card glass-panel hover-lift">
-              <div class="sol-top">
-                <div class="sol-icon bg-purple"><i class="fa-solid fa-arrows-spin"></i></div>
-                <div class="sol-roi">ROI: +60% Dev Speed</div>
-              </div>
-              <h3 class="sol-title">Legacy Modernisation</h3>
-              <p class="sol-desc">Complete overhaul of old legacy platforms, codebase refactoring, database migrations, and structural technology advisory.</p>
-              
-              <ul class="sol-features">
-                <li><i class="fa-solid fa-circle-check"></i> Zero Data-Loss Pipelines</li>
-                <li><i class="fa-solid fa-circle-check"></i> Microservices Refactoring</li>
-                <li><i class="fa-solid fa-circle-check"></i> Automated CI/CD Setup</li>
-              </ul>
-              
-              <div class="sol-footer">
-                <div class="sol-tech-tags">
-                  <span>TypeScript</span>
-                  <span>Docker</span>
-                  <span>Redis</span>
+            <div class="service-card theme-cyan">
+              <div class="card-top-content">
+                <span class="card-num-step">04</span>
+                <h3 class="card-service-title">AI & Data Analytics Consulting</h3>
+                <div class="card-line-icon">
+                  <i class="fa-solid fa-brain"></i>
                 </div>
-                <a href="#contact" class="sol-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+              <div class="card-photo-box">
+                <img src="assets/images/about-developer.png" alt="AI & Data Analytics Consulting" class="card-bottom-img">
               </div>
             </div>
           </div>
 
-          <!-- Slide 5: Flow Automation -->
-          <div class="swiper-slide">
-            <div class="solution-card glass-panel hover-lift">
-              <div class="sol-top">
-                <div class="sol-icon bg-blue"><i class="fa-solid fa-robot"></i></div>
-                <div class="sol-roi">ROI: -85% Manual Work</div>
-              </div>
-              <h3 class="sol-title">Intelligent Automation</h3>
-              <p class="sol-desc">Automated document parsers, customer service triggers, CRM integrations, and invoice processing setups.</p>
-              
-              <ul class="sol-features">
-                <li><i class="fa-solid fa-circle-check"></i> API-First Integrations</li>
-                <li><i class="fa-solid fa-circle-check"></i> Real-time Activity Alerts</li>
-                <li><i class="fa-solid fa-circle-check"></i> Multi-channel Routing</li>
-              </ul>
-              
-              <div class="sol-footer">
-                <div class="sol-tech-tags">
-                  <span>FastAPI</span>
-                  <span>Node.js</span>
-                  <span>Supabase</span>
-                </div>
-                <a href="#contact" class="sol-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 6: Business Intelligence -->
-          <div class="swiper-slide">
-            <div class="solution-card glass-panel hover-lift">
-              <div class="sol-top">
-                <div class="sol-icon bg-cyan"><i class="fa-solid fa-chart-line"></i></div>
-                <div class="sol-roi">Speed: 10x Reports</div>
-              </div>
-              <h3 class="sol-title">Predictive Analytics & BI</h3>
-              <p class="sol-desc">Build data warehouses, extract clean corporate streams, and construct beautiful interactive graphs for leadership.</p>
-              
-              <ul class="sol-features">
-                <li><i class="fa-solid fa-circle-check"></i> Custom ETL Processing</li>
-                <li><i class="fa-solid fa-circle-check"></i> Snowflake/BigQuery Setup</li>
-                <li><i class="fa-solid fa-circle-check"></i> Executive KPI Layouts</li>
-              </ul>
-              
-              <div class="sol-footer">
-                <div class="sol-tech-tags">
-                  <span>GCP</span>
-                  <span>Snowflake</span>
-                  <span>Tableau</span>
-                </div>
-                <a href="#contact" class="sol-link">Explore <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        
-        <!-- Swiper Navigation & Pagination -->
-        <div class="solutions-swiper-footer">
-          <div class="swiper-pagination solutions-pagination"></div>
-          <div class="swiper-nav-buttons">
-            <button class="swiper-button-prev solutions-prev" aria-label="Previous slide"><i class="fa-solid fa-arrow-left"></i></button>
-            <button class="swiper-button-next solutions-next" aria-label="Next slide"><i class="fa-solid fa-arrow-right"></i></button>
-          </div>
         </div>
       </div>
     </div>
@@ -194,216 +103,244 @@
   </div>
 </section>
 
-<!-- CSS specifically for Solutions Showcase -->
+<!-- Swiper Initialization Script -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  if (typeof Swiper !== "undefined") {
+    new Swiper('.services-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      loop: true,
+      navigation: {
+        nextEl: '.services-next-btn',
+        prevEl: '.services-prev-btn',
+      },
+      breakpoints: {
+        640: { slidesPerView: 2, spaceBetween: 24 },
+        1024: { slidesPerView: 3, spaceBetween: 28 },
+        1280: { slidesPerView: 4, spaceBetween: 24 }
+      }
+    });
+  }
+});
+</script>
+
+<!-- ============================================================
+     SERVICES SHOWCASE SCOPED STYLES
+     ============================================================ -->
 <style>
-.solutions-section {
-  padding: 120px 0;
-  background-color: var(--light-bg);
+/* Section Shell (Light Enterprise Theme) */
+.services-showcase-section {
   position: relative;
+  padding: 100px 0;
+  background-color: #F8FAFC;
   overflow: hidden;
 }
 
-.solutions-swiper-container {
-  position: relative;
-  width: 100%;
-  padding-bottom: 20px;
+/* Header Row */
+.services-header-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto 50px auto;
+  padding: 0 40px;
 }
 
-.solutions-swiper {
-  overflow: visible !important; /* Allow cards to overflow container edge for style */
+.services-header-left {
+  text-align: left;
+  max-width: 700px;
 }
 
-/* Card Styling */
-.solution-card {
-  padding: 40px;
-  background-color: var(--white);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  border: 1px solid var(--border-color);
+.services-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #FF5E00;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+
+.badge-lines {
+  color: #FF5E00;
+  font-weight: 900;
+}
+
+.services-main-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(34px, 3.6vw, 48px);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #0F172A;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+/* Slider Navigation Buttons */
+.services-slider-nav {
+  display: flex;
+  gap: 14px;
+}
+
+.nav-arrow-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid #CBD5E1;
+  color: #0F172A;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 250ms ease;
+}
+
+.nav-arrow-btn:hover {
+  background: #0055FF;
+  border-color: #0055FF;
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px rgba(0, 85, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+/* Services Swiper Wrapper */
+.services-swiper-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Service Card Component */
+.service-card {
+  border-radius: 24px;
+  padding: 32px 28px 20px 28px;
+  height: 480px;
   display: flex;
   flex-direction: column;
-  height: 480px; /* Uniform height */
+  justify-content: space-between;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.06);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
-.solution-card:hover {
-  border-color: rgba(109, 40, 255, 0.2);
-  box-shadow: var(--shadow-xl);
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 50px rgba(15, 23, 42, 0.12);
 }
 
-.sol-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 28px;
-}
-
-.sol-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.4rem;
-}
-
-.sol-icon.bg-purple { background-color: rgba(109, 40, 255, 0.08); color: var(--primary-purple); }
-.sol-icon.bg-blue { background-color: rgba(59, 130, 246, 0.08); color: var(--electric-blue); }
-.sol-icon.bg-cyan { background-color: rgba(185, 140, 255, 0.08); color: var(--cyan); }
-
-.sol-roi {
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--primary-purple);
-  background-color: rgba(109, 40, 255, 0.06);
-  padding: 6px 14px;
-  border-radius: 100px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  border: 1px solid rgba(109, 40, 255, 0.1);
-}
-
-.sol-title {
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: var(--dark-navy);
-  margin-bottom: 12px;
-}
-
-.sol-desc {
-  font-size: 0.9rem;
-  line-height: 1.55;
-  color: var(--secondary-text);
-  margin-bottom: 28px;
-  flex-grow: 1;
-}
-
-/* Features List */
-.sol-features {
+.card-top-content {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-bottom: 32px;
-}
-
-.sol-features li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  color: var(--primary-text);
-}
-
-.sol-features li i {
-  color: #10B981;
-  font-size: 0.9rem;
-}
-
-/* Footer elements */
-.sol-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 1px solid var(--border-color);
-  padding-top: 20px;
-  margin-top: auto;
-}
-
-.sol-tech-tags {
-  display: flex;
-  gap: 8px;
-}
-
-.sol-tech-tags span {
-  font-size: 0.6875rem;
-  font-weight: 700;
-  color: var(--muted-text);
-  background-color: var(--light-bg);
-  padding: 4px 10px;
-  border-radius: 6px;
-  border: 1px solid rgba(109, 40, 255, 0.05);
-}
-
-.sol-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.8125rem;
-  font-weight: 700;
-  color: var(--primary-purple);
-  transition: all var(--transition-fast);
-}
-
-.sol-link i {
-  font-size: 0.7rem;
-  transition: transform var(--transition-fast);
-}
-
-.sol-link:hover {
-  color: var(--royal-purple);
-}
-
-.sol-link:hover i {
-  transform: translateX(4px);
-}
-
-/* Swiper navigation */
-.solutions-swiper-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 48px;
-  padding: 0 4px;
-}
-
-.solutions-pagination.swiper-pagination-bullets {
-  width: auto !important;
-  position: static !important;
   text-align: left;
 }
 
-.solutions-pagination .swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  background-color: var(--border-color);
-  opacity: 1;
-  margin: 0 6px !important;
-  transition: all var(--transition-fast);
+.card-num-step {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #FF5E00;
+  margin-bottom: 12px;
 }
 
-.solutions-pagination .swiper-pagination-bullet-active {
-  background-color: var(--primary-purple);
-  width: 28px;
-  border-radius: 100px;
+.card-service-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 20px;
 }
 
-.swiper-nav-buttons {
-  display: flex;
-  gap: 12px;
+.card-line-icon {
+  font-size: 32px;
+  opacity: 0.85;
 }
 
-.swiper-nav-buttons button {
-  background-color: var(--white);
-  border: 1px solid var(--border-color);
-  color: var(--secondary-text);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.9rem;
-  box-shadow: var(--shadow-sm);
-  transition: all var(--transition-fast);
+/* Bottom Photo Container inside Card */
+.card-photo-box {
+  width: 100%;
+  height: 230px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
-.swiper-nav-buttons button:hover {
-  background-color: var(--primary-purple);
-  color: var(--white);
-  border-color: var(--primary-purple);
-  transform: scale(1.05);
+.card-bottom-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 500ms ease;
+}
+
+.service-card:hover .card-bottom-img {
+  transform: scale(1.06);
+}
+
+/* ── DISTINCT CARD COLOR THEMES ── */
+/* Theme 01: Soft Beige / Olive */
+.theme-beige {
+  background-color: #F4F6EA;
+  color: #0F172A;
+}
+.theme-beige .card-service-title { color: #0F172A; }
+.theme-beige .card-line-icon { color: #4B5563; }
+
+/* Theme 02: Soft Green */
+.theme-green {
+  background-color: #E4F4E4;
+  color: #0F172A;
+}
+.theme-green .card-service-title { color: #0F172A; }
+.theme-green .card-line-icon { color: #16A34A; }
+
+/* Theme 03: Deep Dark Navy Accent */
+.theme-dark-navy {
+  background-color: #08163D;
+  color: #FFFFFF;
+}
+.theme-dark-navy .card-service-title { color: #FFFFFF; }
+.theme-dark-navy .card-line-icon { color: #A275FF; }
+
+/* Theme 04: Soft Cyan / Blue */
+.theme-cyan {
+  background-color: #E2F6FE;
+  color: #0F172A;
+}
+.theme-cyan .card-service-title { color: #0F172A; }
+.theme-cyan .card-line-icon { color: #0284C7; }
+
+/* Responsive */
+@media (max-width: 1199px) {
+  .services-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services-showcase-section {
+    padding: 60px 0;
+  }
+
+  .services-header-row,
+  .services-swiper-wrapper {
+    padding: 0 20px;
+  }
+
+  .service-card {
+    height: 440px;
+    padding: 24px 20px 16px 20px;
+  }
+
+  .card-service-title {
+    font-size: 20px;
+  }
 }
 </style>
