@@ -30,10 +30,10 @@
       <article class="cs-min-panel active" id="cs-0">
         <div class="cs-min-grid">
           
-          <!-- Left: Clean Project Image Frame -->
+          <!-- Left: Clean Minimalist Project Illustration -->
           <div class="cs-min-media">
             <div class="cs-img-frame">
-              <img src="assets/images/project_medai.png" alt="MedAI Pathology Scanner" class="cs-project-img">
+              <img src="assets/images/cs-medai-minimalist.png" alt="MedAI Pathology Scanner Minimalist Artwork" class="cs-project-img">
             </div>
           </div>
 
@@ -91,7 +91,7 @@
           
           <div class="cs-min-media">
             <div class="cs-img-frame">
-              <img src="assets/images/project_aura_iot.png" alt="Aura Fleet Telemetry Grid" class="cs-project-img">
+              <img src="assets/images/cs-aura-minimalist.png" alt="Aura Fleet Telemetry Grid Minimalist Artwork" class="cs-project-img">
             </div>
           </div>
 
@@ -145,7 +145,7 @@
           
           <div class="cs-min-media">
             <div class="cs-img-frame">
-              <img src="assets/images/project_ledgerhub.png" alt="GovTech Digital Portal" class="cs-project-img">
+              <img src="assets/images/cs-govtech-minimalist.png" alt="GovTech Digital Portal Minimalist Artwork" class="cs-project-img">
             </div>
           </div>
 
@@ -341,7 +341,7 @@ document.addEventListener("DOMContentLoaded", () => {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
-  background: #CBD5E1;
+  background: #F8FAFC;
 }
 
 .cs-project-img {
