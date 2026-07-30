@@ -14,6 +14,7 @@ include_once 'includes/header.php';
 include_once 'components/hero.php';
 include_once 'components/trusted.php';
 include_once 'components/why-jaiton.php';
+include_once 'components/mission-vision.php';
 include_once 'components/industries.php';
 include_once 'components/featured.php';
 include_once 'components/global-presence.php';
