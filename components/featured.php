@@ -1,464 +1,217 @@
 <!-- ============================================================
-     SUCCESS STORIES – Premium Enterprise Case Studies Showcase
+     SUCCESS STORIES – Ultra Minimalist Enterprise Case Studies Showcase
      ============================================================ -->
-<section id="featured" class="cs-showcase-section">
+<section id="featured" class="cs-minimalist-section">
   
-  <!-- Subtle Background Layers -->
-  <div class="cs-bg-layers" aria-hidden="true">
-    <div class="cs-bg-grid"></div>
-    <div class="cs-radial-glow cs-radial-glow--purple"></div>
-    <div class="cs-radial-glow cs-radial-glow--blue"></div>
-  </div>
-
   <div class="container">
     
-    <!-- Section Header (Max Width 760px, Centered) -->
-    <div class="cs-section-header" data-aos="fade-up">
-      <span class="cs-badge">SUCCESS STORIES</span>
-      <h2 class="cs-section-title">
-        Engineering Business Outcomes, Not Just Software
-      </h2>
-      <p class="cs-section-subtitle">
-        Every solution we deliver is designed to solve measurable business challenges through modern engineering, AI, cloud technologies, and enterprise automation.
+    <!-- Section Header (Centered & Minimalist) -->
+    <div class="cs-min-header" data-aos="fade-up">
+      <span class="cs-min-badge">SUCCESS STORIES</span>
+      <h2 class="cs-min-title">Engineering Business Outcomes</h2>
+      <p class="cs-min-subtitle">
+        Solving real-world enterprise challenges through modern software architecture, AI platforms, and cloud engineering.
       </p>
     </div>
 
-    <!-- Case Study Selector Controls -->
-    <div class="cs-selector-tabs" data-aos="fade-up" data-aos-delay="50">
-      <button class="cs-selector-btn active" data-cs="0">
-        <i class="fa-solid fa-brain"></i>
-        <span>MedAI Pathology Scanner</span>
-      </button>
-      <button class="cs-selector-btn" data-cs="1">
-        <i class="fa-solid fa-truck-fast"></i>
-        <span>Aura Fleet Telemetry Grid</span>
-      </button>
-      <button class="cs-selector-btn" data-cs="2">
-        <i class="fa-solid fa-landmark"></i>
-        <span>GovTech Digital Portal</span>
-      </button>
+    <!-- Minimalist Filter Tabs -->
+    <div class="cs-min-tabs" data-aos="fade-up" data-aos-delay="100">
+      <button class="cs-tab-btn active" data-target="cs-0">MedAI Pathology Scanner</button>
+      <button class="cs-tab-btn" data-target="cs-1">Aura Fleet Telemetry Grid</button>
+      <button class="cs-tab-btn" data-target="cs-2">GovTech Digital Portal</button>
     </div>
 
     <!-- Case Study Panels Container -->
-    <div class="cs-panels-container">
+    <div class="cs-min-panels-wrap" data-aos="fade-up" data-aos-delay="150">
       
       <!-- ============================================================
-           CASE STUDY 01: MedAI Pathology Scanner (Healthcare & AI)
+           CASE STUDY 01: MedAI Pathology Scanner
            ============================================================ -->
-      <article class="cs-panel-wrapper active" id="cs-panel-0">
-        <div class="cs-panel-grid">
+      <article class="cs-min-panel active" id="cs-0">
+        <div class="cs-min-grid">
           
-          <!-- LEFT 55%: Visual Presentation Area with Floating Metrics -->
-          <div class="cs-visual-side">
-            <div class="cs-presentation-frame">
-              <div class="frame-bg-glow"></div>
-              <div class="frame-blueprint-grid"></div>
-              
-              <!-- Case Study Image Frame -->
-              <div class="frame-image-box">
-                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1000&q=80" alt="MedAI Pathology Scanner" class="cs-showcase-img">
-              </div>
-
-              <!-- 3 Floating Business Metrics Cards Overlaid -->
-              <div class="cs-floating-metric metric-top-right">
-                <div class="metric-icon-box"><i class="fa-solid fa-smile-beam"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val" data-count="98">98%</span>
-                  <span class="metric-lbl">Client Satisfaction</span>
-                </div>
-              </div>
-
-              <div class="cs-floating-metric metric-mid-left">
-                <div class="metric-icon-box"><i class="fa-solid fa-circle-check"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val" data-count="120">120+</span>
-                  <span class="metric-lbl">Projects Delivered</span>
-                </div>
-              </div>
-
-              <div class="cs-floating-metric metric-bottom-right">
-                <div class="metric-icon-box"><i class="fa-solid fa-chart-line"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val" data-count="60">60%</span>
-                  <span class="metric-lbl">Efficiency Improvement</span>
-                </div>
-              </div>
-
+          <!-- Left: Clean Project Image Frame -->
+          <div class="cs-min-media">
+            <div class="cs-img-frame">
+              <img src="assets/images/project_medai.png" alt="MedAI Pathology Scanner" class="cs-project-img">
             </div>
           </div>
 
-          <!-- RIGHT 45%: Business Story Content Panel -->
-          <div class="cs-content-side">
-            <div class="cs-story-card">
-              
-              <div class="cs-category-badge">
-                <i class="fa-solid fa-heart-pulse"></i> HEALTHCARE & AI
+          <!-- Right: Clean Minimalist Project Content -->
+          <div class="cs-min-content">
+            <span class="cs-tag-category">HEALTHCARE & AI</span>
+            <h3 class="cs-project-headline">Automated AI Vision Portal & Clinical Diagnostics</h3>
+            
+            <p class="cs-project-description">
+              Engineered an automated diagnostic vision portal utilizing deep learning classification pipelines directly on GPU micro-nodes, accelerating high-resolution scan analysis from hours to seconds.
+            </p>
+
+            <!-- 3 Minimalist Key Metrics -->
+            <div class="cs-metrics-row">
+              <div class="metric-item">
+                <span class="metric-value">+65%</span>
+                <span class="metric-label">Efficiency Gain</span>
               </div>
-
-              <h3 class="cs-story-headline">
-                Automated AI Vision Portal & Clinical Diagnostic Infrastructure
-              </h3>
-
-              <!-- Challenge & Solution -->
-              <div class="cs-story-blocks">
-                <div class="story-block">
-                  <h4 class="block-label"><i class="fa-solid fa-triangle-exclamation"></i> Business Challenge</h4>
-                  <p class="block-text">Pathology image evaluations required intensive human hours, causing 4-hour evaluation backlogs and clinical queue delays across regional healthcare networks.</p>
-                </div>
-                <div class="story-block">
-                  <h4 class="block-label"><i class="fa-solid fa-lightbulb"></i> Engineering Solution</h4>
-                  <p class="block-text">Developed an automated diagnostic vision portal running deep learning classification pipelines directly on GPU micro-nodes, processing high-resolution scans in seconds.</p>
-                </div>
+              <div class="metric-item">
+                <span class="metric-value">40%</span>
+                <span class="metric-label">Cost Reduction</span>
               </div>
-
-              <!-- Business Impact (4 KPI Cards) -->
-              <div class="cs-kpi-grid">
-                <div class="kpi-card">
-                  <span class="kpi-num">+65%</span>
-                  <span class="kpi-desc">Process Efficiency</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">40%</span>
-                  <span class="kpi-desc">Cost Reduction</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">99.9%</span>
-                  <span class="kpi-desc">System Availability</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">3×</span>
-                  <span class="kpi-desc">Faster Processing</span>
-                </div>
+              <div class="metric-item">
+                <span class="metric-value">99.9%</span>
+                <span class="metric-label">System SLA</span>
               </div>
-
-              <!-- Tech Stack Pills -->
-              <div class="cs-tech-section">
-                <span class="tech-label">TECHNOLOGY STACK</span>
-                <div class="cs-tech-pills">
-                  <span class="tech-pill">React</span>
-                  <span class="tech-pill">Python</span>
-                  <span class="tech-pill">TensorFlow</span>
-                  <span class="tech-pill">PostgreSQL</span>
-                  <span class="tech-pill">Docker</span>
-                  <span class="tech-pill">AWS</span>
-                </div>
-              </div>
-
-              <!-- Compact Horizontal Timeline -->
-              <div class="cs-timeline-section">
-                <span class="timeline-label">DELIVERY TIMELINE</span>
-                <div class="cs-timeline-flow">
-                  <div class="tl-step"><span class="tl-dot"></span><span>Discovery</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Architecture</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Development</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Deployment</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Support</span></div>
-                </div>
-              </div>
-
-              <!-- Client Info Strip -->
-              <div class="cs-info-strip">
-                <div class="info-item"><i class="fa-solid fa-hospital"></i> <span>Healthcare</span></div>
-                <div class="info-item"><i class="fa-solid fa-location-dot"></i> <span>Australia</span></div>
-                <div class="info-item"><i class="fa-solid fa-clock"></i> <span>6 Months</span></div>
-                <div class="info-item"><i class="fa-solid fa-users"></i> <span>8 Engineers</span></div>
-              </div>
-
-              <!-- Action CTAs -->
-              <div class="cs-action-row">
-                <a href="#contact" class="btn btn-cs-primary">View Full Case Study <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#contact" class="btn btn-cs-secondary">Schedule Consultation <i class="fa-solid fa-calendar-check"></i></a>
-              </div>
-
             </div>
+
+            <!-- Technology Stack Pills -->
+            <div class="cs-tech-pills">
+              <span class="tech-pill">React</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">TensorFlow</span>
+              <span class="tech-pill">PostgreSQL</span>
+              <span class="tech-pill">AWS</span>
+            </div>
+
+            <!-- CTA Button -->
+            <div class="cs-cta-wrap">
+              <a href="#contact" class="btn-cs-action">
+                View Case Study <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
           </div>
 
         </div>
       </article>
 
       <!-- ============================================================
-           CASE STUDY 02: Aura Fleet Telemetry Grid (IoT & Logistics)
+           CASE STUDY 02: Aura Fleet Telemetry Grid
            ============================================================ -->
-      <article class="cs-panel-wrapper" id="cs-panel-1">
-        <div class="cs-panel-grid">
+      <article class="cs-min-panel" id="cs-1">
+        <div class="cs-min-grid">
           
-          <!-- LEFT 55%: Visual Presentation Area -->
-          <div class="cs-visual-side">
-            <div class="cs-presentation-frame">
-              <div class="frame-bg-glow"></div>
-              <div class="frame-blueprint-grid"></div>
-
-              <div class="frame-image-box">
-                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80" alt="Aura Fleet Telemetry Grid" class="cs-showcase-img">
-              </div>
-
-              <div class="cs-floating-metric metric-top-right">
-                <div class="metric-icon-box"><i class="fa-solid fa-tower-broadcast"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val">100%</span>
-                  <span class="metric-lbl">Tracking Coverage</span>
-                </div>
-              </div>
-
-              <div class="cs-floating-metric metric-mid-left">
-                <div class="metric-icon-box"><i class="fa-solid fa-dollar-sign"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val">$840K</span>
-                  <span class="metric-lbl">Annual Savings</span>
-                </div>
-              </div>
-
-              <div class="cs-floating-metric metric-bottom-right">
-                <div class="metric-icon-box"><i class="fa-solid fa-bolt"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val">12ms</span>
-                  <span class="metric-lbl">Telemetry Latency</span>
-                </div>
-              </div>
-
+          <div class="cs-min-media">
+            <div class="cs-img-frame">
+              <img src="assets/images/project_aura_iot.png" alt="Aura Fleet Telemetry Grid" class="cs-project-img">
             </div>
           </div>
 
-          <!-- RIGHT 45%: Business Story Content Panel -->
-          <div class="cs-content-side">
-            <div class="cs-story-card">
-              
-              <div class="cs-category-badge">
-                <i class="fa-solid fa-truck-ramp-box"></i> LOGISTICS & IOT
+          <div class="cs-min-content">
+            <span class="cs-tag-category">MINING & IOT TELEMETRY</span>
+            <h3 class="cs-project-headline">Real-Time Fleet IoT Telemetry & Predictive Maintenance</h3>
+            
+            <p class="cs-project-description">
+              Streamed high-frequency sensor telemetry across remote heavy vehicle fleets, delivering edge anomaly detection and predictive maintenance alerts before critical failures occur.
+            </p>
+
+            <div class="cs-metrics-row">
+              <div class="metric-item">
+                <span class="metric-value">10k+</span>
+                <span class="metric-label">Active Sensors</span>
               </div>
-
-              <h3 class="cs-story-headline">
-                Real-Time Transport Telemetry & Fleet Operations Grid
-              </h3>
-
-              <div class="cs-story-blocks">
-                <div class="story-block">
-                  <h4 class="block-label"><i class="fa-solid fa-triangle-exclamation"></i> Business Challenge</h4>
-                  <p class="block-text">Transport tracking signals failed inside deep quarry and regional Australian transport routes, causing asset blind spots and safety reporting gaps.</p>
-                </div>
-                <div class="story-block">
-                  <h4 class="block-label"><i class="fa-solid fa-lightbulb"></i> Engineering Solution</h4>
-                  <p class="block-text">Engineered low-power telemetry nodes processing diagnostics locally before queue transmission to AWS IoT Core with instantaneous failover syncing.</p>
-                </div>
+              <div class="metric-item">
+                <span class="metric-value">-32%</span>
+                <span class="metric-label">Unplanned Downtime</span>
               </div>
-
-              <div class="cs-kpi-grid">
-                <div class="kpi-card">
-                  <span class="kpi-num">100%</span>
-                  <span class="kpi-desc">Route Coverage</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">$840K</span>
-                  <span class="kpi-desc">Annual Cost Saved</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">99.99%</span>
-                  <span class="kpi-desc">Uptime Guarantee</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">5×</span>
-                  <span class="kpi-desc">Faster Dispatch</span>
-                </div>
+              <div class="metric-item">
+                <span class="metric-value">&lt;50ms</span>
+                <span class="metric-label">Latency Stream</span>
               </div>
-
-              <div class="cs-tech-section">
-                <span class="tech-label">TECHNOLOGY STACK</span>
-                <div class="cs-tech-pills">
-                  <span class="tech-pill">Next.js</span>
-                  <span class="tech-pill">Node.js</span>
-                  <span class="tech-pill">PostgreSQL</span>
-                  <span class="tech-pill">AWS IoT</span>
-                  <span class="tech-pill">Redis</span>
-                  <span class="tech-pill">Docker</span>
-                </div>
-              </div>
-
-              <div class="cs-timeline-section">
-                <span class="timeline-label">DELIVERY TIMELINE</span>
-                <div class="cs-timeline-flow">
-                  <div class="tl-step"><span class="tl-dot"></span><span>Discovery</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Architecture</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Development</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Deployment</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Support</span></div>
-                </div>
-              </div>
-
-              <div class="cs-info-strip">
-                <div class="info-item"><i class="fa-solid fa-truck"></i> <span>Logistics</span></div>
-                <div class="info-item"><i class="fa-solid fa-location-dot"></i> <span>Australia</span></div>
-                <div class="info-item"><i class="fa-solid fa-clock"></i> <span>5 Months</span></div>
-                <div class="info-item"><i class="fa-solid fa-users"></i> <span>6 Engineers</span></div>
-              </div>
-
-              <div class="cs-action-row">
-                <a href="#contact" class="btn btn-cs-primary">View Full Case Study <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#contact" class="btn btn-cs-secondary">Schedule Consultation <i class="fa-solid fa-calendar-check"></i></a>
-              </div>
-
             </div>
+
+            <div class="cs-tech-pills">
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">Go</span>
+              <span class="tech-pill">TimescaleDB</span>
+              <span class="tech-pill">MQTT</span>
+              <span class="tech-pill">Docker</span>
+            </div>
+
+            <div class="cs-cta-wrap">
+              <a href="#contact" class="btn-cs-action">
+                View Case Study <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
           </div>
 
         </div>
       </article>
 
       <!-- ============================================================
-           CASE STUDY 03: GovTech Digital Portal (Government & Public)
+           CASE STUDY 03: GovTech Digital Portal
            ============================================================ -->
-      <article class="cs-panel-wrapper" id="cs-panel-2">
-        <div class="cs-panel-grid">
+      <article class="cs-min-panel" id="cs-2">
+        <div class="cs-min-grid">
           
-          <!-- LEFT 55%: Visual Presentation Area -->
-          <div class="cs-visual-side">
-            <div class="cs-presentation-frame">
-              <div class="frame-bg-glow"></div>
-              <div class="frame-blueprint-grid"></div>
-
-              <div class="frame-image-box">
-                <img src="https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1000&q=80" alt="GovTech Digital Portal" class="cs-showcase-img">
-              </div>
-
-              <div class="cs-floating-metric metric-top-right">
-                <div class="metric-icon-box"><i class="fa-solid fa-shield-check"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val">ISO 27001</span>
-                  <span class="metric-lbl">Security Certified</span>
-                </div>
-              </div>
-
-              <div class="cs-floating-metric metric-mid-left">
-                <div class="metric-icon-box"><i class="fa-solid fa-user-check"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val">2.4M</span>
-                  <span class="metric-lbl">Users Served</span>
-                </div>
-              </div>
-
-              <div class="cs-floating-metric metric-bottom-right">
-                <div class="metric-icon-box"><i class="fa-solid fa-award"></i></div>
-                <div class="metric-data">
-                  <span class="metric-val">100%</span>
-                  <span class="metric-lbl">Audit Accuracy</span>
-                </div>
-              </div>
-
+          <div class="cs-min-media">
+            <div class="cs-img-frame">
+              <img src="assets/images/project_ledgerhub.png" alt="GovTech Digital Portal" class="cs-project-img">
             </div>
           </div>
 
-          <!-- RIGHT 45%: Business Story Content Panel -->
-          <div class="cs-content-side">
-            <div class="cs-story-card">
-              
-              <div class="cs-category-badge">
-                <i class="fa-solid fa-landmark"></i> GOVERNMENT & PUBLIC
+          <div class="cs-min-content">
+            <span class="cs-tag-category">GOVERNMENT & ENTERPRISE</span>
+            <h3 class="cs-project-headline">High-Security Citizen Portal & Compliance Architecture</h3>
+            
+            <p class="cs-project-description">
+              Architected a zero-trust citizen identity and document submission hub aligned with ISO 27001 and Australian IRAP cloud security standards.
+            </p>
+
+            <div class="cs-metrics-row">
+              <div class="metric-item">
+                <span class="metric-value">100%</span>
+                <span class="metric-label">IRAP Compliant</span>
               </div>
-
-              <h3 class="cs-story-headline">
-                Bank-Grade Public Digital Forms & Governance Architecture
-              </h3>
-
-              <div class="cs-story-blocks">
-                <div class="story-block">
-                  <h4 class="block-label"><i class="fa-solid fa-triangle-exclamation"></i> Business Challenge</h4>
-                  <p class="block-text">Legacy paper-based public submission workflows caused heavy processing backlogs, compliance friction, and security audit vulnerabilities.</p>
-                </div>
-                <div class="story-block">
-                  <h4 class="block-label"><i class="fa-solid fa-lightbulb"></i> Engineering Solution</h4>
-                  <p class="block-text">Architected an ISO 27001-aligned digital submission platform with instant document parsing, encrypted storage, and real-time audit logging.</p>
-                </div>
+              <div class="metric-item">
+                <span class="metric-value">2.4M</span>
+                <span class="metric-label">Users Served</span>
               </div>
-
-              <div class="cs-kpi-grid">
-                <div class="kpi-card">
-                  <span class="kpi-num">-80%</span>
-                  <span class="kpi-desc">Paperwork Reduction</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">100%</span>
-                  <span class="kpi-desc">ISO Security Aligned</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">24/7</span>
-                  <span class="kpi-desc">Public Accessibility</span>
-                </div>
-                <div class="kpi-card">
-                  <span class="kpi-num">4×</span>
-                  <span class="kpi-desc">Faster Approval</span>
-                </div>
+              <div class="metric-item">
+                <span class="metric-value">0</span>
+                <span class="metric-label">Security Breaches</span>
               </div>
-
-              <div class="cs-tech-section">
-                <span class="tech-label">TECHNOLOGY STACK</span>
-                <div class="cs-tech-pills">
-                  <span class="tech-pill">React</span>
-                  <span class="tech-pill">TypeScript</span>
-                  <span class="tech-pill">NestJS</span>
-                  <span class="tech-pill">PostgreSQL</span>
-                  <span class="tech-pill">Azure</span>
-                  <span class="tech-pill">Docker</span>
-                </div>
-              </div>
-
-              <div class="cs-timeline-section">
-                <span class="timeline-label">DELIVERY TIMELINE</span>
-                <div class="cs-timeline-flow">
-                  <div class="tl-step"><span class="tl-dot"></span><span>Discovery</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Architecture</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Development</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Deployment</span></div>
-                  <div class="tl-step"><span class="tl-dot"></span><span>Support</span></div>
-                </div>
-              </div>
-
-              <div class="cs-info-strip">
-                <div class="info-item"><i class="fa-solid fa-building-columns"></i> <span>Government</span></div>
-                <div class="info-item"><i class="fa-solid fa-location-dot"></i> <span>Australia</span></div>
-                <div class="info-item"><i class="fa-solid fa-clock"></i> <span>8 Months</span></div>
-                <div class="info-item"><i class="fa-solid fa-users"></i> <span>10 Engineers</span></div>
-              </div>
-
-              <div class="cs-action-row">
-                <a href="#contact" class="btn btn-cs-primary">View Full Case Study <i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#contact" class="btn btn-cs-secondary">Schedule Consultation <i class="fa-solid fa-calendar-check"></i></a>
-              </div>
-
             </div>
+
+            <div class="cs-tech-pills">
+              <span class="tech-pill">Next.js</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">Kubernetes</span>
+              <span class="tech-pill">Azure</span>
+            </div>
+
+            <div class="cs-cta-wrap">
+              <a href="#contact" class="btn-cs-action">
+                View Case Study <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
           </div>
 
         </div>
       </article>
 
-    </div>
-
-    <!-- Bottom Showcase Banner -->
-    <div class="cs-bottom-banner" data-aos="fade-up">
-      <div class="cs-banner-text">
-        <h3>Ready to Engineer Your Enterprise Success Story?</h3>
-        <p>Partner with Australia's premier software engineering squad to build scalable digital infrastructure.</p>
-      </div>
-      <div class="cs-banner-actions">
-        <a href="#contact" class="btn btn-cs-primary">Start Your Transformation <i class="fa-solid fa-arrow-right"></i></a>
-        <a href="#contact" class="btn btn-cs-secondary">Talk to an Architect <i class="fa-solid fa-comments"></i></a>
-      </div>
     </div>
 
   </div>
 </section>
 
-<!-- Tab Navigation & Counter Script -->
+<!-- Tab Switcher Script -->
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const tabs = document.querySelectorAll(".cs-selector-btn");
-  const panels = document.querySelectorAll(".cs-panel-wrapper");
+  const tabs = document.querySelectorAll(".cs-tab-btn");
+  const panels = document.querySelectorAll(".cs-min-panel");
 
-  tabs.forEach((tab, index) => {
+  tabs.forEach(tab => {
     tab.addEventListener("click", () => {
+      const targetId = tab.getAttribute("data-target");
+
       tabs.forEach(t => t.classList.remove("active"));
       panels.forEach(p => p.classList.remove("active"));
 
       tab.classList.add("active");
-      if (panels[index]) {
-        panels[index].classList.add("active");
+      const targetPanel = document.getElementById(targetId);
+      if (targetPanel) {
+        targetPanel.classList.add("active");
       }
     });
   });
@@ -466,629 +219,279 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <!-- ============================================================
-     SUCCESS STORIES SCOPED STYLES
+     MINIMALIST CASE STUDIES SCOPED STYLES
      ============================================================ -->
 <style>
-/* ── Section Shell (Ultra-Compacted for Single Desktop Viewport Frame) ── */
-.cs-showcase-section {
+/* Section Shell (Light Enterprise Theme) */
+.cs-minimalist-section {
   position: relative;
-  padding: 30px 40px;
-  background-color: #FFFFFF;
+  padding: 100px 0;
+  background-color: #F8FAFC;
   overflow: hidden;
 }
 
-/* ── Background Layers ── */
-.cs-bg-layers {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.cs-bg-grid {
-  position: absolute;
-  inset: 0;
-  background-size: 30px 30px;
-  background-image:
-    linear-gradient(to right, rgba(226, 232, 240, 0.4) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(226, 232, 240, 0.4) 1px, transparent 1px);
-}
-
-.cs-radial-glow {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  border-radius: 50%;
-  filter: blur(240px);
-  opacity: 0.1;
-}
-
-.cs-radial-glow--purple { top: 10%; left: -10%; background: #6D28FF; }
-.cs-radial-glow--blue   { bottom: 10%; right: -10%; background: #3B82F6; }
-
-/* ── Header (Ultra-Compact) ── */
-.cs-section-header {
+/* Header */
+.cs-min-header {
   text-align: center;
-  max-width: 720px;
-  margin: 0 auto 12px auto;
-  position: relative;
-  z-index: 5;
+  max-width: 760px;
+  margin: 0 auto 36px auto;
 }
 
-.cs-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 2px 10px;
-  background-color: transparent;
-  border: 1.5px solid #6D28FF;
+.cs-min-badge {
+  display: inline-block;
+  padding: 6px 18px;
+  border: 1.5px solid rgba(109, 40, 255, 0.3);
   border-radius: 100px;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #6D28FF;
-  margin-bottom: 4px;
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #6A1BFF;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  background: rgba(109, 40, 255, 0.04);
 }
 
-.cs-section-title {
+.cs-min-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(20px, 1.8vw, 26px);
+  font-size: clamp(34px, 3.6vw, 48px);
   font-weight: 800;
   line-height: 1.15;
   color: #0F172A;
+  margin-bottom: 16px;
   letter-spacing: -0.02em;
-  margin-bottom: 4px;
 }
 
-.cs-section-subtitle {
-  font-size: 13.5px;
-  line-height: 1.35;
-  color: #475569;
+.cs-min-subtitle {
+  font-size: 16px;
+  line-height: 1.65;
+  color: #64748B;
+  margin: 0;
 }
 
-/* ── Selector Tabs (Ultra-Compact) ── */
-.cs-selector-tabs {
+/* Minimalist Filter Tabs */
+.cs-min-tabs {
   display: flex;
   justify-content: center;
-  gap: 8px;
-  margin-bottom: 16px;
-  position: relative;
-  z-index: 5;
+  gap: 12px;
+  margin-bottom: 48px;
   flex-wrap: wrap;
 }
 
-.cs-selector-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 14px;
+.cs-tab-btn {
+  height: 44px;
+  padding: 0 24px;
   border-radius: 100px;
-  background: #F8FAFC;
+  background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  color: #475569;
-  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
   font-weight: 700;
+  color: #475569;
   cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
   transition: all 250ms ease;
 }
 
-.cs-selector-btn:hover {
-  background: #FFFFFF;
-  border-color: #3B82F6;
-  color: #3B82F6;
-  transform: translateY(-2px);
+.cs-tab-btn:hover {
+  border-color: #0055FF;
+  color: #0055FF;
 }
 
-.cs-selector-btn.active {
-  background: #0F172A;
-  border-color: #0F172A;
+.cs-tab-btn.active {
+  background: #0055FF;
+  border-color: #0055FF;
   color: #FFFFFF;
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.16);
+  box-shadow: 0 6px 18px rgba(0, 85, 255, 0.35);
 }
 
-.cs-selector-btn.active i {
-  color: #3B82F6;
-}
-
-/* ── Panels Container ── */
-.cs-panels-container {
-  position: relative;
-  z-index: 5;
+/* Outer Card Wrap & Panels */
+.cs-min-panels-wrap {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
-.cs-panel-wrapper {
+.cs-min-panel {
   display: none;
-  opacity: 0;
-  transition: opacity 400ms ease;
 }
 
-.cs-panel-wrapper.active {
+.cs-min-panel.active {
   display: block;
-  opacity: 1;
 }
 
-/* 50% Visual / 50% Content Grid */
-.cs-panel-grid {
+.cs-min-grid {
   display: grid;
-  grid-template-columns: 48% calc(52% - 24px);
-  gap: 24px;
+  grid-template-columns: 50% calc(50% - 48px);
+  gap: 48px;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-/* ── Left Visual Side: Presentation Area (Ultra-Compact) ── */
-.cs-visual-side {
-  width: 100%;
-}
-
-.cs-presentation-frame {
-  position: relative;
-  width: 100%;
-  min-height: 290px;
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  border-radius: 18px;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.04);
-  box-sizing: border-box;
-}
-
-.frame-bg-glow {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(109, 40, 255, 0.08), transparent 70%);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-}
-
-.frame-blueprint-grid {
-  position: absolute;
-  inset: 0;
-  border-radius: 18px;
-  background-size: 18px 18px;
-  background-image:
-    linear-gradient(to right, rgba(226, 232, 240, 0.6) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(226, 232, 240, 0.6) 1px, transparent 1px);
-  pointer-events: none;
-}
-
-.frame-image-box {
-  position: relative;
-  z-index: 2;
-  width: 100%;
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-}
-
-.cs-showcase-img {
-  width: 100%;
-  height: 270px;
-  object-fit: cover;
-  display: block;
-  transition: transform 400ms ease;
-}
-
-.frame-image-box:hover .cs-showcase-img {
-  transform: scale(1.03);
-}
-
-/* Floating Metrics Cards (Ultra-Compact) */
-.cs-floating-metric {
-  position: absolute;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  padding: 4px 10px;
-  border-radius: 12px;
-  box-shadow: 0 8px 18px -4px rgba(15, 23, 42, 0.1);
-  transition: transform 250ms ease;
-  animation: metricFloat 4s ease-in-out infinite alternate;
-}
-
-@keyframes metricFloat {
-  0%   { transform: translateY(0px); }
-  100% { transform: translateY(-4px); }
-}
-
-.metric-top-right { top: -8px; right: 10px; animation-delay: 0s; }
-.metric-mid-left   { top: 50%; left: -10px; transform: translateY(-50%); animation-delay: 1.2s; }
-.metric-bottom-right { bottom: -8px; right: 12px; animation-delay: 0.6s; }
-
-.metric-icon-box {
-  width: 24px;
-  height: 24px;
-  border-radius: 6px;
-  background: rgba(109, 40, 255, 0.08);
-  color: #6D28FF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-}
-
-.metric-data {
-  display: flex;
-  flex-direction: column;
-}
-
-.metric-val {
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
-  font-weight: 800;
-  color: #0F172A;
-  line-height: 1;
-}
-
-.metric-lbl {
-  font-size: 9px;
-  font-weight: 600;
-  color: #64748B;
-}
-
-/* ── Right Content Side: Business Story Panel (Ultra-Compact) ── */
-.cs-content-side {
-  width: 100%;
-}
-
-.cs-story-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  border-radius: 18px;
-  padding: 16px 20px;
-  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.05);
-  box-sizing: border-box;
+  border-radius: 28px;
+  padding: 48px;
+  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.06);
 }
 
-.cs-category-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 10px;
+/* Left Image Frame */
+.cs-min-media {
+  width: 100%;
+}
+
+.cs-img-frame {
+  width: 100%;
+  height: 380px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+  background: #CBD5E1;
+}
+
+.cs-project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 500ms ease;
+}
+
+.cs-min-grid:hover .cs-project-img {
+  transform: scale(1.04);
+}
+
+/* Right Content */
+.cs-min-content {
+  text-align: left;
+}
+
+.cs-tag-category {
+  display: inline-block;
+  font-size: 12px;
   font-weight: 800;
-  color: #3B82F6;
-  text-transform: uppercase;
+  color: #0055FF;
   letter-spacing: 1px;
-  margin-bottom: 4px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
 }
 
-.cs-story-headline {
+.cs-project-headline {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(16px, 1.5vw, 20px);
+  font-size: clamp(24px, 2.2vw, 32px);
   font-weight: 800;
+  line-height: 1.25;
   color: #0F172A;
-  line-height: 1.2;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
 }
 
-/* Challenge & Solution Blocks */
-.cs-story-blocks {
+.cs-project-description {
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: #64748B;
+  margin-bottom: 28px;
+}
+
+/* 3 Minimalist Metrics */
+.cs-metrics-row {
+  display: flex;
+  gap: 32px;
+  padding: 20px 0;
+  border-top: 1px solid #F1F5F9;
+  border-bottom: 1px solid #F1F5F9;
+  margin-bottom: 24px;
+}
+
+.metric-item {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin-bottom: 10px;
 }
 
-.story-block {
-  background: #F8FAFC;
-  border-left: 3px solid #6D28FF;
-  padding: 6px 10px;
-  border-radius: 0 6px 6px 0;
-}
-
-.story-block:nth-child(2) {
-  border-left-color: #3B82F6;
-}
-
-.block-label {
-  font-size: 11px;
-  font-weight: 800;
-  color: #0F172A;
-  margin-bottom: 2px;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.block-text {
-  font-size: 12px;
-  line-height: 1.35;
-  color: #475569;
-}
-
-/* Business Impact KPI Grid */
-.cs-kpi-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 6px;
-  margin-bottom: 10px;
-}
-
-.kpi-card {
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  border-radius: 8px;
-  padding: 6px 4px;
-  text-align: center;
-  transition: transform 200ms ease;
-}
-
-.kpi-card:hover {
-  transform: translateY(-2px);
-  border-color: #3B82F6;
-}
-
-.kpi-num {
+.metric-value {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 26px;
   font-weight: 800;
-  color: #6D28FF;
-  display: block;
-  margin-bottom: 1px;
-}
-
-.kpi-desc {
-  font-size: 9.5px;
-  font-weight: 600;
-  color: #64748B;
+  color: #0055FF;
   line-height: 1.1;
-}
-
-/* Tech Stack Section */
-.cs-tech-section {
-  margin-bottom: 8px;
-}
-
-.tech-label {
-  font-size: 9.5px;
-  font-weight: 800;
-  color: #94A3B8;
-  letter-spacing: 0.6px;
-  display: block;
   margin-bottom: 4px;
 }
 
+.metric-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748B;
+}
+
+/* Tech Stack Pills */
 .cs-tech-pills {
   display: flex;
-  gap: 5px;
+  gap: 8px;
   flex-wrap: wrap;
+  margin-bottom: 32px;
 }
 
 .tech-pill {
-  padding: 2px 8px;
+  padding: 6px 14px;
+  border-radius: 100px;
   background: #F1F5F9;
-  border: 1px solid #E2E8F0;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #334155;
+}
+
+/* CTA Action Button */
+.btn-cs-action {
+  height: 48px;
+  padding: 0 28px;
   border-radius: 100px;
-  font-size: 10px;
-  font-weight: 700;
-  color: #0F172A;
-  transition: all 200ms ease;
-}
-
-.tech-pill:hover {
-  background: #FFFFFF;
-  border-color: #6D28FF;
-  color: #6D28FF;
-}
-
-/* Delivery Timeline */
-.cs-timeline-section {
-  margin-bottom: 10px;
-}
-
-.timeline-label {
-  font-size: 9.5px;
-  font-weight: 800;
-  color: #94A3B8;
-  letter-spacing: 0.6px;
-  display: block;
-  margin-bottom: 4px;
-}
-
-.cs-timeline-flow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  padding: 0 4px;
-}
-
-.cs-timeline-flow::before {
-  content: "";
-  position: absolute;
-  top: 4px;
-  left: 6px;
-  right: 6px;
-  height: 2px;
-  background: #E2E8F0;
-  z-index: 1;
-}
-
-.tl-step {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-  position: relative;
-  z-index: 2;
-  font-size: 9.5px;
-  font-weight: 700;
-  color: #475569;
-}
-
-.tl-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #3B82F6;
-  border: 1.5px solid #FFFFFF;
-}
-
-/* Client Info Strip */
-.cs-info-strip {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #F8FAFC;
-  border-radius: 8px;
-  padding: 6px 10px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.info-item {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 11px;
-  font-weight: 700;
-  color: #0F172A;
-}
-
-.info-item i {
-  color: #6D28FF;
-}
-
-/* Actions Row */
-.cs-action-row {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.btn-cs-primary {
-  height: 36px;
-  padding: 0 16px;
-  border-radius: 100px;
-  background: linear-gradient(135deg, #6D28FF, #3B82F6);
+  background: linear-gradient(135deg, #0055FF 0%, #6A1BFF 100%);
   color: #FFFFFF;
-  font-size: 12px;
-  font-weight: 700;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  border: none;
-  box-shadow: 0 3px 10px rgba(109, 40, 255, 0.2);
-  transition: all 250ms ease;
-}
-
-.btn-cs-primary:hover {
-  box-shadow: 0 5px 16px rgba(109, 40, 255, 0.35);
-  transform: translateY(-2px);
-  color: #FFFFFF;
-}
-
-.btn-cs-secondary {
-  height: 36px;
-  padding: 0 16px;
-  border-radius: 100px;
-  background: #FFFFFF;
-  border: 1.5px solid #3B82F6;
-  color: #0F172A;
-  font-size: 12px;
-  font-weight: 700;
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  transition: all 250ms ease;
-}
-
-.btn-cs-secondary:hover {
-  background: rgba(59, 130, 246, 0.08);
-  border-color: #2563EB;
-  color: #3B82F6;
-  transform: translateY(-2px);
-}
-
-/* ── Bottom Banner (Ultra-Compact) ── */
-.cs-bottom-banner {
-  width: 100%;
-  max-width: 1440px;
-  margin: 30px auto 0 auto;
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  border-radius: 18px;
-  padding: 20px 28px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.04);
-  position: relative;
-  z-index: 5;
-  box-sizing: border-box;
-}
-
-.cs-banner-text h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 17px;
-  font-weight: 800;
-  color: #0F172A;
-  margin-bottom: 2px;
-}
-
-.cs-banner-text p {
-  font-size: 13px;
-  color: #475569;
-}
-
-.cs-banner-actions {
-  display: flex;
+  font-size: 14.5px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
   gap: 10px;
-  flex-shrink: 0;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0, 85, 255, 0.3);
+  transition: all 250ms ease;
 }
 
-/* ── Responsive Breakpoints ── */
+.btn-cs-action:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0, 85, 255, 0.45);
+  color: #FFFFFF;
+}
+
+/* Responsive */
 @media (max-width: 1199px) {
-  .cs-panel-grid {
+  .cs-min-grid {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 40px;
+    padding: 32px;
   }
 
-  .cs-bottom-banner {
-    flex-direction: column;
-    text-align: center;
-    gap: 24px;
-    padding: 32px 24px;
+  .cs-img-frame {
+    height: 300px;
   }
 }
 
 @media (max-width: 767px) {
-  .cs-showcase-section {
-    padding: 80px 20px;
+  .cs-minimalist-section {
+    padding: 60px 0;
   }
 
-  .cs-story-card {
-    padding: 28px 20px;
+  .cs-min-panels-wrap {
+    padding: 0 20px;
   }
 
-  .cs-kpi-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .cs-min-grid {
+    padding: 24px 20px;
   }
 
-  .cs-banner-actions {
+  .cs-project-headline {
+    font-size: 22px;
+  }
+
+  .cs-metrics-row {
     flex-direction: column;
-    width: 100%;
-  }
-
-  .cs-banner-actions .btn {
-    width: 100%;
+    gap: 16px;
   }
 }
 </style>
