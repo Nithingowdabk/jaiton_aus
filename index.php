@@ -15,7 +15,6 @@ include_once 'components/hero.php';
 include_once 'components/trusted.php';
 include_once 'components/why-jaiton.php';
 include_once 'components/industries.php';
-include_once 'components/technologies.php';
 include_once 'components/featured.php';
 include_once 'components/global-presence.php';
 include_once 'components/cta.php';
