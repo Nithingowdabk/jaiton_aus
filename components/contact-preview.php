@@ -1,257 +1,309 @@
-<!-- Direct Enterprise Contact & Global Office Hub Section -->
-<section id="contact" class="contact-section">
+<!-- ============================================================
+     CONTACT FORM SECTION – (Have Any Project Plan In Your Mind Style)
+     ============================================================ -->
+<section id="contact" class="inquiry-form-section">
+  
   <div class="container">
     
-    <!-- Section Header (Centered) -->
-    <div class="contact-header-center" data-aos="fade-up">
-      <span class="section-badge">Direct Contact Hub</span>
-      <h2 class="section-title">Connect with Our Engineering Directors</h2>
-      <p class="section-desc">
-        Direct phone lines, local office addresses, and instant 30-minute strategy call scheduling for Australian enterprise clients.
-      </p>
-    </div>
+    <!-- Outer White Glass Card Container -->
+    <div class="inquiry-card-outer" data-aos="fade-up">
+      <div class="inquiry-grid">
+        
+        <!-- ============================================================
+             LEFT COLUMN: Get In Touch Script, Title & Direct Channels
+             ============================================================ -->
+        <div class="inquiry-left-content">
+          
+          <span class="script-accent-badge">Get In touch</span>
 
-    <!-- 3-Column Office & Booking Cards Grid -->
-    <div class="contact-hub-grid" data-aos="fade-up" data-aos-delay="100">
-      
-      <!-- Card 1: Sydney HQ -->
-      <div class="contact-office-card glass-panel">
-        <div class="office-card-header">
-          <span class="flag-emoji">🇦🇺</span>
-          <div>
-            <h4>Sydney Headquarters</h4>
-            <span class="office-subtag">Corporate Governance & Strategy</span>
+          <h2 class="inquiry-title">
+            Have any Project Plan In your Mind?
+          </h2>
+
+          <p class="inquiry-desc">
+            Tell us about your upcoming software, AI, or cloud roadmap. Our team will schedule a 30-minute architecture audit and deliver scoping details for your project.
+          </p>
+
+          <!-- Direct Contact Detail Rows -->
+          <div class="direct-contact-channels">
+            
+            <!-- Phone Row -->
+            <div class="contact-channel-item">
+              <div class="channel-icon-circle">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">For urgent help</span>
+                <a href="tel:+61468403743" class="channel-value">+61 468 403 743</a>
+              </div>
+            </div>
+
+            <!-- Email Row -->
+            <div class="contact-channel-item">
+              <div class="channel-icon-circle">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="channel-text">
+                <span class="channel-label">Mail us 24/7</span>
+                <a href="mailto:sydney@jaiton.com" class="channel-value">sydney@jaiton.com</a>
+              </div>
+            </div>
+
           </div>
-        </div>
-        <p class="office-address"><i class="fa-solid fa-location-dot text-purple"></i> Level 14, 275 Alfred St, North Sydney NSW 2060</p>
-        <div class="office-contact-details">
-          <a href="tel:+61468403743" class="contact-link"><i class="fa-solid fa-phone"></i> +61 468 403 743</a>
-          <a href="mailto:sydney@jaiton.com" class="contact-link"><i class="fa-solid fa-envelope"></i> sydney@jaiton.com</a>
-        </div>
-      </div>
 
-      <!-- Card 2: Bangalore R&D -->
-      <div class="contact-office-card glass-panel">
-        <div class="office-card-header">
-          <span class="flag-emoji">🇮🇳</span>
-          <div>
-            <h4>Bangalore R&D Center</h4>
-            <span class="office-subtag">AI & Cloud Engineering Hub</span>
-          </div>
         </div>
-        <p class="office-address"><i class="fa-solid fa-location-dot text-blue"></i> Prestige Trade Tower, Palace Rd, Bengaluru 560001</p>
-        <div class="office-contact-details">
-          <a href="tel:+918040927700" class="contact-link"><i class="fa-solid fa-phone"></i> +91 80 4092 7700</a>
-          <a href="mailto:india@jaiton.com" class="contact-link"><i class="fa-solid fa-envelope"></i> india@jaiton.com</a>
-        </div>
-      </div>
 
-      <!-- Card 3: Instant Calendar Workshop Booking -->
-      <div class="contact-office-card glass-panel calendar-hub-card">
-        <div class="calendar-header-wrap">
-          <i class="fa-solid fa-calendar-check text-purple"></i>
-          <div>
-            <h4>Instant Strategy Slot</h4>
-            <span class="office-subtag">30-Min Architecture Consultation</span>
-          </div>
-        </div>
-        <p class="calendar-desc">Select a slot to automatically schedule with our lead solution architect:</p>
-        <div class="calendar-slots-grid">
-          <button class="calendar-slot-btn" data-time="Tomorrow, 10:00 AM">Tomorrow <br><strong>10:00 AM AEST</strong></button>
-          <button class="calendar-slot-btn" data-time="Tomorrow, 2:00 PM">Tomorrow <br><strong>2:00 PM AEST</strong></button>
-          <button class="calendar-slot-btn" data-time="Wednesday, 11:00 AM">Wednesday <br><strong>11:00 AM AEST</strong></button>
-        </div>
-        <div class="calendar-alert" id="calendar-confirmation"></div>
-      </div>
+        <!-- ============================================================
+             RIGHT COLUMN: Clean Light Form Controls & Submit Button
+             ============================================================ -->
+        <div class="inquiry-right-form">
+          <form class="project-inquiry-form" onsubmit="event.preventDefault(); alert('Thank you! Your project request has been received. Our team will contact you shortly.');">
+            
+            <!-- Field 1: Your Name -->
+            <div class="form-group-item">
+              <label class="form-field-label">Your Name</label>
+              <input type="text" class="form-input-light" placeholder="e.g. John Doe" required>
+            </div>
 
+            <!-- Field 2: Email Address -->
+            <div class="form-group-item">
+              <label class="form-field-label">Email Address</label>
+              <input type="email" class="form-input-light" placeholder="e.g. john@company.com" required>
+            </div>
+
+            <!-- Field 3: How can help you? -->
+            <div class="form-group-item">
+              <label class="form-field-label">How can help you?</label>
+              <textarea class="form-textarea-light" rows="4" placeholder="Describe your product requirements, stack preferences, or roadmap..." required></textarea>
+            </div>
+
+            <!-- Full-Width Submit Button -->
+            <button type="submit" class="btn-submit-now">
+              Submit Now
+            </button>
+
+          </form>
+        </div>
+
+      </div>
     </div>
 
   </div>
 </section>
 
-<!-- Scoped Styles for Contact Preview Section -->
+<!-- ============================================================
+     INQUIRY FORM SCOPED STYLES
+     ============================================================ -->
 <style>
-.contact-section {
-  padding: 90px 0;
-  background-color: var(--light-bg);
+/* Section Shell (Light Enterprise Theme) */
+.inquiry-form-section {
   position: relative;
+  padding: 100px 0;
+  background-color: #F8FAFC;
   overflow: hidden;
 }
 
-.contact-header-center {
-  text-align: center;
-  max-width: 760px;
-  margin: 0 auto 50px auto;
-}
-
-.contact-hub-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+/* Outer White Glass Card */
+.inquiry-card-outer {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 28px;
+  padding: 70px 60px;
   max-width: 1440px;
   margin: 0 auto;
+  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.06);
+  position: relative;
+  z-index: 5;
 }
 
-.contact-office-card {
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-lg);
-  padding: 32px;
-  box-shadow: var(--shadow-sm);
+.inquiry-grid {
+  display: grid;
+  grid-template-columns: 48% calc(52% - 48px);
+  gap: 48px;
+  align-items: center;
+}
+
+/* ── LEFT COLUMN ── */
+.inquiry-left-content {
+  text-align: left;
+}
+
+.script-accent-badge {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 600;
+  color: #6A1BFF;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.inquiry-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(34px, 3.5vw, 48px);
+  font-weight: 800;
+  line-height: 1.18;
+  color: #0F172A;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+}
+
+.inquiry-desc {
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: #64748B;
+  margin-bottom: 36px;
+  max-width: 520px;
+}
+
+/* Direct Contact Channels */
+.direct-contact-channels {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  transition: all var(--transition-fast);
+  gap: 24px;
 }
 
-.contact-office-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--primary-purple);
-}
-
-.office-card-header {
+.contact-channel-item {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 18px;
+  gap: 16px;
 }
 
-.flag-emoji {
-  font-size: 32px;
+.channel-icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #EBE6FF;
+  color: #6A1BFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
 }
 
-.office-card-header h4 {
-  font-size: 1.15rem;
-  font-weight: 800;
-  color: var(--dark-navy);
+.channel-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #64748B;
   margin-bottom: 2px;
 }
 
-.office-subtag {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--primary-purple);
+.channel-value {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0F172A;
+  text-decoration: none;
+  transition: color 200ms ease;
 }
 
-.office-address {
-  font-size: 0.9rem;
-  color: var(--secondary-text);
-  line-height: 1.5;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
+.channel-value:hover {
+  color: #6A1BFF;
 }
 
-.office-address i {
-  margin-top: 4px;
+/* ── RIGHT COLUMN: FORM CONTROLS ── */
+.inquiry-right-form {
+  width: 100%;
 }
 
-.office-contact-details {
+.project-inquiry-form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  border-top: 1px solid var(--border-color);
-  padding-top: 16px;
+  gap: 22px;
+  text-align: left;
 }
 
-.contact-link {
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: var(--dark-navy);
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: color var(--transition-fast);
-}
-
-.contact-link:hover {
-  color: var(--primary-purple);
-}
-
-.contact-link i {
-  color: var(--primary-purple);
-}
-
-/* Calendar Hub Specific */
-.calendar-hub-card {
-  background: var(--white);
-}
-
-.calendar-header-wrap {
+.form-group-item {
   display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 14px;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.calendar-header-wrap i {
-  font-size: 2rem;
-}
-
-.calendar-desc {
-  font-size: 0.85rem;
-  color: var(--secondary-text);
-  margin-bottom: 16px;
-}
-
-.calendar-slots-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.calendar-slot-btn {
-  background-color: var(--light-bg);
-  border: 1px solid var(--border-color);
-  border-radius: 8px;
-  padding: 10px 6px;
-  cursor: pointer;
-  font-size: 0.75rem;
-  color: var(--secondary-text);
-  transition: all var(--transition-fast);
-  text-align: center;
-}
-
-.calendar-slot-btn:hover {
-  border-color: var(--primary-purple);
-  background-color: rgba(109, 40, 255, 0.06);
-  color: var(--primary-purple);
-}
-
-.calendar-slot-btn strong {
-  font-size: 0.8rem;
-  color: var(--dark-navy);
-}
-
-.calendar-alert {
-  margin-top: 14px;
-  font-size: 0.82rem;
+.form-field-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
   font-weight: 700;
-  color: #10B981;
+  color: #334155;
+}
+
+.form-input-light,
+.form-textarea-light {
+  width: 100%;
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  padding: 14px 18px;
+  font-size: 15px;
+  color: #0F172A;
+  outline: none;
+  transition: all 250ms ease;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.form-input-light:focus,
+.form-textarea-light:focus {
+  background: #FFFFFF;
+  border-color: #6A1BFF;
+  box-shadow: 0 0 0 4px rgba(106, 27, 255, 0.1);
+}
+
+.form-textarea-light {
+  resize: vertical;
+}
+
+/* Submit Now Button */
+.btn-submit-now {
+  width: 100%;
+  height: 54px;
+  border-radius: 12px;
+  background: #6A1BFF;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(106, 27, 255, 0.35);
+  transition: all 250ms ease;
+  margin-top: 6px;
+}
+
+.btn-submit-now:hover {
+  background: #5713DB;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(106, 27, 255, 0.5);
 }
 
 /* Responsive */
 @media (max-width: 1199px) {
-  .contact-hub-grid {
+  .inquiry-grid {
     grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .inquiry-card-outer {
+    padding: 50px 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .inquiry-form-section {
+    padding: 60px 0;
+  }
+
+  .inquiry-card-outer {
+    padding: 32px 20px;
+  }
+
+  .inquiry-title {
+    font-size: 28px;
   }
 }
 </style>
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const slotBtns = document.querySelectorAll(".calendar-slot-btn");
-  const alertBox = document.getElementById("calendar-confirmation");
-
-  slotBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const timeSlot = btn.getAttribute("data-time");
-      if (alertBox) {
-        alertBox.innerHTML = `<i class="fa-solid fa-circle-check"></i> Strategy slot selected: <strong>${timeSlot}</strong>. Our team will email confirmation.`;
-      }
-    });
-  });
-});
-</script>
