@@ -71,79 +71,12 @@
       </div>
 
       <!-- ============================================================
-           RIGHT COLUMN (48%): Modern 2D Vector Enterprise Tech Illustration
+           RIGHT COLUMN (48%): Minimalist Enterprise Tech Illustration
            ============================================================ -->
       <div class="hero-right-illustration" data-aos="fade-left" data-aos-duration="900">
         <div class="illustration-card-wrapper">
           
-          <svg viewBox="0 0 600 520" class="hero-vector-art" aria-hidden="true">
-            <defs>
-              <linearGradient id="pieGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#0055FF"/>
-                <stop offset="100%" stop-color="#0033CC"/>
-              </linearGradient>
-              <linearGradient id="pieGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#6A1BFF"/>
-                <stop offset="100%" stop-color="#A275FF"/>
-              </linearGradient>
-              <linearGradient id="boxGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#0055FF"/>
-                <stop offset="100%" stop-color="#0033BB"/>
-              </linearGradient>
-              <linearGradient id="boxGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#FF9500"/>
-                <stop offset="100%" stop-color="#FF5E00"/>
-              </linearGradient>
-
-              <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-                <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#002B80" flood-opacity="0.12"/>
-              </filter>
-            </defs>
-
-            <!-- Background Atmosphere Rings & Grid Dots -->
-            <circle cx="300" cy="260" r="220" fill="none" stroke="rgba(13, 110, 253, 0.08)" stroke-width="1.5" stroke-dasharray="6 6"/>
-            <circle cx="300" cy="260" r="160" fill="none" stroke="rgba(106, 27, 255, 0.06)" stroke-width="1.5"/>
-
-            <!-- Floating Data Pie Chart Graphic -->
-            <g transform="translate(350, 110)" filter="url(#softShadow)">
-              <path d="M 0 0 L 0 -70 A 70 70 0 0 1 65 -25 Z" fill="url(#pieGrad1)"/>
-              <path d="M 0 0 L 65 -25 A 70 70 0 1 1 0 -70 Z" fill="url(#pieGrad2)"/>
-              <circle cx="0" cy="0" r="30" fill="#FFFFFF"/>
-            </g>
-
-            <!-- Base Block Structures -->
-            <g transform="translate(380, 270)">
-              <!-- Blue Base Platform Block -->
-              <rect x="-80" y="0" width="160" height="150" rx="12" fill="url(#boxGrad1)"/>
-              <!-- Orange Platform Accent Block -->
-              <rect x="70" y="-40" width="90" height="100" rx="10" fill="url(#boxGrad2)"/>
-            </g>
-
-            <!-- Vector Character (Engineer Inspecting Data Analytics) -->
-            <g transform="translate(320, 100)">
-              <!-- Torso / Blue Outfit -->
-              <path d="M 90 90 Q 110 90 120 120 L 140 210 Q 120 220 90 220 L 60 190 Z" fill="#0044CC"/>
-              <!-- Legs & Pants -->
-              <path d="M 90 220 L 130 310 L 80 310 L 60 220 Z" fill="#1E293B"/>
-              <path d="M 120 220 L 160 310 L 130 310 L 95 220 Z" fill="#0F172A"/>
-              <!-- Shoes -->
-              <ellipse cx="65" cy="315" rx="20" ry="8" fill="#F8FAFC" stroke="#CBD5E1"/>
-              <ellipse cx="145" cy="315" rx="20" ry="8" fill="#F8FAFC" stroke="#CBD5E1"/>
-              <!-- Head & Hair -->
-              <circle cx="100" cy="55" r="22" fill="#1E293B"/>
-              <circle cx="108" cy="40" r="14" fill="#1E293B"/> <!-- Hair Bun -->
-              <circle cx="95" cy="60" r="14" fill="#FED7AA"/> <!-- Face -->
-              <!-- Arm Pointing to Data Chart -->
-              <path d="M 75 120 Q 40 100 15 80 Q 25 70 50 85 Z" fill="#FED7AA"/>
-              <path d="M 85 115 L 45 85 L 60 75 L 100 110 Z" fill="#0044CC"/>
-            </g>
-
-            <!-- Floating Tech Sparkles & Decorative Accent Particles -->
-            <circle cx="120" cy="180" r="4" fill="#3B82F6"/>
-            <circle cx="480" cy="180" r="3" fill="#6A1BFF"/>
-            <circle cx="160" cy="340" r="5" fill="#FF9500"/>
-            <path d="M 420 80 Q 430 90 440 80" stroke="#0055FF" stroke-width="3" stroke-linecap="round" fill="none"/>
-          </svg>
+          <img src="assets/images/hero-minimalist-illustration.png" alt="Minimalist Enterprise Data Science & Software Engineering" class="hero-minimalist-art-img">
 
           <!-- Floating Metric Badges -->
           <div class="hero-float-chip chip-left" data-aos="zoom-in" data-aos-delay="200">
@@ -349,7 +282,7 @@
   transform: translateY(-2px);
 }
 
-/* ── Right Column Vector Illustration & Floating Badges ── */
+/* ── Right Column Minimalist Illustration ── */
 .hero-right-illustration {
   width: 100%;
 }
@@ -362,11 +295,12 @@
   align-items: center;
 }
 
-.hero-vector-art {
+.hero-minimalist-art-img {
   width: 100%;
-  max-width: 540px;
+  max-width: 520px;
   height: auto;
   display: block;
+  filter: drop-shadow(0 16px 36px rgba(0, 43, 128, 0.08));
 }
 
 /* Floating Metric Badges */
@@ -390,14 +324,14 @@
 }
 
 .chip-left {
-  top: 15%;
-  left: 0;
+  top: 10%;
+  left: -20px;
   animation-delay: 0s;
 }
 
 .chip-right {
-  bottom: 12%;
-  right: 5%;
+  bottom: 8%;
+  right: 0;
   animation-delay: 1.8s;
 }
 
