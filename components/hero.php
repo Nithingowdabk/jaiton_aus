@@ -1,109 +1,164 @@
 <!-- ============================================================
-     HERO SECTION – Premium 2-Column Layout with Background Video & Image Grid
+     HERO SECTION – Premium Light Enterprise 2-Column Layout (Tekni Style)
      ============================================================ -->
 <section id="hero" class="hero-section">
   
-  <!-- Full-Width Background Video Layer with Dark Overlay -->
-  <div class="hero-bg-layers">
-    <div class="hero-video-container">
-      <video autoplay loop muted playsinline class="hero-bg-video">
-        <source src="assets/video/hero.mp4" type="video/mp4">
-      </video>
-    </div>
-    <!-- Dark overlay for maximum text contrast and legibility -->
-    <div class="hero-video-overlay"></div>
-    <div class="hero-bg-grid"></div>
+  <!-- Clean Light Enterprise Background Layers with Soft Glows & Curved Backdrop -->
+  <div class="hero-bg-backdrop" aria-hidden="true">
+    <div class="hero-soft-glow glow-purple"></div>
+    <div class="hero-soft-glow glow-blue"></div>
+    <svg class="hero-curved-shape" viewBox="0 0 1440 900" fill="none" preserveAspectRatio="none">
+      <path d="M750 0C900 150 1100 200 1440 100V900H0V0H750Z" fill="rgba(239, 246, 255, 0.6)"/>
+      <path d="M850 0C1050 220 1200 350 1440 300V900H650C750 600 800 200 850 0Z" fill="rgba(109, 40, 255, 0.03)"/>
+    </svg>
   </div>
 
   <!-- Hero Container -->
-  <div class="hero-container">
+  <div class="container hero-container">
     <div class="hero-grid">
       
-      <!-- LEFT COLUMN (52%): Headline, Checklist & CTAs -->
-      <div class="hero-left" data-aos="fade-right" data-aos-duration="600">
+      <!-- ============================================================
+           LEFT COLUMN (52%): Headline with Stylized Underline, Subtitle & Buttons
+           ============================================================ -->
+      <div class="hero-left-content" data-aos="fade-right" data-aos-duration="700">
         
-        <h1 class="hero-heading">
-          Australia's custom <span class="gradient-text">software development</span> partner
+        <h1 class="hero-title">
+          Get More Insight With Effective 
+          <span class="highlight-wrapper">
+            Software & AI
+            <svg class="wavy-underline" viewBox="0 0 240 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 12C50 3 100 18 150 8C180 2 210 15 237 9" stroke="url(#wavyGrad)" stroke-width="4.5" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="wavyGrad" x1="0" y1="0" x2="240" y2="0" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#6A1BFF"/>
+                  <stop offset="1" stop-color="#3B82F6"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
         </h1>
 
-        <p class="hero-description">
-          High-end software solutions to complex, real-world enterprise problems.
+        <p class="hero-subtitle">
+          High-performance enterprise software, AI models, and cloud platforms engineered for Australian businesses and global scale.
         </p>
 
-        <!-- Checklist Row -->
+        <!-- Checklist Items -->
         <div class="hero-checklist">
-          <div class="check-item">
-            <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
-            <span>ISO 9001 and 27001 certified for quality and security</span>
-          </div>
           <div class="check-item">
             <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
             <span>100% Australian-based onshore strategy team</span>
           </div>
           <div class="check-item">
             <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
-            <span>Flexible engineering squads tailored to your needs</span>
+            <span>ISO aligned security & cloud architecture</span>
+          </div>
+          <div class="check-item">
+            <span class="check-icon"><i class="fa-solid fa-circle-check"></i></span>
+            <span>Flexible engineering squads tailored to your roadmap</span>
           </div>
         </div>
-        
-        <!-- CTA Action Buttons (Pill-shaped) -->
-        <div class="hero-ctas">
-          <a href="#contact" class="btn btn-hero-primary">Get in touch <i class="fa-solid fa-arrow-right"></i></a>
-          <a href="#why-jaiton" class="btn btn-hero-outline">See our work <i class="fa-solid fa-arrow-right-long"></i></a>
+
+        <!-- Action Buttons (Gradient Pill & Clean Glass Outline) -->
+        <div class="hero-action-buttons">
+          <a href="#contact" class="btn btn-hero-gradient">
+            Get Started <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#services" class="btn btn-hero-outline">
+            Learn More
+          </a>
         </div>
 
       </div>
 
-      <!-- RIGHT COLUMN (48%): 3-Photo Grid & Trust Badges Overlay -->
-      <div class="hero-right" data-aos="fade-left" data-aos-duration="800">
-        <div class="hero-media-card">
+      <!-- ============================================================
+           RIGHT COLUMN (48%): Modern 2D Vector Enterprise Tech Illustration
+           ============================================================ -->
+      <div class="hero-right-illustration" data-aos="fade-left" data-aos-duration="900">
+        <div class="illustration-card-wrapper">
           
-          <!-- Photo Grid Layout -->
-          <div class="hero-photo-grid">
-            
-            <!-- Top Row: 2 Photos -->
-            <div class="photo-row top-row">
-              <div class="photo-frame">
-                <img src="assets/images/hero-wireframes.png" alt="Engineering UI UX Wireframing" class="hero-img">
-              </div>
-              <div class="photo-frame">
-                <img src="assets/images/hero-collaborating.png" alt="Engineers Collaborating" class="hero-img">
-              </div>
-            </div>
+          <svg viewBox="0 0 600 520" class="hero-vector-art" aria-hidden="true">
+            <defs>
+              <linearGradient id="pieGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0055FF"/>
+                <stop offset="100%" stop-color="#0033CC"/>
+              </linearGradient>
+              <linearGradient id="pieGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#6A1BFF"/>
+                <stop offset="100%" stop-color="#A275FF"/>
+              </linearGradient>
+              <linearGradient id="boxGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0055FF"/>
+                <stop offset="100%" stop-color="#0033BB"/>
+              </linearGradient>
+              <linearGradient id="boxGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FF9500"/>
+                <stop offset="100%" stop-color="#FF5E00"/>
+              </linearGradient>
 
-            <!-- Bottom Row: 1 Wide Photo -->
-            <div class="photo-row bottom-row">
-              <div class="photo-frame wide-frame">
-                <img src="assets/images/hero-meeting.png" alt="Enterprise Software Team Meeting" class="hero-img">
-              </div>
-            </div>
+              <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+                <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#002B80" flood-opacity="0.12"/>
+              </filter>
+            </defs>
 
+            <!-- Background Atmosphere Rings & Grid Dots -->
+            <circle cx="300" cy="260" r="220" fill="none" stroke="rgba(13, 110, 253, 0.08)" stroke-width="1.5" stroke-dasharray="6 6"/>
+            <circle cx="300" cy="260" r="160" fill="none" stroke="rgba(106, 27, 255, 0.06)" stroke-width="1.5"/>
+
+            <!-- Floating Data Pie Chart Graphic -->
+            <g transform="translate(350, 110)" filter="url(#softShadow)">
+              <path d="M 0 0 L 0 -70 A 70 70 0 0 1 65 -25 Z" fill="url(#pieGrad1)"/>
+              <path d="M 0 0 L 65 -25 A 70 70 0 1 1 0 -70 Z" fill="url(#pieGrad2)"/>
+              <circle cx="0" cy="0" r="30" fill="#FFFFFF"/>
+            </g>
+
+            <!-- Base Block Structures -->
+            <g transform="translate(380, 270)">
+              <!-- Blue Base Platform Block -->
+              <rect x="-80" y="0" width="160" height="150" rx="12" fill="url(#boxGrad1)"/>
+              <!-- Orange Platform Accent Block -->
+              <rect x="70" y="-40" width="90" height="100" rx="10" fill="url(#boxGrad2)"/>
+            </g>
+
+            <!-- Vector Character (Engineer Inspecting Data Analytics) -->
+            <g transform="translate(320, 100)">
+              <!-- Torso / Blue Outfit -->
+              <path d="M 90 90 Q 110 90 120 120 L 140 210 Q 120 220 90 220 L 60 190 Z" fill="#0044CC"/>
+              <!-- Legs & Pants -->
+              <path d="M 90 220 L 130 310 L 80 310 L 60 220 Z" fill="#1E293B"/>
+              <path d="M 120 220 L 160 310 L 130 310 L 95 220 Z" fill="#0F172A"/>
+              <!-- Shoes -->
+              <ellipse cx="65" cy="315" rx="20" ry="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+              <ellipse cx="145" cy="315" rx="20" ry="8" fill="#F8FAFC" stroke="#CBD5E1"/>
+              <!-- Head & Hair -->
+              <circle cx="100" cy="55" r="22" fill="#1E293B"/>
+              <circle cx="108" cy="40" r="14" fill="#1E293B"/> <!-- Hair Bun -->
+              <circle cx="95" cy="60" r="14" fill="#FED7AA"/> <!-- Face -->
+              <!-- Arm Pointing to Data Chart -->
+              <path d="M 75 120 Q 40 100 15 80 Q 25 70 50 85 Z" fill="#FED7AA"/>
+              <path d="M 85 115 L 45 85 L 60 75 L 100 110 Z" fill="#0044CC"/>
+            </g>
+
+            <!-- Floating Tech Sparkles & Decorative Accent Particles -->
+            <circle cx="120" cy="180" r="4" fill="#3B82F6"/>
+            <circle cx="480" cy="180" r="3" fill="#6A1BFF"/>
+            <circle cx="160" cy="340" r="5" fill="#FF9500"/>
+            <path d="M 420 80 Q 430 90 440 80" stroke="#0055FF" stroke-width="3" stroke-linecap="round" fill="none"/>
+          </svg>
+
+          <!-- Floating Metric Badges -->
+          <div class="hero-float-chip chip-left" data-aos="zoom-in" data-aos-delay="200">
+            <div class="chip-icon-bg"><i class="fa-solid fa-chart-line text-blue"></i></div>
+            <div class="chip-text">
+              <strong>99.99%</strong>
+              <small>Reliability SLA</small>
+            </div>
           </div>
 
-          <!-- Bottom Floating Enterprise Badges -->
-          <div class="hero-trust-badges">
-            <div class="trust-badge badge-google">
-              <div class="badge-brand"><i class="fa-brands fa-google" style="color:#4285F4;"></i> Google</div>
-              <div class="badge-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-              <div class="badge-score">4.9</div>
-            </div>
-
-            <div class="trust-badge badge-award">
-              <i class="fa-solid fa-award badge-icon" style="color:#3B82F6;"></i>
-              <div class="badge-title">GOOD DESIGN</div>
-              <div class="badge-sub">AWARD WINNER</div>
-            </div>
-
-            <div class="trust-badge badge-aws">
-              <i class="fa-brands fa-aws badge-icon" style="color:#FF9900;"></i>
-              <div class="badge-title">AWS PARTNER</div>
-              <div class="badge-sub">Consulting</div>
-            </div>
-
-            <div class="trust-badge badge-iso">
-              <i class="fa-solid fa-shield-check badge-icon" style="color:#10B981;"></i>
-              <div class="badge-title">ISO 27001</div>
-              <div class="badge-sub">Certified</div>
+          <div class="hero-float-chip chip-right" data-aos="zoom-in" data-aos-delay="400">
+            <div class="chip-icon-bg"><i class="fa-solid fa-brain text-purple"></i></div>
+            <div class="chip-text">
+              <strong>Enterprise AI</strong>
+              <small>Model Deployments</small>
             </div>
           </div>
 
@@ -115,110 +170,105 @@
 </section>
 
 <!-- ============================================================
-     HERO SCOPED STYLES
+     HERO SCOPED STYLES (Light Enterprise Theme - Tekni Style)
      ============================================================ -->
 <style>
-/* ── Section Shell ── */
+/* ── Hero Section Shell ── */
 .hero-section {
   position: relative;
   min-height: calc(100vh - 88px);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: var(--dark-navy);
+  background: #FFFFFF;
   padding-top: 130px;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
   box-sizing: border-box;
   overflow: hidden;
 }
 
-/* ── Background Video & Dark Overlay ── */
-.hero-bg-layers {
+/* ── Light Curved Background Backdrop & Soft Glows ── */
+.hero-bg-backdrop {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  pointer-events: none;
   overflow: hidden;
+}
+
+.hero-soft-glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(180px);
+  opacity: 0.25;
+}
+
+.glow-purple { top: -100px; left: -100px; background: #6A1BFF; }
+.glow-blue   { bottom: -100px; right: -50px; background: #3B82F6; }
+
+.hero-curved-shape {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 55%;
+  height: 100%;
   pointer-events: none;
 }
 
-.hero-video-container {
-  position: absolute;
-  inset: 0;
-  opacity: 1;
-}
-
-.hero-bg-video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.hero-video-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(8, 19, 39, 0.88) 0%, rgba(8, 19, 39, 0.75) 60%, rgba(109, 40, 255, 0.25) 100%);
-}
-
-.hero-bg-grid {
-  position: absolute;
-  inset: 0;
-  background-size: 40px 40px;
-  background-image:
-    linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
-}
-
-/* ── Hero Container ── */
+/* ── Hero Container & Grid ── */
 .hero-container {
   max-width: 1440px;
   width: 100%;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin: 0 auto;
   position: relative;
   z-index: 5;
-  box-sizing: border-box;
 }
 
-/* ── 2-Column Hero Grid ── */
 .hero-grid {
   display: grid;
-  grid-template-columns: 52% 48%;
-  gap: 48px;
+  grid-template-columns: 52% calc(48% - 40px);
+  gap: 40px;
   align-items: center;
-  width: 100%;
 }
 
-/* ── Left Column ── */
-.hero-left {
+/* ── Left Column Content ── */
+.hero-left-content {
   text-align: left;
 }
 
-.hero-heading {
+.hero-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(38px, 3.4vw, 54px);
+  font-size: clamp(38px, 4vw, 56px);
   font-weight: 800;
   line-height: 1.15;
-  color: var(--white);
+  color: #0F172A;
   letter-spacing: -0.02em;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
-.gradient-text {
-  background: linear-gradient(135deg, #a275ff 0%, #3B82F6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  display: inline;
+.highlight-wrapper {
+  position: relative;
+  display: inline-block;
+  color: #6A1BFF;
 }
 
-.hero-description {
+.wavy-underline {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 18px;
+  pointer-events: none;
+}
+
+.hero-subtitle {
   font-size: clamp(16px, 1.2vw, 19px);
-  line-height: 1.6;
-  color: #cbd5e1;
-  max-width: 580px;
-  margin-bottom: 28px;
+  line-height: 1.65;
+  color: #475569;
+  max-width: 560px;
+  margin-bottom: 30px;
 }
 
 /* Checklist Items */
@@ -226,7 +276,7 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-bottom: 32px;
+  margin-bottom: 36px;
 }
 
 .check-item {
@@ -235,219 +285,173 @@
   gap: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: var(--white);
+  color: #1E293B;
 }
 
 .check-icon {
-  color: #3B82F6;
-  font-size: 1rem;
+  color: #0055FF;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
 }
 
-/* Pill CTA Buttons */
-.hero-ctas {
+/* Action Buttons */
+.hero-action-buttons {
   display: flex;
-  align-items: center;
   gap: 16px;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.btn-hero-primary {
+.btn-hero-gradient {
   height: 52px;
   padding: 0 32px;
   border-radius: 100px;
-  background: #3B82F6;
-  color: var(--white);
+  background: linear-gradient(135deg, #6A1BFF 0%, #0055FF 100%);
+  color: #FFFFFF;
   font-size: 15px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 8px;
+  gap: 10px;
   border: none;
-  box-shadow: 0 4px 18px rgba(59, 130, 246, 0.4);
-  transition: all var(--transition-normal);
+  box-shadow: 0 8px 24px rgba(0, 85, 255, 0.3);
+  transition: all 250ms ease;
+  text-decoration: none;
 }
 
-.btn-hero-primary:hover {
-  background: #2563EB;
-  box-shadow: 0 8px 26px rgba(59, 130, 246, 0.6);
+.btn-hero-gradient:hover {
+  box-shadow: 0 12px 32px rgba(0, 85, 255, 0.5);
   transform: translateY(-2px);
-  color: var(--white);
+  color: #FFFFFF;
 }
 
 .btn-hero-outline {
   height: 52px;
   padding: 0 32px;
   border-radius: 100px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid #3B82F6;
-  color: var(--white);
+  background: #FFFFFF;
+  border: 1.5px solid #CBD5E1;
+  color: #1E293B;
   font-size: 15px;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  transition: all var(--transition-normal);
+  transition: all 250ms ease;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
 .btn-hero-outline:hover {
-  background: rgba(59, 130, 246, 0.15);
-  border-color: #60A5FA;
+  border-color: #0055FF;
+  color: #0055FF;
+  background: rgba(0, 85, 255, 0.04);
   transform: translateY(-2px);
-  color: var(--white);
 }
 
-/* ── Right Column: Photo Grid ── */
-.hero-right {
+/* ── Right Column Vector Illustration & Floating Badges ── */
+.hero-right-illustration {
   width: 100%;
 }
 
-.hero-media-card {
+.illustration-card-wrapper {
   position: relative;
   width: 100%;
-}
-
-.hero-photo-grid {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.photo-row {
-  display: flex;
-  gap: 16px;
+.hero-vector-art {
   width: 100%;
-}
-
-.photo-frame {
-  flex: 1;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.photo-frame.wide-frame {
-  flex: none;
-  width: 100%;
-}
-
-.hero-img {
-  width: 100%;
-  height: 190px;
-  object-fit: cover;
+  max-width: 540px;
+  height: auto;
   display: block;
-  transition: transform 400ms ease;
 }
 
-.wide-frame .hero-img {
-  height: 220px;
-}
-
-.photo-frame:hover .hero-img {
-  transform: scale(1.04);
-}
-
-/* Floating Trust Badges Overlay */
-.hero-trust-badges {
+/* Floating Metric Badges */
+.hero-float-chip {
   position: absolute;
-  bottom: -20px;
-  right: 12px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  padding: 12px 18px;
+  border-radius: 16px;
+  box-shadow: 0 16px 36px rgba(0, 43, 128, 0.12);
   display: flex;
   align-items: center;
   gap: 12px;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(16px);
-  padding: 8px 16px;
-  border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow: 0 12px 32px rgba(8, 19, 39, 0.3);
+  animation: chipFloat 4s ease-in-out infinite alternate;
 }
 
-.trust-badge {
+@keyframes chipFloat {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-8px); }
+}
+
+.chip-left {
+  top: 15%;
+  left: 0;
+  animation-delay: 0s;
+}
+
+.chip-right {
+  bottom: 12%;
+  right: 5%;
+  animation-delay: 1.8s;
+}
+
+.chip-icon-bg {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: rgba(0, 85, 255, 0.08);
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4px 8px;
-  text-align: center;
-  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 16px;
 }
 
-.trust-badge:last-child {
-  border-right: none;
-}
-
-.badge-brand {
-  font-size: 0.75rem;
-  font-weight: 800;
-  color: #0F172A;
-}
-
-.badge-stars {
-  color: #F59E0B;
-  font-size: 0.65rem;
+.chip-text {
   display: flex;
-  gap: 2px;
+  flex-direction: column;
 }
 
-.badge-score {
-  font-size: 0.75rem;
+.chip-text strong {
+  font-size: 15px;
   font-weight: 800;
   color: #0F172A;
 }
 
-.badge-icon {
-  font-size: 1rem;
-  margin-bottom: 2px;
-}
-
-.badge-title {
-  font-size: 0.65rem;
-  font-weight: 800;
-  color: #0F172A;
-  line-height: 1;
-}
-
-.badge-sub {
-  font-size: 0.58rem;
-  font-weight: 600;
+.chip-text small {
+  font-size: 11px;
   color: #64748B;
-  text-transform: uppercase;
+  font-weight: 600;
 }
 
-/* ── Responsive Breakpoints ── */
+/* Responsive */
 @media (max-width: 1199px) {
   .hero-grid {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 50px;
   }
 
-  .hero-heading {
-    font-size: clamp(32px, 4vw, 44px);
+  .hero-curved-shape {
+    display: none;
   }
 
-  .hero-trust-badges {
-    position: relative;
-    bottom: 0;
-    right: 0;
-    margin-top: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-    border-radius: 20px;
+  .hero-title {
+    font-size: 42px;
   }
+
+  .chip-left { top: 5%; left: 5%; }
+  .chip-right { bottom: 5%; right: 5%; }
 }
 
 @media (max-width: 767px) {
   .hero-section {
     padding-top: 110px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
 
   .hero-container {
@@ -455,20 +459,13 @@
     padding-right: 20px;
   }
 
-  .photo-row {
-    flex-direction: column;
-  }
-
-  .hero-img {
-    height: 160px;
-  }
-
-  .hero-ctas {
+  .hero-action-buttons {
     flex-direction: column;
     width: 100%;
   }
 
-  .hero-ctas .btn {
+  .btn-hero-gradient,
+  .btn-hero-outline {
     width: 100%;
   }
 }
