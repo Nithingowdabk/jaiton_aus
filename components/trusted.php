@@ -1,253 +1,317 @@
 <!-- ============================================================
-     TRUSTED BY SECTION – Premium Glass Enterprise Panel
+     TRUSTED PARTNERS SECTION – (80 Partners World Wide Style)
      ============================================================ -->
-<section class="trusted-section" aria-label="Our Trusted Enterprise Clients">
+<section class="trusted-partners-section" aria-label="Global Enterprise Partners">
   
-  <!-- Subtle background glowing accents (soft blur behind floating glass panel) -->
-  <div class="trusted-bg-glows" aria-hidden="true">
-    <div class="trusted-radial-glow"></div>
-  </div>
-
   <div class="container">
-    
-    <!-- Centered Glass Panel -->
-    <div class="enterprise-glass-panel" data-aos="fade-up" data-aos-duration="600">
+    <div class="trusted-partners-grid">
       
-      <!-- Animated Gradient Border Overlay -->
-      <div class="glass-gradient-border"></div>
+      <!-- ============================================================
+           LEFT COLUMN: Giant Number 80 & Dotted Map Graphic
+           ============================================================ -->
+      <div class="trusted-stat-side" data-aos="fade-right">
+        <div class="stat-number-wrapper">
+          
+          <!-- Background Dotted Matrix World Map SVG -->
+          <svg viewBox="0 0 500 300" class="stat-bg-dotted-map" aria-hidden="true">
+            <pattern id="stat-dots" width="8" height="8" patternUnits="userSpaceOnUse">
+              <circle cx="4" cy="4" r="1.2" fill="rgba(15, 23, 42, 0.12)"/>
+            </pattern>
+            <g fill="url(#stat-dots)">
+              <!-- World Continent Dots -->
+              <path d="M 40,40 L 70,30 L 120,25 L 180,35 L 195,55 L 180,80 L 150,95 L 135,120 L 115,140 L 85,100 L 45,85 Z"/>
+              <path d="M 140,150 L 175,165 L 195,200 L 200,240 L 180,270 L 140,290 L 125,270 L 115,230 L 100,190 Z"/>
+              <path d="M 280,45 L 340,35 L 385,55 L 365,85 L 315,90 L 280,75 Z"/>
+              <path d="M 290,100 L 350,95 L 390,135 L 375,175 L 340,235 L 300,260 L 275,220 L 265,170 Z"/>
+              <path d="M 370,40 L 440,35 L 480,60 L 450,110 L 400,125 L 355,110 Z"/>
+              <path d="M 400,200 L 450,195 L 485,225 L 470,260 L 420,270 L 395,245 Z"/>
+            </g>
+          </svg>
 
-      <!-- Section Heading with glowing purple dot -->
-      <div class="trusted-header">
-        <span class="glowing-pulse-dot"></span>
-        <h3 class="trusted-heading">TRUSTED BY GLOBAL ENTERPRISES</h3>
+          <!-- Giant Number 80 -->
+          <div class="stat-giant-number">80</div>
+          
+          <h3 class="stat-label-text">
+            Partners in world wide
+          </h3>
+
+        </div>
       </div>
 
-      <!-- Individual Glass Logo Cards Grid (8 logos in 1 row on Desktop) -->
-      <div class="enterprise-logo-grid">
-        
-        <div class="enterprise-logo-card logo-microsoft" data-aos="fade-up" data-aos-delay="50">
-          <i class="fa-brands fa-microsoft"></i>
-          <span>Microsoft</span>
-        </div>
+      <!-- ============================================================
+           RIGHT COLUMN: 2x3 Partner Logos Grid Container
+           ============================================================ -->
+      <div class="trusted-logos-side" data-aos="fade-left">
+        <div class="partner-logos-card">
+          
+          <!-- 2x3 Logos Grid -->
+          <div class="logo-tiles-grid">
+            
+            <!-- Tile 1: Walmart -->
+            <div class="partner-tile tile-walmart">
+              <div class="brand-logo-content">
+                <span class="brand-name walmart-text">Walmart <i class="fa-solid fa-sparkles text-amber"></i></span>
+              </div>
+            </div>
 
-        <div class="enterprise-logo-card logo-aws" data-aos="fade-up" data-aos-delay="100">
-          <i class="fa-brands fa-aws"></i>
-          <span>AWS</span>
-        </div>
+            <!-- Tile 2: Paysafe -->
+            <div class="partner-tile tile-paysafe">
+              <div class="brand-logo-content">
+                <span class="brand-name paysafe-text">Paysafe<span class="brand-dot">:</span></span>
+              </div>
+            </div>
 
-        <div class="enterprise-logo-card logo-stripe" data-aos="fade-up" data-aos-delay="150">
-          <i class="fa-brands fa-stripe"></i>
-          <span>Stripe</span>
-        </div>
+            <!-- Tile 3: Slack -->
+            <div class="partner-tile tile-slack">
+              <div class="brand-logo-content">
+                <span class="brand-name slack-text"><i class="fa-brands fa-slack text-slack"></i> slack</span>
+              </div>
+            </div>
 
-        <div class="enterprise-logo-card logo-google" data-aos="fade-up" data-aos-delay="200">
-          <i class="fa-brands fa-google"></i>
-          <span>Google Cloud</span>
-        </div>
+            <!-- Tile 4: Mollie -->
+            <div class="partner-tile tile-mollie">
+              <div class="brand-logo-content">
+                <span class="brand-name mollie-text">mollie</span>
+              </div>
+            </div>
 
-        <div class="enterprise-logo-card logo-atlassian" data-aos="fade-up" data-aos-delay="250">
-          <i class="fa-brands fa-atlassian"></i>
-          <span>Atlassian</span>
-        </div>
+            <!-- Tile 5: Qlik -->
+            <div class="partner-tile tile-qlik">
+              <div class="brand-logo-content">
+                <span class="brand-name qlik-text">Qlik <i class="fa-solid fa-circle-notch text-green"></i></span>
+              </div>
+            </div>
 
-        <div class="enterprise-logo-card logo-salesforce" data-aos="fade-up" data-aos-delay="300">
-          <i class="fa-brands fa-salesforce"></i>
-          <span>Salesforce</span>
-        </div>
+            <!-- Tile 6: Envato -->
+            <div class="partner-tile tile-envato">
+              <div class="brand-logo-content">
+                <span class="brand-name envato-text"><i class="fa-solid fa-leaf text-leaf"></i> envato</span>
+              </div>
+            </div>
 
-        <div class="enterprise-logo-card logo-hubspot" data-aos="fade-up" data-aos-delay="350">
-          <i class="fa-brands fa-hubspot"></i>
-          <span>HubSpot</span>
-        </div>
+          </div>
 
-        <div class="enterprise-logo-card logo-paypal" data-aos="fade-up" data-aos-delay="400">
-          <i class="fa-brands fa-paypal"></i>
-          <span>PayPal</span>
         </div>
-
       </div>
 
     </div>
-
   </div>
 </section>
 
-<!-- Scoped Styles for Premium Glass Enterprise Panel -->
+<!-- ============================================================
+     TRUSTED PARTNERS SCOPED STYLES
+     ============================================================ -->
 <style>
-.trusted-section {
+/* Section Shell (Clean White Background) */
+.trusted-partners-section {
   position: relative;
-  padding-top: 48px;
-  padding-bottom: 72px;
+  padding: 80px 0;
+  background-color: #FFFFFF;
+  overflow: hidden;
 }
 
-/* Background soft radial glow */
-.trusted-bg-glows {
+.trusted-partners-grid {
+  display: grid;
+  grid-template-columns: 45% calc(55% - 40px);
+  gap: 40px;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* ── LEFT COLUMN: Giant Number 80 & Dotted Map ── */
+.trusted-stat-side {
+  width: 100%;
+}
+
+.stat-number-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 480px;
+}
+
+.stat-bg-dotted-map {
   position: absolute;
-  inset: 0;
+  top: -20px;
+  left: -20px;
+  width: 110%;
+  height: auto;
   pointer-events: none;
-  overflow: hidden;
   z-index: 1;
 }
 
-.trusted-radial-glow {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 700px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(109, 40, 255, 0.12) 0%, rgba(59, 130, 246, 0.05) 50%, transparent 75%);
-  filter: blur(80px);
-}
-
-/* Centered Glass Panel (Max-width 1320px) */
-.enterprise-glass-panel {
-  position: relative;
-  max-width: 1320px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 32px;
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 20px 60px rgba(8, 22, 61, 0.18);
-  overflow: hidden;
-  z-index: 5;
-}
-
-/* Animated Gradient Border Overlay (15-20% opacity slow movement) */
-.glass-gradient-border {
-  position: absolute;
-  inset: 0;
-  border-radius: 24px;
-  padding: 1px;
-  background: linear-gradient(135deg, rgba(109, 40, 255, 0.2), rgba(59, 130, 246, 0.2), rgba(109, 40, 255, 0.1));
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-  animation: borderGlowSlow 10s ease-in-out infinite alternate;
-}
-
-@keyframes borderGlowSlow {
-  0% { opacity: 0.15; filter: hue-rotate(0deg); }
-  100% { opacity: 0.25; filter: hue-rotate(45deg); }
-}
-
-/* Section Header */
-.trusted-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 28px;
-}
-
-.glowing-pulse-dot {
-  width: 7px;
-  height: 7px;
-  background: #6D28FF;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #6D28FF;
-  animation: pulsePurpleDot 2s infinite;
-}
-
-@keyframes pulsePurpleDot {
-  0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(109, 40, 255, 0.6); }
-  70% { transform: scale(1.15); box-shadow: 0 0 0 8px rgba(109, 40, 255, 0); }
-  100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(109, 40, 255, 0); }
-}
-
-.trusted-heading {
+.stat-giant-number {
   font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #94a3b8;
-  margin: 0;
+  font-size: clamp(100px, 10vw, 150px);
+  font-weight: 900;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg, #08163D 0%, #6A1BFF 50%, #0055FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 12px;
 }
 
-/* Logo Grid: 8 logos in 1 row on Desktop */
-.enterprise-logo-grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 20px;
+.stat-label-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(24px, 2.2vw, 32px);
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+/* ── RIGHT COLUMN: 2x3 Logos Grid Card ── */
+.trusted-logos-side {
   width: 100%;
 }
 
-/* Individual Glass Logo Cards */
-.enterprise-logo-card {
-  height: 72px;
-  border-radius: 18px;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  padding: 16px;
+.partner-logos-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 20px;
+  box-shadow: 0 16px 40px rgba(0, 43, 128, 0.05);
+  overflow: hidden;
+}
+
+.logo-tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.partner-tile {
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  cursor: pointer;
+  padding: 20px;
+  border-right: 1px solid #E2E8F0;
+  border-bottom: 1px solid #E2E8F0;
   transition: all 250ms ease;
-  box-sizing: border-box;
+  background: #FFFFFF;
 }
 
-.enterprise-logo-card i {
-  font-size: 1.25rem;
+/* Remove right border on 3rd column tiles */
+.partner-tile:nth-child(3n) {
+  border-right: none;
 }
 
-.enterprise-logo-card span {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.875rem;
+/* Remove bottom border on bottom row tiles */
+.partner-tile:nth-child(n+4) {
+  border-bottom: none;
+}
+
+.partner-tile:hover {
+  background: rgba(248, 250, 252, 0.8);
+  transform: translateY(-2px);
+  box-shadow: inset 0 0 0 1px rgba(0, 85, 255, 0.15);
+}
+
+/* Brand Text & Icons Styling */
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
   color: #0F172A;
-  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: -0.02em;
 }
 
-/* Authentic Brand Colors (Default Visible) */
-.logo-microsoft i   { color: #F25022; }
-.logo-aws i         { color: #FF9900; }
-.logo-stripe i      { color: #635BFF; }
-.logo-google i      { color: #4285F4; }
-.logo-atlassian i   { color: #0052CC; }
-.logo-salesforce i  { color: #00A1E0; }
-.logo-hubspot i     { color: #FF7A59; }
-.logo-paypal i      { color: #003087; }
+/* Walmart */
+.walmart-text {
+  color: #0071CE;
+  font-weight: 700;
+}
+.text-amber { color: #FFC220; font-size: 16px; }
 
-/* Hover Behavior: Scale 1.04, Lift, Soft Purple Glow, Blue-Purple Border */
-.enterprise-logo-card:hover {
-  transform: translateY(-4px) scale(1.04);
-  box-shadow: 0 12px 28px rgba(109, 40, 255, 0.18);
-  border-color: rgba(109, 40, 255, 0.4);
+/* Paysafe */
+.paysafe-text {
+  color: #1A1A1A;
+  font-weight: 900;
+}
+.brand-dot { color: #FF0055; }
+
+/* Slack */
+.slack-text {
+  color: #1A1A1A;
+  font-size: 22px;
+}
+.text-slack { color: #E01E5A; }
+
+/* Mollie */
+.mollie-text {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 26px;
+  color: #000000;
+  letter-spacing: -1px;
 }
 
-/* Responsive Grid Breakpoints */
+/* Qlik */
+.qlik-text {
+  color: #000000;
+  font-weight: 700;
+}
+.text-green { color: #009845; font-size: 18px; }
+
+/* Envato */
+.envato-text {
+  color: #1A1A1A;
+  font-weight: 700;
+}
+.text-leaf { color: #82B440; }
+
+/* Responsive */
 @media (max-width: 1199px) {
-  .enterprise-logo-grid {
-    grid-template-columns: repeat(4, 1fr);
+  .trusted-partners-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .stat-number-wrapper {
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
   }
 }
 
 @media (max-width: 767px) {
-  .enterprise-glass-panel {
-    padding: 24px 16px;
+  .trusted-partners-section {
+    padding: 60px 0;
   }
-  
-  .enterprise-logo-grid {
+
+  .trusted-partners-grid {
+    padding: 0 20px;
+  }
+
+  .logo-tiles-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
   }
-  
-  .enterprise-logo-card {
-    height: 64px;
-    padding: 12px;
+
+  .partner-tile {
+    height: 100px;
   }
-  
-  .enterprise-logo-card span {
-    font-size: 0.8125rem;
+
+  .partner-tile:nth-child(3n) {
+    border-right: 1px solid #E2E8F0;
+  }
+
+  .partner-tile:nth-child(2n) {
+    border-right: none;
+  }
+
+  .brand-name {
+    font-size: 20px;
   }
 }
 </style>
