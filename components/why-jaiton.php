@@ -1,926 +1,351 @@
 <!-- ============================================================
-     WHY CHOOSE JAITON – Premium Enterprise Storytelling Showcase
+     ABOUT OUR COMPANY SECTION – (Tekni About Style Layout)
      ============================================================ -->
-<section id="why-jaiton" class="why-showcase-section">
+<section id="why-jaiton" class="about-company-section">
   
   <div class="container">
-    
-    <!-- Section Header (Max Width 900px, Centered) -->
-    <div class="showcase-header" data-aos="fade-up">
-      <span class="showcase-badge">WHY CHOOSE JAITON</span>
-      <h2 class="showcase-title">
-        Your Long-Term Technology Partner
-      </h2>
-      <p class="showcase-subtitle">
-        We don't just build software—we become an extension of your business, delivering scalable technology, transparent collaboration, and measurable outcomes.
-      </p>
-    </div>
-
-    <!-- Storytelling Panels Flow (Alternating 45% Illustration Workspace / 55% Content Panel) -->
-    <div class="showcase-flow">
+    <div class="about-company-grid">
       
       <!-- ============================================================
-           STORY 01: Australian Business Standards
-           Layout: 45% Left (Design Workspace) | 55% Right (Content Panel)
+           LEFT COLUMN: Overlapping Dual Photo Grid & Hexagon Badge
            ============================================================ -->
-      <article class="showcase-panel panel-01" data-aos="fade-up">
-        
-        <!-- Left: 45% Design Workspace with Floating Chips -->
-        <div class="showcase-media-side">
-          <div class="design-workspace">
-            <div class="workspace-glow"></div>
-            <div class="workspace-grid"></div>
-            <div class="workspace-coord">33.86° S / 151.20° E</div>
-            
-            <!-- Center Vector Graphic -->
-            <div class="workspace-image-box">
-              <img src="assets/images/why-standards.png" alt="Australian Business Standards" class="workspace-vector-img">
-            </div>
+      <div class="about-media-side" data-aos="fade-right" data-aos-duration="800">
+        <div class="about-media-wrapper">
+          
+          <!-- Main Primary Collaboration Photo -->
+          <div class="about-main-photo-frame">
+            <img src="assets/images/hero-meeting.png" alt="Jaiton Technologies Engineering Team" class="about-photo-img">
+          </div>
 
-            <!-- Floating Information Chips (Annotations) -->
-            <div class="floating-chip chip-1" data-speed="1.2">
-              <i class="fa-solid fa-shield-check chip-icon-blue"></i>
-              <span>ISO 9001 & 27001 Certified</span>
-            </div>
-            <div class="floating-chip chip-2" data-speed="0.8">
-              <i class="fa-solid fa-flag-usa chip-icon-purple"></i>
-              <span>Australian Standards</span>
-            </div>
-            <div class="floating-chip chip-3" data-speed="1.5">
-              <i class="fa-solid fa-lock chip-icon-green"></i>
-              <span>Enterprise Governance</span>
+          <!-- Floating Gradient Hexagonal Certified Badge -->
+          <div class="about-hexagon-badge" data-aos="zoom-in" data-aos-delay="300">
+            <div class="hexagon-inner">
+              <i class="fa-solid fa-file-certificate hex-icon"></i>
+              <span class="hex-text">Certified Company</span>
             </div>
           </div>
-        </div>
 
-        <!-- Right: 55% Floating Content Panel -->
-        <div class="showcase-content-side">
-          <div class="story-content-panel tilt-target">
-            <!-- Asymmetric Corner Accents -->
-            <div class="corner-accent corner-tl"></div>
-            <div class="corner-accent corner-br"></div>
-            
-            <div class="panel-num">01.</div>
-            <h3 class="panel-title">Australian Business Standards</h3>
-            <p class="panel-desc">
-              Enterprise development aligned with modern Australian business expectations, quality assurance, security, and transparent project governance.
-            </p>
-            
-            <!-- 3 Compact Key Highlight Rows -->
-            <div class="panel-highlights">
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">ISO 9001 & 27001 Certified Development</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">100% Australian Onshore Strategy & Governance</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">Enterprise Security & Compliance Best Practices</span>
-              </div>
-            </div>
+          <!-- Secondary Developer Portrait Photo (Overlapping Bottom Right) -->
+          <div class="about-sub-photo-frame" data-aos="fade-up" data-aos-delay="400">
+            <img src="assets/images/about-developer.png" alt="Developer Inspecting Solutions" class="sub-photo-img">
           </div>
+
         </div>
-
-      </article>
-
-      <!-- ============================================================
-           STORY 02: Transparent Delivery Process
-           Layout: 55% Left (Content Panel) | 45% Right (Design Workspace)
-           ============================================================ -->
-      <article class="showcase-panel panel-02" data-aos="fade-up">
-        
-        <!-- Left: 55% Floating Content Panel -->
-        <div class="showcase-content-side">
-          <div class="story-content-panel tilt-target">
-            <div class="corner-accent corner-tl"></div>
-            <div class="corner-accent corner-br"></div>
-
-            <div class="panel-num">02.</div>
-            <h3 class="panel-title">Transparent Delivery Process</h3>
-            <p class="panel-desc">
-              Weekly reporting, sprint reviews, direct communication, and complete project visibility from discovery to deployment.
-            </p>
-            
-            <!-- 3 Compact Key Highlight Rows -->
-            <div class="panel-highlights">
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">Real-Time Sprint Reporting & Jira Board Access</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">100% Direct Code Access & GitHub Repositories</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">Weekly Executive Strategy Reviews & Milestones</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right: 45% Design Workspace with Floating Chips -->
-        <div class="showcase-media-side">
-          <div class="design-workspace">
-            <div class="workspace-glow"></div>
-            <div class="workspace-grid"></div>
-            <div class="workspace-coord">SPRINT // LIVE_STREAM</div>
-
-            <div class="workspace-image-box">
-              <img src="assets/images/why-transparent.png" alt="Transparent Delivery Process" class="workspace-vector-img">
-            </div>
-
-            <!-- Floating Information Chips -->
-            <div class="floating-chip chip-1" data-speed="1.1">
-              <i class="fa-solid fa-arrows-rotate chip-icon-purple"></i>
-              <span>Agile Sprint Delivery</span>
-            </div>
-            <div class="floating-chip chip-2" data-speed="0.9">
-              <i class="fa-solid fa-code-commit chip-icon-blue"></i>
-              <span>100% Code Access</span>
-            </div>
-            <div class="floating-chip chip-3" data-speed="1.4">
-              <i class="fa-solid fa-eye chip-icon-green"></i>
-              <span>Real-Time Transparency</span>
-            </div>
-          </div>
-        </div>
-
-      </article>
-
-      <!-- ============================================================
-           STORY 03: Scalable Digital Solutions
-           Layout: 45% Left (Design Workspace) | 55% Right (Content Panel)
-           ============================================================ -->
-      <article class="showcase-panel panel-03" data-aos="fade-up">
-        
-        <!-- Left: 45% Design Workspace with Floating Chips -->
-        <div class="showcase-media-side">
-          <div class="design-workspace">
-            <div class="workspace-glow"></div>
-            <div class="workspace-grid"></div>
-            <div class="workspace-coord">SCALE // AUTO_GROWTH</div>
-
-            <div class="workspace-image-box">
-              <img src="assets/images/why-scalable.png" alt="Scalable Digital Solutions" class="workspace-vector-img">
-            </div>
-
-            <!-- Floating Information Chips -->
-            <div class="floating-chip chip-1" data-speed="1.3">
-              <i class="fa-solid fa-cloud-arrow-up chip-icon-blue"></i>
-              <span>Cloud Native</span>
-            </div>
-            <div class="floating-chip chip-2" data-speed="0.7">
-              <i class="fa-solid fa-cubes chip-icon-purple"></i>
-              <span>Microservices</span>
-            </div>
-            <div class="floating-chip chip-3" data-speed="1.2">
-              <i class="fa-solid fa-chart-line-up chip-icon-green"></i>
-              <span>Auto-Scaling</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right: 55% Floating Content Panel -->
-        <div class="showcase-content-side">
-          <div class="story-content-panel tilt-target">
-            <div class="corner-accent corner-tl"></div>
-            <div class="corner-accent corner-br"></div>
-
-            <div class="panel-num">03.</div>
-            <h3 class="panel-title">Scalable Digital Solutions</h3>
-            <p class="panel-desc">
-              Solutions engineered to grow with your business without costly rebuilds or technical limitations.
-            </p>
-            
-            <!-- 3 Compact Key Highlight Rows -->
-            <div class="panel-highlights">
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">Event-Driven Microservices Architecture</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">Zero Rebuild Cost Growth Foundation</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">High-Throughput Auto-Scaling Infrastructure</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </article>
-
-      <!-- ============================================================
-           STORY 04: Long-Term Technology Partnership
-           Layout: 55% Left (Content Panel) | 45% Right (Design Workspace)
-           ============================================================ -->
-      <article class="showcase-panel panel-04" data-aos="fade-up">
-        
-        <!-- Left: 55% Floating Content Panel -->
-        <div class="showcase-content-side">
-          <div class="story-content-panel tilt-target">
-            <div class="corner-accent corner-tl"></div>
-            <div class="corner-accent corner-br"></div>
-
-            <div class="panel-num">04.</div>
-            <h3 class="panel-title">Long-Term Technology Partnership</h3>
-            <p class="panel-desc">
-              Beyond project delivery, we provide continuous optimisation, maintenance, strategic consulting, and future technology planning.
-            </p>
-            
-            <!-- 3 Compact Key Highlight Rows -->
-            <div class="panel-highlights">
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">99.9% Uptime Guarantee & 24/7 SLA Support</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">Continuous Optimization & Dedicated DevOps</span>
-              </div>
-              <div class="highlight-row">
-                <span class="row-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span class="row-text">Strategic Technology Roadmap & Consulting</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right: 45% Design Workspace with Floating Chips -->
-        <div class="showcase-media-side">
-          <div class="design-workspace">
-            <div class="workspace-glow"></div>
-            <div class="workspace-grid"></div>
-            <div class="workspace-coord">SLA // 24_7_SUPPORT</div>
-
-            <div class="workspace-image-box">
-              <img src="assets/images/why-partnership.png" alt="Long-Term Technology Partnership" class="workspace-vector-img">
-            </div>
-
-            <!-- Floating Information Chips -->
-            <div class="floating-chip chip-1" data-speed="1.2">
-              <i class="fa-solid fa-headset chip-icon-purple"></i>
-              <span>24/7 SLA Support</span>
-            </div>
-            <div class="floating-chip chip-2" data-speed="0.8">
-              <i class="fa-solid fa-gauge-high chip-icon-green"></i>
-              <span>99.9% Uptime</span>
-            </div>
-            <div class="floating-chip chip-3" data-speed="1.4">
-              <i class="fa-solid fa-handshake-angle chip-icon-blue"></i>
-              <span>Dedicated Squad</span>
-            </div>
-          </div>
-        </div>
-
-      </article>
-
-    </div>
-
-    <!-- Bottom Executive Action Showcase Capsule -->
-    <div class="why-action-showcase" data-aos="fade-up">
-      <div class="showcase-top-info">
-        <span class="showcase-mini-badge"><i class="fa-solid fa-circle-check"></i> Australian Enterprise Partnership</span>
-        <h3 class="showcase-heading">Accelerate Your Digital Platform Architecture</h3>
-        <p class="showcase-subheading">Collaborate directly with our onshore Sydney software engineering squad to build scalable, AI-powered digital infrastructure.</p>
       </div>
 
-      <!-- 2 Interactive Action Pathways -->
-      <div class="showcase-action-grid">
+      <!-- ============================================================
+           RIGHT COLUMN: About Header & Numbered Steps Stack
+           ============================================================ -->
+      <div class="about-content-side" data-aos="fade-left" data-aos-duration="800">
         
-        <!-- Action Card 1: Executive Strategy Session -->
-        <div class="action-card card-primary">
-          <div class="card-icon-box"><i class="fa-solid fa-calendar-check"></i></div>
-          <div class="card-text-box">
-            <h4>Book Executive Strategy Session</h4>
-            <p>30-minute 1-on-1 architecture & roadmap consultation with our onshore technology directors.</p>
+        <!-- Outline Badge -->
+        <span class="about-outline-badge">
+          ABOUT OUR COMPANY
+        </span>
+
+        <!-- Main Title -->
+        <h2 class="about-main-title">
+          Discover Innovative Solution & Technology
+        </h2>
+
+        <!-- Numbered Step List Flow (Connected by Vertical Line) -->
+        <div class="about-steps-flow">
+          
+          <!-- Step 01 -->
+          <div class="about-step-item">
+            <div class="step-num-circle">01</div>
+            <div class="step-text-content">
+              <h3 class="step-title">Planning & strategy</h3>
+              <p class="step-desc">
+                Comprehensive discovery, technical architecture, and strategic roadmap planning tailored to your enterprise goals.
+              </p>
+            </div>
           </div>
-          <a href="#contact" class="btn btn-action-primary">Schedule Session <i class="fa-solid fa-arrow-right"></i></a>
+
+          <!-- Step 02 -->
+          <div class="about-step-item">
+            <div class="step-num-circle">02</div>
+            <div class="step-text-content">
+              <h3 class="step-title">Testing & quality assurance</h3>
+              <p class="step-desc">
+                Rigorous automated testing, security audits, and continuous quality verification across all engineering stages.
+              </p>
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="about-step-item">
+            <div class="step-num-circle">03</div>
+            <div class="step-text-content">
+              <h3 class="step-title">Scalable Cloud & AI Deployment</h3>
+              <p class="step-desc">
+                Seamless cloud integration, automated CI/CD DevOps pipelines, and enterprise AI model deployment.
+              </p>
+            </div>
+          </div>
+
         </div>
 
-        <!-- Action Card 2: Architecture & Security Audit -->
-        <div class="action-card card-secondary">
-          <div class="card-icon-box"><i class="fa-solid fa-shield-halved"></i></div>
-          <div class="card-text-box">
-            <h4>Request Platform Technical Audit</h4>
-            <p>Receive a comprehensive enterprise architecture, cloud performance, and security readiness audit.</p>
-          </div>
-          <a href="#contact" class="btn btn-action-secondary">Request Audit <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-
-      </div>
-
-      <!-- Bottom Trust Indicators Bar -->
-      <div class="showcase-trust-strip">
-        <div class="trust-strip-item"><i class="fa-solid fa-circle-check"></i> 100% Onshore Australian Governance</div>
-        <div class="trust-strip-item"><i class="fa-solid fa-circle-check"></i> Zero-Obligation Technical Evaluation</div>
-        <div class="trust-strip-item"><i class="fa-solid fa-circle-check"></i> ISO 27001 Security Aligned</div>
       </div>
 
     </div>
-
   </div>
 </section>
 
-<!-- 3D Card Tilt & Chip Parallax Interaction Script -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const panels = document.querySelectorAll(".story-content-panel");
-  const workspaces = document.querySelectorAll(".design-workspace");
-
-  // 1. 3D Tilt Effect on Content Panels (3 deg max)
-  panels.forEach(panel => {
-    panel.addEventListener("mousemove", (e) => {
-      const rect = panel.getBoundingClientRect();
-      const x = e.clientX - rect.left - rect.width / 2;
-      const y = e.clientY - rect.top - rect.height / 2;
-      const rotateX = (-y / (rect.height / 2)) * 3;
-      const rotateY = (x / (rect.width / 2)) * 3;
-
-      panel.style.transform = `perspective(1000px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) translateY(-4px)`;
-    });
-
-    panel.addEventListener("mouseleave", () => {
-      panel.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0px)`;
-    });
-  });
-
-  // 2. Parallax Movement on Floating Workspace Chips
-  workspaces.forEach(ws => {
-    const chips = ws.querySelectorAll(".floating-chip");
-    
-    ws.addEventListener("mousemove", (e) => {
-      const rect = ws.getBoundingClientRect();
-      const x = (e.clientX - rect.left - rect.width / 2) * 0.04;
-      const y = (e.clientY - rect.top - rect.height / 2) * 0.04;
-
-      chips.forEach(chip => {
-        const speed = parseFloat(chip.getAttribute("data-speed")) || 1;
-        chip.style.transform = `translate3d(${(x * speed).toFixed(2)}px, ${(y * speed).toFixed(2)}px, 0)`;
-      });
-    });
-
-    ws.addEventListener("mouseleave", () => {
-      chips.forEach(chip => {
-        chip.style.transform = `translate3d(0, 0, 0)`;
-      });
-    });
-  });
-});
-</script>
-
 <!-- ============================================================
-     WHY SHOWCASE SCOPED STYLES
+     ABOUT OUR COMPANY SCOPED STYLES
      ============================================================ -->
 <style>
-/* ── Section Shell ── */
-.why-showcase-section {
+/* Section Shell (Light Enterprise Theme) */
+.about-company-section {
   position: relative;
-  padding: 140px 40px;
-  max-width: 1440px;
-  margin: 0 auto;
-  box-sizing: border-box;
+  padding: 100px 0;
+  background-color: #F8FAFC;
+  overflow: hidden;
 }
 
-/* ── Section Header (Max Width 900px, Centered) ── */
-.showcase-header {
-  text-align: center;
-  max-width: 900px;
-  margin: 0 auto 100px auto;
-}
-
-.showcase-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 18px;
-  background-color: transparent;
-  border: 1.5px solid #6D28FF;
-  border-radius: 100px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #6D28FF;
-  margin-bottom: 20px;
-}
-
-.showcase-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(36px, 3.8vw, 56px);
-  font-weight: 800;
-  line-height: 1.15;
-  color: #0F172A;
-  letter-spacing: -0.02em;
-  max-width: 900px;
-  margin: 0 auto 20px auto;
-}
-
-.showcase-subtitle {
-  font-size: 20px;
-  line-height: 1.6;
-  color: #475569;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-/* ── Flow & Panels ── */
-.showcase-flow {
-  display: flex;
-  flex-direction: column;
-  gap: 140px;
-  width: 100%;
-}
-
-.showcase-panel {
+.about-company-grid {
   display: grid;
-  grid-template-columns: 42% calc(58% - 48px);
+  grid-template-columns: 48% calc(52% - 48px);
   gap: 48px;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
-.panel-02,
-.panel-04 {
-  grid-template-columns: calc(58% - 48px) 42%;
-}
-
-/* Grid Column Sides */
-.showcase-media-side {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.showcase-content-side {
+/* ── LEFT COLUMN: Dual Photo Grid & Hexagon ── */
+.about-media-side {
   width: 100%;
 }
 
-/* ── Design Workspace (Illustration Presentation Area) ── */
-.design-workspace {
+.about-media-wrapper {
   position: relative;
   width: 100%;
-  max-width: 480px;
-  min-height: 380px;
-  background: #F8FAFC;
-  border: 1px stroke #E2E8F0;
-  border-radius: 28px;
-  padding: 40px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.04);
-  box-sizing: border-box;
-  overflow: visible;
+  max-width: 540px;
+  margin: 0 auto;
+  padding-bottom: 60px;
 }
 
-/* Soft Radial Glow behind illustration */
-.workspace-glow {
-  position: absolute;
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(109, 40, 255, 0.08), transparent 70%);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
+/* Main Primary Photo Frame */
+.about-main-photo-frame {
+  width: 78%;
+  height: 440px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.12);
+  background: #CBD5E1;
 }
 
-/* Thin Blueprint Grid lines */
-.workspace-grid {
-  position: absolute;
-  inset: 0;
-  border-radius: 28px;
-  background-size: 30px 30px;
-  background-image:
-    linear-gradient(to right, rgba(226, 232, 240, 0.6) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(226, 232, 240, 0.6) 1px, transparent 1px);
-  pointer-events: none;
-  opacity: 0.6;
-}
-
-/* Coordinate Marker Text */
-.workspace-coord {
-  position: absolute;
-  top: 14px;
-  right: 18px;
-  font-family: monospace;
-  font-size: 10px;
-  color: #94A3B8;
-  letter-spacing: 1px;
-}
-
-.workspace-image-box {
-  position: relative;
-  z-index: 2;
+.about-photo-img {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.workspace-vector-img {
-  width: 100%;
-  max-width: 320px;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
-/* Floating Information Chips (White Glass Annotations) */
-.floating-chip {
+/* Floating Gradient Hexagon Badge */
+.about-hexagon-badge {
   position: absolute;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(255, 255, 255, 0.94);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  padding: 8px 14px;
-  border-radius: 100px;
-  font-size: 12px;
-  font-weight: 700;
-  color: #0F172A;
-  box-shadow: 0 10px 24px -4px rgba(15, 23, 42, 0.12);
-  white-space: nowrap;
-  transition: transform 200ms ease-out;
-  animation: chipFloat 4s ease-in-out infinite alternate;
-}
-
-@keyframes chipFloat {
-  0%   { transform: translateY(0px); }
-  100% { transform: translateY(-6px); }
-}
-
-.chip-1 { top: -14px; left: 16px; animation-delay: 0s; }
-.chip-2 { bottom: -14px; right: 16px; animation-delay: 1.5s; }
-.chip-3 { bottom: 28px; left: -20px; animation-delay: 0.8s; }
-
-.chip-icon-blue   { color: #3B82F6; }
-.chip-icon-purple { color: #6D28FF; }
-.chip-icon-green  { color: #10B981; }
-
-/* ── Content Panel (Floating White Glass Card) ── */
-.story-content-panel {
-  position: relative;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid #E2E8F0;
-  border-radius: 28px;
-  padding: 56px;
-  box-shadow: 0 24px 64px -12px rgba(15, 23, 42, 0.08);
-  transition: transform 300ms ease-out, box-shadow 300ms ease-out;
-  box-sizing: border-box;
-}
-
-.story-content-panel:hover {
-  box-shadow: 0 32px 80px -16px rgba(15, 23, 42, 0.14);
-}
-
-/* Custom Asymmetric Corner Frame Accents (TL & BR only) */
-.corner-accent {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  pointer-events: none;
-}
-
-.corner-tl {
-  top: -1.5px;
-  left: -1.5px;
-  border-top: 3px solid #6D28FF;
-  border-left: 3px solid #6D28FF;
-  border-top-left-radius: 28px;
-}
-
-.corner-br {
-  bottom: -1.5px;
-  right: -1.5px;
-  border-bottom: 3px solid #3B82F6;
-  border-right: 3px solid #3B82F6;
-  border-bottom-right-radius: 28px;
-}
-
-.panel-num {
-  font-family: 'Poppins', sans-serif;
-  font-size: 56px;
-  font-weight: 800;
-  line-height: 1;
-  color: #CBD5E1;
-  margin-bottom: 16px;
-}
-
-.panel-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(26px, 2.2vw, 34px);
-  font-weight: 700;
-  color: #0F172A;
-  margin-bottom: 16px;
-  line-height: 1.25;
-}
-
-.panel-desc {
-  font-size: 20px;
-  line-height: 1.6;
-  color: #475569;
-  margin-bottom: 32px;
-}
-
-/* 3 Compact Key Highlight Rows */
-.panel-highlights {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  border-top: 1px solid #F1F5F9;
-  padding-top: 24px;
-}
-
-.highlight-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #0F172A;
-  transition: transform 200ms ease;
-}
-
-.highlight-row:hover {
-  transform: translateX(4px);
-}
-
-.row-check {
-  color: #3B82F6;
-  font-size: 1.1rem;
-  display: flex;
-  align-items: center;
-}
-
-/* ── Bottom Executive Action Showcase Capsule ── */
-.why-action-showcase {
-  width: 100%;
-  margin-top: 140px;
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 32px;
-  padding: 56px;
-  box-shadow: 0 24px 64px -12px rgba(15, 23, 42, 0.08);
-  box-sizing: border-box;
-}
-
-.showcase-top-info {
-  text-align: center;
-  max-width: 720px;
-  margin: 0 auto 40px auto;
-}
-
-.showcase-mini-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  font-weight: 700;
-  color: #6D28FF;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  margin-bottom: 12px;
-}
-
-.showcase-heading {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(26px, 2.5vw, 34px);
-  font-weight: 800;
-  color: #0F172A;
-  line-height: 1.25;
-  margin-bottom: 12px;
-}
-
-.showcase-subheading {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #475569;
-}
-
-/* 2 Action Cards Grid */
-.showcase-action-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 28px;
-  margin-bottom: 36px;
-}
-
-.action-card {
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  border-radius: 20px;
-  padding: 32px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  transition: transform 300ms ease, box-shadow 300ms ease, border-color 300ms ease;
-  box-sizing: border-box;
-}
-
-.action-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.08);
-  border-color: rgba(109, 40, 255, 0.3);
-}
-
-.card-icon-box {
-  width: 48px;
-  height: 48px;
-  border-radius: 14px;
+  top: 15px;
+  left: 54%;
+  width: 160px;
+  height: 180px;
+  background: linear-gradient(135deg, #6A1BFF 0%, #0055FF 100%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
-  margin-bottom: 18px;
+  box-shadow: 0 16px 36px rgba(109, 40, 255, 0.35);
+  z-index: 10;
 }
 
-.card-primary .card-icon-box {
-  background: rgba(109, 40, 255, 0.08);
-  color: #6D28FF;
+.hexagon-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  color: #FFFFFF;
 }
 
-.card-secondary .card-icon-box {
-  background: rgba(59, 130, 246, 0.08);
-  color: #3B82F6;
-}
-
-.card-text-box h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 19px;
-  font-weight: 700;
-  color: #0F172A;
+.hex-icon {
+  font-size: 34px;
   margin-bottom: 8px;
 }
 
-.card-text-box p {
-  font-size: 14px;
-  line-height: 1.55;
-  color: #64748B;
-  margin-bottom: 24px;
+.hex-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.25;
+  max-width: 100px;
 }
 
-.btn-action-primary {
-  height: 46px;
-  padding: 0 24px;
+/* Secondary Sub Photo Frame */
+.about-sub-photo-frame {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 48%;
+  height: 260px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 6px solid #FFFFFF;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.15);
+  z-index: 5;
+  background: #CBD5E1;
+}
+
+.sub-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── RIGHT COLUMN: Content & Steps ── */
+.about-content-side {
+  text-align: left;
+}
+
+.about-outline-badge {
+  display: inline-block;
+  padding: 6px 18px;
+  border: 1.5px solid rgba(109, 40, 255, 0.3);
   border-radius: 100px;
-  background: linear-gradient(135deg, #6D28FF, #3B82F6);
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: 700;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border: none;
-  box-shadow: 0 4px 16px rgba(109, 40, 255, 0.25);
-  transition: all 250ms ease;
-  align-self: flex-start;
-  margin-top: auto;
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #6A1BFF;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+  background: rgba(109, 40, 255, 0.04);
 }
 
-.btn-action-primary:hover {
-  box-shadow: 0 8px 24px rgba(109, 40, 255, 0.45);
-  transform: translateY(-2px);
-  color: #FFFFFF;
-}
-
-.btn-action-secondary {
-  height: 46px;
-  padding: 0 24px;
-  border-radius: 100px;
-  background: #FFFFFF;
-  border: 1.5px solid #3B82F6;
+.about-main-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(32px, 3.2vw, 48px);
+  font-weight: 800;
+  line-height: 1.18;
   color: #0F172A;
-  font-size: 14px;
-  font-weight: 700;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: all 250ms ease;
-  align-self: flex-start;
-  margin-top: auto;
+  margin-bottom: 36px;
+  letter-spacing: -0.02em;
 }
 
-.btn-action-secondary:hover {
-  background: rgba(59, 130, 246, 0.08);
-  border-color: #2563EB;
-  color: #3B82F6;
-  transform: translateY(-2px);
+/* Numbered Steps List Stack */
+.about-steps-flow {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
-/* Trust Indicators Strip */
-.showcase-trust-strip {
+/* Connecting Vertical Line */
+.about-steps-flow::before {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 23px;
+  bottom: 24px;
+  width: 2px;
+  border-left: 2px dashed #CBD5E1;
+  z-index: 1;
+}
+
+.about-step-item {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  z-index: 2;
+}
+
+.step-num-circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #08163D;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
-  padding-top: 28px;
-  border-top: 1px solid #F1F5F9;
-  flex-wrap: wrap;
+  flex-shrink: 0;
+  box-shadow: 0 6px 16px rgba(8, 22, 61, 0.25);
+  transition: all 250ms ease;
 }
 
-.trust-strip-item {
+.about-step-item:hover .step-num-circle {
+  background: #6A1BFF;
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(106, 27, 255, 0.4);
+}
+
+.step-text-content {
   display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 14px;
-  font-weight: 600;
-  color: #475569;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 4px;
 }
 
-.trust-strip-item i {
-  color: #10B981;
+.step-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #0F172A;
+  margin: 0;
 }
 
-/* ── Responsive Breakpoints ── */
+.step-desc {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #64748B;
+  margin: 0;
+  max-width: 540px;
+}
+
+/* Responsive */
 @media (max-width: 1199px) {
-  .showcase-title {
-    font-size: 48px;
+  .about-company-grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
   }
 
-  .showcase-panel {
-    flex-direction: column;
-    gap: 50px;
-  }
-
-  .showcase-media-side,
-  .showcase-content-side {
-    flex: 0 0 100%;
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .panel-02,
-  .panel-04 {
-    flex-direction: column-reverse;
-  }
-
-  .design-workspace {
-    max-width: 100%;
-  }
-
-  .chip-3 {
-    left: 10px;
-  }
-
-  .showcase-cta-banner {
-    flex-direction: column;
-    text-align: center;
-    gap: 24px;
-    padding: 36px 24px;
+  .about-media-wrapper {
+    max-width: 480px;
   }
 }
 
 @media (max-width: 767px) {
-  .why-showcase-section {
-    padding: 90px 20px;
+  .about-company-section {
+    padding: 70px 0;
   }
 
-  .showcase-title {
-    font-size: 36px;
+  .about-company-grid {
+    padding: 0 20px;
   }
 
-  .showcase-subtitle {
-    font-size: 17px;
+  .about-main-photo-frame {
+    height: 340px;
   }
 
-  .story-content-panel {
-    padding: 36px 24px;
+  .about-sub-photo-frame {
+    height: 190px;
   }
 
-  .panel-num {
-    font-size: 44px;
+  .about-hexagon-badge {
+    width: 130px;
+    height: 145px;
   }
 
-  .panel-title {
-    font-size: 24px;
+  .hex-icon {
+    font-size: 26px;
   }
 
-  .panel-desc {
-    font-size: 17px;
-  }
-
-  .cta-banner-actions {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .cta-banner-actions .btn {
-    width: 100%;
+  .about-main-title {
+    font-size: 32px;
   }
 }
 </style>
