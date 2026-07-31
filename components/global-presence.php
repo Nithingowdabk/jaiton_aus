@@ -1,172 +1,250 @@
 <!-- ============================================================
-     GLOBAL DELIVERY NETWORK – Premium Dotted Matrix Map (Australian Enterprise)
+     GLOBAL ENTERPRISE INFRASTRUCTURE PLATFORM (Azure / AWS Style)
      ============================================================ -->
-<section id="presence" class="global-presence-section">
+<section id="presence" class="global-infra-section">
   
   <!-- Subtle Blueprint Grid & Atmosphere Glows -->
-  <div class="presence-bg-layers" aria-hidden="true">
-    <div class="presence-blueprint-grid"></div>
-    <div class="presence-glow glow-sydney-au"></div>
-    <div class="presence-glow glow-top-left"></div>
+  <div class="infra-bg-layers" aria-hidden="true">
+    <div class="infra-blueprint-grid"></div>
+    <div class="infra-radial-glow glow-sydney"></div>
+    <div class="infra-radial-glow glow-nordic"></div>
   </div>
 
-  <div class="container presence-container">
+  <div class="container infra-container">
     
     <!-- Section Header (Centered, Max-Width 760px) -->
-    <div class="presence-header" data-aos="fade-up">
-      <span class="presence-badge">
-        <span class="presence-pulse-dot"></span> GLOBAL DELIVERY NETWORK
+    <div class="infra-header" data-aos="fade-up">
+      <span class="infra-badge">
+        <span class="badge-pulse-indicator"></span> GLOBAL DELIVERY NETWORK
       </span>
 
-      <h2 class="presence-title">
+      <h2 class="infra-title">
         Engineering Enterprise Solutions Without Borders
       </h2>
 
-      <p class="presence-subtitle">
+      <p class="infra-subtitle">
         Connecting Australian business strategy with globally distributed engineering teams, cloud infrastructure, AI innovation, and enterprise software delivery.
       </p>
     </div>
 
-    <!-- Centerpiece Stage: Full-Width Digital Dotted World Map -->
-    <div class="presence-map-stage" data-aos="fade-up" data-aos-delay="100">
+    <!-- Main Infrastructure Visual Stage (Full Width 1360px) -->
+    <div class="infra-stage" data-aos="fade-up" data-aos-delay="100">
       
-      <svg viewBox="0 0 1000 500" class="presence-dotted-svg" aria-hidden="true">
+      <!-- Floating Glassmorphism System KPI Cards -->
+      <div class="infra-system-card card-status">
+        <div class="system-icon-box"><i class="fa-solid fa-signal text-green"></i></div>
+        <div class="system-meta">
+          <span class="sys-label">Network Status</span>
+          <strong class="sys-val">Operational <small>99.99% Availability</small></strong>
+        </div>
+      </div>
+
+      <div class="infra-system-card card-capacity">
+        <div class="system-icon-box"><i class="fa-solid fa-server text-blue"></i></div>
+        <div class="system-meta">
+          <span class="sys-label">Cloud Capacity</span>
+          <strong class="sys-val">Healthy <small>145 Active Services</small></strong>
+        </div>
+      </div>
+
+      <div class="infra-system-card card-security">
+        <div class="system-icon-box"><i class="fa-solid fa-shield-check text-purple"></i></div>
+        <div class="system-meta">
+          <span class="sys-label">Security</span>
+          <strong class="sys-val">Protected <small>SOC Monitoring Active</small></strong>
+        </div>
+      </div>
+
+      <div class="infra-system-card card-latency">
+        <div class="system-icon-box"><i class="fa-solid fa-bolt text-amber"></i></div>
+        <div class="system-meta">
+          <span class="sys-label">Latency SLA</span>
+          <strong class="sys-val">Sydney → Singapore <small>38 ms</small></strong>
+        </div>
+      </div>
+
+      <!-- Real Vector World Map & Infrastructure Mesh -->
+      <svg viewBox="0 0 1000 500" class="infra-svg-canvas" aria-hidden="true">
         <defs>
-          <linearGradient id="presenceRouteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <linearGradient id="infraRouteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stop-color="#6A1BFF"/>
-            <stop offset="100%" stop-color="#0055FF"/>
+            <stop offset="50%" stop-color="#0055FF"/>
+            <stop offset="100%" stop-color="#6A1BFF"/>
           </linearGradient>
 
-          <!-- Dotted Matrix Pattern for Accurate Silhouette -->
-          <pattern id="dot-matrix-pat" width="6" height="6" patternUnits="userSpaceOnUse">
-            <circle cx="3" cy="3" r="1.1" fill="rgba(15, 23, 42, 0.12)"/>
-          </pattern>
+          <!-- Halo Glow for Sydney Hub -->
+          <radialGradient id="sydneyHubGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="rgba(106, 27, 255, 0.35)"/>
+            <stop offset="100%" stop-color="rgba(106, 27, 255, 0)"/>
+          </radialGradient>
         </defs>
 
-        <!-- Dotted Continent Silhouette Layer -->
-        <g fill="url(#dot-matrix-pat)">
-          <!-- North America -->
-          <path d="M 120,80 L 160,70 L 220,60 L 270,75 L 300,100 L 290,130 L 260,150 L 240,190 L 220,230 L 190,220 L 170,180 L 150,150 L 120,120 Z"/>
-          <!-- South America -->
-          <path d="M 240,260 L 280,250 L 320,280 L 330,340 L 300,420 L 260,440 L 240,380 L 230,300 Z"/>
-          <!-- Europe -->
-          <path d="M 450,75 L 510,65 L 560,80 L 550,120 L 500,130 L 460,115 Z"/>
-          <!-- Africa -->
-          <path d="M 460,150 L 550,140 L 610,190 L 600,270 L 550,370 L 500,380 L 470,300 L 450,220 Z"/>
-          <!-- Asia -->
-          <path d="M 560,70 L 660,50 L 780,55 L 860,85 L 890,130 L 820,160 L 750,180 L 680,210 L 610,180 Z"/>
-          <!-- Australia -->
-          <path d="M 800,320 L 890,300 L 960,340 L 940,430 L 870,440 L 810,410 L 790,360 Z"/>
+        <!-- Faint Latitude / Longitude Guides -->
+        <g stroke="rgba(15, 23, 42, 0.04)" stroke-width="1">
+          <line x1="0" y1="125" x2="1000" y2="125"/>
+          <line x1="0" y1="250" x2="1000" y2="250"/>
+          <line x1="0" y1="375" x2="1000" y2="375"/>
+          <line x1="250" y1="0" x2="250" y2="500"/>
+          <line x1="500" y1="0" x2="500" y2="500"/>
+          <line x1="750" y1="0" x2="750" y2="500"/>
         </g>
 
-        <!-- Elegant Curved SVG Connection Routes (Sydney HQ Central Connection) -->
-        <!-- Route 1: Sydney (860, 370) -> Singapore (770, 260) -->
-        <path d="M 860,370 Q 830,300 770,260" fill="none" stroke="url(#presenceRouteGrad)" stroke-width="1.8" stroke-dasharray="4 4" class="presence-route route-singapore"/>
+        <!-- Real 1px Vector Contour World Map (Accurate Continents) -->
+        <g fill="rgba(106, 27, 255, 0.02)" stroke="rgba(15, 23, 42, 0.14)" stroke-width="1">
+          <!-- North America -->
+          <path d="M 80,60 L 140,40 L 220,35 L 290,50 L 320,85 L 310,120 L 270,145 L 245,185 L 220,230 L 195,220 L 175,180 L 155,150 L 125,120 Z"/>
+          <!-- South America -->
+          <path d="M 235,250 L 275,240 L 315,270 L 325,330 L 295,410 L 255,430 L 235,370 L 225,290 Z"/>
+          <!-- Europe -->
+          <path d="M 440,65 L 500,55 L 550,70 L 540,110 L 490,120 L 450,105 Z"/>
+          <!-- Africa -->
+          <path d="M 450,140 L 540,130 L 600,180 L 590,260 L 540,360 L 490,370 L 460,290 L 440,210 Z"/>
+          <!-- Asia -->
+          <path d="M 550,60 L 650,40 L 770,45 L 850,75 L 880,120 L 810,150 L 740,170 L 670,200 L 600,170 Z"/>
+          <!-- Australia -->
+          <path d="M 790,310 L 880,290 L 950,330 L 930,420 L 860,430 L 800,400 L 780,350 Z"/>
+        </g>
 
-        <!-- Route 2: Sydney (860, 370) -> Bangalore (700, 220) -->
-        <path d="M 860,370 Q 800,260 700,220" fill="none" stroke="url(#presenceRouteGrad)" stroke-width="1.8" stroke-dasharray="4 4" class="presence-route route-bangalore"/>
+        <!-- Global Digital Infrastructure Mesh Nodes & 1px Connectors -->
+        <g stroke="rgba(0, 85, 255, 0.15)" stroke-width="1" fill="rgba(0, 85, 255, 0.25)">
+          <circle cx="180" cy="90" r="2.5"/> <line x1="180" y1="90" x2="245" y2="120"/>
+          <circle cx="245" cy="120" r="2.5"/> <line x1="245" y1="120" x2="270" y2="280"/>
+          <circle cx="480" cy="85" r="2.5"/> <line x1="480" y1="85" x2="510" y2="170"/>
+          <circle cx="670" cy="95" r="2.5"/> <line x1="670" y1="95" x2="740" y2="170"/>
+        </g>
 
-        <!-- Route 3: Sydney (860, 370) -> Dubai (640, 180) -->
-        <path d="M 860,370 Q 750,220 640,180" fill="none" stroke="url(#presenceRouteGrad)" stroke-width="1.8" stroke-dasharray="4 4" class="presence-route route-dubai"/>
+        <!-- 1px Infrastructure Service Routes from Sydney HQ -->
+        <path d="M 860,370 Q 830,300 770,260" fill="none" stroke="url(#infraRouteGrad)" stroke-width="1.5" stroke-dasharray="4 4" class="infra-route-line route-singapore"/>
+        <path d="M 860,370 Q 800,260 700,220" fill="none" stroke="url(#infraRouteGrad)" stroke-width="1.5" stroke-dasharray="4 4" class="infra-route-line route-bangalore"/>
+        <path d="M 860,370 Q 750,220 640,180" fill="none" stroke="url(#infraRouteGrad)" stroke-width="1.5" stroke-dasharray="4 4" class="infra-route-line route-dubai"/>
+        <path d="M 860,370 Q 690,390 530,350" fill="none" stroke="url(#infraRouteGrad)" stroke-width="1.5" stroke-dasharray="4 4" class="infra-route-line route-johannesburg"/>
 
-        <!-- Route 4: Sydney (860, 370) -> Johannesburg (530, 350) -->
-        <path d="M 860,370 Q 690,390 530,350" fill="none" stroke="url(#presenceRouteGrad)" stroke-width="1.8" stroke-dasharray="4 4" class="presence-route route-johannesburg"/>
+        <!-- Sydney Central Hub Halo Glow & Orbital Ring -->
+        <circle cx="860" cy="370" r="40" fill="url(#sydneyHubGlow)" class="sydney-halo-pulse"/>
+        <circle cx="860" cy="370" r="20" fill="none" stroke="#6A1BFF" stroke-width="1.5" stroke-dasharray="3 3" class="sydney-orbital-ring"/>
       </svg>
 
-      <!-- 5 Office Location Markers (Glowing Pulse + Brand Pin + Hover Glass Tooltip) -->
-      <!-- 1. Sydney HQ (Hub) -->
-      <div class="presence-pin pin-sydney">
-        <div class="pin-pulse"></div>
-        <div class="pin-marker is-hub"></div>
-        <div class="presence-tooltip">
-          <div class="tooltip-title">🇦🇺 Sydney HQ</div>
-          <div class="tooltip-tag">Enterprise Strategy</div>
-          <div class="tooltip-sub">24×7 Operations • 45 Engineers</div>
+      <!-- 5 Key Regional Enterprise Office Nodes -->
+      <!-- 1. Sydney HQ (Primary Central Hub) -->
+      <div class="infra-node node-sydney">
+        <div class="hub-ripple-ring"></div>
+        <div class="node-dot-marker is-hub-dot"></div>
+        <div class="node-label-box is-hub-label">
+          <span class="flag">🇦🇺</span>
+          <div class="node-text">
+            <strong>Sydney HQ <span class="hub-tag">PRIMARY HUB</span></strong>
+            <small>Enterprise Strategy</small>
+          </div>
+        </div>
+
+        <!-- Glass Hover Tooltip -->
+        <div class="infra-hover-tooltip">
+          <div class="tooltip-head">
+            <strong>🇦🇺 Sydney HQ</strong>
+            <span class="pulse-online">● Online</span>
+          </div>
+          <p class="tooltip-body">Enterprise Consulting • 24×7 Operations • Executive Delivery Team</p>
+          <div class="tooltip-footer">
+            <span>Core SLA: <strong>99.99%</strong></span>
+            <span>Squad: <strong>15 Directors</strong></span>
+          </div>
         </div>
       </div>
 
-      <!-- 2. Bangalore R&D -->
-      <div class="presence-pin pin-bangalore">
-        <div class="pin-pulse"></div>
-        <div class="pin-marker"></div>
-        <div class="presence-tooltip">
-          <div class="tooltip-title">🇮🇳 Bangalore R&D</div>
-          <div class="tooltip-tag">Software Engineering</div>
-          <div class="tooltip-sub">AI Models & Custom Code</div>
+      <!-- 2. Bangalore Engineering -->
+      <div class="infra-node node-bangalore">
+        <div class="node-dot-marker"></div>
+        <div class="node-label-box">
+          <span class="flag">🇮🇳</span>
+          <div class="node-text">
+            <strong>Bangalore</strong>
+            <small>Engineering Centre</small>
+          </div>
+        </div>
+
+        <div class="infra-hover-tooltip">
+          <div class="tooltip-head">
+            <strong>🇮🇳 Bangalore Engineering</strong>
+            <span class="pulse-online">● Online</span>
+          </div>
+          <p class="tooltip-body">Engineering Centre • AI • Cloud • Enterprise Software</p>
+          <div class="tooltip-footer">
+            <span>Capacity: <strong>High</strong></span>
+            <span>Squad: <strong>30+ Engineers</strong></span>
+          </div>
         </div>
       </div>
 
-      <!-- 3. Singapore Hub -->
-      <div class="presence-pin pin-singapore">
-        <div class="pin-pulse"></div>
-        <div class="pin-marker"></div>
-        <div class="presence-tooltip">
-          <div class="tooltip-title">🇸🇬 Singapore Hub</div>
-          <div class="tooltip-tag">Cloud Operations</div>
-          <div class="tooltip-sub">APAC Edge Infrastructure</div>
+      <!-- 3. Singapore Cloud Operations -->
+      <div class="infra-node node-singapore">
+        <div class="node-dot-marker"></div>
+        <div class="node-label-box">
+          <span class="flag">🇸🇬</span>
+          <div class="node-text">
+            <strong>Singapore</strong>
+            <small>Cloud Operations</small>
+          </div>
+        </div>
+
+        <div class="infra-hover-tooltip">
+          <div class="tooltip-head">
+            <strong>🇸🇬 Singapore Cloud Hub</strong>
+            <span class="pulse-online">● Online</span>
+          </div>
+          <p class="tooltip-body">Cloud Infrastructure • Regional Delivery</p>
+          <div class="tooltip-footer">
+            <span>Latency: <strong>38 ms</strong></span>
+            <span>Squad: <strong>10 Architects</strong></span>
+          </div>
         </div>
       </div>
 
-      <!-- 4. Dubai -->
-      <div class="presence-pin pin-dubai">
-        <div class="pin-pulse"></div>
-        <div class="pin-marker"></div>
-        <div class="presence-tooltip">
-          <div class="tooltip-title">🇦🇪 Dubai</div>
-          <div class="tooltip-tag">Business Development</div>
-          <div class="tooltip-sub">Regional Partnerships</div>
+      <!-- 4. Dubai Business Development -->
+      <div class="infra-node node-dubai">
+        <div class="node-dot-marker"></div>
+        <div class="node-label-box">
+          <span class="flag">🇦🇪</span>
+          <div class="node-text">
+            <strong>Dubai</strong>
+            <small>Business Development</small>
+          </div>
+        </div>
+
+        <div class="infra-hover-tooltip">
+          <div class="tooltip-head">
+            <strong>🇦🇪 Dubai Regional Hub</strong>
+            <span class="pulse-online">● Online</span>
+          </div>
+          <p class="tooltip-body">Business Development • Regional Partnerships</p>
+          <div class="tooltip-footer">
+            <span>Coverage: <strong>MENA</strong></span>
+            <span>Squad: <strong>8 Advisors</strong></span>
+          </div>
         </div>
       </div>
 
-      <!-- 5. Johannesburg -->
-      <div class="presence-pin pin-johannesburg">
-        <div class="pin-pulse"></div>
-        <div class="pin-marker"></div>
-        <div class="presence-tooltip">
-          <div class="tooltip-title">🇿🇦 Johannesburg</div>
-          <div class="tooltip-tag">Support & QA</div>
-          <div class="tooltip-sub">Quality Verification</div>
+      <!-- 5. Johannesburg Support & QA -->
+      <div class="infra-node node-johannesburg">
+        <div class="node-dot-marker"></div>
+        <div class="node-label-box">
+          <span class="flag">🇿🇦</span>
+          <div class="node-text">
+            <strong>Johannesburg</strong>
+            <small>Support & QA</small>
+          </div>
         </div>
-      </div>
 
-    </div>
-
-    <!-- Clean Capability Ribbon (Single Row Beneath Map) -->
-    <div class="presence-capability-ribbon" data-aos="fade-up" data-aos-delay="150">
-      <span class="cap-item" data-route="route-bangalore">AI Engineering</span>
-      <span class="cap-bullet">•</span>
-      <span class="cap-item" data-route="route-singapore">Cloud Platforms</span>
-      <span class="cap-bullet">•</span>
-      <span class="cap-item" data-route="route-bangalore">Enterprise Software</span>
-      <span class="cap-bullet">•</span>
-      <span class="cap-item" data-route="route-johannesburg">Cyber Security</span>
-      <span class="cap-bullet">•</span>
-      <span class="cap-item" data-route="route-singapore">Data Platforms</span>
-      <span class="cap-bullet">•</span>
-      <span class="cap-item" data-route="route-dubai">IoT Systems</span>
-    </div>
-
-    <!-- Enterprise Metrics Cards (4 KPI Cards Below Map) -->
-    <div class="presence-kpi-grid" data-aos="fade-up" data-aos-delay="200">
-      
-      <div class="kpi-card-item">
-        <span class="kpi-number" data-count="120">120+</span>
-        <span class="kpi-label">Projects Delivered</span>
-      </div>
-
-      <div class="kpi-card-item">
-        <span class="kpi-number" data-count="98">98%</span>
-        <span class="kpi-label">Client Satisfaction</span>
-      </div>
-
-      <div class="kpi-card-item">
-        <span class="kpi-number">24×7</span>
-        <span class="kpi-label">Support Coverage</span>
-      </div>
-
-      <div class="kpi-card-item">
-        <span class="kpi-number" data-count="5">5+</span>
-        <span class="kpi-label">Global Delivery Locations</span>
+        <div class="infra-hover-tooltip">
+          <div class="tooltip-head">
+            <strong>🇿🇦 Johannesburg Hub</strong>
+            <span class="pulse-online">● Online</span>
+          </div>
+          <p class="tooltip-body">Support Operations • Quality Engineering</p>
+          <div class="tooltip-footer">
+            <span>Support: <strong>24×7</strong></span>
+            <span>Squad: <strong>12 Engineers</strong></span>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -174,49 +252,24 @@
   </div>
 </section>
 
-<!-- Route Highlight JS -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const capItems = document.querySelectorAll(".cap-item");
-  const routes = document.querySelectorAll(".presence-route");
-
-  capItems.forEach(item => {
-    item.addEventListener("mouseenter", () => {
-      const routeClass = item.getAttribute("data-route");
-      routes.forEach(r => {
-        if (r.classList.contains(routeClass)) {
-          r.classList.add("active-route");
-        } else {
-          r.classList.add("dimmed-route");
-        }
-      });
-    });
-
-    item.addEventListener("mouseleave", () => {
-      routes.forEach(r => r.classList.remove("active-route", "dimmed-route"));
-    });
-  });
-});
-</script>
-
 <!-- ============================================================
-     SCOPED STYLES (Light Enterprise Theme #F7FAFF)
+     SCOPED STYLES (Pure White Enterprise Aesthetic #FFFFFF)
      ============================================================ -->
 <style>
-.global-presence-section {
+.global-infra-section {
   position: relative;
   padding: 100px 0;
-  background-color: #F7FAFF;
+  background-color: #FFFFFF;
   overflow: hidden;
 }
 
-.presence-bg-layers {
+.infra-bg-layers {
   position: absolute;
   inset: 0;
   pointer-events: none;
 }
 
-.presence-blueprint-grid {
+.infra-blueprint-grid {
   position: absolute;
   inset: 0;
   background-size: 32px 32px;
@@ -225,24 +278,24 @@ document.addEventListener("DOMContentLoaded", () => {
     linear-gradient(to bottom, rgba(15, 23, 42, 0.02) 1px, transparent 1px);
 }
 
-.presence-glow {
+.infra-radial-glow {
   position: absolute;
   border-radius: 50%;
-  filter: blur(140px);
-  opacity: 0.18;
+  filter: blur(150px);
+  opacity: 0.15;
 }
 
-.glow-sydney-au { bottom: -50px; right: 8%; width: 500px; height: 500px; background: #6A1BFF; }
-.glow-top-left  { top: -50px; left: 10%; width: 450px; height: 450px; background: #0055FF; }
+.glow-sydney { bottom: -60px; right: 8%; width: 520px; height: 520px; background: #6A1BFF; }
+.glow-nordic { top: -60px; left: 10%; width: 480px; height: 480px; background: #0055FF; }
 
 /* Header */
-.presence-header {
+.infra-header {
   text-align: center;
   max-width: 760px;
   margin: 0 auto 50px auto;
 }
 
-.presence-badge {
+.infra-badge {
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -257,22 +310,16 @@ document.addEventListener("DOMContentLoaded", () => {
   background: rgba(106, 27, 255, 0.04);
 }
 
-.presence-pulse-dot {
+.badge-pulse-indicator {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   background: #6A1BFF;
   box-shadow: 0 0 0 3px rgba(106, 27, 255, 0.2);
-  animation: presencePulse 2s infinite;
+  animation: pulseDot 2s infinite;
 }
 
-@keyframes presencePulse {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(106, 27, 255, 0.5); }
-  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(106, 27, 255, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(106, 27, 255, 0); }
-}
-
-.presence-title {
+.infra-title {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(34px, 3.6vw, 48px);
   font-weight: 800;
@@ -282,73 +329,132 @@ document.addEventListener("DOMContentLoaded", () => {
   letter-spacing: -0.02em;
 }
 
-.presence-subtitle {
+.infra-subtitle {
   font-size: 16.5px;
   line-height: 1.65;
   color: #64748B;
   margin: 0;
 }
 
-/* Map Stage */
-.presence-map-stage {
+/* Infrastructure Visual Stage */
+.infra-stage {
   position: relative;
   width: 100%;
   max-width: 1360px;
-  margin: 0 auto 36px auto;
+  margin: 0 auto;
   border-radius: 28px;
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
   padding: 30px;
-  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.04);
+  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.05);
   overflow: hidden;
 }
 
-.presence-dotted-svg {
+.infra-svg-canvas {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Routes */
-.presence-route {
-  transition: stroke 300ms ease, stroke-width 300ms ease, opacity 300ms ease;
+/* Floating Glassmorphism System Cards */
+.infra-system-card {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid #E2E8F0;
+  padding: 10px 16px;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 12;
+  transition: transform 250ms ease;
 }
 
-.presence-route.active-route {
-  stroke: #6A1BFF;
-  stroke-width: 3px;
-  stroke-dasharray: none;
-  opacity: 1;
+.infra-system-card:hover {
+  transform: translateY(-3px);
+  border-color: #6A1BFF;
 }
 
-.presence-route.dimmed-route {
-  opacity: 0.25;
+.card-status   { top: 8%; left: 4%; }
+.card-capacity { top: 12%; right: 4%; }
+.card-security { bottom: 12%; left: 4%; }
+.card-latency  { bottom: 8%; right: 4%; }
+
+.system-icon-box {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
 }
 
-/* 5 Location Markers */
-.presence-pin {
+.system-meta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.sys-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748B;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sys-val {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13.5px;
+  font-weight: 800;
+  color: #0F172A;
+}
+
+.sys-val small {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: #0055FF;
+  margin-left: 4px;
+}
+
+/* Sydney Central Hub Animations */
+.sydney-orbital-ring {
+  transform-origin: 860px 370px;
+  animation: spinOrbital 18s linear infinite;
+}
+
+@keyframes spinOrbital {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.sydney-halo-pulse {
+  animation: haloPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes haloPulse {
+  0% { transform: scale(0.85); opacity: 0.4; }
+  100% { transform: scale(1.15); opacity: 0.8; }
+}
+
+/* Office Nodes & Markers */
+.infra-node {
   position: absolute;
   z-index: 15;
   cursor: pointer;
 }
 
-.pin-pulse {
-  position: absolute;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: rgba(106, 27, 255, 0.25);
-  top: -6px;
-  left: -6px;
-  animation: pinPulse 2s infinite;
-}
+.infra-node.node-sydney      { top: 74%; left: 86%; }
+.infra-node.node-bangalore   { top: 44%; left: 70%; }
+.infra-node.node-singapore   { top: 52%; left: 77%; }
+.infra-node.node-dubai       { top: 36%; left: 64%; }
+.infra-node.node-johannesburg { top: 70%; left: 53%; }
 
-@keyframes pinPulse {
-  0% { transform: scale(0.6); opacity: 1; }
-  100% { transform: scale(1.8); opacity: 0; }
-}
-
-.pin-marker {
+.node-dot-marker {
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -357,163 +463,150 @@ document.addEventListener("DOMContentLoaded", () => {
   box-shadow: 0 0 10px #0055FF;
 }
 
-.pin-marker.is-hub {
-  width: 13px;
-  height: 13px;
+.is-hub-dot {
+  width: 14px;
+  height: 14px;
   background: #6A1BFF;
   box-shadow: 0 0 14px #6A1BFF;
 }
 
-/* Pin Positions */
-.pin-sydney { top: 74%; left: 86%; }
-.pin-bangalore { top: 44%; left: 70%; }
-.pin-singapore { top: 52%; left: 77%; }
-.pin-dubai { top: 36%; left: 64%; }
-.pin-johannesburg { top: 70%; left: 53%; }
+.hub-ripple-ring {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(106, 27, 255, 0.3);
+  top: -6px;
+  left: -6px;
+  animation: rippleGlow 2s infinite;
+}
 
-/* Floating Glass Tooltip */
-.presence-tooltip {
+@keyframes rippleGlow {
+  0% { transform: scale(0.5); opacity: 1; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+.node-label-box {
+  position: absolute;
+  top: 14px;
+  left: -20px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  padding: 6px 12px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.is-hub-label {
+  border-color: rgba(106, 27, 255, 0.35);
+}
+
+.hub-tag {
+  font-size: 8.5px;
+  font-weight: 800;
+  color: #6A1BFF;
+  background: rgba(106, 27, 255, 0.1);
+  padding: 2px 5px;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+
+.node-label-box .flag { font-size: 15px; }
+
+.node-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.node-text strong {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: #0F172A;
+}
+
+.node-text small {
+  font-size: 10px;
+  color: #64748B;
+  font-weight: 600;
+}
+
+/* Glass Hover Tooltip */
+.infra-hover-tooltip {
   position: absolute;
   bottom: 120%;
   left: 50%;
   transform: translateX(-50%) translateY(8px);
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(12px);
+  width: 250px;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(16px);
   border: 1px solid #E2E8F0;
-  padding: 12px 16px;
+  padding: 14px 16px;
   border-radius: 14px;
   box-shadow: 0 16px 36px rgba(15, 23, 42, 0.15);
   opacity: 0;
   visibility: hidden;
   transition: all 250ms ease;
   pointer-events: none;
-  z-index: 20;
+  z-index: 25;
   text-align: left;
-  white-space: nowrap;
 }
 
-.presence-pin:hover .presence-tooltip {
+.infra-node:hover .infra-hover-tooltip {
   opacity: 1;
   visibility: visible;
   transform: translateX(-50%) translateY(0);
 }
 
-.tooltip-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
+.tooltip-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 12.5px;
+}
+
+.pulse-online {
+  color: #10B981;
   font-weight: 800;
-  color: #0F172A;
-  margin-bottom: 2px;
+  font-size: 10.5px;
 }
 
-.tooltip-tag {
+.tooltip-body {
   font-size: 11.5px;
-  font-weight: 700;
-  color: #6A1BFF;
-  margin-bottom: 4px;
+  line-height: 1.45;
+  color: #475569;
+  margin: 0 0 10px 0;
 }
 
-.tooltip-sub {
+.tooltip-footer {
+  display: flex;
+  justify-content: space-between;
   font-size: 10.5px;
   color: #64748B;
-  font-weight: 600;
-}
-
-/* Single Row Capability Ribbon */
-.presence-capability-ribbon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  padding: 14px 24px;
-  margin: 0 auto 48px auto;
-  max-width: 1000px;
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 100px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 13.5px;
-  font-weight: 700;
-  color: #334155;
-  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.03);
-  flex-wrap: wrap;
-}
-
-.cap-item {
-  cursor: pointer;
-  transition: color 200ms ease, transform 200ms ease;
-}
-
-.cap-item:hover {
-  color: #6A1BFF;
-  transform: translateY(-1px);
-}
-
-.cap-bullet {
-  color: #CBD5E1;
-}
-
-/* KPI Cards Grid */
-.presence-kpi-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  max-width: 1360px;
-  margin: 0 auto;
-}
-
-.kpi-card-item {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 20px;
-  padding: 32px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 12px 32px rgba(0, 43, 128, 0.04);
-  transition: transform 250ms ease;
-}
-
-.kpi-card-item:hover {
-  transform: translateY(-4px);
-  border-color: rgba(106, 27, 255, 0.3);
-}
-
-.kpi-number {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(36px, 3.2vw, 48px);
-  font-weight: 900;
-  line-height: 1;
-  color: #0055FF;
-  margin-bottom: 8px;
-}
-
-.kpi-label {
-  font-size: 14px;
-  font-weight: 700;
-  color: #475569;
+  border-top: 1px solid #F1F5F9;
+  padding-top: 8px;
 }
 
 /* Responsive */
 @media (max-width: 1199px) {
-  .presence-kpi-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .infra-system-card { display: none; }
 }
 
 @media (max-width: 767px) {
-  .global-presence-section {
+  .global-infra-section {
     padding: 60px 0;
   }
 
-  .presence-map-stage {
+  .infra-stage {
     padding: 16px;
     overflow-x: auto;
   }
 
-  .presence-kpi-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
+  .node-label-box { display: none; }
 }
 </style>
