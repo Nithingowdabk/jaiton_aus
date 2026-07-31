@@ -88,7 +88,7 @@
 
           <div class="mission-media-side">
             <div class="mission-img-wrap">
-              <img src="assets/images/mission-isometric.png" alt="Vision Isometric Tech Illustration" class="mission-iso-img">
+              <img src="assets/images/vision-isometric.png" alt="Vision Isometric Tech Illustration" class="mission-iso-img">
             </div>
           </div>
 
@@ -127,7 +127,7 @@
 
           <div class="mission-media-side">
             <div class="mission-img-wrap">
-              <img src="assets/images/mission-isometric.png" alt="Core Values Isometric Tech Illustration" class="mission-iso-img">
+              <img src="assets/images/values-isometric.png" alt="Core Values Isometric Tech Illustration" class="mission-iso-img">
             </div>
           </div>
 
