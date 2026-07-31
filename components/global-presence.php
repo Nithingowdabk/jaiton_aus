@@ -1,572 +1,639 @@
 <!-- ============================================================
-     ADVANCED ENTERPRISE STRATEGY HUB & LIGHT DIGITAL TOPOLOGY
+     GLOBAL DELIVERY NETWORK – Full Enterprise Interactive Experience
      ============================================================ -->
-<section id="presence" class="presence-advanced-section">
+<section id="presence" class="global-network-section">
   
-  <div class="container">
+  <!-- Subtle Blueprint Grid & Radial Glow Layers -->
+  <div class="network-bg-layers" aria-hidden="true">
+    <div class="network-grid-texture"></div>
+    <div class="network-radial-glow glow-sydney"></div>
+    <div class="network-radial-glow glow-top"></div>
+  </div>
+
+  <div class="container network-container">
     
-    <!-- 2-Column Desktop Grid: Left Interactive Digital Topology Map / Right Executive Strategy Form -->
-    <div class="adv-consult-grid">
+    <!-- Header (Center Aligned, Max-Width 760px) -->
+    <div class="network-header" data-aos="fade-up">
+      <span class="network-badge">
+        <span class="badge-pulse-dot"></span> GLOBAL DELIVERY NETWORK
+      </span>
+
+      <h2 class="network-title">
+        Engineering Enterprise Solutions Without Borders
+      </h2>
+
+      <p class="network-subtitle">
+        Connecting Australian business strategy with globally distributed engineering teams, cloud infrastructure, AI innovation, and enterprise software delivery.
+      </p>
+    </div>
+
+    <!-- Centerpiece: Interactive Digital World Map & Network (100% Width) -->
+    <div class="network-map-stage" data-aos="fade-up" data-aos-delay="100">
       
-      <!-- ============================================================
-           LEFT SIDE: Headline, Interactive Badges & DGPS Matrix Map
-           ============================================================ -->
-      <div class="adv-left-side" data-aos="fade-right">
-        
-        <span class="adv-section-badge">
-          ENTERPRISE STRATEGY & GLOBAL CAPABILITIES
-        </span>
-
-        <h2 class="adv-main-title">
-          Accelerate Your Enterprise <span class="gradient-text-light">Digital Platform</span>
-        </h2>
-        
-        <p class="adv-desc">
-          Schedule a 1-on-1 architecture consultation with our onshore Sydney technology directors or request an immediate technical readiness audit.
-        </p>
-
-        <!-- Feature Capability Badges -->
-        <div class="adv-pills-row">
-          <span class="adv-pill"><i class="fa-solid fa-shield-check icon-purple"></i> 100% Onshore Strategy</span>
-          <span class="adv-pill"><i class="fa-solid fa-clock-rotate-left icon-blue"></i> 24/7 Executive SLA</span>
-          <span class="adv-pill"><i class="fa-solid fa-lock icon-green"></i> ISO 27001 Aligned</span>
-        </div>
-
-        <!-- DGPS Digital Matrix World Map Graphic (Light Theme) -->
-        <div class="adv-matrix-wrapper">
-          <svg viewBox="0 0 900 450" class="adv-world-map" aria-hidden="true">
-            <defs>
-              <!-- Dotted Matrix Pattern for Light Theme -->
-              <pattern id="adv-matrix-dots-light" width="8" height="8" patternUnits="userSpaceOnUse">
-                <circle cx="4" cy="4" r="1.2" fill="rgba(15, 23, 42, 0.15)"/>
-              </pattern>
-
-              <linearGradient id="advRouteGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#6A1BFF"/>
-                <stop offset="50%" stop-color="#0055FF"/>
-                <stop offset="100%" stop-color="#10B981"/>
-              </linearGradient>
-            </defs>
-
-            <!-- Coordinate Blueprint Lines -->
-            <g stroke="rgba(15, 23, 42, 0.05)" stroke-width="1">
-              <line x1="150" y1="0" x2="150" y2="450"/>
-              <line x1="350" y1="0" x2="350" y2="450"/>
-              <line x1="550" y1="0" x2="550" y2="450"/>
-              <line x1="750" y1="0" x2="750" y2="450"/>
-              <line x1="0" y1="112" x2="900" y2="112"/>
-              <line x1="0" y1="225" x2="900" y2="225"/>
-              <line x1="0" y1="337" x2="900" y2="337"/>
-            </g>
-
-            <!-- Dotted Matrix Continent Outlines -->
-            <g fill="url(#adv-matrix-dots-light)">
-              <path d="M 70,60 L 100,50 L 130,45 L 180,40 L 230,55 L 270,65 L 285,85 L 270,110 L 250,125 L 235,150 L 215,170 L 200,200 L 180,215 L 165,200 L 150,185 L 135,165 L 120,150 L 105,135 L 85,120 L 65,105 L 60,85 Z"/>
-              <path d="M 210,230 L 240,220 L 275,245 L 295,280 L 300,320 L 280,360 L 260,400 L 240,420 L 225,400 L 215,360 L 210,320 Z"/>
-              <path d="M 420,65 L 450,55 L 490,50 L 520,65 L 535,85 L 515,105 L 485,110 L 455,105 L 430,100 Z"/>
-              <path d="M 440,130 L 500,125 L 550,155 L 570,195 L 555,235 L 535,275 L 520,325 Z"/>
-              <path d="M 525,60 L 590,45 L 670,40 L 750,45 L 820,60 L 860,85 L 840,120 L 800,140 Z"/>
-              <path d="M 760,310 L 820,295 L 880,305 L 925,335 L 930,370 L 900,415 L 840,425 Z"/>
-            </g>
-
-            <!-- Network Connections -->
-            <path d="M 840,360 Q 780,280 685,230" fill="none" stroke="url(#advRouteGradLight)" stroke-width="2" stroke-dasharray="5 5"/>
-            <path d="M 685,230 Q 590,280 495,345" fill="none" stroke="url(#advRouteGradLight)" stroke-width="2" stroke-dasharray="5 5"/>
-          </svg>
-
-          <!-- Node 1: Sydney HQ -->
-          <div class="node-pin node-sydney">
-            <div class="node-glow-ring"></div>
-            <div class="node-card-light">
-              <span class="node-country-code">AU</span>
-              <div class="node-details">
-                <strong>Sydney HQ</strong>
-                <small>Governance & Architecture</small>
-              </div>
-            </div>
-          </div>
-
-          <!-- Node 2: Bangalore R&D -->
-          <div class="node-pin node-bangalore">
-            <div class="node-glow-ring"></div>
-            <div class="node-card-light">
-              <span class="node-country-code">IN</span>
-              <div class="node-details">
-                <strong>Bangalore R&D</strong>
-                <small>Global AI & Cloud Hub</small>
-              </div>
-            </div>
-          </div>
-
-          <!-- Node 3: Johannesburg Hub -->
-          <div class="node-pin node-johannesburg">
-            <div class="node-glow-ring"></div>
-            <div class="node-card-light">
-              <span class="node-country-code">ZA</span>
-              <div class="node-details">
-                <strong>Johannesburg Hub</strong>
-                <small>QA & Compliance</small>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+      <!-- Live Floating Activity Notifications -->
+      <div class="live-status-toast toast-1" id="toast-1">
+        <i class="fa-solid fa-circle-check text-green"></i> <span>Cloud Sync Active (12ms)</span>
+      </div>
+      <div class="live-status-toast toast-2" id="toast-2">
+        <i class="fa-solid fa-shield-check text-purple"></i> <span>Security Scan Passed</span>
+      </div>
+      <div class="live-status-toast toast-3" id="toast-3">
+        <i class="fa-solid fa-server text-blue"></i> <span>Infrastructure Healthy</span>
       </div>
 
-      <!-- ============================================================
-           RIGHT SIDE: Book Executive Strategy Workshop Form (Light Card)
-           ============================================================ -->
-      <div class="adv-right-form" data-aos="fade-left">
-        <div class="form-card-light">
-          
-          <div class="form-card-header">
-            <h3 class="form-card-title">Book Executive Strategy Workshop</h3>
-            <span class="sla-badge-light"><i class="fa-solid fa-bolt"></i> 24H SLA</span>
+      <!-- Floating Capability Chips -->
+      <div class="capability-chip chip-ai">AI & Machine Learning</div>
+      <div class="capability-chip chip-cloud">Cloud Engineering</div>
+      <div class="capability-chip chip-enterprise">Enterprise Applications</div>
+      <div class="capability-chip chip-cyber">Cyber Security</div>
+      <div class="capability-chip chip-data">Data Platforms</div>
+      <div class="capability-chip chip-iot">IoT Systems</div>
+      <div class="capability-chip chip-digital">Digital Transformation</div>
+
+      <!-- SVG Digital World Map & Arc Routes -->
+      <svg viewBox="0 0 1000 500" class="network-svg-map" aria-hidden="true">
+        <defs>
+          <linearGradient id="routeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#6A1BFF"/>
+            <stop offset="50%" stop-color="#0055FF"/>
+            <stop offset="100%" stop-color="#6A1BFF"/>
+          </linearGradient>
+
+          <!-- Dotted Matrix Pattern for Map -->
+          <pattern id="world-dots-pat" width="6" height="6" patternUnits="userSpaceOnUse">
+            <circle cx="3" cy="3" r="1.1" fill="rgba(15, 23, 42, 0.12)"/>
+          </pattern>
+        </defs>
+
+        <!-- World Continent Outlines (Dotted Fill + Subtle Stroke) -->
+        <g fill="url(#world-dots-pat)" stroke="rgba(15, 23, 42, 0.1)" stroke-width="0.8">
+          <!-- North America -->
+          <path d="M 120,80 L 160,70 L 220,60 L 270,75 L 300,100 L 290,130 L 260,150 L 240,190 L 220,230 L 190,220 L 170,180 L 150,150 L 120,120 Z"/>
+          <!-- South America -->
+          <path d="M 240,260 L 280,250 L 320,280 L 330,340 L 300,420 L 260,440 L 240,380 L 230,300 Z"/>
+          <!-- Europe -->
+          <path d="M 450,75 L 510,65 L 560,80 L 550,120 L 500,130 L 460,115 Z"/>
+          <!-- Africa -->
+          <path d="M 460,150 L 550,140 L 610,190 L 600,270 L 550,370 L 500,380 L 470,300 L 450,220 Z"/>
+          <!-- Asia -->
+          <path d="M 560,70 L 660,50 L 780,55 L 860,85 L 890,130 L 820,160 L 750,180 L 680,210 L 610,180 Z"/>
+          <!-- Australia -->
+          <path d="M 800,320 L 890,300 L 960,340 L 940,430 L 870,440 L 810,410 L 790,360 Z"/>
+        </g>
+
+        <!-- Network Arc Routes Connecting Sydney HQ to Global Hubs -->
+        <!-- Sydney (860, 370) -> Bangalore (700, 220) -->
+        <path d="M 860,370 Q 800,260 700,220" fill="none" stroke="url(#routeGradient)" stroke-width="2" stroke-dasharray="6 6" class="route-line"/>
+        
+        <!-- Sydney (860, 370) -> Singapore (770, 260) -->
+        <path d="M 860,370 Q 830,300 770,260" fill="none" stroke="url(#routeGradient)" stroke-width="2" stroke-dasharray="6 6" class="route-line"/>
+        
+        <!-- Sydney (860, 370) -> Dubai (640, 180) -->
+        <path d="M 860,370 Q 750,220 640,180" fill="none" stroke="url(#routeGradient)" stroke-width="2" stroke-dasharray="6 6" class="route-line"/>
+        
+        <!-- Sydney (860, 370) -> Johannesburg (530, 350) -->
+        <path d="M 860,370 Q 690,390 530,350" fill="none" stroke="url(#routeGradient)" stroke-width="2" stroke-dasharray="6 6" class="route-line"/>
+      </svg>
+
+      <!-- Interactive Office Nodes Overlay -->
+      <!-- 1. Sydney HQ -->
+      <div class="office-node node-sydney">
+        <div class="node-pulse"></div>
+        <div class="node-marker"></div>
+        <div class="node-badge-box">
+          <span class="flag">🇦🇺</span>
+          <div class="node-info">
+            <strong>Sydney HQ</strong>
+            <small>Business Strategy & Enterprise Consulting</small>
           </div>
+        </div>
+        <!-- Glass Tooltip -->
+        <div class="node-tooltip">
+          <div class="tooltip-header">
+            <strong>🇦🇺 Sydney Headquarters</strong>
+            <span class="status-online">● Online</span>
+          </div>
+          <p>Lead onshore governance, client advisory, solution design & strategic consulting team.</p>
+          <div class="tooltip-stats">
+            <span>Latency: <strong><4ms</strong></span>
+            <span>Squad: <strong>15+ Directors</strong></span>
+          </div>
+        </div>
+      </div>
 
-          <form id="adv-strategy-form" onsubmit="event.preventDefault(); alert('Thank you! Your Executive Strategy Session request has been logged. Our technology director will reach out within 24 hours.');">
-            
-            <!-- Scope Selector Pills -->
-            <div class="scope-group-wrapper">
-              <label class="group-label">SELECT PROJECT SCOPE</label>
-              <div class="scope-pills-grid">
-                <button type="button" class="scope-pill-btn active" data-scope="AI & ML">
-                  <i class="fa-solid fa-brain"></i> AI & ML
-                </button>
-                <button type="button" class="scope-pill-btn" data-scope="Cloud Platform">
-                  <i class="fa-solid fa-cloud"></i> Cloud Platform
-                </button>
-                <button type="button" class="scope-pill-btn" data-scope="Custom App">
-                  <i class="fa-solid fa-code"></i> Custom App
-                </button>
-                <button type="button" class="scope-pill-btn" data-scope="Cybersecurity">
-                  <i class="fa-solid fa-shield-halved"></i> Cybersecurity
-                </button>
-                <button type="button" class="scope-pill-btn" data-scope="IoT Systems">
-                  <i class="fa-solid fa-network-wired"></i> IoT Systems
-                </button>
-                <button type="button" class="scope-pill-btn" data-scope="Data Platform">
-                  <i class="fa-solid fa-database"></i> Data Platform
-                </button>
-              </div>
-            </div>
+      <!-- 2. Bangalore R&D -->
+      <div class="office-node node-bangalore">
+        <div class="node-pulse"></div>
+        <div class="node-marker"></div>
+        <div class="node-badge-box">
+          <span class="flag">🇮🇳</span>
+          <div class="node-info">
+            <strong>Bangalore R&D</strong>
+            <small>Software Engineering & AI</small>
+          </div>
+        </div>
+        <div class="node-tooltip">
+          <div class="tooltip-header">
+            <strong>🇮🇳 Bangalore R&D Center</strong>
+            <span class="status-online">● Online</span>
+          </div>
+          <p>Global core engineering hub for custom AI models, cloud modernization & full-stack development.</p>
+          <div class="tooltip-stats">
+            <span>Latency: <strong>14ms</strong></span>
+            <span>Squad: <strong>30+ Engineers</strong></span>
+          </div>
+        </div>
+      </div>
 
-            <!-- Two-Column Fields -->
-            <div class="form-row-2col">
-              <div class="form-field">
-                <label>Full Name *</label>
-                <input type="text" placeholder="Your Full Name" required class="input-light">
-              </div>
-              <div class="form-field">
-                <label>Work Email *</label>
-                <input type="email" placeholder="name@company.com" required class="input-light">
-              </div>
-            </div>
+      <!-- 3. Singapore Hub -->
+      <div class="office-node node-singapore">
+        <div class="node-pulse"></div>
+        <div class="node-marker"></div>
+        <div class="node-badge-box">
+          <span class="flag">🇸🇬</span>
+          <div class="node-info">
+            <strong>Singapore Hub</strong>
+            <small>Cloud & Infrastructure</small>
+          </div>
+        </div>
+        <div class="node-tooltip">
+          <div class="tooltip-header">
+            <strong>🇸🇬 Singapore Hub</strong>
+            <span class="status-online">● Online</span>
+          </div>
+          <p>APAC cloud infrastructure operations, high-availability clusters & data edge routing.</p>
+          <div class="tooltip-stats">
+            <span>Latency: <strong>8ms</strong></span>
+            <span>Squad: <strong>10+ Architects</strong></span>
+          </div>
+        </div>
+      </div>
 
-            <div class="form-row-2col">
-              <div class="form-field">
-                <label>Phone Number</label>
-                <input type="tel" placeholder="+61 468 403 743" class="input-light">
-              </div>
-              <div class="form-field">
-                <label>Location / City</label>
-                <input type="text" placeholder="Sydney, Australia" class="input-light">
-              </div>
-            </div>
+      <!-- 4. Dubai Hub -->
+      <div class="office-node node-dubai">
+        <div class="node-pulse"></div>
+        <div class="node-marker"></div>
+        <div class="node-badge-box">
+          <span class="flag">🇦🇪</span>
+          <div class="node-info">
+            <strong>Dubai Hub</strong>
+            <small>Regional Partnerships</small>
+          </div>
+        </div>
+        <div class="node-tooltip">
+          <div class="tooltip-header">
+            <strong>🇦🇪 Dubai Hub</strong>
+            <span class="status-online">● Online</span>
+          </div>
+          <p>Middle East regional partnerships, compliance integration & enterprise expansion.</p>
+          <div class="tooltip-stats">
+            <span>Latency: <strong>18ms</strong></span>
+            <span>Squad: <strong>8+ Advisors</strong></span>
+          </div>
+        </div>
+      </div>
 
-            <!-- Estimated Scale -->
-            <div class="form-field">
-              <label>ESTIMATED PROJECT SCALE</label>
-              <select class="select-light">
-                <option value="">-- Select Project Scale / Investment --</option>
-                <option value="50k-100k">AUD $50,000 - $100,000</option>
-                <option value="100k-250k">AUD $100,000 - $250,000</option>
-                <option value="250k+">AUD $250,000+</option>
-              </select>
-            </div>
-
-            <!-- Objective & Requirements -->
-            <div class="form-field">
-              <label>PROJECT OBJECTIVE & TIMELINE</label>
-              <textarea rows="3" placeholder="Briefly describe your platform goals or requirements..." class="textarea-light"></textarea>
-            </div>
-
-            <!-- Guarantees Row -->
-            <div class="form-guarantees-row">
-              <span><i class="fa-solid fa-lock"></i> 100% Confidential & NDA Protected</span>
-              <span><i class="fa-solid fa-circle-check text-green"></i> Onshore Strategy Lead</span>
-            </div>
-
-            <!-- Submit Button -->
-            <button type="submit" class="btn-adv-submit">
-              REQUEST EXECUTIVE STRATEGY SESSION <i class="fa-solid fa-arrow-right"></i>
-            </button>
-
-          </form>
-
+      <!-- 5. Johannesburg Hub -->
+      <div class="office-node node-johannesburg">
+        <div class="node-pulse"></div>
+        <div class="node-marker"></div>
+        <div class="node-badge-box">
+          <span class="flag">🇿🇦</span>
+          <div class="node-info">
+            <strong>Johannesburg Hub</strong>
+            <small>Support & Quality Engineering</small>
+          </div>
+        </div>
+        <div class="node-tooltip">
+          <div class="tooltip-header">
+            <strong>🇿🇦 Johannesburg Hub</strong>
+            <span class="status-online">● Online</span>
+          </div>
+          <p>24x7 support desk, continuous QA testing, automated deployment verification & monitoring.</p>
+          <div class="tooltip-stats">
+            <span>Latency: <strong>22ms</strong></span>
+            <span>Squad: <strong>12+ Engineers</strong></span>
+          </div>
         </div>
       </div>
 
     </div>
+
+    <!-- Enterprise Statistics Cards Grid (Below Map) -->
+    <div class="network-stats-grid" data-aos="fade-up" data-aos-delay="200">
+      
+      <div class="net-stat-card">
+        <span class="net-stat-num" data-count="120">120+</span>
+        <span class="net-stat-lbl">Projects Delivered</span>
+      </div>
+
+      <div class="net-stat-card">
+        <span class="net-stat-num" data-count="98">98%</span>
+        <span class="net-stat-lbl">Client Satisfaction</span>
+      </div>
+
+      <div class="net-stat-card">
+        <span class="net-stat-num">24×7</span>
+        <span class="net-stat-lbl">Engineering Support</span>
+      </div>
+
+      <div class="net-stat-card">
+        <span class="net-stat-num" data-count="5">5+</span>
+        <span class="net-stat-lbl">Global Delivery Locations</span>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
-<!-- Scope Selector JS -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const scopeBtns = document.querySelectorAll(".scope-pill-btn");
-  scopeBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      scopeBtns.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-    });
-  });
-});
-</script>
-
-<!-- ============================================================
-     SCOPED STYLES (Light Enterprise Theme)
-     ============================================================ -->
+<!-- Scoped Styles (Clean Light Enterprise Aesthetic #F7FAFF) -->
 <style>
-.presence-advanced-section {
+/* Section Shell */
+.global-network-section {
   position: relative;
   padding: 100px 0;
-  background-color: #F8FAFC;
+  background-color: #F7FAFF;
   overflow: hidden;
 }
 
-.adv-consult-grid {
-  display: grid;
-  grid-template-columns: 48% calc(52% - 48px);
-  gap: 48px;
+.network-bg-layers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.network-grid-texture {
+  position: absolute;
+  inset: 0;
+  background-size: 32px 32px;
+  background-image:
+    linear-gradient(to right, rgba(15, 23, 42, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 23, 42, 0.02) 1px, transparent 1px);
+}
+
+.network-radial-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(140px);
+  opacity: 0.18;
+}
+
+.glow-sydney {
+  bottom: 0;
+  right: 10%;
+  width: 450px;
+  height: 450px;
+  background: #6A1BFF;
+}
+
+.glow-top {
+  top: 0;
+  left: 20%;
+  width: 500px;
+  height: 500px;
+  background: #0055FF;
+}
+
+/* Header */
+.network-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 50px auto;
+}
+
+.network-badge {
+  display: inline-flex;
   align-items: center;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
-
-/* ── LEFT SIDE ── */
-.adv-left-side {
-  text-align: left;
-}
-
-.adv-section-badge {
-  display: inline-block;
+  gap: 8px;
   padding: 6px 18px;
-  border: 1.5px solid rgba(109, 40, 255, 0.3);
+  border: 1.5px solid rgba(106, 27, 255, 0.25);
   border-radius: 100px;
   font-size: 12px;
   font-weight: 800;
   color: #6A1BFF;
   letter-spacing: 1px;
   margin-bottom: 18px;
-  background: rgba(109, 40, 255, 0.04);
+  background: rgba(106, 27, 255, 0.04);
 }
 
-.adv-main-title {
+.badge-pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #6A1BFF;
+  box-shadow: 0 0 0 3px rgba(106, 27, 255, 0.2);
+  animation: pulseDot 2s infinite;
+}
+
+@keyframes pulseDot {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(106, 27, 255, 0.5); }
+  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(106, 27, 255, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(106, 27, 255, 0); }
+}
+
+.network-title {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(34px, 3.6vw, 48px);
   font-weight: 800;
-  line-height: 1.18;
+  line-height: 1.15;
   color: #0F172A;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   letter-spacing: -0.02em;
 }
 
-.gradient-text-light {
-  background: linear-gradient(135deg, #6A1BFF 0%, #0055FF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.adv-desc {
-  font-size: 16px;
+.network-subtitle {
+  font-size: 16.5px;
   line-height: 1.65;
   color: #64748B;
-  margin-bottom: 28px;
-  max-width: 540px;
+  margin: 0;
 }
 
-.adv-pills-row {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 36px;
-}
-
-.adv-pill {
-  padding: 8px 16px;
-  border-radius: 100px;
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  font-size: 13px;
-  font-weight: 700;
-  color: #1E293B;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
-}
-
-.icon-purple { color: #6A1BFF; }
-.icon-blue   { color: #0055FF; }
-.icon-green  { color: #10B981; }
-
-/* DGPS Matrix Map */
-.adv-matrix-wrapper {
+/* Map Stage (Full Width 100%) */
+.network-map-stage {
   position: relative;
   width: 100%;
-  border-radius: 20px;
+  max-width: 1360px;
+  margin: 0 auto 60px auto;
+  border-radius: 28px;
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  padding: 20px;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.05);
+  padding: 30px;
+  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.05);
+  overflow: hidden;
 }
 
-.adv-world-map {
+.network-svg-map {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Node Pins */
-.node-pin {
+/* Floating Capability Chips */
+.capability-chip {
   position: absolute;
-  z-index: 5;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #E2E8F0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1E293B;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  pointer-events: none;
+  z-index: 8;
+  animation: chipFloat 5s ease-in-out infinite alternate;
 }
 
-.node-sydney { bottom: 22%; right: 12%; }
-.node-bangalore { top: 40%; right: 28%; }
-.node-johannesburg { bottom: 28%; left: 45%; }
+@keyframes chipFloat {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-8px); }
+}
 
-.node-card-light {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
+.chip-ai { top: 12%; left: 8%; animation-delay: 0s; }
+.chip-cloud { top: 18%; right: 10%; animation-delay: 1.2s; }
+.chip-enterprise { bottom: 20%; left: 10%; animation-delay: 2.4s; }
+.chip-cyber { top: 8%; left: 45%; animation-delay: 0.8s; }
+.chip-data { bottom: 12%; right: 40%; animation-delay: 1.8s; }
+.chip-iot { top: 40%; left: 5%; animation-delay: 3s; }
+.chip-digital { bottom: 8%; left: 35%; animation-delay: 1.5s; }
+
+/* Live Status Notifications */
+.live-status-toast {
+  position: absolute;
   padding: 8px 14px;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+  border-radius: 100px;
+  background: #08163D;
+  color: #FFFFFF;
+  font-size: 11.5px;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  box-shadow: 0 8px 24px rgba(8, 22, 61, 0.25);
+  z-index: 12;
+  opacity: 0.9;
+  animation: toastFade 4s ease-in-out infinite alternate;
 }
 
-.node-country-code {
-  font-size: 11px;
-  font-weight: 800;
-  color: #6A1BFF;
-  background: rgba(106, 27, 255, 0.08);
-  padding: 4px 8px;
-  border-radius: 6px;
+@keyframes toastFade {
+  0% { opacity: 0.3; transform: scale(0.96); }
+  100% { opacity: 1; transform: scale(1); }
 }
 
-.node-details {
+.toast-1 { top: 25%; right: 28%; }
+.toast-2 { top: 45%; left: 35%; animation-delay: 1.5s; }
+.toast-3 { bottom: 25%; right: 18%; animation-delay: 2.8s; }
+
+.text-green { color: #10B981; }
+.text-purple { color: #A275FF; }
+.text-blue { color: #3B82F6; }
+
+/* Office Nodes Overlay */
+.office-node {
+  position: absolute;
+  z-index: 15;
+  cursor: pointer;
+}
+
+.node-pulse {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(106, 27, 255, 0.25);
+  top: -7px;
+  left: -7px;
+  animation: nodePulse 2s infinite;
+}
+
+@keyframes nodePulse {
+  0% { transform: scale(0.6); opacity: 1; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+
+.node-marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #6A1BFF;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 0 10px #6A1BFF;
+}
+
+.node-badge-box {
+  position: absolute;
+  top: 14px;
+  left: -20px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  padding: 6px 12px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  transition: transform 200ms ease;
+}
+
+.office-node:hover .node-badge-box {
+  transform: translateY(-2px);
+  border-color: #6A1BFF;
+}
+
+.node-badge-box .flag {
+  font-size: 15px;
+}
+
+.node-info {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-.node-details strong {
-  font-size: 13px;
+.node-info strong {
+  font-size: 12.5px;
   font-weight: 800;
   color: #0F172A;
 }
 
-.node-details small {
+.node-info small {
+  font-size: 10px;
+  color: #64748B;
+  font-weight: 600;
+}
+
+/* Floating Glass Tooltip on Hover */
+.node-tooltip {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  width: 240px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+  border: 1px solid #E2E8F0;
+  padding: 14px 16px;
+  border-radius: 14px;
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 250ms ease;
+  pointer-events: none;
+  z-index: 20;
+  text-align: left;
+}
+
+.office-node:hover .node-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.tooltip-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 12px;
+}
+
+.status-online {
+  color: #10B981;
+  font-weight: 800;
+  font-size: 10px;
+}
+
+.node-tooltip p {
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: #475569;
+  margin: 0 0 10px 0;
+}
+
+.tooltip-stats {
+  display: flex;
+  justify-content: space-between;
   font-size: 10.5px;
   color: #64748B;
+  border-top: 1px solid #F1F5F9;
+  padding-top: 8px;
 }
 
-/* ── RIGHT SIDE FORM ── */
-.form-card-light {
+/* Position Nodes over SVG Map */
+.node-sydney { top: 74%; left: 86%; }
+.node-bangalore { top: 44%; left: 70%; }
+.node-singapore { top: 52%; left: 77%; }
+.node-dubai { top: 36%; left: 64%; }
+.node-johannesburg { top: 70%; left: 53%; }
+
+/* Enterprise Statistics Cards (Below Map) */
+.network-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+.net-stat-card {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
-  border-radius: 24px;
-  padding: 40px;
-  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.06);
-  text-align: left;
-}
-
-.form-card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 24px;
-}
-
-.form-card-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 22px;
-  font-weight: 800;
-  color: #0F172A;
-  margin: 0;
-}
-
-.sla-badge-light {
-  font-size: 11.5px;
-  font-weight: 800;
-  color: #6A1BFF;
-  background: rgba(106, 27, 255, 0.08);
-  padding: 4px 12px;
-  border-radius: 100px;
-}
-
-/* Scope Pills Grid */
-.scope-group-wrapper {
-  margin-bottom: 20px;
-}
-
-.group-label {
-  font-size: 11px;
-  font-weight: 800;
-  color: #64748B;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  display: block;
-}
-
-.scope-pills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-.scope-pill-btn {
-  height: 40px;
-  border-radius: 10px;
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 12.5px;
-  font-weight: 700;
-  color: #475569;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  transition: all 200ms ease;
-}
-
-.scope-pill-btn:hover {
-  border-color: #0055FF;
-  color: #0055FF;
-}
-
-.scope-pill-btn.active {
-  background: #0055FF;
-  border-color: #0055FF;
-  color: #FFFFFF;
-  box-shadow: 0 4px 12px rgba(0, 85, 255, 0.3);
-}
-
-/* Form Fields */
-.form-row-2col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.form-field {
+  border-radius: 20px;
+  padding: 32px 24px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  margin-bottom: 16px;
-}
-
-.form-field label {
-  font-family: 'Poppins', sans-serif;
-  font-size: 12.5px;
-  font-weight: 700;
-  color: #334155;
-}
-
-.input-light,
-.select-light,
-.textarea-light {
-  width: 100%;
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  border-radius: 12px;
-  padding: 12px 16px;
-  font-size: 14px;
-  color: #0F172A;
-  outline: none;
-  transition: all 200ms ease;
-  box-sizing: border-box;
-  font-family: inherit;
-}
-
-.input-light:focus,
-.select-light:focus,
-.textarea-light:focus {
-  background: #FFFFFF;
-  border-color: #0055FF;
-  box-shadow: 0 0 0 3px rgba(0, 85, 255, 0.1);
-}
-
-/* Guarantees & Submit Button */
-.form-guarantees-row {
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-  font-weight: 600;
-  color: #64748B;
-  margin-bottom: 20px;
-}
-
-.btn-adv-submit {
-  width: 100%;
-  height: 52px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #6A1BFF 0%, #0055FF 100%);
-  color: #FFFFFF;
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 800;
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 10px;
-  box-shadow: 0 8px 24px rgba(0, 85, 255, 0.35);
-  transition: all 250ms ease;
+  box-shadow: 0 12px 32px rgba(0, 43, 128, 0.04);
+  transition: transform 250ms ease;
 }
 
-.btn-adv-submit:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(0, 85, 255, 0.5);
+.net-stat-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(106, 27, 255, 0.3);
+}
+
+.net-stat-num {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(36px, 3.2vw, 48px);
+  font-weight: 900;
+  line-height: 1;
+  color: #0055FF;
+  margin-bottom: 8px;
+}
+
+.net-stat-lbl {
+  font-size: 14px;
+  font-weight: 700;
+  color: #475569;
 }
 
 /* Responsive */
 @media (max-width: 1199px) {
-  .adv-consult-grid {
-    grid-template-columns: 1fr;
-    gap: 48px;
+  .network-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+
+  .capability-chip { display: none; }
 }
 
 @media (max-width: 767px) {
-  .presence-advanced-section {
+  .global-network-section {
     padding: 60px 0;
   }
 
-  .adv-consult-grid {
-    padding: 0 20px;
+  .network-map-stage {
+    padding: 16px;
+    overflow-x: auto;
   }
 
-  .form-card-light {
-    padding: 24px 20px;
-  }
-
-  .form-row-2col {
+  .network-stats-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
-  .scope-pills-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  .node-badge-box { display: none; }
 }
 </style>
