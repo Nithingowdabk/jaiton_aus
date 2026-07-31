@@ -43,7 +43,7 @@
                 </div>
               </div>
               <div class="card-photo-box">
-                <img src="assets/images/hero-meeting.png" alt="IT Strategy Digital Transformation" class="card-bottom-img">
+                <img src="assets/images/sketch-it-strategy.png" alt="IT Strategy Digital Transformation" class="card-bottom-img">
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@
                 </div>
               </div>
               <div class="card-photo-box">
-                <img src="assets/images/about-developer.png" alt="AI & Data Analytics Consulting" class="card-bottom-img">
+                <img src="assets/images/sketch-ai-analytics.png" alt="AI & Data Analytics Consulting" class="card-bottom-img">
               </div>
             </div>
           </div>
@@ -268,12 +268,19 @@ document.addEventListener("DOMContentLoaded", () => {
   border-radius: 16px;
   overflow: hidden;
   margin-top: 20px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  box-sizing: border-box;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.04);
 }
 
 .card-bottom-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   transition: transform 500ms ease;
 }
