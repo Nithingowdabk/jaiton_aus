@@ -323,12 +323,24 @@
     border-radius: 50%;
     background: #0055FF;
     color: #FFFFFF !important;
-    display: flex !align-items: center;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
     font-size: 16px;
+    line-height: 1;
     box-shadow: 0 6px 18px rgba(0, 85, 255, 0.35);
     transition: all 250ms ease;
     margin-left: 10px;
+    flex-shrink: 0;
+  }
+
+  .back-to-top-btn i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
   }
 
   .back-to-top-btn:hover {
