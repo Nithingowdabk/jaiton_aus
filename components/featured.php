@@ -1,497 +1,444 @@
 <!-- ============================================================
-     SUCCESS STORIES – Ultra Minimalist Enterprise Case Studies Showcase
+     PORTFOLIO / CASE STUDIES SECTION (Navigates to Full Page Details)
      ============================================================ -->
-<section id="featured" class="cs-minimalist-section">
-  
-  <div class="container">
-    
-    <!-- Section Header (Centered & Minimalist) -->
-    <div class="cs-min-header" data-aos="fade-up">
-      <span class="cs-min-badge">SUCCESS STORIES</span>
-      <h2 class="cs-min-title">Engineering Business Outcomes</h2>
-      <p class="cs-min-subtitle">
-        Solving real-world enterprise challenges through modern software architecture, AI platforms, and cloud engineering.
-      </p>
-    </div>
-
-    <!-- Minimalist Filter Tabs -->
-    <div class="cs-min-tabs" data-aos="fade-up" data-aos-delay="100">
-      <button class="cs-tab-btn active" data-target="cs-0">MedAI Pathology Scanner</button>
-      <button class="cs-tab-btn" data-target="cs-1">Aura Fleet Telemetry Grid</button>
-      <button class="cs-tab-btn" data-target="cs-2">GovTech Digital Portal</button>
-    </div>
-
-    <!-- Case Study Panels Container -->
-    <div class="cs-min-panels-wrap" data-aos="fade-up" data-aos-delay="150">
+<section id="featured" class="pt-0 about_and_case_section bg-dark" style="background-image: url('assets/images/backgrounds/bg_image_2.webp');">
+  <div class="container cs-jaiton-container">
+    <div class="case_studies_main_container">
       
-      <!-- ============================================================
-           CASE STUDY 01: MedAI Pathology Scanner
-           ============================================================ -->
-      <article class="cs-min-panel active" id="cs-0">
-        <div class="cs-min-grid">
-          
-          <!-- Left: Clean Minimalist Project Illustration -->
-          <div class="cs-min-media">
-            <div class="cs-img-frame">
-              <img src="assets/images/cs-medai-minimalist.png" alt="MedAI Pathology Scanner Minimalist Artwork" class="cs-project-img">
-            </div>
-          </div>
-
-          <!-- Right: Clean Minimalist Project Content -->
-          <div class="cs-min-content">
-            <span class="cs-tag-category">HEALTHCARE & AI</span>
-            <h3 class="cs-project-headline">Automated AI Vision Portal & Clinical Diagnostics</h3>
-            
-            <p class="cs-project-description">
-              Engineered an automated diagnostic vision portal utilizing deep learning classification pipelines directly on GPU micro-nodes, accelerating high-resolution scan analysis from hours to seconds.
-            </p>
-
-            <!-- 3 Minimalist Key Metrics -->
-            <div class="cs-metrics-row">
-              <div class="metric-item">
-                <span class="metric-value">+65%</span>
-                <span class="metric-label">Efficiency Gain</span>
-              </div>
-              <div class="metric-item">
-                <span class="metric-value">40%</span>
-                <span class="metric-label">Cost Reduction</span>
-              </div>
-              <div class="metric-item">
-                <span class="metric-value">99.9%</span>
-                <span class="metric-label">System SLA</span>
-              </div>
-            </div>
-
-            <!-- Technology Stack Pills -->
-            <div class="cs-tech-pills">
-              <span class="tech-pill">React</span>
-              <span class="tech-pill">Python</span>
-              <span class="tech-pill">TensorFlow</span>
-              <span class="tech-pill">PostgreSQL</span>
-              <span class="tech-pill">AWS</span>
-            </div>
-
-            <!-- CTA Button -->
-            <div class="cs-cta-wrap">
-              <a href="#contact" class="btn-cs-action">
-                View Case Study <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-
-          </div>
-
+      <!-- PERFECTLY CENTERED HEADING BLOCK WITH CLEARANCE -->
+      <div class="heading_block text-center text-white">
+        <div class="heading_focus_text has_underline d-inline-flex" style="background-image: url('assets/images/shapes/shape_title_under_line.svg');">
+          Case Studies
         </div>
-      </article>
+        <h2 class="heading_text mb-0">
+          Our latest <mark>Case</mark> Studies
+        </h2>
+      </div>
 
-      <!-- ============================================================
-           CASE STUDY 02: Aura Fleet Telemetry Grid
-           ============================================================ -->
-      <article class="cs-min-panel" id="cs-1">
-        <div class="cs-min-grid">
-          
-          <div class="cs-min-media">
-            <div class="cs-img-frame">
-              <img src="assets/images/cs-aura-minimalist.png" alt="Aura Fleet Telemetry Grid Minimalist Artwork" class="cs-project-img">
-            </div>
-          </div>
-
-          <div class="cs-min-content">
-            <span class="cs-tag-category">MINING & IOT TELEMETRY</span>
-            <h3 class="cs-project-headline">Real-Time Fleet IoT Telemetry & Predictive Maintenance</h3>
-            
-            <p class="cs-project-description">
-              Streamed high-frequency sensor telemetry across remote heavy vehicle fleets, delivering edge anomaly detection and predictive maintenance alerts before critical failures occur.
+      <!-- CASE STUDIES WRAPPER (Exact 1360px Card Layout & Side Margins) -->
+      <div class="case_studies_wrapper">
+        
+        <!-- CASE STUDY 1: Association Management System -->
+        <div class="case_study_block" style="--stack-idx: 1;">
+          <div class="case_study_content">
+            <ul class="category_list unordered_list text-uppercase">
+              <li><a href="case-study-details.php?id=0">ASSOCIATION / NON-PROFIT MANAGEMENT</a></li>
+            </ul>
+            <h3 class="case_title">
+              <a href="case-study-details.php?id=0">Association Management System</a>
+            </h3>
+            <p>
+              We designed a centralized association management system to digitize member records, communication,
+              and administrative workflows. The platform improved operational efficiency, enabled real-time access
+              to data, and reduced manual processes. It empowered the association to manage memberships and daily
+              operations with greater transparency and control.
             </p>
-
-            <div class="cs-metrics-row">
-              <div class="metric-item">
-                <span class="metric-value">10k+</span>
-                <span class="metric-label">Active Sensors</span>
-              </div>
-              <div class="metric-item">
-                <span class="metric-value">-32%</span>
-                <span class="metric-label">Unplanned Downtime</span>
-              </div>
-              <div class="metric-item">
-                <span class="metric-value">&lt;50ms</span>
-                <span class="metric-label">Latency Stream</span>
-              </div>
-            </div>
-
-            <div class="cs-tech-pills">
-              <span class="tech-pill">Node.js</span>
-              <span class="tech-pill">Go</span>
-              <span class="tech-pill">TimescaleDB</span>
-              <span class="tech-pill">MQTT</span>
-              <span class="tech-pill">Docker</span>
-            </div>
-
-            <div class="cs-cta-wrap">
-              <a href="#contact" class="btn-cs-action">
-                View Case Study <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-
+            <ul class="icon_list unordered_list">
+              <li>
+                <span class="icon_list_text">
+                  <strong class="text-dark">Industry:</strong> Association / Non-Profit Management
+                </span>
+              </li>
+              <li>
+                <span class="icon_list_text">
+                  <strong class="text-dark">Country:</strong> Bangalore, India
+                </span>
+              </li>
+            </ul>
+            <a class="btn btn-primary btn-read-case" href="case-study-details.php?id=0">
+              <span class="btn_label" data-text="Read Case">Read Case</span>
+              <span class="btn_icon">
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </span>
+            </a>
           </div>
-
+          <div class="case_study_image">
+            <a href="case-study-details.php?id=0" style="display: block; width: 100%; height: 100%;">
+              <img src="assets/images/case/case-1.webp" alt="Association Management System">
+            </a>
+          </div>
         </div>
-      </article>
 
-      <!-- ============================================================
-           CASE STUDY 03: GovTech Digital Portal
-           ============================================================ -->
-      <article class="cs-min-panel" id="cs-2">
-        <div class="cs-min-grid">
-          
-          <div class="cs-min-media">
-            <div class="cs-img-frame">
-              <img src="assets/images/cs-govtech-minimalist.png" alt="GovTech Digital Portal Minimalist Artwork" class="cs-project-img">
-            </div>
-          </div>
-
-          <div class="cs-min-content">
-            <span class="cs-tag-category">GOVERNMENT & ENTERPRISE</span>
-            <h3 class="cs-project-headline">High-Security Citizen Portal & Compliance Architecture</h3>
-            
-            <p class="cs-project-description">
-              Architected a zero-trust citizen identity and document submission hub aligned with ISO 27001 and Australian IRAP cloud security standards.
+        <!-- CASE STUDY 2: Industrial IoT Solutions -->
+        <div class="case_study_block" style="--stack-idx: 2;">
+          <div class="case_study_content">
+            <ul class="category_list unordered_list text-uppercase">
+              <li><a href="case-study-details.php?id=1">MANUFACTURING &amp; INDUSTRIAL AUTOMATION</a></li>
+            </ul>
+            <h3 class="case_title">
+              <a href="case-study-details.php?id=1">Industrial IoT Solutions</a>
+            </h3>
+            <p>
+              We delivered an IoT embedded solution for a machine manufacturing company to enable real-time
+              equipment monitoring and data analytics. The system integrated sensors, embedded firmware, and cloud
+              connectivity to track performance and detect anomalies. This helped enhance operational efficiency,
+              predictive maintenance, and remote visibility.
             </p>
-
-            <div class="cs-metrics-row">
-              <div class="metric-item">
-                <span class="metric-value">100%</span>
-                <span class="metric-label">IRAP Compliant</span>
-              </div>
-              <div class="metric-item">
-                <span class="metric-value">2.4M</span>
-                <span class="metric-label">Users Served</span>
-              </div>
-              <div class="metric-item">
-                <span class="metric-value">0</span>
-                <span class="metric-label">Security Breaches</span>
-              </div>
-            </div>
-
-            <div class="cs-tech-pills">
-              <span class="tech-pill">Next.js</span>
-              <span class="tech-pill">TypeScript</span>
-              <span class="tech-pill">Kubernetes</span>
-              <span class="tech-pill">Azure</span>
-            </div>
-
-            <div class="cs-cta-wrap">
-              <a href="#contact" class="btn-cs-action">
-                View Case Study <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-
+            <ul class="icon_list unordered_list">
+              <li>
+                <span class="icon_list_text">
+                  <strong class="text-dark">Industry:</strong> Manufacturing &amp; Industrial Automation
+                </span>
+              </li>
+              <li>
+                <span class="icon_list_text">
+                  <strong class="text-dark">Country:</strong> Canada
+                </span>
+              </li>
+            </ul>
+            <a class="btn btn-primary btn-read-case" href="case-study-details.php?id=1">
+              <span class="btn_label" data-text="Read Case">Read Case</span>
+              <span class="btn_icon">
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </span>
+            </a>
           </div>
-
+          <div class="case_study_image">
+            <a href="case-study-details.php?id=1" style="display: block; width: 100%; height: 100%;">
+              <img src="assets/images/case/case-2.webp" alt="Industrial IoT Solutions">
+            </a>
+          </div>
         </div>
-      </article>
+
+        <!-- CASE STUDY 3: Farm E Commerce -->
+        <div class="case_study_block" style="--stack-idx: 3;">
+          <div class="case_study_content">
+            <ul class="category_list unordered_list text-uppercase">
+              <li><a href="case-study-details.php?id=2">AGRICULTURE &amp; COMMUNITY COMMERCE</a></li>
+            </ul>
+            <h3 class="case_title">
+              <a href="case-study-details.php?id=2">Farm E Commerce</a>
+            </h3>
+            <p>
+              We developed a user-friendly e-commerce platform for a community-managed farm to sell fresh produce
+              directly to customers. The solution streamlined product listings, orders, and payments while
+              supporting community engagement. It enabled the farm to expand its reach, improve sales efficiency,
+              and strengthen customer relationships.
+            </p>
+            <ul class="icon_list unordered_list">
+              <li>
+                <span class="icon_list_text">
+                  <strong class="text-dark">Industry:</strong> Agriculture &amp; Community Commerce
+                </span>
+              </li>
+              <li>
+                <span class="icon_list_text">
+                  <strong class="text-dark">Country:</strong> Sydney, Australia
+                </span>
+              </li>
+            </ul>
+            <a class="btn btn-primary btn-read-case" href="case-study-details.php?id=2">
+              <span class="btn_label" data-text="Read Case">Read Case</span>
+              <span class="btn_icon">
+                <i class="fa-solid fa-arrow-up-right"></i>
+              </span>
+            </a>
+          </div>
+          <div class="case_study_image">
+            <a href="case-study-details.php?id=2" style="display: block; width: 100%; height: 100%;">
+              <img src="assets/images/case/case-3.webp" alt="Farm E Commerce">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CENTERED BOTTOM VIEW MORE BUTTON -->
+      <div class="btns_group pb-0 text-center">
+        <a class="btn btn-primary" href="case-study-details.php?id=0">
+          <span class="btn_label" data-text="View More Cases Study">View More Cases Study</span>
+          <span class="btn_icon">
+            <i class="fa-solid fa-arrow-up-right"></i>
+          </span>
+        </a>
+      </div>
 
     </div>
-
   </div>
 </section>
 
-<!-- Tab Switcher Script -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const tabs = document.querySelectorAll(".cs-tab-btn");
-  const panels = document.querySelectorAll(".cs-min-panel");
-
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      const targetId = tab.getAttribute("data-target");
-
-      tabs.forEach(t => t.classList.remove("active"));
-      panels.forEach(p => p.classList.remove("active"));
-
-      tab.classList.add("active");
-      const targetPanel = document.getElementById(targetId);
-      if (targetPanel) {
-        targetPanel.classList.add("active");
-      }
-    });
-  });
-});
-</script>
-
 <!-- ============================================================
-     MINIMALIST CASE STUDIES SCOPED STYLES
+     STYLING: 100% MATCH TO REFERENCE IMAGE 32
      ============================================================ -->
 <style>
-/* Section Shell (Light Enterprise Theme) */
-.cs-minimalist-section {
+.about_and_case_section {
+  background-color: #020842 !important;
+  padding: 160px 0 120px !important;
   position: relative;
-  padding: 100px 0;
-  background-color: #F8FAFC;
-  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-/* Header */
-.cs-min-header {
-  text-align: center;
-  max-width: 760px;
-  margin: 0 auto 36px auto;
+/* Container matching Image 32 wide layout grid */
+.cs-jaiton-container {
+  width: calc(100% - 64px) !important;
+  max-width: 1360px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-.cs-min-badge {
-  display: inline-block;
-  padding: 6px 18px;
-  border: 1.5px solid rgba(109, 40, 255, 0.3);
-  border-radius: 100px;
-  font-size: 12.5px;
-  font-weight: 800;
-  color: #6A1BFF;
-  letter-spacing: 1px;
-  margin-bottom: 16px;
-  background: rgba(109, 40, 255, 0.04);
+.case_studies_main_container {
+  width: 100%;
 }
 
-.cs-min-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(34px, 3.6vw, 48px);
-  font-weight: 800;
-  line-height: 1.15;
-  color: #0F172A;
-  margin-bottom: 16px;
-  letter-spacing: -0.02em;
+/* PERFECTLY CENTERED HEADING BLOCK WITH GENERATING CLEARANCE */
+.heading_block {
+  text-align: center !important;
+  margin: 0 auto 60px auto !important;
+  max-width: 800px;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
-.cs-min-subtitle {
-  font-size: 16px;
-  line-height: 1.65;
-  color: #64748B;
-  margin: 0;
+.heading_focus_text {
+  color: #0044EB !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  margin: 0 auto 12px auto !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-bottom: 6px;
+  display: inline-flex !important;
+  text-align: center !important;
 }
 
-/* Minimalist Filter Tabs */
-.cs-min-tabs {
+.heading_focus_text.has_underline {
+  background-image: url('assets/images/shapes/shape_title_under_line.svg') !important;
+}
+
+.heading_text {
+  font-family: 'Axiforma Bold', 'Poppins', sans-serif !important;
+  font-size: clamp(36px, 4vw, 52px) !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+.heading_text mark {
+  color: #0044EB !important;
+  background-color: transparent !important;
+  padding: 0;
+}
+
+/* Wrapper for Sticky Cards Container */
+.case_studies_wrapper {
   display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-bottom: 48px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  width: 100% !important;
+  max-width: 1360px !important;
+  margin: 0 auto 50px auto !important;
+  position: relative;
 }
 
-.cs-tab-btn {
-  height: 44px;
-  padding: 0 24px;
-  border-radius: 100px;
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: #475569;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
-  transition: all 250ms ease;
-}
-
-.cs-tab-btn:hover {
-  border-color: #0055FF;
-  color: #0055FF;
-}
-
-.cs-tab-btn.active {
-  background: #0055FF;
-  border-color: #0055FF;
-  color: #FFFFFF;
-  box-shadow: 0 6px 18px rgba(0, 85, 255, 0.35);
-}
-
-/* Outer Card Wrap & Panels */
-.cs-min-panels-wrap {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 40px;
-}
-
-.cs-min-panel {
-  display: none;
-}
-
-.cs-min-panel.active {
-  display: block;
-}
-
-.cs-min-grid {
-  display: grid;
-  grid-template-columns: 50% calc(50% - 48px);
-  gap: 48px;
-  align-items: center;
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 28px;
-  padding: 48px;
-  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.06);
-}
-
-/* Left Image Frame */
-.cs-min-media {
-  width: 100%;
-}
-
-.cs-img-frame {
-  width: 100%;
-  height: 380px;
-  border-radius: 20px;
+/* STICKY STACKING CARDS EFFECT */
+.case_study_block {
+  display: flex !important;
+  width: 100% !important;
   overflow: hidden;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
-  background: #F8FAFC;
+  align-items: stretch !important;
+  background-color: #ffffff;
+  border-radius: 16px;
+  position: sticky;
+  top: 115px;
+  box-shadow: 0 6px 25px 0 rgba(2, 9, 63, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: calc(10 + var(--stack-idx, 1));
 }
 
-.cs-project-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 500ms ease;
+.case_study_block:not(:last-child) {
+  margin-bottom: 30px;
 }
 
-.cs-min-grid:hover .cs-project-img {
-  transform: scale(1.04);
+.case_study_block:hover {
+  box-shadow: 0 16px 40px 0 rgba(0, 68, 235, 0.22);
 }
 
-/* Right Content */
-.cs-min-content {
+/* Content Left Side (58% width - matching Image 32) */
+.case_study_block .case_study_content {
+  flex: 0 0 58% !important;
+  width: 58% !important;
+  padding: 50px 65px 50px 55px !important;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.cs-tag-category {
-  display: inline-block;
-  font-size: 12px;
+/* Image Right Side (42% width) - 100% FLUSH HEIGHT WITH ZERO BOTTOM GAP */
+.case_study_block .case_study_image {
+  flex: 0 0 42% !important;
+  width: 42% !important;
+  position: relative !important;
+  align-self: stretch !important;
+  overflow: hidden !important;
+}
+
+.case_study_block .case_study_image img {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.case_study_block:hover .case_study_image img {
+  transform: scale(1.05);
+}
+
+/* Category List Tag */
+.category_list {
+  padding: 0;
+  margin: 0 0 12px 0;
+  list-style: none;
+}
+
+.category_list li a {
+  color: #475569;
+  font-size: 13.5px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  font-family: 'Axiforma Bold', sans-serif;
+  transition: color 0.25s ease;
+}
+
+.category_list li a:hover {
+  color: #0044EB;
+}
+
+/* Title Heading */
+.case_study_block .case_title {
+  font-family: 'Axiforma Bold', 'Poppins', sans-serif;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0 0 20px 0;
   font-weight: 800;
-  color: #0055FF;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 12px;
 }
 
-.cs-project-headline {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(24px, 2.2vw, 32px);
-  font-weight: 800;
-  line-height: 1.25;
-  color: #0F172A;
-  margin-bottom: 16px;
-  letter-spacing: -0.01em;
+.case_study_block .case_title a {
+  color: #020842;
+  text-decoration: none;
+  transition: color 0.25s ease;
 }
 
-.cs-project-description {
+.case_study_block .case_title a:hover {
+  color: #0044EB;
+}
+
+.case_study_block p {
+  color: #49515B;
   font-size: 15.5px;
   line-height: 1.65;
-  color: #64748B;
-  margin-bottom: 28px;
-}
-
-/* 3 Minimalist Metrics */
-.cs-metrics-row {
-  display: flex;
-  gap: 32px;
-  padding: 20px 0;
-  border-top: 1px solid #F1F5F9;
-  border-bottom: 1px solid #F1F5F9;
   margin-bottom: 24px;
 }
 
-.metric-item {
+.case_study_block .icon_list {
+  padding: 0;
+  margin: 0 0 28px 0;
+  list-style: none;
   display: flex;
   flex-direction: column;
-}
-
-.metric-value {
-  font-family: 'Poppins', sans-serif;
-  font-size: 26px;
-  font-weight: 800;
-  color: #0055FF;
-  line-height: 1.1;
-  margin-bottom: 4px;
-}
-
-.metric-label {
-  font-size: 12px;
-  font-weight: 600;
-  color: #64748B;
-}
-
-/* Tech Stack Pills */
-.cs-tech-pills {
-  display: flex;
   gap: 8px;
-  flex-wrap: wrap;
-  margin-bottom: 32px;
 }
 
-.tech-pill {
-  padding: 6px 14px;
-  border-radius: 100px;
-  background: #F1F5F9;
-  font-size: 12.5px;
-  font-weight: 700;
-  color: #334155;
+.icon_list_text {
+  font-size: 14px;
+  color: #49515B;
 }
 
-/* CTA Action Button */
-.btn-cs-action {
-  height: 48px;
-  padding: 0 28px;
-  border-radius: 100px;
-  background: linear-gradient(135deg, #0055FF 0%, #6A1BFF 100%);
-  color: #FFFFFF;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14.5px;
+.icon_list_text strong {
+  color: #020842;
   font-weight: 700;
+}
+
+/* Compact Pill Read Case Button */
+.btn-read-case {
+  width: auto !important;
+  align-self: flex-start !important;
+  display: inline-flex !important;
+  padding: 14px 32px !important;
+  font-size: 13.5px !important;
+  border-radius: 50px !important;
+  text-decoration: none !important;
+}
+
+.btn-primary {
+  gap: 10px;
+  line-height: 1;
+  padding: 16px 36px;
+  font-size: 14px;
+  font-weight: 600;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #0044EB;
+  border: 1px solid #0044EB;
+  border-radius: 50px;
   text-decoration: none;
-  box-shadow: 0 6px 18px rgba(0, 85, 255, 0.3);
-  transition: all 250ms ease;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 68, 235, 0.3);
+  transition: all 0.3s ease;
 }
 
-.btn-cs-action:hover {
+.btn-primary:hover {
+  background-color: #0036ba;
+  border-color: #0036ba;
+  color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(0, 85, 255, 0.45);
-  color: #FFFFFF;
+  box-shadow: 0 10px 28px rgba(0, 68, 235, 0.45);
 }
 
-/* Responsive */
-@media (max-width: 1199px) {
-  .cs-min-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    padding: 32px;
-  }
-
-  .cs-img-frame {
-    height: 300px;
-  }
+.btn .btn_icon {
+  font-size: 14px;
+  transition: transform 0.3s ease;
 }
 
-@media (max-width: 767px) {
-  .cs-minimalist-section {
-    padding: 60px 0;
-  }
+.btn-primary:hover .btn_icon {
+  transform: translate(3px, -3px);
+}
 
-  .cs-min-panels-wrap {
-    padding: 0 20px;
-  }
+.btns_group {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
 
-  .cs-min-grid {
-    padding: 24px 20px;
+@media screen and (max-width: 991px) {
+  .case_study_block {
+    flex-direction: column !important;
+    position: relative;
+    top: auto;
   }
-
-  .cs-project-headline {
-    font-size: 22px;
+  .case_study_block .case_study_image {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 280px !important;
+    position: relative !important;
   }
-
-  .cs-metrics-row {
-    flex-direction: column;
-    gap: 16px;
+  .case_study_block .case_study_image img {
+    position: relative !important;
+    height: 100% !important;
+  }
+  .case_study_block .case_study_content {
+    width: 100% !important;
+    padding: 30px !important;
   }
 }
 </style>
