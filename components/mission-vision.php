@@ -1,348 +1,514 @@
 <!-- ============================================================
-     MISSION, VISION & CORE VALUES TABBED SECTION
+     ENTERPRISE PARTNERSHIP SECTION – Dark Cinematic Immersive Experience
+     Completely different from the white About section above
      ============================================================ -->
-<section id="mission-vision" class="mission-vision-section">
+<section id="mission-vision" class="dark-partnership-section">
   
-  <div class="container">
+  <!-- Dark Background Effects -->
+  <div class="dp-bg-effects" aria-hidden="true">
+    <div class="dp-gradient-mesh"></div>
+    <div class="dp-grid-overlay"></div>
+  </div>
+
+  <div class="dp-container">
     
-    <!-- Top Centered Floating Tab Bar -->
-    <div class="mission-tabs-header" data-aos="fade-up">
-      <button class="mission-tab-btn active" data-tab="mission">OUR MISSION</button>
-      <button class="mission-tab-btn" data-tab="vision">OUR VISION</button>
-      <button class="mission-tab-btn" data-tab="values">CORE VALUES</button>
+    <!-- ============================================================
+         CENTERED HEADER BLOCK (Not split like About section)
+         ============================================================ -->
+    <div class="dp-header-block">
+      <span class="dp-eyebrow">
+        <span class="dp-eyebrow-line"></span>
+        OUR DELIVERY MODEL
+        <span class="dp-eyebrow-line"></span>
+      </span>
+      <h2 class="dp-main-title">
+        Built Around Long-Term<br>Technology Partnerships
+      </h2>
+      <p class="dp-subtitle">
+        From strategic discovery to continuous cloud optimisation — one accountable<br>
+        engineering partner across the entire technology lifecycle.
+      </p>
     </div>
 
-    <!-- Main Outer Glass Card Container -->
-    <div class="mission-card-outer" data-aos="fade-up" data-aos-delay="150">
+    <!-- ============================================================
+         SINGLE CINEMATIC HERO IMAGE (Not a collage)
+         ============================================================ -->
+    <div class="dp-cinematic-hero">
+      <div class="dp-hero-frame">
+        <img src="assets/images/aus-sydney-office.png" 
+             alt="Australian Enterprise Technology Leadership" 
+             class="dp-hero-img">
+        <div class="dp-hero-overlay"></div>
+        
+        <!-- Inline floating caption — NOT a glass metric card -->
+        <div class="dp-hero-caption">
+          <span class="dp-caption-icon"><i class="fa-solid fa-play"></i></span>
+          <div class="dp-caption-text">
+            <strong>Sydney, Australia</strong>
+            <small>Enterprise Engineering Headquarters</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         5 HORIZONTAL PROCESS STEPS (Not vertical cards)
+         ============================================================ -->
+    <div class="dp-process-row">
       
-      <!-- ============================================================
-           TAB 1: OUR MISSION (Default Active)
-           ============================================================ -->
-      <div class="mission-tab-content active" id="tab-mission">
-        <div class="mission-grid">
-          
-          <!-- Left Text Content -->
-          <div class="mission-text-side">
-            <h2 class="mission-title">
-              Mission is to bring the power of AI to every business
-            </h2>
-            <p class="mission-desc">
-              As a solution providing company we offer a wide range of consulting, development & quality services with 100% satisfaction, delivering scalable digital platforms for enterprise growth.
-            </p>
-
-            <ul class="mission-bullets-list">
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>High-performance enterprise software & AI engineering</span>
-              </li>
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>100% Australian onshore strategy & transparent governance</span>
-              </li>
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>Scalable cloud infrastructure built for long-term growth</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Right Isometric Illustration -->
-          <div class="mission-media-side">
-            <div class="mission-img-wrap">
-              <img src="assets/images/mission-isometric.png" alt="Mission Isometric Tech Illustration" class="mission-iso-img">
-            </div>
-          </div>
-
+      <div class="dp-step active-step" data-step="01">
+        <div class="dp-step-number">01</div>
+        <div class="dp-step-content">
+          <h3 class="dp-step-title">Discovery</h3>
+          <p class="dp-step-desc">Strategic workshops, goal alignment & enterprise roadmap design.</p>
         </div>
+        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
       </div>
 
-      <!-- ============================================================
-           TAB 2: OUR VISION
-           ============================================================ -->
-      <div class="mission-tab-content" id="tab-vision">
-        <div class="mission-grid">
-          
-          <div class="mission-text-side">
-            <h2 class="mission-title">
-              Vision to lead global digital transformation with integrity
-            </h2>
-            <p class="mission-desc">
-              To empower enterprise leaders with resilient digital infrastructure, automated workflows, and ethical artificial intelligence engineered to standard compliance.
-            </p>
-
-            <ul class="mission-bullets-list">
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>End-to-end cloud modernization & DevOps automation</span>
-              </li>
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>Zero-trust cybersecurity & ISO 27001 compliance</span>
-              </li>
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>Sustainable, human-centered technology innovation</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="mission-media-side">
-            <div class="mission-img-wrap">
-              <img src="assets/images/vision-isometric.png" alt="Vision Isometric Tech Illustration" class="mission-iso-img">
-            </div>
-          </div>
-
+      <div class="dp-step" data-step="02">
+        <div class="dp-step-number">02</div>
+        <div class="dp-step-content">
+          <h3 class="dp-step-title">Architecture</h3>
+          <p class="dp-step-desc">Cloud-native blueprints, security frameworks & API design.</p>
         </div>
+        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
       </div>
 
-      <!-- ============================================================
-           TAB 3: CORE VALUES
-           ============================================================ -->
-      <div class="mission-tab-content" id="tab-values">
-        <div class="mission-grid">
-          
-          <div class="mission-text-side">
-            <h2 class="mission-title">
-              Driven by innovation, transparency, and engineering precision
-            </h2>
-            <p class="mission-desc">
-              Our core values define every line of code we write, every cloud architecture we design, and every enterprise partnership we build.
-            </p>
-
-            <ul class="mission-bullets-list">
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>Uncompromised quality & engineering excellence</span>
-              </li>
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>Transparent client collaboration & clear SLA commitments</span>
-              </li>
-              <li>
-                <span class="bullet-check"><i class="fa-solid fa-circle-check"></i></span>
-                <span>Continuous innovation & future-proof tech stack</span>
-              </li>
-            </ul>
-          </div>
-
-          <div class="mission-media-side">
-            <div class="mission-img-wrap">
-              <img src="assets/images/values-isometric.png" alt="Core Values Isometric Tech Illustration" class="mission-iso-img">
-            </div>
-          </div>
-
+      <div class="dp-step" data-step="03">
+        <div class="dp-step-number">03</div>
+        <div class="dp-step-content">
+          <h3 class="dp-step-title">Engineering</h3>
+          <p class="dp-step-desc">Agile development squads, AI models & enterprise software.</p>
         </div>
+        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
       </div>
 
+      <div class="dp-step" data-step="04">
+        <div class="dp-step-number">04</div>
+        <div class="dp-step-content">
+          <h3 class="dp-step-title">Deployment</h3>
+          <p class="dp-step-desc">CI/CD pipelines, cloud migration & zero-downtime launch.</p>
+        </div>
+        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
+      </div>
+
+      <div class="dp-step" data-step="05">
+        <div class="dp-step-number">05</div>
+        <div class="dp-step-content">
+          <h3 class="dp-step-title">Optimisation</h3>
+          <p class="dp-step-desc">24×7 monitoring, AI evolution & continuous platform growth.</p>
+        </div>
+        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
+      </div>
+
+    </div>
+
+    <!-- ============================================================
+         BOTTOM METRICS ROW (Completely different from About's glass panels)
+         ============================================================ -->
+    <div class="dp-bottom-metrics">
+      <div class="dp-metric-block">
+        <span class="dp-metric-number">120+</span>
+        <span class="dp-metric-label">Enterprise Projects Delivered</span>
+      </div>
+      <div class="dp-metric-sep"></div>
+      <div class="dp-metric-block">
+        <span class="dp-metric-number">98%</span>
+        <span class="dp-metric-label">Client Retention Rate</span>
+      </div>
+      <div class="dp-metric-sep"></div>
+      <div class="dp-metric-block">
+        <span class="dp-metric-number">24/7</span>
+        <span class="dp-metric-label">Engineering Operations</span>
+      </div>
+      <div class="dp-metric-sep"></div>
+      <div class="dp-metric-block">
+        <span class="dp-metric-number">5+</span>
+        <span class="dp-metric-label">Global Delivery Centres</span>
+      </div>
     </div>
 
   </div>
 </section>
 
-<!-- Tab Switcher Script -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  const tabBtns = document.querySelectorAll(".mission-tab-btn");
-  const tabContents = document.querySelectorAll(".mission-tab-content");
-
-  tabBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      const targetTab = btn.getAttribute("data-tab");
-      
-      tabBtns.forEach(b => b.classList.remove("active"));
-      tabContents.forEach(tc => tc.classList.remove("active"));
-
-      btn.classList.add("active");
-      const activeContent = document.getElementById(`tab-${targetTab}`);
-      if (activeContent) {
-        activeContent.classList.add("active");
-      }
-    });
-  });
-});
-</script>
-
 <!-- ============================================================
-     MISSION, VISION & CORE VALUES SCOPED STYLES
+     DARK PARTNERSHIP SECTION STYLES
      ============================================================ -->
 <style>
-/* Section Shell (Light Enterprise Background) */
-.mission-vision-section {
+/* ================================================================
+   SECTION SHELL: Dark navy background — instantly different
+   from the white About section above
+   ================================================================ */
+.dark-partnership-section {
   position: relative;
-  padding: 90px 0 100px 0;
-  background-color: #F8FAFC;
+  padding: 120px 0 100px 0;
+  background: #0B1120;
   overflow: hidden;
 }
 
-/* Top Centered Floating Tab Bar */
-.mission-tabs-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 580px;
-  margin: 0 auto -24px auto;
-  position: relative;
-  z-index: 10;
-  background: #FFFFFF;
-  border-radius: 14px;
-  padding: 6px;
-  box-shadow: 0 12px 32px rgba(0, 43, 128, 0.1);
-  border: 1px solid #E2E8F0;
+/* ── Dark Background Effects ── */
+.dp-bg-effects {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
 }
 
-.mission-tab-btn {
-  flex: 1;
-  height: 48px;
-  border-radius: 10px;
-  border: none;
-  background: transparent;
-  font-family: 'Poppins', sans-serif;
-  font-size: 13.5px;
-  font-weight: 800;
-  color: #0F172A;
-  letter-spacing: 0.8px;
-  cursor: pointer;
-  transition: all 250ms ease;
+.dp-gradient-mesh {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(ellipse 600px 400px at 20% 30%, rgba(106, 27, 255, 0.08) 0%, transparent 70%),
+    radial-gradient(ellipse 500px 350px at 80% 70%, rgba(56, 189, 248, 0.06) 0%, transparent 70%);
 }
 
-.mission-tab-btn:hover {
-  color: #0055FF;
-  background: rgba(0, 85, 255, 0.04);
+.dp-grid-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
 }
 
-.mission-tab-btn.active {
-  background: linear-gradient(135deg, #0055FF 0%, #6A1BFF 100%);
-  color: #FFFFFF;
-  box-shadow: 0 6px 18px rgba(0, 85, 255, 0.35);
-}
-
-/* Main Outer Glass Card */
-.mission-card-outer {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 28px;
-  padding: 70px 60px 60px 60px;
-  max-width: 1440px;
+/* ── Container ── */
+.dp-container {
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.06);
+  padding: 0 40px;
   position: relative;
   z-index: 5;
 }
 
-.mission-tab-content {
-  display: none;
+/* ================================================================
+   CENTERED HEADER — Not split like About section
+   ================================================================ */
+.dp-header-block {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
-.mission-tab-content.active {
-  display: block;
-}
-
-.mission-grid {
-  display: grid;
-  grid-template-columns: 54% calc(46% - 40px);
-  gap: 40px;
+.dp-eyebrow {
+  display: inline-flex;
   align-items: center;
-}
-
-.mission-text-side {
-  text-align: left;
-}
-
-.mission-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: clamp(30px, 3vw, 44px);
+  gap: 12px;
+  font-size: 12px;
   font-weight: 800;
-  line-height: 1.2;
-  color: #0F172A;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
   margin-bottom: 20px;
+}
+
+.dp-eyebrow-line {
+  display: inline-block;
+  width: 32px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dp-main-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(36px, 4vw, 54px);
+  font-weight: 800;
+  line-height: 1.12;
+  color: #FFFFFF;
+  letter-spacing: -0.03em;
+  margin: 0 0 20px 0;
+}
+
+.dp-subtitle {
+  font-size: 17px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.55);
+  max-width: 620px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+/* ================================================================
+   SINGLE CINEMATIC HERO IMAGE — Not a collage
+   ================================================================ */
+.dp-cinematic-hero {
+  margin-bottom: 60px;
+}
+
+.dp-hero-frame {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 30px 80px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.05) inset;
+}
+
+.dp-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dp-hero-frame:hover .dp-hero-img {
+  transform: scale(1.04);
+}
+
+.dp-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(11, 17, 32, 0) 0%,
+    rgba(11, 17, 32, 0.15) 50%,
+    rgba(11, 17, 32, 0.7) 100%
+  );
+  pointer-events: none;
+}
+
+.dp-hero-caption {
+  position: absolute;
+  bottom: 28px;
+  left: 28px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  z-index: 5;
+}
+
+.dp-caption-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: background 300ms ease;
+}
+
+.dp-hero-frame:hover .dp-caption-icon {
+  background: rgba(106, 27, 255, 0.5);
+}
+
+.dp-caption-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.dp-caption-text strong {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.dp-caption-text small {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 500;
+}
+
+/* ================================================================
+   HORIZONTAL PROCESS ROW — Not vertical cards
+   ================================================================ */
+.dp-process-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 60px;
+}
+
+.dp-step {
+  position: relative;
+  padding: 28px 22px 20px 22px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: 
+    background 400ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    border-color 400ms ease,
+    transform 400ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: default;
+}
+
+.dp-step:hover {
+  background: rgba(106, 27, 255, 0.08);
+  border-color: rgba(106, 27, 255, 0.25);
+  transform: translateY(-6px);
+}
+
+.dp-step.active-step {
+  background: rgba(106, 27, 255, 0.1);
+  border-color: rgba(106, 27, 255, 0.3);
+}
+
+.dp-step-number {
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.06);
+  margin-bottom: 16px;
+  transition: color 400ms ease;
+}
+
+.dp-step:hover .dp-step-number,
+.dp-step.active-step .dp-step-number {
+  color: rgba(106, 27, 255, 0.3);
+}
+
+.dp-step-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin: 0 0 8px 0;
+}
+
+.dp-step-desc {
+  font-size: 13px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0 0 16px 0;
+  font-weight: 500;
+}
+
+/* Bottom progress bar inside each step */
+.dp-step-bar {
+  width: 100%;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.dp-bar-fill {
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(90deg, #6A1BFF, #38BDF8);
+  border-radius: 3px;
+  transition: width 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.dp-step.active-step .dp-bar-fill {
+  width: 100%;
+}
+
+.dp-step:hover .dp-bar-fill {
+  width: 70%;
+}
+
+/* ================================================================
+   BOTTOM METRICS ROW — Completely different from About section
+   No glass panels, no floating cards. Simple dark inline strip.
+   ================================================================ */
+.dp-bottom-metrics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 32px 0 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.dp-metric-block {
+  flex: 1;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.dp-metric-number {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  color: #FFFFFF;
+  line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
-.mission-desc {
-  font-size: 16.5px;
-  line-height: 1.65;
-  color: #64748B;
-  margin-bottom: 32px;
-  max-width: 600px;
-}
-
-/* Bullet Items */
-.mission-bullets-list {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.mission-bullets-list li {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 15.5px;
-  font-weight: 700;
-  color: #1E293B;
-}
-
-.bullet-check {
-  color: #6A1BFF;
-  font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-}
-
-/* Right Media Side */
-.mission-media-side {
-  width: 100%;
-}
-
-.mission-img-wrap {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.mission-iso-img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+.dp-metric-label {
   display: block;
-  filter: drop-shadow(0 16px 36px rgba(0, 43, 128, 0.08));
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.35);
+  margin-top: 4px;
 }
 
-/* Responsive */
-@media (max-width: 1199px) {
-  .mission-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
+.dp-metric-sep {
+  width: 1px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.08);
+  flex-shrink: 0;
+}
 
-  .mission-card-outer {
-    padding: 60px 32px 40px 32px;
+/* ================================================================
+   RESPONSIVE
+   ================================================================ */
+@media (max-width: 1100px) {
+  .dp-process-row {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 767px) {
-  .mission-vision-section {
-    padding: 60px 0;
+  .dark-partnership-section {
+    padding: 80px 0 60px 0;
   }
 
-  .mission-tabs-header {
-    flex-direction: column;
-    margin-bottom: 20px;
+  .dp-container {
+    padding: 0 20px;
   }
 
-  .mission-tab-btn {
-    width: 100%;
+  .dp-main-title {
+    font-size: 30px;
   }
 
-  .mission-card-outer {
-    padding: 32px 20px;
+  .dp-subtitle br {
+    display: none;
   }
 
-  .mission-title {
+  .dp-hero-frame {
+    height: 260px;
+    border-radius: 16px;
+  }
+
+  .dp-process-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .dp-step {
+    padding: 20px;
+  }
+
+  .dp-step-number {
     font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+  .dp-bottom-metrics {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .dp-metric-sep {
+    display: none;
+  }
+
+  .dp-metric-block {
+    flex: 0 0 calc(50% - 12px);
+    padding: 0;
   }
 }
 </style>

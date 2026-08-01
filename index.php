@@ -12,7 +12,6 @@ include_once 'includes/header.php';
 
 // 3. Page Components (Sequential Layout)
 include_once 'components/hero.php';
-include_once 'components/trusted.php';
 include_once 'components/services.php';
 include_once 'components/why-jaiton.php';
 include_once 'components/mission-vision.php';
