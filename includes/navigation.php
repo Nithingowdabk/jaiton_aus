@@ -11,25 +11,13 @@ $nav_items = [
     'has_dropdown' => false
   ],
   [
-    'label' => 'Solutions',
-    'url' => '#why-jaiton',
-    'has_dropdown' => true,
-    'menu_key' => 'solutions'
-  ],
-  [
-    'label' => 'Industries',
-    'url' => '#industries',
-    'has_dropdown' => true,
-    'menu_key' => 'industries'
-  ],
-  [
-    'label' => 'Services',
+    'label' => 'About',
     'url' => '#why-jaiton',
     'has_dropdown' => false
   ],
   [
-    'label' => 'Company',
-    'url' => '#why-jaiton',
+    'label' => 'Services',
+    'url' => '#services',
     'has_dropdown' => false
   ],
   [

@@ -112,123 +112,15 @@
       <!-- Navigation Menu -->
       <nav class="main-nav" id="main-nav">
         <ul class="nav-list">
-          
-          <!-- Solutions Dropdown (Merged Solutions + Services) -->
-          <li class="nav-item dropdown">
-            <a href="#services" class="nav-link">Solutions <i class="fa-solid fa-chevron-down"></i></a>
-            <div class="mega-menu">
-              <a href="#services" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-brain"></i></div>
-                <div class="mega-menu-info">
-                  <h4>AI Engineering</h4>
-                  <p>NLP, custom models, and decision automation systems.</p>
-                </div>
-              </a>
-              <a href="#services" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-cloud"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Cloud Modernisation</h4>
-                  <p>AWS/Azure microservices migrations & serverless setups.</p>
-                </div>
-              </a>
-              <a href="#services" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Enterprise Software</h4>
-                  <p>Robust custom systems engineered for scaling businesses.</p>
-                </div>
-              </a>
-              <a href="#services" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Cybersecurity</h4>
-                  <p>End-to-end cloud protection, audits, and compliance.</p>
-                </div>
-              </a>
-              <a href="#services" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-database"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Data Intelligence</h4>
-                  <p>Data pipelines, warehouses, and advanced reporting.</p>
-                </div>
-              </a>
-              <a href="#services" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-microchip"></i></div>
-                <div class="mega-menu-info">
-                  <h4>IoT Engineering</h4>
-                  <p>Hardware telemetry, custom boards, and tracking.</p>
-                </div>
-              </a>
-            </div>
+          <li class="nav-item">
+            <a href="#hero" class="nav-link">Home</a>
           </li>
-
-          <!-- Industries Dropdown -->
-          <li class="nav-item dropdown">
-            <a href="#industries" class="nav-link">Industries <i class="fa-solid fa-chevron-down"></i></a>
-            <div class="mega-menu">
-              <a href="#industries" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-heart-pulse"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Healthcare</h4>
-                  <p>Medical imaging AI, EHR syncs, and telemetry.</p>
-                </div>
-              </a>
-              <a href="#industries" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-helmet-safety"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Mining</h4>
-                  <p>Remote site machinery telemetry and tracking.</p>
-                </div>
-              </a>
-              <a href="#industries" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-industry"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Manufacturing</h4>
-                  <p>IoT automation and analytics dashboards.</p>
-                </div>
-              </a>
-              <a href="#industries" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Education</h4>
-                  <p>Student hubs, LMS platforms, and schedulers.</p>
-                </div>
-              </a>
-              <a href="#industries" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-store"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Retail</h4>
-                  <p>Automated CRM, supply tracking, and integrations.</p>
-                </div>
-              </a>
-            </div>
+          <li class="nav-item">
+            <a href="#why-jaiton" class="nav-link">About</a>
           </li>
-
-          <!-- Company (About + Careers) -->
-          <li class="nav-item dropdown">
-            <a href="#why-jaiton" class="nav-link">Company <i class="fa-solid fa-chevron-down"></i></a>
-            <div class="mega-menu" style="width: 320px;">
-              <a href="#why-jaiton" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-circle-info"></i></div>
-                <div class="mega-menu-info">
-                  <h4>About Jaiton</h4>
-                </div>
-              </a>
-              <a href="#featured" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-book-open"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Case Studies</h4>
-                </div>
-              </a>
-              <a href="#contact" class="mega-menu-link">
-                <div class="mega-menu-icon"><i class="fa-solid fa-briefcase"></i></div>
-                <div class="mega-menu-info">
-                  <h4>Careers</h4>
-                </div>
-              </a>
-            </div>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
           </li>
-
           <li class="nav-item">
             <a href="#contact" class="nav-link">Contact</a>
           </li>
