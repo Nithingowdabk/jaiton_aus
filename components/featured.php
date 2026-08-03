@@ -1,5 +1,5 @@
 <!-- ============================================================
-     PORTFOLIO / CASE STUDIES SECTION (Navigates to Full Page Details)
+     PORTFOLIO / CASE STUDIES SECTION (Restored Previous Sticky Layout)
      ============================================================ -->
 <section id="featured" class="pt-0 about_and_case_section bg-dark" style="background-image: url('assets/images/backgrounds/bg_image_2.webp');">
   <div class="container cs-jaiton-container">
@@ -158,19 +158,19 @@
 </section>
 
 <!-- ============================================================
-     STYLING: 100% MATCH TO REFERENCE IMAGE 32
+     STYLING: RESTORED PREVIOUS STICKY STACKING LAYOUT
      ============================================================ -->
 <style>
 .about_and_case_section {
   background-color: #020842 !important;
-  padding: 160px 0 120px !important;
+  padding: 60px 0 100px !important;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-/* Container matching Image 32 wide layout grid */
+/* Container matching wide layout grid */
 .cs-jaiton-container {
   width: calc(100% - 64px) !important;
   max-width: 1360px !important;
@@ -184,7 +184,7 @@
   width: 100%;
 }
 
-/* PERFECTLY CENTERED HEADING BLOCK WITH GENERATING CLEARANCE */
+/* PERFECTLY CENTERED HEADING BLOCK WITH CLEARANCE */
 .heading_block {
   text-align: center !important;
   margin: 0 auto 60px auto !important;
@@ -263,7 +263,7 @@
   box-shadow: 0 16px 40px 0 rgba(0, 68, 235, 0.22);
 }
 
-/* Content Left Side (58% width - matching Image 32) */
+/* Content Left Side (58% width) */
 .case_study_block .case_study_content {
   flex: 0 0 58% !important;
   width: 58% !important;
