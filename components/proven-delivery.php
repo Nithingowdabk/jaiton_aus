@@ -355,6 +355,140 @@
      PROVEN DELIVERY SECTION SCOPED STYLES
      ============================================================ -->
 <style>
+
+/* ── Proven, Framework & Tech Section Headers ── */
+.proven-header-block,
+.framework-header,
+.tech-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.proven-header-block .sub-label,
+.framework-header .sub-label,
+.tech-header .sub-label {
+  display: inline-block !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  color: #6A1BFF !important;
+  background: rgba(106, 27, 255, 0.08) !important;
+  padding: 6px 16px !important;
+  border-radius: 100px !important;
+  margin-bottom: 14px !important;
+}
+
+.proven-header-block .heading_text,
+.framework-header .heading_text,
+.tech-header .heading_text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px !important;
+  font-weight: 800 !important;
+  line-height: 1.25 !important;
+  color: #0F172A !important;
+  margin-bottom: 14px !important;
+  letter-spacing: -0.02em !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.proven-header-block .heading_text .highlight-badge,
+.framework-header .heading_text .highlight-badge,
+.tech-header .heading_text .highlight-badge {
+  color: #6A1BFF !important;
+  background: linear-gradient(135deg, #6A1BFF 0%, #2563EB 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.proven-header-block .heading_description,
+.framework-header .heading_description,
+.tech-header .heading_description {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: #475569 !important;
+  margin: 0 auto !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
+
+/* ── Proven Header Block Typography ── */
+.proven-header-block {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.proven-header-block .sub-label {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #6A1BFF;
+  background: rgba(106, 27, 255, 0.08);
+  padding: 6px 16px;
+  border-radius: 100px;
+  margin-bottom: 14px;
+}
+
+/* old */ .proven-header-block-old {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #0F172A !important;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+  display: block !important;
+  visibility: visible !important;
+}
+
+.proven-header-block .heading_text .highlight-badge {
+  color: #6A1BFF;
+  background: linear-gradient(135deg, #6A1BFF 0%, #2563EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.proven-header-block .heading_description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #475569 !important;
+  margin: 0 auto;
+  display: block !important;
+  visibility: visible !important;
+}
+
+.node-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 6px;
+}
+
+.node-desc {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #64748B;
+}
+
+.tech-cat-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0F172A;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
 .proven-delivery-section {
   padding: 120px 0;
   background-color: #FFFFFF;

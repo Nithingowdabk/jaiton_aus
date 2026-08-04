@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -210,6 +210,140 @@
      HERO SCOPED STYLES (Full-Bleed Video Background Theme)
      ============================================================ -->
 <style>
+
+/* ── Proven, Framework & Tech Section Headers ── */
+.proven-header-block,
+.framework-header,
+.tech-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.proven-header-block .sub-label,
+.framework-header .sub-label,
+.tech-header .sub-label {
+  display: inline-block !important;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px !important;
+  font-weight: 800 !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  color: #6A1BFF !important;
+  background: rgba(106, 27, 255, 0.08) !important;
+  padding: 6px 16px !important;
+  border-radius: 100px !important;
+  margin-bottom: 14px !important;
+}
+
+.proven-header-block .heading_text,
+.framework-header .heading_text,
+.tech-header .heading_text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 34px !important;
+  font-weight: 800 !important;
+  line-height: 1.25 !important;
+  color: #0F172A !important;
+  margin-bottom: 14px !important;
+  letter-spacing: -0.02em !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.proven-header-block .heading_text .highlight-badge,
+.framework-header .heading_text .highlight-badge,
+.tech-header .heading_text .highlight-badge {
+  color: #6A1BFF !important;
+  background: linear-gradient(135deg, #6A1BFF 0%, #2563EB 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.proven-header-block .heading_description,
+.framework-header .heading_description,
+.tech-header .heading_description {
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  color: #475569 !important;
+  margin: 0 auto !important;
+  display: block !important;
+  visibility: visible !important;
+}
+
+
+/* ── Proven Header Block Typography ── */
+.proven-header-block {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.proven-header-block .sub-label {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #6A1BFF;
+  background: rgba(106, 27, 255, 0.08);
+  padding: 6px 16px;
+  border-radius: 100px;
+  margin-bottom: 14px;
+}
+
+/* old */ .proven-header-block-old {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 1.25;
+  color: #0F172A !important;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+  display: block !important;
+  visibility: visible !important;
+}
+
+.proven-header-block .heading_text .highlight-badge {
+  color: #6A1BFF;
+  background: linear-gradient(135deg, #6A1BFF 0%, #2563EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.proven-header-block .heading_description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #475569 !important;
+  margin: 0 auto;
+  display: block !important;
+  visibility: visible !important;
+}
+
+.node-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #0F172A;
+  margin-bottom: 6px;
+}
+
+.node-desc {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #64748B;
+}
+
+.tech-cat-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0F172A;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
 /* ── Hero Section Shell ── */
 .hero-section {
   position: relative;
@@ -4779,52 +4913,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
       </div>
 
-      <!-- Right Column: Instant Quote Form Card -->
-      <div class="organic-form-col" id="instant-quote-form-card">
+      <!-- Right Column: Get In Touch Form Card -->
+      <div class="organic-form-col" id="get-in-touch-form-card">
         <div class="organic-quote-card">
           
-          <h3 class="organic-card-title">Instant Quote in 60 Seconds</h3>
+          <h3 class="organic-card-title">Get In Touch</h3>
+          <p class="organic-card-subtitle">We'd love to hear from you. Fill out the form below and we'll get back to you shortly.</p>
 
-          <form class="organic-form-body" onsubmit="event.preventDefault(); alert('Thank you! Your instant quote request has been received.');">
+          <form class="organic-form-body" onsubmit="event.preventDefault(); alert('Thank you! We will get back to you shortly.');">
             
-            <div class="form-group mb-3">
+            <div class="form-group mb-4">
               <input type="text" class="form-control organic-field" placeholder="Name*" required>
             </div>
 
-            <div class="form-group mb-3">
-              <input type="email" class="form-control organic-field" placeholder="Email*" required>
-            </div>
-
-            <div class="form-group mb-3">
+            <div class="form-group mb-4">
               <input type="tel" class="form-control organic-field" placeholder="Phone*" required>
             </div>
 
-            <div class="form-group mb-3">
-              <select class="form-control organic-field form-select" required>
-                <option value="" disabled selected>—Please choose an option—</option>
-                <option value="webdesign">Website Design & Development</option>
-                <option value="shopify">Shopify E-Commerce Store</option>
-                <option value="woocommerce">WooCommerce Development</option>
-                <option value="app">Mobile App Development</option>
-                <option value="ai">AI & Cloud Solutions</option>
-              </select>
-            </div>
-
-            <div class="form-group mb-3">
-              <input type="text" class="form-control organic-field" placeholder="Subject*" required>
+            <div class="form-group mb-4">
+              <input type="email" class="form-control organic-field" placeholder="Email*" required>
             </div>
 
             <div class="form-group mb-4">
-              <textarea class="form-control organic-field" rows="3" placeholder="Message"></textarea>
+              <textarea class="form-control organic-field" rows="4" placeholder="Your Message"></textarea>
             </div>
 
             <button type="submit" class="btn btn-organic-submit w-100">
-              GET MY QUOTE
+              SEND MESSAGE
             </button>
-
-            <div class="organic-phone-footer text-center mt-3">
-              <i class="fa-solid fa-phone text-lime-ic me-2"></i> <strong>1300 661 518</strong>
-            </div>
 
           </form>
 
@@ -4844,7 +4960,8 @@ document.addEventListener('DOMContentLoaded', function() {
   padding: 80px 0 120px 0;
   background-color: #FAFAFA;
   position: relative;
-  overflow: visible;
+  overflow-x: clip;
+  overflow-y: visible;
 }
 
 .container-1360 {
@@ -4857,8 +4974,8 @@ document.addEventListener('DOMContentLoaded', function() {
 .organic-ribbon-wave-bg {
   position: absolute;
   top: 40px;
-  left: -80px;
-  right: -80px;
+  left: -40px;
+  right: -40px;
   height: 680px;
   z-index: 2;
   pointer-events: none;
@@ -4981,9 +5098,9 @@ document.addEventListener('DOMContentLoaded', function() {
 /* Right Form Card */
 .organic-quote-card {
   background: #FFFFFF;
-  border-radius: 20px;
-  padding: 40px 36px;
-  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  border-radius: 24px;
+  padding: 48px 40px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
   border: 1px solid #E2E8F0;
   position: relative;
   z-index: 20;
@@ -4991,37 +5108,56 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .organic-card-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 800;
   color: #0F172A;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
+}
+
+.organic-card-subtitle {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #64748B;
+  margin-bottom: 28px;
+}
+
+.organic-form-body .form-group {
+  margin-bottom: 20px !important;
 }
 
 .organic-field {
-  border-radius: 8px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  border-radius: 12px !important;
   border: 1px solid #CBD5E1 !important;
-  padding: 12px 16px !important;
+  padding: 14px 18px !important;
   font-size: 14px !important;
   color: #0F172A !important;
   background-color: #FFFFFF !important;
+  transition: border-color 200ms ease, box-shadow 200ms ease !important;
 }
 
 .organic-field:focus {
   border-color: #8CBD3C !important;
   box-shadow: 0 0 0 3px rgba(140, 189, 60, 0.2) !important;
+  outline: none !important;
 }
 
 .btn-organic-submit {
+  width: 100% !important;
+  display: block !important;
   background-color: #8CBD3C !important;
   color: #FFFFFF !important;
   font-size: 15px !important;
   font-weight: 800 !important;
-  letter-spacing: 0.5px !important;
-  padding: 14px !important;
+  letter-spacing: 0.8px !important;
+  padding: 16px !important;
   border-radius: 100px !important;
   border: none !important;
   box-shadow: 0 8px 24px rgba(140, 189, 60, 0.35) !important;
   transition: all 300ms ease !important;
+  margin-top: 10px !important;
+  cursor: pointer !important;
 }
 
 .btn-organic-submit:hover {

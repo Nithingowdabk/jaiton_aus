@@ -64,52 +64,34 @@
 
       </div>
 
-      <!-- Right Column: Instant Quote Form Card -->
-      <div class="organic-form-col" id="instant-quote-form-card">
+      <!-- Right Column: Get In Touch Form Card -->
+      <div class="organic-form-col" id="get-in-touch-form-card">
         <div class="organic-quote-card">
           
-          <h3 class="organic-card-title">Instant Quote in 60 Seconds</h3>
+          <h3 class="organic-card-title">Get In Touch</h3>
+          <p class="organic-card-subtitle">We'd love to hear from you. Fill out the form below and we'll get back to you shortly.</p>
 
-          <form class="organic-form-body" onsubmit="event.preventDefault(); alert('Thank you! Your instant quote request has been received.');">
+          <form class="organic-form-body" onsubmit="event.preventDefault(); alert('Thank you! We will get back to you shortly.');">
             
-            <div class="form-group mb-3">
+            <div class="form-group mb-4">
               <input type="text" class="form-control organic-field" placeholder="Name*" required>
             </div>
 
-            <div class="form-group mb-3">
-              <input type="email" class="form-control organic-field" placeholder="Email*" required>
-            </div>
-
-            <div class="form-group mb-3">
+            <div class="form-group mb-4">
               <input type="tel" class="form-control organic-field" placeholder="Phone*" required>
             </div>
 
-            <div class="form-group mb-3">
-              <select class="form-control organic-field form-select" required>
-                <option value="" disabled selected>—Please choose an option—</option>
-                <option value="webdesign">Website Design & Development</option>
-                <option value="shopify">Shopify E-Commerce Store</option>
-                <option value="woocommerce">WooCommerce Development</option>
-                <option value="app">Mobile App Development</option>
-                <option value="ai">AI & Cloud Solutions</option>
-              </select>
-            </div>
-
-            <div class="form-group mb-3">
-              <input type="text" class="form-control organic-field" placeholder="Subject*" required>
+            <div class="form-group mb-4">
+              <input type="email" class="form-control organic-field" placeholder="Email*" required>
             </div>
 
             <div class="form-group mb-4">
-              <textarea class="form-control organic-field" rows="3" placeholder="Message"></textarea>
+              <textarea class="form-control organic-field" rows="4" placeholder="Your Message"></textarea>
             </div>
 
             <button type="submit" class="btn btn-organic-submit w-100">
-              GET MY QUOTE
+              SEND MESSAGE
             </button>
-
-            <div class="organic-phone-footer text-center mt-3">
-              <i class="fa-solid fa-phone text-lime-ic me-2"></i> <strong>1300 661 518</strong>
-            </div>
 
           </form>
 
@@ -129,7 +111,8 @@
   padding: 80px 0 120px 0;
   background-color: #FAFAFA;
   position: relative;
-  overflow: visible;
+  overflow-x: clip;
+  overflow-y: visible;
 }
 
 .container-1360 {
@@ -142,8 +125,8 @@
 .organic-ribbon-wave-bg {
   position: absolute;
   top: 40px;
-  left: -80px;
-  right: -80px;
+  left: -40px;
+  right: -40px;
   height: 680px;
   z-index: 2;
   pointer-events: none;
@@ -266,9 +249,9 @@
 /* Right Form Card */
 .organic-quote-card {
   background: #FFFFFF;
-  border-radius: 20px;
-  padding: 40px 36px;
-  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  border-radius: 24px;
+  padding: 48px 40px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
   border: 1px solid #E2E8F0;
   position: relative;
   z-index: 20;
@@ -276,37 +259,56 @@
 
 .organic-card-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 800;
   color: #0F172A;
-  margin-bottom: 24px;
+  margin-bottom: 10px;
+}
+
+.organic-card-subtitle {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #64748B;
+  margin-bottom: 28px;
+}
+
+.organic-form-body .form-group {
+  margin-bottom: 20px !important;
 }
 
 .organic-field {
-  border-radius: 8px !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  border-radius: 12px !important;
   border: 1px solid #CBD5E1 !important;
-  padding: 12px 16px !important;
+  padding: 14px 18px !important;
   font-size: 14px !important;
   color: #0F172A !important;
   background-color: #FFFFFF !important;
+  transition: border-color 200ms ease, box-shadow 200ms ease !important;
 }
 
 .organic-field:focus {
   border-color: #8CBD3C !important;
   box-shadow: 0 0 0 3px rgba(140, 189, 60, 0.2) !important;
+  outline: none !important;
 }
 
 .btn-organic-submit {
+  width: 100% !important;
+  display: block !important;
   background-color: #8CBD3C !important;
   color: #FFFFFF !important;
   font-size: 15px !important;
   font-weight: 800 !important;
-  letter-spacing: 0.5px !important;
-  padding: 14px !important;
+  letter-spacing: 0.8px !important;
+  padding: 16px !important;
   border-radius: 100px !important;
   border: none !important;
   box-shadow: 0 8px 24px rgba(140, 189, 60, 0.35) !important;
   transition: all 300ms ease !important;
+  margin-top: 10px !important;
+  cursor: pointer !important;
 }
 
 .btn-organic-submit:hover {
