@@ -18,6 +18,7 @@ include_once 'components/ecommerce-platforms.php';
 include_once 'components/why-jaiton.php';
 include_once 'components/industries.php';
 include_once 'components/featured.php';
+include_once 'components/proven-delivery.php';
 include_once 'components/cta.php';
 include_once 'components/contact-preview.php';
 
