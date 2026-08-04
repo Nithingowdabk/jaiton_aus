@@ -162,38 +162,21 @@
      ============================================================ -->
 <style>
 .about_and_case_section {
-  background: #020842 !important;
-  padding: 140px 0 140px !important;
+  background: #0B1120 !important;
+  padding: 100px 0 100px !important;
   position: relative;
   overflow: hidden;
 }
 
-/* ── Top Transition: White to Dark Blue Smooth Gradient ── */
-.about_and_case_section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 160px;
-  background: linear-gradient(180deg, #FFFFFF 0%, #FAFBFF 25%, rgba(2, 8, 66, 0.8) 70%, #020842 100%);
-  pointer-events: none;
-  z-index: 2;
-  animation: transitionPulse 6s ease-in-out infinite alternate;
+.about_and_case_section::before,
+.about_and_case_section::after {
+  display: none !important;
 }
 
-/* ── Bottom Transition: Dark Blue to White Smooth Gradient ── */
-.about_and_case_section::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 160px;
-  background: linear-gradient(180deg, #020842 0%, rgba(2, 8, 66, 0.8) 30%, #FAFBFF 75%, #FFFFFF 100%);
-  pointer-events: none;
-  z-index: 2;
-  animation: transitionPulse 6s ease-in-out infinite alternate;
+.btns_group {
+  position: relative;
+  z-index: 10 !important;
+  margin-top: 40px !important;
 }
 
 @keyframes transitionPulse {

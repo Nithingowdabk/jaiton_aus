@@ -3368,7 +3368,11 @@ document.addEventListener("DOMContentLoaded", function() {
   animation: transitionPulse 6s ease-in-out infinite alternate;
 }
 
+.about_and_case_section::before,
 .about_and_case_section::after {
+  display: none !important;
+}
+.about_and_case_section::after_old {
   content: "";
   position: absolute;
   bottom: 0;
