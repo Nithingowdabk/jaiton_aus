@@ -16,7 +16,6 @@ include_once 'components/services.php';
 include_once 'components/excellence.php';
 include_once 'components/ecommerce-platforms.php';
 include_once 'components/why-jaiton.php';
-include_once 'components/mission-vision.php';
 include_once 'components/industries.php';
 include_once 'components/featured.php';
 include_once 'components/cta.php';
