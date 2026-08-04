@@ -3589,11 +3589,11 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="tech-category-card">
           <h4 class="category-title"><i class="fa-solid fa-cloud text-purple"></i> Cloud & DevOps</h4>
           <div class="tech-pills-cloud">
-            <div class="tech-pill-item"><i class="fa-brands fa-aws"></i> AWS</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-server"></i> Azure</div>
-            <div class="tech-pill-item"><i class="fa-brands fa-google"></i> Google Cloud</div>
-            <div class="tech-pill-item"><i class="fa-brands fa-docker"></i> Docker</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-dharmachakra"></i> Kubernetes</div>
+            <div class="tech-pill-item pill-aws"><i class="fa-brands fa-aws"></i> AWS</div>
+            <div class="tech-pill-item pill-azure"><i class="fa-solid fa-cloud"></i> Azure</div>
+            <div class="tech-pill-item pill-gcp"><i class="fa-brands fa-google"></i> Google Cloud</div>
+            <div class="tech-pill-item pill-docker"><i class="fa-brands fa-docker"></i> Docker</div>
+            <div class="tech-pill-item pill-k8s"><i class="fa-solid fa-dharmachakra"></i> Kubernetes</div>
           </div>
         </div>
 
@@ -3601,10 +3601,10 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="tech-category-card">
           <h4 class="category-title"><i class="fa-solid fa-code text-cyan"></i> Development</h4>
           <div class="tech-pills-cloud">
-            <div class="tech-pill-item"><i class="fa-brands fa-laravel"></i> Laravel</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-microchip"></i> .NET</div>
-            <div class="tech-pill-item"><i class="fa-brands fa-node-js"></i> Node.js</div>
-            <div class="tech-pill-item"><i class="fa-brands fa-php"></i> PHP</div>
+            <div class="tech-pill-item pill-laravel"><i class="fa-brands fa-laravel"></i> Laravel</div>
+            <div class="tech-pill-item pill-dotnet"><i class="fa-solid fa-microchip"></i> .NET</div>
+            <div class="tech-pill-item pill-nodejs"><i class="fa-brands fa-node-js"></i> Node.js</div>
+            <div class="tech-pill-item pill-php"><i class="fa-brands fa-php"></i> PHP</div>
           </div>
         </div>
 
@@ -3612,9 +3612,9 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="tech-category-card">
           <h4 class="category-title"><i class="fa-solid fa-desktop text-blue"></i> Frontend</h4>
           <div class="tech-pills-cloud">
-            <div class="tech-pill-item"><i class="fa-brands fa-react"></i> React</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-cubes"></i> Next.js</div>
-            <div class="tech-pill-item"><i class="fa-brands fa-vuejs"></i> Vue</div>
+            <div class="tech-pill-item pill-react"><i class="fa-brands fa-react"></i> React</div>
+            <div class="tech-pill-item pill-nextjs"><i class="fa-solid fa-cubes"></i> Next.js</div>
+            <div class="tech-pill-item pill-vue"><i class="fa-brands fa-vuejs"></i> Vue</div>
           </div>
         </div>
 
@@ -3622,8 +3622,8 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="tech-category-card">
           <h4 class="category-title"><i class="fa-solid fa-mobile-screen text-emerald"></i> Mobile</h4>
           <div class="tech-pills-cloud">
-            <div class="tech-pill-item"><i class="fa-solid fa-mobile"></i> Flutter</div>
-            <div class="tech-pill-item"><i class="fa-brands fa-react"></i> React Native</div>
+            <div class="tech-pill-item pill-flutter"><i class="fa-solid fa-mobile-button"></i> Flutter</div>
+            <div class="tech-pill-item pill-react"><i class="fa-brands fa-react"></i> React Native</div>
           </div>
         </div>
 
@@ -3631,9 +3631,9 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="tech-category-card">
           <h4 class="category-title"><i class="fa-solid fa-brain text-amber"></i> AI & Intelligence</h4>
           <div class="tech-pills-cloud">
-            <div class="tech-pill-item"><i class="fa-brands fa-python"></i> Python</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-network-wired"></i> TensorFlow</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-robot"></i> OpenAI</div>
+            <div class="tech-pill-item pill-python"><i class="fa-brands fa-python"></i> Python</div>
+            <div class="tech-pill-item pill-tensorflow"><i class="fa-solid fa-diagram-next"></i> TensorFlow</div>
+            <div class="tech-pill-item pill-openai"><i class="fa-solid fa-robot"></i> OpenAI</div>
           </div>
         </div>
 
@@ -3641,9 +3641,9 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="tech-category-card">
           <h4 class="category-title"><i class="fa-solid fa-database text-rose"></i> Databases</h4>
           <div class="tech-pills-cloud">
-            <div class="tech-pill-item"><i class="fa-solid fa-database"></i> PostgreSQL</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-table"></i> MySQL</div>
-            <div class="tech-pill-item"><i class="fa-solid fa-leaf"></i> MongoDB</div>
+            <div class="tech-pill-item pill-postgres"><i class="fa-solid fa-database"></i> PostgreSQL</div>
+            <div class="tech-pill-item pill-mysql"><i class="fa-solid fa-server"></i> MySQL</div>
+            <div class="tech-pill-item pill-mongodb"><i class="fa-solid fa-leaf"></i> MongoDB</div>
           </div>
         </div>
 
@@ -3986,7 +3986,73 @@ document.addEventListener("DOMContentLoaded", function() {
   gap: 10px;
 }
 
+
+/* ── Brand Specific Colors for Technology Pills ── */
+.pill-aws i { color: #FF9900; }
+.pill-azure i { color: #0078D4; }
+.pill-gcp i { color: #4285F4; }
+.pill-docker i { color: #2496ED; }
+.pill-k8s i { color: #326CE5; }
+
+.pill-laravel i { color: #FF2D20; }
+.pill-dotnet i { color: #512BD4; }
+.pill-nodejs i { color: #339933; }
+.pill-php i { color: #777BB4; }
+
+.pill-react i { color: #61DAFB; }
+.pill-nextjs i { color: #000000; }
+.pill-vue i { color: #4FC08D; }
+
+.pill-flutter i { color: #02569B; }
+.pill-python i { color: #3776AB; }
+.pill-tensorflow i { color: #FF6F00; }
+.pill-openai i { color: #10A37F; }
+
+.pill-postgres i { color: #4169E1; }
+.pill-mysql i { color: #00758F; }
+.pill-mongodb i { color: #47A248; }
+
 .tech-pill-item {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0B1120;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
+  transition: all 300ms ease;
+}
+
+.tech-pill-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.pill-aws:hover { border-color: #FF9900; }
+.pill-azure:hover { border-color: #0078D4; }
+.pill-gcp:hover { border-color: #4285F4; }
+.pill-docker:hover { border-color: #2496ED; }
+.pill-k8s:hover { border-color: #326CE5; }
+.pill-laravel:hover { border-color: #FF2D20; }
+.pill-dotnet:hover { border-color: #512BD4; }
+.pill-nodejs:hover { border-color: #339933; }
+.pill-php:hover { border-color: #777BB4; }
+.pill-react:hover { border-color: #61DAFB; }
+.pill-nextjs:hover { border-color: #000000; }
+.pill-vue:hover { border-color: #4FC08D; }
+.pill-flutter:hover { border-color: #02569B; }
+.pill-python:hover { border-color: #3776AB; }
+.pill-tensorflow:hover { border-color: #FF6F00; }
+.pill-openai:hover { border-color: #10A37F; }
+.pill-postgres:hover { border-color: #4169E1; }
+.pill-mysql:hover { border-color: #00758F; }
+.pill-mongodb:hover { border-color: #47A248; }
+
+.tech-pill-item_old {
   background: #FFFFFF;
   border: 1px solid #E2E8F0;
   padding: 8px 16px;
