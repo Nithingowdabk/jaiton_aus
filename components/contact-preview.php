@@ -1,309 +1,347 @@
 <!-- ============================================================
-     CONTACT FORM SECTION – (Have Any Project Plan In Your Mind Style)
+     ORGANIC DUAL-WAVE RIBBON CONTACT SECTION
+     Fluid Organic Curves on Top & Bottom - Merged with Text & Form
      ============================================================ -->
-<section id="contact" class="inquiry-form-section">
+<section id="contact" class="organic-dual-contact-section">
   
-  <div class="container">
+  <div class="container container-1360 position-relative">
     
-    <!-- Outer White Glass Card Container -->
-    <div class="inquiry-card-outer" data-aos="fade-up">
-      <div class="inquiry-grid">
+    <!-- Organic Full-Height Ribbon Wave Background (Sweeps behind entire left column & form) -->
+    <div class="organic-ribbon-wave-bg">
+      <svg viewBox="0 0 1440 680" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="organicDualGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#E11D48" />
+            <stop offset="30%" stop-color="#9333EA" />
+            <stop offset="65%" stop-color="#2563EB" />
+            <stop offset="100%" stop-color="#06B6D4" />
+          </linearGradient>
+        </defs>
+        <!-- Fluid Curved Path Covering Full Left Column -->
+        <path d="M -50,60 C 250,140 550,20 850,100 C 1150,180 1350,50 1500,80 L 1500,640 C 1200,700 850,600 500,660 C 200,700 50,620 -50,640 Z" fill="url(#organicDualGradient)" opacity="0.96" />
+      </svg>
+    </div>
+
+    <!-- Transparent Woman Cutout (Arms/Head Above Top Curve) -->
+    <div class="organic-cutout-wrapper">
+      <img src="assets/images/enterprise-executive-cutout.png" alt="Happy Business Professional" class="organic-cutout-img">
+    </div>
+
+    <!-- Main Contact Grid -->
+    <div class="organic-contact-grid" data-aos="fade-up">
+      
+      <!-- Left Column: Get In Touch With Us -->
+      <div class="organic-info-col">
+        <h2 class="organic-git-title">Get in touch with us</h2>
         
-        <!-- ============================================================
-             LEFT COLUMN: Get In Touch Script, Title & Direct Channels
-             ============================================================ -->
-        <div class="inquiry-left-content">
+        <p class="organic-git-p">
+          Please feel free to contact us regarding any web design, iPhone apps or graphic design related jobs that you need help with.
+        </p>
+
+        <p class="organic-git-p">
+          If you're looking to build a website for your business or even just to chat, then we are here for you.
+        </p>
+
+        <p class="organic-git-p mb-4">
+          At Jaiton we reply back straight away to all phone calls and messages.
+        </p>
+
+        <p class="organic-cities-text">
+          Melbourne / Sydney / Brisbane / Darwin / Perth / Adelaide / Hobart
+        </p>
+
+        <div class="organic-contact-actions">
+          <span class="organic-action-label">Call us on for more information</span>
           
-          <span class="script-accent-badge">Get In touch</span>
-
-          <h2 class="inquiry-title">
-            Have any Project Plan In your Mind?
-          </h2>
-
-          <p class="inquiry-desc">
-            Tell us about your upcoming software, AI, or cloud roadmap. Our team will schedule a 30-minute architecture audit and deliver scoping details for your project.
-          </p>
-
-          <!-- Direct Contact Detail Rows -->
-          <div class="direct-contact-channels">
-            
-            <!-- Phone Row -->
-            <div class="contact-channel-item">
-              <div class="channel-icon-circle">
-                <i class="fa-solid fa-phone"></i>
-              </div>
-              <div class="channel-text">
-                <span class="channel-label">For urgent help</span>
-                <a href="tel:+61468403743" class="channel-value">+61 468 403 743</a>
-              </div>
+          <div class="organic-social-connect-row">
+            <span class="organic-social-text">Connect with us</span>
+            <div class="organic-social-icons">
+              <a href="#" class="organic-lime-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" class="organic-lime-circle" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
-
-            <!-- Email Row -->
-            <div class="contact-channel-item">
-              <div class="channel-icon-circle">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div class="channel-text">
-                <span class="channel-label">Mail us 24/7</span>
-                <a href="mailto:sydney@jaiton.com" class="channel-value">sydney@jaiton.com</a>
-              </div>
-            </div>
-
           </div>
-
-        </div>
-
-        <!-- ============================================================
-             RIGHT COLUMN: Clean Light Form Controls & Submit Button
-             ============================================================ -->
-        <div class="inquiry-right-form">
-          <form class="project-inquiry-form" onsubmit="event.preventDefault(); alert('Thank you! Your project request has been received. Our team will contact you shortly.');">
-            
-            <!-- Field 1: Your Name -->
-            <div class="form-group-item">
-              <label class="form-field-label">Your Name</label>
-              <input type="text" class="form-input-light" placeholder="e.g. John Doe" required>
-            </div>
-
-            <!-- Field 2: Email Address -->
-            <div class="form-group-item">
-              <label class="form-field-label">Email Address</label>
-              <input type="email" class="form-input-light" placeholder="e.g. john@company.com" required>
-            </div>
-
-            <!-- Field 3: How can help you? -->
-            <div class="form-group-item">
-              <label class="form-field-label">How can help you?</label>
-              <textarea class="form-textarea-light" rows="4" placeholder="Describe your product requirements, stack preferences, or roadmap..." required></textarea>
-            </div>
-
-            <!-- Full-Width Submit Button -->
-            <button type="submit" class="btn-submit-now">
-              Submit Now
-            </button>
-
-          </form>
         </div>
 
       </div>
+
+      <!-- Right Column: Instant Quote Form Card -->
+      <div class="organic-form-col" id="instant-quote-form-card">
+        <div class="organic-quote-card">
+          
+          <h3 class="organic-card-title">Instant Quote in 60 Seconds</h3>
+
+          <form class="organic-form-body" onsubmit="event.preventDefault(); alert('Thank you! Your instant quote request has been received.');">
+            
+            <div class="form-group mb-3">
+              <input type="text" class="form-control organic-field" placeholder="Name*" required>
+            </div>
+
+            <div class="form-group mb-3">
+              <input type="email" class="form-control organic-field" placeholder="Email*" required>
+            </div>
+
+            <div class="form-group mb-3">
+              <input type="tel" class="form-control organic-field" placeholder="Phone*" required>
+            </div>
+
+            <div class="form-group mb-3">
+              <select class="form-control organic-field form-select" required>
+                <option value="" disabled selected>—Please choose an option—</option>
+                <option value="webdesign">Website Design & Development</option>
+                <option value="shopify">Shopify E-Commerce Store</option>
+                <option value="woocommerce">WooCommerce Development</option>
+                <option value="app">Mobile App Development</option>
+                <option value="ai">AI & Cloud Solutions</option>
+              </select>
+            </div>
+
+            <div class="form-group mb-3">
+              <input type="text" class="form-control organic-field" placeholder="Subject*" required>
+            </div>
+
+            <div class="form-group mb-4">
+              <textarea class="form-control organic-field" rows="3" placeholder="Message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-organic-submit w-100">
+              GET MY QUOTE
+            </button>
+
+            <div class="organic-phone-footer text-center mt-3">
+              <i class="fa-solid fa-phone text-lime-ic me-2"></i> <strong>1300 661 518</strong>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
     </div>
 
   </div>
 </section>
 
 <!-- ============================================================
-     INQUIRY FORM SCOPED STYLES
+     ORGANIC DUAL CONTACT SCOPED STYLES
      ============================================================ -->
 <style>
-/* Section Shell (Light Enterprise Theme) */
-.inquiry-form-section {
+.organic-dual-contact-section {
+  padding: 80px 0 120px 0;
+  background-color: #FAFAFA;
   position: relative;
-  padding: 100px 0;
-  background-color: #F8FAFC;
-  overflow: hidden;
+  overflow: visible;
 }
 
-/* Outer White Glass Card */
-.inquiry-card-outer {
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  border-radius: 28px;
-  padding: 70px 60px;
-  max-width: 1440px;
+.container-1360 {
+  max-width: 1360px;
   margin: 0 auto;
-  box-shadow: 0 20px 48px rgba(0, 43, 128, 0.06);
-  position: relative;
-  z-index: 5;
+  padding: 0 32px;
 }
 
-.inquiry-grid {
-  display: grid;
-  grid-template-columns: 48% calc(52% - 48px);
-  gap: 48px;
-  align-items: center;
+/* Organic Ribbon Wave Background */
+.organic-ribbon-wave-bg {
+  position: absolute;
+  top: 40px;
+  left: -80px;
+  right: -80px;
+  height: 680px;
+  z-index: 2;
+  pointer-events: none;
 }
 
-/* ── LEFT COLUMN ── */
-.inquiry-left-content {
-  text-align: left;
-}
-
-.script-accent-badge {
-  font-family: 'Playfair Display', 'Georgia', serif;
-  font-style: italic;
-  font-size: 26px;
-  font-weight: 600;
-  color: #6A1BFF;
-  margin-bottom: 12px;
+.organic-ribbon-wave-bg svg {
+  width: 100%;
+  height: 100%;
   display: block;
 }
 
-.inquiry-title {
+/* Overlapping Cutout Image */
+.organic-cutout-wrapper {
+  position: absolute;
+  top: -40px;
+  left: 60px;
+  z-index: 15;
+  pointer-events: none;
+}
+
+.organic-cutout-img {
+  height: 380px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.15));
+}
+
+/* Main Grid Layout */
+.organic-contact-grid {
+  display: grid;
+  grid-template-columns: 48% 46%;
+  gap: 6%;
+  align-items: flex-start;
+  position: relative;
+  z-index: 10;
+  padding-top: 130px;
+}
+
+.organic-form-col {
+  margin-top: -110px;
+}
+
+.organic-info-col {
+  padding-top: 110px;
+  color: #FFFFFF;
+}
+
+.organic-git-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(34px, 3.5vw, 48px);
+  font-size: 32px;
   font-weight: 800;
-  line-height: 1.18;
-  color: #0F172A;
-  margin-bottom: 24px;
+  color: #FFFFFF !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  margin-bottom: 12px;
   letter-spacing: -0.02em;
 }
 
-.inquiry-desc {
-  font-size: 15.5px;
-  line-height: 1.65;
-  color: #64748B;
-  margin-bottom: 36px;
-  max-width: 520px;
+.organic-git-p {
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #F8FAFC !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
 }
 
-/* Direct Contact Channels */
-.direct-contact-channels {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+.organic-cities-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: #FFFFFF !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  margin: 14px 0;
 }
 
-.contact-channel-item {
+.organic-action-label {
+  font-size: 15px;
+  font-weight: 800;
+  color: #FFFFFF !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-bottom: 6px;
+}
+
+.organic-social-connect-row {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.channel-icon-circle {
-  width: 50px;
-  height: 50px;
+.organic-social-text {
+  font-size: 15px;
+  font-weight: 800;
+  color: #FFFFFF !important;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.organic-social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.organic-lime-circle {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background: #EBE6FF;
-  color: #6A1BFF;
+  background-color: #8CBD3C;
+  color: #FFFFFF !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
-  flex-shrink: 0;
-}
-
-.channel-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.channel-label {
-  font-size: 12px;
-  font-weight: 600;
-  color: #64748B;
-  margin-bottom: 2px;
-}
-
-.channel-value {
-  font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 12px rgba(140, 189, 60, 0.35);
+  transition: transform 300ms ease;
+}
+
+.organic-lime-circle:hover {
+  transform: scale(1.08);
+}
+
+/* Right Form Card */
+.organic-quote-card {
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 40px 36px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  border: 1px solid #E2E8F0;
+  position: relative;
+  z-index: 20;
+}
+
+.organic-card-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
   font-weight: 800;
   color: #0F172A;
-  text-decoration: none;
-  transition: color 200ms ease;
+  margin-bottom: 24px;
 }
 
-.channel-value:hover {
-  color: #6A1BFF;
+.organic-field {
+  border-radius: 8px !important;
+  border: 1px solid #CBD5E1 !important;
+  padding: 12px 16px !important;
+  font-size: 14px !important;
+  color: #0F172A !important;
+  background-color: #FFFFFF !important;
 }
 
-/* ── RIGHT COLUMN: FORM CONTROLS ── */
-.inquiry-right-form {
-  width: 100%;
+.organic-field:focus {
+  border-color: #8CBD3C !important;
+  box-shadow: 0 0 0 3px rgba(140, 189, 60, 0.2) !important;
 }
 
-.project-inquiry-form {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-  text-align: left;
+.btn-organic-submit {
+  background-color: #8CBD3C !important;
+  color: #FFFFFF !important;
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.5px !important;
+  padding: 14px !important;
+  border-radius: 100px !important;
+  border: none !important;
+  box-shadow: 0 8px 24px rgba(140, 189, 60, 0.35) !important;
+  transition: all 300ms ease !important;
 }
 
-.form-group-item {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.btn-organic-submit:hover {
+  background-color: #78A631 !important;
+  transform: translateY(-2px) !important;
 }
 
-.form-field-label {
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  color: #334155;
-}
-
-.form-input-light,
-.form-textarea-light {
-  width: 100%;
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
-  border-radius: 12px;
-  padding: 14px 18px;
-  font-size: 15px;
+.organic-phone-footer {
+  font-size: 22px;
+  font-weight: 800;
   color: #0F172A;
-  outline: none;
-  transition: all 250ms ease;
-  box-sizing: border-box;
-  font-family: inherit;
 }
 
-.form-input-light:focus,
-.form-textarea-light:focus {
-  background: #FFFFFF;
-  border-color: #6A1BFF;
-  box-shadow: 0 0 0 4px rgba(106, 27, 255, 0.1);
+.text-lime-ic {
+  color: #8CBD3C;
 }
 
-.form-textarea-light {
-  resize: vertical;
-}
-
-/* Submit Now Button */
-.btn-submit-now {
-  width: 100%;
-  height: 54px;
-  border-radius: 12px;
-  background: #6A1BFF;
-  color: #FFFFFF;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  box-shadow: 0 8px 24px rgba(106, 27, 255, 0.35);
-  transition: all 250ms ease;
-  margin-top: 6px;
-}
-
-.btn-submit-now:hover {
-  background: #5713DB;
-  transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(106, 27, 255, 0.5);
-}
-
-/* Responsive */
-@media (max-width: 1199px) {
-  .inquiry-grid {
+/* Responsive Rules */
+@media (max-width: 1100px) {
+  .organic-contact-grid {
     grid-template-columns: 1fr;
-    gap: 48px;
+    gap: 40px;
+    padding-top: 60px;
   }
-
-  .inquiry-card-outer {
-    padding: 50px 32px;
+  .organic-cutout-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: -40px;
   }
-}
-
-@media (max-width: 767px) {
-  .inquiry-form-section {
-    padding: 60px 0;
+  .organic-cutout-img {
+    margin: 0 auto;
   }
-
-  .inquiry-card-outer {
-    padding: 32px 20px;
-  }
-
-  .inquiry-title {
-    font-size: 28px;
+  .organic-ribbon-wave-bg {
+    display: none;
   }
 }
 </style>

@@ -756,12 +756,13 @@
 /* ── 4. Executive Glass CTA Panel ── */
 .executive-cta-panel {
   position: relative;
-  background: #0B1120;
+  background: linear-gradient(135deg, rgba(11, 17, 32, 0.45) 0%, rgba(11, 17, 32, 0.60) 100%), url('assets/images/cta-sydney-skyline-bg.png') center center / cover no-repeat;
   border-radius: 28px;
-  padding: 60px;
+  padding: 65px 60px;
   color: #FFFFFF;
   overflow: hidden;
   box-shadow: 0 25px 50px rgba(11, 17, 32, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   margin-top: 100px;
 }
 
