@@ -1,506 +1,204 @@
 <!-- ============================================================
-     ENTERPRISE PARTNERSHIP SECTION – Dark Cinematic Immersive Experience
-     Completely different from the white About section above
+     OUR DELIVERY MODEL SECTION
+     Clean, Seamless Enterprise Partnership Roadmap (Light Theme)
      ============================================================ -->
-<section id="mission-vision" class="dark-partnership-section">
-  
-  <!-- Dark Background Effects -->
-  <div class="dp-bg-effects" aria-hidden="true">
-    <div class="dp-gradient-mesh"></div>
-    <div class="dp-grid-overlay"></div>
-  </div>
-
-  <div class="dp-container">
+<section id="mission-vision" class="delivery-model-section">
+  <div class="container container-1300">
     
-    <!-- ============================================================
-         CENTERED HEADER BLOCK (Not split like About section)
-         ============================================================ -->
-    <div class="dp-header-block">
-      <span class="dp-eyebrow">
-        <span class="dp-eyebrow-line"></span>
-        OUR DELIVERY MODEL
-        <span class="dp-eyebrow-line"></span>
-      </span>
-      <h2 class="dp-main-title">
-        Built Around Long-Term<br>Technology Partnerships
+    <!-- Section Header -->
+    <div class="delivery-header text-center" data-aos="fade-up">
+      <span class="sub-label">OUR DELIVERY MODEL</span>
+      <h2 class="heading_text">
+        Built Around Long-Term <span class="highlight-badge">Technology Partnerships</span>
       </h2>
-      <p class="dp-subtitle">
-        From strategic discovery to continuous cloud optimisation — one accountable<br>
-        engineering partner across the entire technology lifecycle.
+      <p class="heading_description max-w-750 mx-auto">
+        From strategic discovery to continuous cloud optimization — one accountable engineering partner across the entire technology lifecycle.
       </p>
     </div>
 
-    <!-- ============================================================
-         SINGLE CINEMATIC HERO IMAGE (Not a collage)
-         ============================================================ -->
-    <div class="dp-cinematic-hero">
-      <div class="dp-hero-frame">
-        <img src="assets/images/aus-sydney-office.png" 
-             alt="Australian Enterprise Technology Leadership" 
-             class="dp-hero-img">
-        <div class="dp-hero-overlay"></div>
-        
-        <!-- Inline floating caption — NOT a glass metric card -->
-        <div class="dp-hero-caption">
-          <span class="dp-caption-icon"><i class="fa-solid fa-play"></i></span>
-          <div class="dp-caption-text">
-            <strong>Sydney, Australia</strong>
-            <small>Enterprise Engineering Headquarters</small>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ============================================================
-         5 HORIZONTAL PROCESS STEPS (Not vertical cards)
-         ============================================================ -->
-    <div class="dp-process-row">
+    <!-- 5-Step Strategic Roadmap Grid -->
+    <div class="delivery-roadmap-grid" data-aos="fade-up" data-aos-delay="100">
       
-      <div class="dp-step" data-step="01">
-        <div class="dp-step-number">01</div>
-        <div class="dp-step-content">
-          <h3 class="dp-step-title">Discovery</h3>
-          <p class="dp-step-desc">Strategic workshops, goal alignment & enterprise roadmap design.</p>
+      <!-- Step 01 -->
+      <div class="delivery-step-card">
+        <div class="step-card-header">
+          <span class="step-badge-num">01</span>
+          <div class="step-icon-box icon-purple"><i class="fa-solid fa-compass"></i></div>
         </div>
-        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
+        <h3 class="step-card-title">Discovery</h3>
+        <p class="step-card-desc">Strategic workshops, business goal alignment & enterprise roadmap design.</p>
+        <div class="step-accent-line"></div>
       </div>
 
-      <div class="dp-step" data-step="02">
-        <div class="dp-step-number">02</div>
-        <div class="dp-step-content">
-          <h3 class="dp-step-title">Architecture</h3>
-          <p class="dp-step-desc">Cloud-native blueprints, security frameworks & API design.</p>
+      <!-- Step 02 -->
+      <div class="delivery-step-card">
+        <div class="step-card-header">
+          <span class="step-badge-num">02</span>
+          <div class="step-icon-box icon-cyan"><i class="fa-solid fa-sitemap"></i></div>
         </div>
-        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
+        <h3 class="step-card-title">Architecture</h3>
+        <p class="step-card-desc">Cloud-native blueprints, security governance & robust API design.</p>
+        <div class="step-accent-line"></div>
       </div>
 
-      <div class="dp-step" data-step="03">
-        <div class="dp-step-number">03</div>
-        <div class="dp-step-content">
-          <h3 class="dp-step-title">Engineering</h3>
-          <p class="dp-step-desc">Agile development squads, AI models & enterprise software.</p>
+      <!-- Step 03 -->
+      <div class="delivery-step-card">
+        <div class="step-card-header">
+          <span class="step-badge-num">03</span>
+          <div class="step-icon-box icon-blue"><i class="fa-solid fa-code"></i></div>
         </div>
-        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
+        <h3 class="step-card-title">Engineering</h3>
+        <p class="step-card-desc">Agile development squads building custom AI models & web applications.</p>
+        <div class="step-accent-line"></div>
       </div>
 
-      <div class="dp-step" data-step="04">
-        <div class="dp-step-number">04</div>
-        <div class="dp-step-content">
-          <h3 class="dp-step-title">Deployment</h3>
-          <p class="dp-step-desc">CI/CD pipelines, cloud migration & zero-downtime launch.</p>
+      <!-- Step 04 -->
+      <div class="delivery-step-card">
+        <div class="step-card-header">
+          <span class="step-badge-num">04</span>
+          <div class="step-icon-box icon-emerald"><i class="fa-solid fa-rocket"></i></div>
         </div>
-        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
+        <h3 class="step-card-title">Deployment</h3>
+        <p class="step-card-desc">Automated CI/CD pipelines, cloud migration & zero-downtime launch.</p>
+        <div class="step-accent-line"></div>
       </div>
 
-      <div class="dp-step" data-step="05">
-        <div class="dp-step-number">05</div>
-        <div class="dp-step-content">
-          <h3 class="dp-step-title">Optimisation</h3>
-          <p class="dp-step-desc">24×7 monitoring, AI evolution & continuous platform growth.</p>
+      <!-- Step 05 -->
+      <div class="delivery-step-card">
+        <div class="step-card-header">
+          <span class="step-badge-num">05</span>
+          <div class="step-icon-box icon-amber"><i class="fa-solid fa-chart-line"></i></div>
         </div>
-        <div class="dp-step-bar"><div class="dp-bar-fill"></div></div>
+        <h3 class="step-card-title">Optimization</h3>
+        <p class="step-card-desc">24×7 monitoring, SLA support & continuous platform evolution.</p>
+        <div class="step-accent-line"></div>
       </div>
 
-    </div>
-
-    <!-- ============================================================
-         BOTTOM METRICS ROW (Completely different from About's glass panels)
-         ============================================================ -->
-    <div class="dp-bottom-metrics">
-      <div class="dp-metric-block">
-        <span class="dp-metric-number">120+</span>
-        <span class="dp-metric-label">Enterprise Projects Delivered</span>
-      </div>
-      <div class="dp-metric-sep"></div>
-      <div class="dp-metric-block">
-        <span class="dp-metric-number">98%</span>
-        <span class="dp-metric-label">Client Retention Rate</span>
-      </div>
-      <div class="dp-metric-sep"></div>
-      <div class="dp-metric-block">
-        <span class="dp-metric-number">24/7</span>
-        <span class="dp-metric-label">Engineering Operations</span>
-      </div>
-      <div class="dp-metric-sep"></div>
-      <div class="dp-metric-block">
-        <span class="dp-metric-number">5+</span>
-        <span class="dp-metric-label">Global Delivery Centres</span>
-      </div>
     </div>
 
   </div>
 </section>
 
 <!-- ============================================================
-     DARK PARTNERSHIP SECTION STYLES
+     DELIVERY MODEL SECTION SCOPED STYLES
      ============================================================ -->
 <style>
-/* ================================================================
-   SECTION SHELL: Dark navy background — instantly different
-   from the white About section above
-   ================================================================ */
-.dark-partnership-section {
+.delivery-model-section {
+  padding: 100px 0;
+  background-color: #FAFBFF;
+  border-top: 1px solid #F1F5F9;
+  border-bottom: 1px solid #F1F5F9;
   position: relative;
-  padding: 120px 0 100px 0;
-  background: #0B1120;
   overflow: hidden;
 }
 
-/* ── Dark Background Effects ── */
-.dp-bg-effects {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.dp-gradient-mesh {
-  position: absolute;
-  inset: 0;
-  background: 
-    radial-gradient(ellipse 600px 400px at 20% 30%, rgba(106, 27, 255, 0.08) 0%, transparent 70%),
-    radial-gradient(ellipse 500px 350px at 80% 70%, rgba(56, 189, 248, 0.06) 0%, transparent 70%);
-}
-
-.dp-grid-overlay {
-  position: absolute;
-  inset: 0;
-  background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-  background-size: 60px 60px;
-}
-
-/* ── Container ── */
-.dp-container {
-  max-width: 1200px;
-  width: 100%;
+.container-1300 {
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 32px;
+}
+
+.max-w-750 { max-width: 750px; }
+
+.delivery-roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.delivery-step-card {
+  background: #FFFFFF;
+  padding: 30px 24px;
+  border-radius: 20px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 0 4px 15px rgba(15, 23, 42, 0.03);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   position: relative;
-  z-index: 5;
+  overflow: hidden;
+  transition: transform 300ms ease, border-color 300ms ease, box-shadow 300ms ease;
 }
 
-/* ================================================================
-   CENTERED HEADER — Not split like About section
-   ================================================================ */
-.dp-header-block {
-  text-align: center;
-  margin-bottom: 60px;
+.delivery-step-card:hover {
+  transform: translateY(-6px);
+  border-color: #6A1BFF;
+  box-shadow: 0 14px 30px rgba(106, 27, 255, 0.08);
 }
 
-.dp-eyebrow {
-  display: inline-flex;
+.delivery-step-card:hover .step-accent-line {
+  background: linear-gradient(90deg, #6A1BFF 0%, #38BDF8 100%);
+}
+
+.step-card-header {
+  display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.dp-eyebrow-line {
-  display: inline-block;
-  width: 32px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.dp-main-title {
+.step-badge-num {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(36px, 4vw, 54px);
+  font-size: 24px;
   font-weight: 800;
-  line-height: 1.12;
-  color: #FFFFFF;
-  letter-spacing: -0.03em;
-  margin: 0 0 20px 0;
+  color: #CBD5E1;
+  line-height: 1;
 }
 
-.dp-subtitle {
-  font-size: 17px;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.55);
-  max-width: 620px;
-  margin: 0 auto;
-  font-weight: 500;
-}
-
-/* ================================================================
-   SINGLE CINEMATIC HERO IMAGE — Not a collage
-   ================================================================ */
-.dp-cinematic-hero {
-  margin-bottom: 60px;
-}
-
-.dp-hero-frame {
-  position: relative;
-  width: 100%;
-  height: 420px;
-  border-radius: 24px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 
-    0 30px 80px rgba(0, 0, 0, 0.4),
-    0 0 0 1px rgba(255, 255, 255, 0.05) inset;
-}
-
-.dp-hero-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 8s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.dp-hero-frame:hover .dp-hero-img {
-  transform: scale(1.04);
-}
-
-.dp-hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    180deg,
-    rgba(11, 17, 32, 0) 0%,
-    rgba(11, 17, 32, 0.15) 50%,
-    rgba(11, 17, 32, 0.7) 100%
-  );
-  pointer-events: none;
-}
-
-.dp-hero-caption {
-  position: absolute;
-  bottom: 28px;
-  left: 28px;
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  z-index: 5;
-}
-
-.dp-caption-icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.12);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+.step-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
-  font-size: 14px;
+  font-size: 18px;
+}
+
+.icon-purple { background: rgba(106, 27, 255, 0.1); color: #6A1BFF; }
+.icon-cyan { background: rgba(56, 189, 248, 0.12); color: #0284C7; }
+.icon-blue { background: rgba(99, 102, 241, 0.1); color: #6366F1; }
+.icon-emerald { background: rgba(16, 185, 129, 0.1); color: #10B981; }
+.icon-amber { background: rgba(245, 158, 11, 0.1); color: #F59E0B; }
+
+.step-card-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0B1120;
+  margin-bottom: 10px;
+}
+
+.step-card-desc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #64748B;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.step-accent-line {
+  height: 3px;
+  width: 100%;
+  background: #E2E8F0;
+  border-radius: 100px;
+  margin-top: 20px;
   transition: background 300ms ease;
 }
 
-.dp-hero-frame:hover .dp-caption-icon {
-  background: rgba(106, 27, 255, 0.5);
-}
-
-.dp-caption-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.dp-caption-text strong {
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  color: #FFFFFF;
-}
-
-.dp-caption-text small {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.55);
-  font-weight: 500;
-}
-
-/* ================================================================
-   HORIZONTAL PROCESS ROW — Not vertical cards
-   ================================================================ */
-.dp-process-row {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
-  margin-bottom: 60px;
-}
-
-.dp-step {
-  position: relative;
-  padding: 28px 22px 20px 22px;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  transition: 
-    background 400ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    border-color 400ms ease,
-    transform 400ms cubic-bezier(0.2, 0.8, 0.2, 1);
-  cursor: default;
-}
-
-.dp-step:hover {
-  background: rgba(106, 27, 255, 0.08);
-  border-color: rgba(106, 27, 255, 0.25);
-  transform: translateY(-6px);
-}
-
-
-.dp-step-number {
-  font-family: 'Poppins', sans-serif;
-  font-size: 38px;
-  font-weight: 900;
-  line-height: 1;
-  color: rgba(255, 255, 255, 0.06);
-  margin-bottom: 16px;
-  transition: color 400ms ease;
-}
-
-.dp-step:hover .dp-step-number {
-  color: rgba(106, 27, 255, 0.3);
-}
-
-.dp-step-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 17px;
-  font-weight: 800;
-  color: #FFFFFF;
-  margin: 0 0 8px 0;
-}
-
-.dp-step-desc {
-  font-size: 13px;
-  line-height: 1.55;
-  color: rgba(255, 255, 255, 0.45);
-  margin: 0 0 16px 0;
-  font-weight: 500;
-}
-
-/* Bottom progress bar inside each step */
-.dp-step-bar {
-  width: 100%;
-  height: 3px;
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.dp-bar-fill {
-  width: 0%;
-  height: 100%;
-  background: linear-gradient(90deg, #6A1BFF, #38BDF8);
-  border-radius: 3px;
-  transition: width 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-
-
-.dp-step:hover .dp-bar-fill {
-  width: 70%;
-}
-
-/* ================================================================
-   BOTTOM METRICS ROW — Completely different from About section
-   No glass panels, no floating cards. Simple dark inline strip.
-   ================================================================ */
-.dp-bottom-metrics {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0;
-  padding: 32px 0 0 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.dp-metric-block {
-  flex: 1;
-  text-align: center;
-  padding: 0 24px;
-}
-
-.dp-metric-number {
-  display: block;
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  font-weight: 900;
-  color: #FFFFFF;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-}
-
-.dp-metric-label {
-  display: block;
-  font-size: 13px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.35);
-  margin-top: 4px;
-}
-
-.dp-metric-sep {
-  width: 1px;
-  height: 44px;
-  background: rgba(255, 255, 255, 0.08);
-  flex-shrink: 0;
-}
-
-/* ================================================================
-   RESPONSIVE
-   ================================================================ */
-@media (max-width: 1100px) {
-  .dp-process-row {
+/* Responsive Rules */
+@media (max-width: 1200px) {
+  .delivery-roadmap-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 767px) {
-  .dark-partnership-section {
-    padding: 80px 0 60px 0;
-  }
-
-  .dp-container {
-    padding: 0 20px;
-  }
-
-  .dp-main-title {
-    font-size: 30px;
-  }
-
-  .dp-subtitle br {
-    display: none;
-  }
-
-  .dp-hero-frame {
-    height: 260px;
-    border-radius: 16px;
-  }
-
-  .dp-process-row {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-
-  .dp-step {
-    padding: 20px;
-  }
-
-  .dp-step-number {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-
-  .dp-bottom-metrics {
-    flex-wrap: wrap;
     gap: 24px;
   }
+}
 
-  .dp-metric-sep {
-    display: none;
-  }
-
-  .dp-metric-block {
-    flex: 0 0 calc(50% - 12px);
-    padding: 0;
+@media (max-width: 768px) {
+  .delivery-roadmap-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 </style>
