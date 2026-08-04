@@ -161,7 +161,68 @@
      STYLING: RESTORED PREVIOUS STICKY STACKING LAYOUT
      ============================================================ -->
 <style>
+/* ── Case Studies Sticky Card Stacking Animation ── */
 .about_and_case_section {
+  background: #0B1120 !important;
+  padding: 100px 0 120px !important;
+  position: relative;
+  overflow: visible !important; /* Must be visible for sticky stacking to work */
+}
+
+.about_and_case_section::before,
+.about_and_case_section::after {
+  display: none !important;
+  content: none !important;
+}
+
+.cs-jaiton-container {
+  width: calc(100% - 64px) !important;
+  max-width: 1360px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.case_studies_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100% !important;
+  max-width: 1360px !important;
+  margin: 0 auto 60px auto !important;
+  position: relative;
+}
+
+/* STICKY STACKING ANIMATED CARDS */
+.case_study_block {
+  display: flex !important;
+  width: 100% !important;
+  overflow: hidden;
+  align-items: stretch !important;
+  background-color: #FFFFFF;
+  border-radius: 24px;
+  position: sticky !important;
+  top: calc(100px + (var(--stack-idx, 1) - 1) * 24px) !important;
+  box-shadow: 0 12px 35px rgba(2, 9, 63, 0.15);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+  z-index: calc(10 + var(--stack-idx, 1));
+}
+
+.case_study_block:nth-child(1) { --stack-idx: 1; }
+.case_study_block:nth-child(2) { --stack-idx: 2; }
+.case_study_block:nth-child(3) { --stack-idx: 3; }
+
+.case_study_block:hover {
+  box-shadow: 0 20px 45px rgba(106, 27, 255, 0.2);
+}
+
+.btns_group {
+  position: relative;
+  z-index: 50 !important;
+  margin-top: 40px !important;
+}
+.about_and_case_section_old {
   background: #0B1120 !important;
   padding: 100px 0 100px !important;
   position: relative;
