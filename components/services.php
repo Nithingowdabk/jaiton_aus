@@ -32,7 +32,7 @@
       <div class="swiper services-swiper">
         <div class="swiper-wrapper">
           
-          <!-- Card 01: IT Strategy & Digital Transformation -->
+          <!-- Card 01: UI/UX Designing -->
           <div class="swiper-slide">
             <div class="enterprise-service-card" data-aos="fade-up" data-aos-delay="0">
               <div class="card-top-bar"></div>
@@ -43,19 +43,19 @@
                 <div class="card-header-meta">
                   <span class="card-num-step">01</span>
                   <div class="card-icon-box">
-                    <i class="fa-solid fa-chart-diagram"></i>
+                    <i class="fa-solid fa-palette"></i>
                   </div>
                 </div>
 
-                <h3 class="card-service-title">IT Strategy & Digital Transformation</h3>
-                <p class="card-service-desc">Strategic roadmaps, technology alignment, and enterprise modernization for Australian businesses.</p>
+                <h3 class="card-service-title">UI/UX Designing</h3>
+                <p class="card-service-desc">User-centered digital experiences, wireframing, interactive prototyping, and design systems for enterprise web and mobile applications.</p>
               </div>
 
               <!-- Bottom Photography Box (55%) -->
               <div class="card-photo-wrapper">
                 <div class="photo-overlay-brand"></div>
                 <div class="photo-spotlight"></div>
-                <img src="assets/images/service-it-strategy.png" alt="IT Strategy & Digital Transformation Consultants" class="card-photo-img">
+                <img src="assets/images/service-it-strategy.png" alt="UI/UX Designing & Prototyping" class="card-photo-img">
               </div>
 
               <!-- Bottom Right Animated Arrow Action -->
@@ -67,7 +67,7 @@
             </div>
           </div>
 
-          <!-- Card 02: Cloud Consulting Services -->
+          <!-- Card 02: AI Consulting & Strategy -->
           <div class="swiper-slide">
             <div class="enterprise-service-card" data-aos="fade-up" data-aos-delay="120">
               <div class="card-top-bar"></div>
@@ -78,19 +78,19 @@
                 <div class="card-header-meta">
                   <span class="card-num-step">02</span>
                   <div class="card-icon-box">
-                    <i class="fa-solid fa-cloud-arrow-up"></i>
+                    <i class="fa-solid fa-brain"></i>
                   </div>
                 </div>
 
-                <h3 class="card-service-title">Cloud Consulting Services</h3>
-                <p class="card-service-desc">Multi-cloud architecture, DevOps automation, cloud migration, and high-availability SLA platforms.</p>
+                <h3 class="card-service-title">AI Consulting & Strategy</h3>
+                <p class="card-service-desc">Enterprise machine learning, Generative AI models, custom LLM integration, and strategic AI roadmaps for business automation.</p>
               </div>
 
               <!-- Bottom Photography Box (55%) -->
               <div class="card-photo-wrapper">
                 <div class="photo-overlay-brand"></div>
                 <div class="photo-spotlight"></div>
-                <img src="assets/images/service-cloud-consulting.png" alt="Cloud Consulting Services Engineers" class="card-photo-img">
+                <img src="assets/images/service-ai-analytics.png" alt="AI Consulting & Strategy Consultants" class="card-photo-img">
               </div>
 
               <!-- Bottom Right Animated Arrow Action -->
@@ -102,7 +102,7 @@
             </div>
           </div>
 
-          <!-- Card 03: Custom Software Development -->
+          <!-- Card 03: IOT Consulting & Strategy (Featured / Active Card) -->
           <div class="swiper-slide">
             <div class="enterprise-service-card" data-aos="fade-up" data-aos-delay="240">
               <div class="card-top-bar"></div>
@@ -113,19 +113,19 @@
                 <div class="card-header-meta">
                   <span class="card-num-step">03</span>
                   <div class="card-icon-box">
-                    <i class="fa-solid fa-code-branch"></i>
+                    <i class="fa-solid fa-microchip"></i>
                   </div>
                 </div>
 
-                <h3 class="card-service-title">Custom Software Development</h3>
-                <p class="card-service-desc">Bespoke enterprise applications, API integrations, and resilient full-stack software solutions.</p>
+                <h3 class="card-service-title">IOT Consulting & Strategy</h3>
+                <p class="card-service-desc">Hardware telemetry, smart sensor networks, industrial IoT architecture, and edge computing strategies for connected operations.</p>
               </div>
 
               <!-- Bottom Photography Box (55%) -->
               <div class="card-photo-wrapper">
                 <div class="photo-overlay-brand"></div>
                 <div class="photo-spotlight"></div>
-                <img src="assets/images/service-custom-software.png" alt="Custom Software Engineering Squad" class="card-photo-img">
+                <img src="assets/images/about-cloud-monitoring.png" alt="IOT Consulting & Strategy Engineering" class="card-photo-img">
               </div>
 
               <!-- Bottom Right Animated Arrow Action -->
@@ -137,7 +137,7 @@
             </div>
           </div>
 
-          <!-- Card 04: AI & Data Analytics -->
+          <!-- Card 04: Custom Web Applications -->
           <div class="swiper-slide">
             <div class="enterprise-service-card" data-aos="fade-up" data-aos-delay="360">
               <div class="card-top-bar"></div>
@@ -148,19 +148,19 @@
                 <div class="card-header-meta">
                   <span class="card-num-step">04</span>
                   <div class="card-icon-box">
-                    <i class="fa-solid fa-brain"></i>
+                    <i class="fa-solid fa-laptop-code"></i>
                   </div>
                 </div>
 
-                <h3 class="card-service-title">AI & Data Analytics</h3>
-                <p class="card-service-desc">Enterprise LLMs, predictive machine learning models, and real-time business intelligence dashboards.</p>
+                <h3 class="card-service-title">Custom Web Applications</h3>
+                <p class="card-service-desc">Scalable full-stack web platforms, SaaS product development, cloud API integrations, and modern high-performance web systems.</p>
               </div>
 
               <!-- Bottom Photography Box (55%) -->
               <div class="card-photo-wrapper">
                 <div class="photo-overlay-brand"></div>
                 <div class="photo-spotlight"></div>
-                <img src="assets/images/service-ai-analytics.png" alt="AI & Data Analytics Data Scientists" class="card-photo-img">
+                <img src="assets/images/service-custom-software.png" alt="Custom Web Applications Developers" class="card-photo-img">
               </div>
 
               <!-- Bottom Right Animated Arrow Action -->
@@ -179,60 +179,19 @@
   </div>
 </section>
 
-<!-- Swiper & 3D Tilt Interactive Script -->
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-  // Initialize Swiper
-  if (typeof Swiper !== "undefined") {
-    new Swiper('.services-swiper', {
-      slidesPerView: 1,
-      spaceBetween: 24,
-      loop: true,
-      navigation: {
-        nextEl: '.services-next-btn',
-        prevEl: '.services-prev-btn',
-      },
-      breakpoints: {
-        640: { slidesPerView: 2, spaceBetween: 24 },
-        1024: { slidesPerView: 3, spaceBetween: 28 },
-        1280: { slidesPerView: 4, spaceBetween: 24 }
-      }
-    });
-  }
-
-  // 3D Tilt Interaction for Enterprise Service Cards
-  const cards = document.querySelectorAll('.enterprise-service-card');
-  cards.forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-      if (window.innerWidth <= 991) return;
-      const rect = card.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-      const rotateX = ((y - centerY) / centerY) * -4;
-      const rotateY = ((x - centerX) / centerX) * 4;
-
-      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
-    });
-
-    card.addEventListener('mouseleave', () => {
-      if (window.innerWidth <= 991) return;
-      card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0)';
-    });
-  });
-});
-</script>
-
 <!-- ============================================================
-     SERVICES SHOWCASE SCOPED STYLES
+     ENTERPRISE SERVICES SCOPED STYLES
      ============================================================ -->
 <style>
-/* ── Section Shell (Enterprise Light Theme) ── */
+/* ── Section Shell ── */
 .services-showcase-section {
   position: relative;
-  padding: 110px 0;
-  background-color: #F8FAFC;
+  padding: 120px 0;
+  background-color: #FAFBFF;
+  background-image: 
+    linear-gradient(rgba(15, 23, 42, 0.02) 1px, transparent 1px), 
+    linear-gradient(90deg, rgba(15, 23, 42, 0.02) 1px, transparent 1px);
+  background-size: 44px 44px;
   overflow: hidden;
 }
 
@@ -241,54 +200,52 @@ document.addEventListener("DOMContentLoaded", () => {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  max-width: 1440px;
-  margin: 0 auto 54px auto;
-  padding: 0 40px;
+  margin-bottom: 60px;
 }
 
 .services-header-left {
   text-align: left;
-  max-width: 720px;
+  max-width: 680px;
 }
 
 .services-badge {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: 13px;
+  gap: 8px;
+  font-size: 12px;
   font-weight: 800;
   color: #6A1BFF;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
-  margin-bottom: 16px;
   background: rgba(106, 27, 255, 0.06);
   padding: 6px 16px;
   border-radius: 100px;
   border: 1px solid rgba(106, 27, 255, 0.15);
+  margin-bottom: 16px;
 }
 
 .badge-dot {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background: #6A1BFF;
-  display: inline-block;
 }
 
 .services-main-title {
   font-family: 'Poppins', sans-serif;
-  font-size: clamp(34px, 3.6vw, 48px);
+  font-size: clamp(32px, 3.2vw, 44px);
   font-weight: 800;
-  line-height: 1.15;
+  line-height: 1.18;
   color: #0F172A;
   margin: 0;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
-/* ── Slider Navigation Arrows ── */
+/* Navigation Arrow Buttons (Top Right) */
 .services-slider-nav {
   display: flex;
-  gap: 14px;
+  align-items: center;
+  gap: 12px;
 }
 
 .nav-arrow-btn {
@@ -296,313 +253,264 @@ document.addEventListener("DOMContentLoaded", () => {
   height: 52px;
   border-radius: 50%;
   background: #FFFFFF;
-  border: 1px solid #CBD5E1;
+  border: 1px solid #E2E8F0;
   color: #0F172A;
   font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: all 250ms ease;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.04);
+  transition: all 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .nav-arrow-btn:hover {
-  background: linear-gradient(135deg, #6A1BFF 0%, #3B82F6 100%);
-  border-color: transparent;
+  background: #6A1BFF;
+  border-color: #6A1BFF;
   color: #FFFFFF;
-  box-shadow: 0 8px 20px rgba(106, 27, 255, 0.35);
+  box-shadow: 0 8px 24px rgba(106, 27, 255, 0.35);
   transform: translateY(-2px);
 }
 
-/* Swiper Container */
+/* ── Swiper Carousel & Enterprise Cards ── */
 .services-swiper-wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
-/* ── ENTERPRISE PREMIUM SERVICE CARD ── */
+.services-swiper {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+/* Main Enterprise Service Card Container */
 .enterprise-service-card {
   position: relative;
-  border-radius: 28px;
+  height: 480px;
   background: #FFFFFF;
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.05), 0 1px 3px rgba(15, 23, 42, 0.04);
-  height: 530px;
-  padding: 32px 30px 24px 30px;
+  border-radius: 28px;
+  border: 2px solid #E2E8F0;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  box-sizing: border-box;
   overflow: hidden;
-  will-change: transform, box-shadow;
-  transition: 
-    transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    box-shadow 500ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    background 500ms cubic-bezier(0.2, 0.8, 0.2, 1),
-    border-color 500ms cubic-bezier(0.2, 0.8, 0.2, 1);
-  transform-style: preserve-3d;
+  transition: all 350ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
 }
 
-/* ── Layer 4: Top Edge Gradient Line (3px) ── */
+.enterprise-service-card:hover {
+  transform: translateY(-8px);
+  border-color: #6A1BFF;
+  box-shadow: 0 20px 40px -10px rgba(106, 27, 255, 0.18), 0 0 0 1px #6A1BFF;
+}
+
+/* Micro Accent Lines */
 .card-top-bar {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
+  left: 32px;
+  right: 32px;
   height: 3px;
-  background: linear-gradient(90deg, #6A1BFF 0%, #3B82F6 100%);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 450ms cubic-bezier(0.2, 0.8, 0.2, 1);
-  z-index: 10;
+  background: linear-gradient(90deg, #6A1BFF, #38BDF8);
+  opacity: 0;
+  transition: opacity 300ms ease;
 }
 
-/* ── Layer 11: Left Vertical Gradient Accent Bar (4px) ── */
 .card-left-bar {
   position: absolute;
-  top: 0;
+  top: 32px;
+  bottom: 32px;
   left: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(180deg, #6A1BFF 0%, #3B82F6 100%);
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform 450ms cubic-bezier(0.2, 0.8, 0.2, 1);
-  z-index: 10;
+  width: 3px;
+  background: #6A1BFF;
+  opacity: 0;
+  transition: opacity 300ms ease;
 }
 
-/* ── Content Top (45%) ── */
+.enterprise-service-card:hover .card-top-bar,
+.enterprise-service-card:hover .card-left-bar {
+  opacity: 1;
+}
+
+/* Top Content Wrap (45% Height) */
 .card-content-wrap {
-  position: relative;
-  z-index: 5;
+  height: 45%;
+  padding: 32px 32px 16px 32px;
+  display: flex;
+  flex-direction: column;
   text-align: left;
-  flex: 0 0 45%;
 }
 
 .card-header-meta {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
-/* ── Layer 8: Service Number 01 Animation ── */
 .card-num-step {
   font-family: 'Poppins', sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 800;
   color: #94A3B8;
-  letter-spacing: -0.01em;
-  transition: color 350ms ease, transform 350ms ease;
-  display: inline-block;
+  letter-spacing: 1px;
+  transition: color 300ms ease;
 }
 
-/* ── Layer 9: Service Icon Animation ── */
+.enterprise-service-card:hover .card-num-step {
+  color: #6A1BFF;
+}
+
 .card-icon-box {
-  font-size: 24px;
-  color: #64748B;
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: #F1F5F9;
+  background: #F3E8FF;
+  color: #6A1BFF;
+  font-size: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 350ms cubic-bezier(0.2, 0.8, 0.2, 1), color 350ms ease, background 350ms ease;
+  transition: all 300ms ease;
+}
+
+.enterprise-service-card:hover .card-icon-box {
+  background: #6A1BFF;
+  color: #FFFFFF;
+  transform: scale(1.08);
 }
 
 .card-service-title {
   font-family: 'Poppins', sans-serif;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 800;
-  line-height: 1.3;
+  line-height: 1.25;
   color: #0F172A;
-  margin-bottom: 10px;
-  letter-spacing: -0.01em;
-  transition: color 350ms ease;
+  margin: 0 0 8px 0;
+  transition: color 300ms ease;
+}
+
+.enterprise-service-card:hover .card-service-title {
+  color: #6A1BFF;
 }
 
 .card-service-desc {
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.6;
   color: #64748B;
   margin: 0;
   font-weight: 500;
 }
 
-/* ── Bottom Photography Box (55%) ── */
+/* Bottom Photography Box (55% Height) */
 .card-photo-wrapper {
   position: relative;
+  height: 55%;
   width: 100%;
-  height: 250px;
-  flex: 0 0 55%;
-  border-radius: 20px;
   overflow: hidden;
-  margin-top: 16px;
   background: #0F172A;
-  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
-  z-index: 5;
-  transition: box-shadow 400ms ease;
+  border-radius: 20px;
+  margin: 0 16px 16px 16px;
+  width: calc(100% - 32px);
 }
 
-/* Layer 7: Translucent Purple Glow Behind Image (<10%) */
-.card-photo-wrapper::before {
-  content: '';
-  position: absolute;
-  inset: -10px;
-  border-radius: 26px;
-  background: rgba(106, 27, 255, 0.08);
-  opacity: 0;
-  filter: blur(14px);
-  transition: opacity 450ms ease;
-  z-index: -1;
-}
-
-/* 8-12% Brand Color Overlay */
-.photo-overlay-brand {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(106, 27, 255, 0.10) 0%, rgba(59, 130, 246, 0.12) 100%);
-  mix-blend-mode: multiply;
-  z-index: 2;
-  pointer-events: none;
-}
-
-/* Layer 6: Soft Spotlight Effect */
-.photo-spotlight {
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.28), transparent 70%);
-  opacity: 0;
-  z-index: 3;
-  pointer-events: none;
-  transition: opacity 500ms ease;
-}
-
-/* Layer 5: Photograph Slow 6s Ease Scale 1.00 -> 1.08 */
 .card-photo-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 6s cubic-bezier(0.25, 1, 0.5, 1);
-  will-change: transform;
+  transition: transform 600ms cubic-bezier(0.16, 1, 0.3, 1), filter 600ms ease;
 }
 
-/* ── Layer 10: Bottom Right Arrow Action Circle ── */
-.card-footer-action {
+.enterprise-service-card:hover .card-photo-img {
+  transform: scale(1.06);
+}
+
+/* Brand Color Overlay (8-12% Tint) */
+.photo-overlay-brand {
   position: absolute;
-  bottom: 34px;
-  right: 40px;
-  z-index: 10;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(106, 27, 255, 0.08) 0%, rgba(15, 23, 42, 0.2) 100%);
+  z-index: 2;
+}
+
+.photo-spotlight {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+  z-index: 3;
   pointer-events: none;
 }
 
+/* Bottom Right Arrow Circle Button */
+.card-footer-action {
+  position: absolute;
+  bottom: 28px;
+  right: 28px;
+  z-index: 10;
+}
+
 .card-arrow-circle {
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  background: #FFFFFF;
-  border: 1px solid #E2E8F0;
-  color: #64748B;
+  background: rgba(255, 255, 255, 0.95);
+  color: #0F172A;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  opacity: 0;
-  transform: translateX(-12px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  transition: opacity 350ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 350ms cubic-bezier(0.2, 0.8, 0.2, 1), background 350ms ease, color 350ms ease, border-color 350ms ease;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.15);
+  transition: all 300ms ease;
 }
 
-/* ── HOVER STATES (ALL 11 LAYERS COMBINED) ── */
-.enterprise-service-card:hover {
-  /* Layer 1 & 2: Lift 10px & Expand Shadow */
-  box-shadow: 0 26px 54px -12px rgba(15, 23, 42, 0.12), 0 10px 24px -8px rgba(106, 27, 255, 0.14);
-  border-color: rgba(106, 27, 255, 0.25);
-  /* Layer 3: Background Light Blue/Purple Gradient Transition */
-  background: linear-gradient(180deg, #F8FBFF 0%, #FFFFFF 100%);
-}
-
-/* Layer 4: Top Edge Gradient Line Animation */
-.enterprise-service-card:hover .card-top-bar {
-  transform: scaleX(1);
-}
-
-/* Layer 11: Left Vertical Accent Bar Animation */
-.enterprise-service-card:hover .card-left-bar {
-  transform: scaleY(1);
-}
-
-/* Layer 5: Image Slow Zoom 1.08 */
-.enterprise-service-card:hover .card-photo-img {
-  transform: scale(1.08);
-}
-
-/* Layer 6: Soft Spotlight */
-.enterprise-service-card:hover .photo-spotlight {
-  opacity: 1;
-}
-
-/* Layer 7: Translucent Purple Glow */
-.enterprise-service-card:hover .card-photo-wrapper::before {
-  opacity: 1;
-}
-
-/* Layer 8: Service Number Color & Translate */
-.enterprise-service-card:hover .card-num-step {
-  color: #6A1BFF;
-  transform: translateY(-2px);
-}
-
-/* Layer 9: Icon Rotate 6deg & Scale 110% */
-.enterprise-service-card:hover .card-icon-box {
-  transform: rotate(6deg) scale(1.1);
-  color: #6A1BFF;
-  background: rgba(106, 27, 255, 0.1);
-}
-
-/* Layer 10: Arrow Slide-In & Gradient Fill */
 .enterprise-service-card:hover .card-arrow-circle {
-  opacity: 1;
-  transform: translateX(0);
-  background: linear-gradient(135deg, #6A1BFF 0%, #3B82F6 100%);
+  background: #6A1BFF;
   color: #FFFFFF;
-  border-color: transparent;
+  transform: scale(1.1);
+  box-shadow: 0 8px 24px rgba(106, 27, 255, 0.45);
 }
 
-/* ── Mobile & Touch Adjustments ── */
+/* Responsive Styles */
 @media (max-width: 991px) {
-  .enterprise-service-card {
-    height: auto;
-    min-height: 490px;
-    padding: 26px 22px 20px 22px;
-  }
-
-  .card-photo-wrapper {
-    height: 220px;
-  }
-
-  .card-arrow-circle {
-    opacity: 1;
-    transform: translateX(0);
+  .services-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
   }
 }
 
 @media (max-width: 767px) {
   .services-showcase-section {
-    padding: 70px 0;
+    padding: 80px 0;
   }
 
-  .services-header-row,
-  .services-swiper-wrapper {
-    padding: 0 20px;
-  }
-
-  .services-main-title {
-    font-size: 28px;
+  .enterprise-service-card {
+    height: 440px;
   }
 }
 </style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (typeof Swiper !== "undefined") {
+    new Swiper(".services-swiper", {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      loop: false,
+      speed: 600,
+      grabCursor: true,
+      navigation: {
+        nextEl: ".services-next-btn",
+        prevEl: ".services-prev-btn",
+      },
+      breakpoints: {
+        640: { slidesPerView: 2, spaceBetween: 20 },
+        1024: { slidesPerView: 3, spaceBetween: 24 },
+        1280: { slidesPerView: 4, spaceBetween: 24 }
+      }
+    });
+  }
+});
+</script>

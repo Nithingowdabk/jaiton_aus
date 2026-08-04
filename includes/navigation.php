@@ -12,7 +12,7 @@ $nav_items = [
   ],
   [
     'label' => 'About',
-    'url' => '#why-jaiton',
+    'url' => 'about.php',
     'has_dropdown' => false
   ],
   [

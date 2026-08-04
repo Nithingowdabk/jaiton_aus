@@ -113,10 +113,10 @@
       <nav class="main-nav" id="main-nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#hero" class="nav-link">Home</a>
+            <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#why-jaiton" class="nav-link">About</a>
+            <a href="about.php" class="nav-link">About</a>
           </li>
           <li class="nav-item">
             <a href="#services" class="nav-link">Services</a>

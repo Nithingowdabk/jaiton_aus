@@ -56,7 +56,7 @@
          ============================================================ -->
     <div class="dp-process-row">
       
-      <div class="dp-step active-step" data-step="01">
+      <div class="dp-step" data-step="01">
         <div class="dp-step-number">01</div>
         <div class="dp-step-content">
           <h3 class="dp-step-title">Discovery</h3>
@@ -347,10 +347,6 @@
   transform: translateY(-6px);
 }
 
-.dp-step.active-step {
-  background: rgba(106, 27, 255, 0.1);
-  border-color: rgba(106, 27, 255, 0.3);
-}
 
 .dp-step-number {
   font-family: 'Poppins', sans-serif;
@@ -362,8 +358,7 @@
   transition: color 400ms ease;
 }
 
-.dp-step:hover .dp-step-number,
-.dp-step.active-step .dp-step-number {
+.dp-step:hover .dp-step-number {
   color: rgba(106, 27, 255, 0.3);
 }
 
@@ -400,9 +395,6 @@
   transition: width 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.dp-step.active-step .dp-bar-fill {
-  width: 100%;
-}
 
 .dp-step:hover .dp-bar-fill {
   width: 70%;

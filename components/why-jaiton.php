@@ -149,7 +149,7 @@
           <div class="aus-info-card" data-aos="fade-up" data-aos-delay="240">
             <div class="card-num-badge">03</div>
             <div class="card-icon-avatar icon-blue">
-              <i class="fa-solid fa-shield-check"></i>
+              <i class="fa-solid fa-shield-halved"></i>
             </div>
             <div class="card-info-content">
               <h3 class="info-card-title">Security & Compliance</h3>
